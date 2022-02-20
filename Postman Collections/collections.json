@@ -4810,128 +4810,6 @@
           "id": "754dc19a-e41f-4b7b-bf13-31cb2515e18b"
         },
         {
-          "name": "Test Redis",
-          "event": [
-            {
-              "listen": "test",
-              "script": {
-                "id": "e1ab43eb-0fce-4e91-b649-0938a531dd7e",
-                "exec": [
-                  "var currentUrl = pm.request.url.toString();",
-                  "var headers = pm.request.headers.toObject(true);",
-                  "var method = pm.request.method;",
-                  "var body = pm.request.body;",
-                  "var test = true;",
-                  "var requestPerSeconds=25;",
-                  "var counter = 0;",
-                  "console.log(headers);",
-                  "",
-                  "function getTest(count = 0) {",
-                  "    let currentDate = new Date();",
-                  "    let start = currentDate.getTime();",
-                  "    console.log(start);",
-                  "    for(let i = 0; i < requestPerSeconds; i++) {",
-                  "        ",
-                  "    ",
-                  "    ",
-                  "        pm.sendRequest({",
-                  "            url: currentUrl,",
-                  "            method: method,",
-                  "            header: headers,",
-                  "        }, function (err, res) {",
-                  "            let counts;",
-                  "            try {",
-                  "                counts = `Resultados: ${res.json().count}`;",
-                  "            } catch (err) {",
-                  "                counts = '';",
-                  "            }",
-                  "            console.log(res)",
-                  "            pm.test(`${res.code} -${res.status} - ${++count} - cola: ${i+1}`)",
-                  "        });",
-                  "    }",
-                  "    ",
-                  "    currentDate = new Date();",
-                  "    let end = currentDate.getTime();",
-                  "    console.log(start - end)",
-                  "    ",
-                  "}",
-                  "",
-                  "",
-                  "function posTest(count = 0) {",
-                  "    for(let i = 0; i < requestPerSeconds; i++) {",
-                  "        pm.sendRequest({",
-                  "            url: currentUrl,",
-                  "            method: method,",
-                  "            header: headers,",
-                  "            body: body,",
-                  "        }, function (err, res) {",
-                  "            let counts;",
-                  "            try {",
-                  "                counts = `Resultados: ${res.json().count}`;",
-                  "            } catch (err) {",
-                  "                counts = '';",
-                  "            }",
-                  "            console.log(res)",
-                  "            pm.test(`${res.code} -${res.status} - ${++count} - cola: ${i+1}`)",
-                  "            ",
-                  "        });",
-                  "    }",
-                  "}",
-                  "",
-                  "if(test && method === 'GET') {",
-                  "    getTest();",
-                  "} else if( test && method === 'POST' ) {",
-                  "    posTest();",
-                  "}"
-                ],
-                "type": "text/javascript"
-              }
-            }
-          ],
-          "id": "4b177f3c-94eb-4d97-b56f-38d64247015e",
-          "protocolProfileBehavior": {
-            "disableBodyPruning": true
-          },
-          "request": {
-            "method": "GET",
-            "header": [
-              {
-                "key": "Accept",
-                "type": "text",
-                "value": "{{Accept}}"
-              },
-              {
-                "key": "Timezone",
-                "type": "text",
-                "value": "{{Timezone}}"
-              },
-              {
-                "key": "Content-Type",
-                "name": "Content-Type",
-                "type": "text",
-                "value": "{{Content-Type}}"
-              },
-              {
-                "key": "Data-Operations",
-                "type": "text",
-                "value": "",
-                "disabled": true
-              }
-            ],
-            "body": {
-              "mode": "raw",
-              "raw": "",
-              "options": {
-                "raw": {
-                  "language": "json"
-                }
-              }
-            },
-            "url": "{{base_url_back}}/v1/sales/customer/"
-          },
-          "response": []
-        },
-        {
           "name": "myself",
           "event": [
             {
@@ -5403,32 +5281,32 @@
   ],
   "variable": [
     {
-      "id": "7ce252e7-44d5-4958-9222-c5a88c2bd5d9",
+      "id": "f5479254-24d6-4895-9656-b3531ad3aec1",
       "key": "Cookie",
       "value": "_ga=GA1.2.995623964.1629400496; _gid=GA1.2.1579657039.1629400496; _fbp=fb.1.1629400714958.1618680225; ajs_user_id=\"1339\"; ajs_anonymous_id=\"8310621c-456f-44b7-a285-f979bb8c5e76\"; _gat_UA-179458013-2=1; tuGerenteToken=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2Mjk4NTE2NDYsImlhdCI6MTYyOTQ5MTY0NiwiaWQiOjQ4NjQsInVzZXIiOiJ7XCJpZFwiOjQ4NjQsXCJub21icmVcIjpcIlFBIE5vbWJyZSBjYW1iaWFkb1wiLFwiYXBlbGxpZG9cIjpudWxsLFwiZmVjaGFfbmFjaW1pZW50b1wiOm51bGwsXCJnZW5lcm9cIjpudWxsLFwicGFpc1wiOlwiQk9cIixcImNpdWRhZFwiOm51bGwsXCJlbWFpbFwiOlwiYmVsYXlhZzEzMEBhbXBzd2lwZS5jb21cIixcInRlbGVmb25vXCI6XCI3NjM3NTY0N1wiLFwiYWN0aXZvXCI6MCxcImNvZFwiOlwidHVHLTQ4NjRcIixcImNyZWF0ZWRfYXRcIjpcIjIwMjEtMDgtMTlUMTk6NTI6NTkuMDAwWlwiLFwidXBkYXRlZF9hdFwiOlwiMjAyMS0wOC0xOVQyMDoxMDo0NC4wMDBaXCIsXCJkZWxldGVkX2F0XCI6bnVsbCxcInNlc3Npb25faWRcIjpudWxsLFwiaGF2ZV9jb21wYW55XCI6XCJzaVwiLFwidmFsaWRhdGlvbl9yZXF1ZXN0XCI6bnVsbH0ifQ.XnZwnSNps4xDOnkKudj-7x-PJlC2GdzfT2xIoSwqiQ6S0zBd7jp4r4ZI4G7YTgnXOB2CSFHTEp891pMJtYWeCQ; LobbyCookie=\"eyIxIjogW3sib3duZXJfdXNlcl9pZCI6IDQ4NjQsICJ0ZW5hbnRfaWQiOiAxODQyLCAic3Vic2NyaXB0aW9uX3N0YXRlIjogImFjdGl2ZSIsICJhY3RpdmUiOiB0cnVlLCAiYnVzaW5lc3NfbmFtZSI6ICJRYSIsICJzdGFydF9kYXRlIjogIjIwMjEtMDgtMTkiLCAiZmluaXNoX2RhdGUiOiAiMjAyMS0xMC0wMiIsICJpc19kZW1vIjogZmFsc2UsICJlbWFpbCI6IG51bGwsICJwYWNrIjogMywgImNvdW50cnkiOiAiQk8iLCAiY2l0eSI6IG51bGwsICJuaXQiOiBudWxsLCAidXNlcnNfcXR5IjogMTAsICJydWJyb19pZCI6IDEsICJ0ZXJtc19hY2NlcHRlZCI6IHRydWUsICJpc19pbmZvX3ZpZXdlZCI6IGZhbHNlLCAidmFsaWRhdGVkIjogZmFsc2UsICJyZXF1ZXN0X2RhdGUiOiAiMjAyMS0wOC0xOVQyMDoxMDo0NC45Mzg2NDArMDA6MDAifV0sICIyIjogW10sICIzIjogW10sICJ2ZXJzaW9uc19zdXBwb3J0ZWQiOiBbIjEuMCJdfXx2Tk5HamxQU1lMVkVWLVRsVk5jSTg5a1pVN0k=\""
     },
     {
-      "id": "cf99b121-0bf4-4c65-912c-e3ae170e2264",
+      "id": "ee720201-2dd2-45ec-8e6b-028996c29edc",
       "key": "base_url_back",
       "value": "http://back.tugerente.me:8001"
     },
     {
-      "id": "864696fe-b1c2-4a1f-9920-e3f99835b541",
+      "id": "9aeca589-a106-4d61-b53a-eed20329f90f",
       "key": "Accept",
       "value": "application/json, text/plain, */*"
     },
     {
-      "id": "1d393b8f-54d0-4d37-98a1-a3fafaa93ad6",
+      "id": "70c3a124-c9c1-4aae-8b9e-91e4ba7f322b",
       "key": "Timezone",
       "value": "America/La_Paz"
     },
     {
-      "id": "adebd010-ee8b-4e67-8847-c16d36bcbae0",
+      "id": "ded991e0-70e2-4e82-94a9-f8878bad50c0",
       "key": "Content-Type",
       "value": "application/json"
     },
     {
-      "id": "408d6b44-29e6-4021-a2e8-dd4f707cbbe0",
+      "id": "daa22422-9674-4150-bd1c-60dd857a14dc",
       "key": "ApiKey",
       "value": "NSqs04Y7M6OAB32WA5UzOziCGAHETz3fGRk3g2C0"
     }
