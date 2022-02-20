@@ -1,6 +1,6 @@
 {
   "info": {
-    "_postman_id": "831cfcbf-c86a-4b21-be2a-45ecf358bec2",
+    "_postman_id": "12f7bc87-202a-4425-b119-b05fec33c7a4",
     "name": "tuGerente",
     "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
   },
@@ -20,7 +20,7 @@
                     {
                       "listen": "test",
                       "script": {
-                        "id": "0a196bff-2d65-404e-91fa-c7a71f54e773",
+                        "id": "f2953331-07c4-414e-abe3-c598d689fe10",
                         "exec": [
                           ""
                         ],
@@ -28,7 +28,7 @@
                       }
                     }
                   ],
-                  "id": "ba82b5b6-c93d-49e7-8204-65f4ca249f0e",
+                  "_postman_id": "6b1d3d16-64ea-4d36-a048-80eded36eb68",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -76,7 +76,7 @@
                     {
                       "listen": "test",
                       "script": {
-                        "id": "0265e0a9-fd11-4d7d-9ca3-99fca11977d1",
+                        "id": "631fbace-c43c-4769-8d09-4666df59a23d",
                         "exec": [
                           ""
                         ],
@@ -84,7 +84,7 @@
                       }
                     }
                   ],
-                  "id": "84ba9037-1221-4a89-af29-d255d96a14b6",
+                  "_postman_id": "23efb436-a93e-48e2-8616-0653114fad8b",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -132,7 +132,7 @@
                     {
                       "listen": "test",
                       "script": {
-                        "id": "0a196bff-2d65-404e-91fa-c7a71f54e773",
+                        "id": "1d683988-15d9-42d5-97b1-01813da84f6a",
                         "exec": [
                           ""
                         ],
@@ -140,7 +140,7 @@
                       }
                     }
                   ],
-                  "id": "d7b4ff45-45db-4b60-8f11-d1e5b2b28db5",
+                  "_postman_id": "1a627777-c0a5-465b-894e-6255547a3b9c",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -208,12 +208,12 @@
                   "response": []
                 }
               ],
-              "id": "63117230-dafc-4713-9960-b65e3ca14382",
+              "_postman_id": "a59548fc-d7aa-4700-9693-73c3397d230d",
               "event": [
                 {
                   "listen": "prerequest",
                   "script": {
-                    "id": "0741ac72-be41-47a0-a292-35aa29b56798",
+                    "id": "33f8fd06-e57d-4bab-930b-89ecf48edca5",
                     "type": "text/javascript",
                     "exec": [
                       ""
@@ -223,14 +223,15 @@
                 {
                   "listen": "test",
                   "script": {
-                    "id": "c6087bd0-3a46-4750-826f-704c943a1ee0",
+                    "id": "b769a922-1df2-4a6e-9d79-952b1b14a51a",
                     "type": "text/javascript",
                     "exec": [
                       ""
                     ]
                   }
                 }
-              ]
+              ],
+              "_postman_isSubFolder": true
             },
             {
               "name": "(Green) Ventas & Clientes",
@@ -241,7 +242,7 @@
                     {
                       "listen": "test",
                       "script": {
-                        "id": "0a196bff-2d65-404e-91fa-c7a71f54e773",
+                        "id": "a71f4ee4-ac96-4d40-9cf2-3f39b30df045",
                         "exec": [
                           ""
                         ],
@@ -249,7 +250,7 @@
                       }
                     }
                   ],
-                  "id": "068bb1d1-5cde-429a-ba7e-0089baf29701",
+                  "_postman_id": "2a17ca34-5dfc-4d54-a7b0-32eeabedc5df",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -326,7 +327,7 @@
                     {
                       "listen": "test",
                       "script": {
-                        "id": "0a196bff-2d65-404e-91fa-c7a71f54e773",
+                        "id": "77f3cd0d-0a68-4286-b16d-f107b03e4379",
                         "exec": [
                           ""
                         ],
@@ -334,7 +335,7 @@
                       }
                     }
                   ],
-                  "id": "18e6ff5d-da7c-4bbb-a3a5-303c253d02bc",
+                  "_postman_id": "043168a4-b55d-4d16-82ce-885b621bfd32",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -382,7 +383,7 @@
                     {
                       "listen": "test",
                       "script": {
-                        "id": "0a196bff-2d65-404e-91fa-c7a71f54e773",
+                        "id": "164d33ab-e8d5-45bb-8237-e87e84be99bb",
                         "exec": [
                           ""
                         ],
@@ -390,7 +391,7 @@
                       }
                     }
                   ],
-                  "id": "49a451f8-c971-488c-b238-f206ef3543b6",
+                  "_postman_id": "811edaae-db84-4956-83a4-2df692921b3f",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -444,7 +445,7 @@
                     {
                       "listen": "test",
                       "script": {
-                        "id": "0a196bff-2d65-404e-91fa-c7a71f54e773",
+                        "id": "f375f2ed-96d6-4550-8cb6-3b6902b3f197",
                         "exec": [
                           ""
                         ],
@@ -452,7 +453,7 @@
                       }
                     }
                   ],
-                  "id": "7b38c4d1-7a4e-4ff6-b985-56fdc126ed2c",
+                  "_postman_id": "00f35e1f-c6c2-4f6b-8ba9-1b7dce2f97f3",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -500,7 +501,7 @@
                     {
                       "listen": "test",
                       "script": {
-                        "id": "0a196bff-2d65-404e-91fa-c7a71f54e773",
+                        "id": "9286ff0d-6b24-4b52-ad4f-d104f2c3468f",
                         "exec": [
                           ""
                         ],
@@ -508,7 +509,7 @@
                       }
                     }
                   ],
-                  "id": "cfea88ad-2f38-4015-a117-57e1cf86571e",
+                  "_postman_id": "17e25c57-706b-40fd-b9b2-3c30dd18d088",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -556,7 +557,7 @@
                     {
                       "listen": "test",
                       "script": {
-                        "id": "00f0be8e-a412-4331-858e-35256628c39d",
+                        "id": "40d9430e-d28b-4c72-aab6-b773bc6b3ab0",
                         "exec": [
                           "var currentUrl = pm.request.url.toString();",
                           "var headers = pm.request.headers.toObject(true);",
@@ -621,7 +622,7 @@
                     {
                       "listen": "prerequest",
                       "script": {
-                        "id": "acbab7e1-af88-451f-8f6c-c6086fa0807b",
+                        "id": "a69c90d0-21a6-4880-bc97-e29a75dfb7a6",
                         "exec": [
                           ""
                         ],
@@ -629,7 +630,7 @@
                       }
                     }
                   ],
-                  "id": "6105f04e-369f-48b0-8224-f2030f321193",
+                  "_postman_id": "1697dd06-447c-40cb-bda4-bf0d07bcd02a",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -677,7 +678,7 @@
                     {
                       "listen": "test",
                       "script": {
-                        "id": "f506ebd8-77d0-4e41-9cc4-f2913d844b31",
+                        "id": "d2de5799-0dd7-4c65-a73b-cf869e7a5f3f",
                         "exec": [
                           ""
                         ],
@@ -685,7 +686,7 @@
                       }
                     }
                   ],
-                  "id": "0bac5263-cb44-48a1-a4bd-c4276c995085",
+                  "_postman_id": "d7350418-1e27-40a9-b381-2fa0b872a5b5",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -733,7 +734,7 @@
                     {
                       "listen": "test",
                       "script": {
-                        "id": "5ea7f1b8-55d5-4557-8548-f85d7d8c4931",
+                        "id": "9ec83e2e-6a41-4876-9348-cf28689e4ca5",
                         "exec": [
                           ""
                         ],
@@ -741,7 +742,7 @@
                       }
                     }
                   ],
-                  "id": "d183e3d1-388c-4f87-bae9-27e8bebcea3e",
+                  "_postman_id": "b2edd69f-2600-49ef-a3f9-b11f32cb0c90",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -809,7 +810,8 @@
                   "response": []
                 }
               ],
-              "id": "627fc7d9-7805-4ddc-a20f-54d879cd0121"
+              "_postman_id": "4edbc2f7-7571-4d10-ab72-f62654b8bb45",
+              "_postman_isSubFolder": true
             },
             {
               "name": "Financiero",
@@ -820,7 +822,7 @@
                     {
                       "listen": "test",
                       "script": {
-                        "id": "455e0902-c784-4fa8-917a-69c56c4e1696",
+                        "id": "b48fc10d-41d2-489c-8913-d3f9163ac93c",
                         "exec": [
                           ""
                         ],
@@ -828,7 +830,7 @@
                       }
                     }
                   ],
-                  "id": "7ea13fd0-6b29-42a0-a2c8-b8b0e7f69d92",
+                  "_postman_id": "e3693e5d-b180-45b1-b962-8d47ce5d4a68",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -876,7 +878,7 @@
                     {
                       "listen": "test",
                       "script": {
-                        "id": "11b42a0e-3fbb-40f4-8ba7-f6503416b51f",
+                        "id": "c560d6cb-7e66-4e31-aaa2-4a16d9959c11",
                         "exec": [
                           ""
                         ],
@@ -884,7 +886,7 @@
                       }
                     }
                   ],
-                  "id": "e8746ae8-0fce-4498-b4bf-2e7237879cf3",
+                  "_postman_id": "2a47eeb8-4665-4bc4-a9bb-d85f6cfb4305",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -962,7 +964,7 @@
                     {
                       "listen": "test",
                       "script": {
-                        "id": "4cb8f8e4-1df6-46cc-997d-c2af1a95e6a6",
+                        "id": "79cb1c99-a6da-4969-9e67-d81900f48477",
                         "exec": [
                           ""
                         ],
@@ -970,7 +972,7 @@
                       }
                     }
                   ],
-                  "id": "136251a2-1951-4c5a-83f0-f673741871e5",
+                  "_postman_id": "aecc5707-8783-4ea4-8b82-782b28be87db",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -1045,7 +1047,7 @@
                     {
                       "listen": "test",
                       "script": {
-                        "id": "2f3b5282-629b-4b34-92ce-b8b107ece100",
+                        "id": "58011783-1a81-4cc1-b1d5-7e4a596857c2",
                         "exec": [
                           ""
                         ],
@@ -1053,7 +1055,7 @@
                       }
                     }
                   ],
-                  "id": "4801ccf8-013e-4ed1-93d5-3e268e32d8b6",
+                  "_postman_id": "86719d2a-fb22-48f5-86cc-2e9fa4b98112",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -1128,7 +1130,7 @@
                     {
                       "listen": "test",
                       "script": {
-                        "id": "8747efd8-28cf-4a8c-a5c6-793553e91df9",
+                        "id": "afe87ab6-e440-4a04-b4c0-d4c236717afa",
                         "exec": [
                           ""
                         ],
@@ -1136,7 +1138,7 @@
                       }
                     }
                   ],
-                  "id": "0ab6fc26-6835-4f7d-91cc-d86b83cf6277",
+                  "_postman_id": "b39b2b47-13ba-4f38-be80-4fe605285ca0",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -1206,7 +1208,7 @@
                     {
                       "listen": "test",
                       "script": {
-                        "id": "22627484-01ae-417c-91e5-195bfe083e71",
+                        "id": "ef3d4c21-26d7-4a7e-9b4d-9702eb37f89e",
                         "exec": [
                           ""
                         ],
@@ -1214,7 +1216,7 @@
                       }
                     }
                   ],
-                  "id": "c5e6e143-dda0-4479-962d-0ef1c26e33d1",
+                  "_postman_id": "d7871787-360e-48f2-bd6d-d3c6e0f30863",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -1286,7 +1288,7 @@
                     {
                       "listen": "test",
                       "script": {
-                        "id": "9c7ac755-3883-4175-a34f-c79591583b36",
+                        "id": "cf4c4fb3-df57-4dcf-b841-1aaa632cb2ea",
                         "exec": [
                           ""
                         ],
@@ -1294,7 +1296,7 @@
                       }
                     }
                   ],
-                  "id": "aeda3995-119a-446e-88b7-529a39861611",
+                  "_postman_id": "4094ecaa-b220-4722-b91a-e46230257f1a",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -1337,7 +1339,8 @@
                   "response": []
                 }
               ],
-              "id": "050f346d-1955-4e1e-9b85-c79d23f9efbb"
+              "_postman_id": "5849e56e-5804-42e2-9b59-1055b56ec20b",
+              "_postman_isSubFolder": true
             },
             {
               "name": "delivery_status",
@@ -1345,7 +1348,7 @@
                 {
                   "listen": "test",
                   "script": {
-                    "id": "b13f1401-65a2-433d-8a59-631369c1570e",
+                    "id": "45897c65-2b71-4297-8016-343f51e91c25",
                     "exec": [
                       ""
                     ],
@@ -1353,7 +1356,7 @@
                   }
                 }
               ],
-              "id": "a002f2d8-3438-439a-921d-0ece8ee359ff",
+              "_postman_id": "cbaa5ec9-9b99-44bc-a489-26702cc3bc52",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -1391,8 +1394,9 @@
               "response": []
             }
           ],
-          "id": "d6a94d24-5e8c-4d2a-b289-e38d8f483e61",
-          "description": "Endpoints para consultar reportes del ERP"
+          "_postman_id": "0e6931b4-f5bc-4227-9239-abd8f122f738",
+          "description": "Endpoints para consultar reportes del ERP",
+          "_postman_isSubFolder": true
         },
         {
           "name": "Dashboard",
@@ -1402,7 +1406,7 @@
               "item": [
                 {
                   "name": "total_sales_last_year_until_current_month",
-                  "id": "f75f2eb9-d6c2-43e2-be7f-6d1f71a5cabe",
+                  "_postman_id": "a7838e8f-0543-4836-817c-49e123881ee9",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -1431,7 +1435,7 @@
                 },
                 {
                   "name": "total_sales_current_year_until_current_month",
-                  "id": "2f7901a6-da7c-4fde-b8d8-6c66d4438e23",
+                  "_postman_id": "4e3eca97-4cb4-45ad-985f-21956b9351ff",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -1459,11 +1463,12 @@
                   "response": []
                 }
               ],
-              "id": "696484d4-7ac3-4da6-8401-e689f088a17c"
+              "_postman_id": "d1e0d4e4-f7c6-4304-940c-549e14513861",
+              "_postman_isSubFolder": true
             },
             {
               "name": "YTG",
-              "id": "9654d53b-a8ec-4558-9479-22859e8c69ad",
+              "_postman_id": "99c9e517-26d3-4076-8cda-fe0d17ef9661",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -1492,7 +1497,8 @@
               "response": []
             }
           ],
-          "id": "a9847b4c-0637-4ae9-935b-69b6ed7907c2"
+          "_postman_id": "d8d6473c-ffb8-45bd-bbef-416068648253",
+          "_postman_isSubFolder": true
         },
         {
           "name": "Inventario",
@@ -1503,7 +1509,7 @@
                 {
                   "listen": "test",
                   "script": {
-                    "id": "0a196bff-2d65-404e-91fa-c7a71f54e773",
+                    "id": "b835b98a-2d42-4aa9-9b04-df7342170f0b",
                     "exec": [
                       ""
                     ],
@@ -1511,7 +1517,7 @@
                   }
                 }
               ],
-              "id": "5648b06e-7cf2-4933-a26f-4b5ad9e685f8",
+              "_postman_id": "eb4012e7-f41d-4d13-959e-417750612d56",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -1559,7 +1565,7 @@
                 {
                   "listen": "test",
                   "script": {
-                    "id": "60b8552e-c08d-404e-9fcc-53226c0991d8",
+                    "id": "688fcceb-f7ea-4d69-9760-25557a704eff",
                     "exec": [
                       ""
                     ],
@@ -1567,7 +1573,7 @@
                   }
                 }
               ],
-              "id": "7565b436-7e54-40d4-ae2f-27821718b2f4",
+              "_postman_id": "9d37147f-798a-4cfd-9f8b-9c7fa38691aa",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -1615,7 +1621,7 @@
                 {
                   "listen": "test",
                   "script": {
-                    "id": "53c24ea4-c90b-45f1-b4e1-ec741c585a1f",
+                    "id": "f32e7a1d-d4ae-4e72-8ddc-12b072643f31",
                     "exec": [
                       ""
                     ],
@@ -1623,7 +1629,7 @@
                   }
                 }
               ],
-              "id": "8c0cac38-6767-40d2-8f54-ab2f6d5bc531",
+              "_postman_id": "5e9c05e7-e06f-42ac-8040-7b3706e2fd80",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -1672,7 +1678,7 @@
                 {
                   "listen": "test",
                   "script": {
-                    "id": "0a196bff-2d65-404e-91fa-c7a71f54e773",
+                    "id": "9da14c1e-2a15-4a01-83f9-29dff3498ffb",
                     "exec": [
                       ""
                     ],
@@ -1680,7 +1686,7 @@
                   }
                 }
               ],
-              "id": "25416c30-b325-4144-b088-a58d057630c6",
+              "_postman_id": "d27a1499-07f8-45c1-a763-c64f10787202",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -1723,14 +1729,15 @@
               "response": []
             }
           ],
-          "id": "6fd38487-7713-4793-b4c1-663582f0b449"
+          "_postman_id": "10ba6ff7-8092-4904-af74-6d87f67fc1bf",
+          "_postman_isSubFolder": true
         },
         {
           "name": "Settings",
           "item": [
             {
               "name": "myself",
-              "id": "0d48dcde-6636-4862-a2dc-72eca7b8259c",
+              "_postman_id": "30a157a6-5dfb-4a6c-ba83-31891fe9eadf",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -1758,7 +1765,8 @@
               "response": []
             }
           ],
-          "id": "194e7c16-4816-4195-9d13-b20aa25e852c"
+          "_postman_id": "d06afb33-757d-4c0b-9594-7ab50177e622",
+          "_postman_isSubFolder": true
         },
         {
           "name": "Ventas",
@@ -1769,7 +1777,7 @@
                 {
                   "listen": "test",
                   "script": {
-                    "id": "1dc2261e-b4d1-4d98-a2cf-e0730d09572d",
+                    "id": "336d1a01-43a9-4101-80d8-71ea48a9342b",
                     "exec": [
                       ""
                     ],
@@ -1777,7 +1785,7 @@
                   }
                 }
               ],
-              "id": "62a2f6a3-0691-41ac-9528-6ae462cefffd",
+              "_postman_id": "e560ad2e-27c8-4bd0-a08e-828542a965e3",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -1846,7 +1854,7 @@
                 {
                   "listen": "test",
                   "script": {
-                    "id": "ba59942f-218d-4bfe-80ff-dd6acad3e9e1",
+                    "id": "bcfc4b21-b3e9-4e0c-8e4a-f3ae164c92f2",
                     "exec": [
                       ""
                     ],
@@ -1854,7 +1862,7 @@
                   }
                 }
               ],
-              "id": "4e6ec06b-6d19-435e-a41f-f3c7f8321376",
+              "_postman_id": "414657f2-31bf-4ed2-83e6-539065c33dbf",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -1924,7 +1932,7 @@
                 {
                   "listen": "test",
                   "script": {
-                    "id": "236bdf86-1e23-486a-b0fa-4cb51864ce9f",
+                    "id": "ad57e28b-d900-4810-9ab0-49aee77369c5",
                     "exec": [
                       ""
                     ],
@@ -1932,7 +1940,7 @@
                   }
                 }
               ],
-              "id": "b3e97d76-96b3-4e4e-ab0c-2e14eaee9be5",
+              "_postman_id": "f0b7ddea-e3ed-40d1-bbb1-e9d82f09c6b3",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -1992,8 +2000,10 @@
                   ],
                   "variable": [
                     {
+                      "id": "6e57501e-e352-4a29-9686-02344b4fd3ca",
                       "key": "product_id",
-                      "value": "554205"
+                      "value": "554205",
+                      "type": "string"
                     }
                   ]
                 },
@@ -2007,7 +2017,7 @@
                 {
                   "listen": "test",
                   "script": {
-                    "id": "f2a252db-1565-47dc-ae38-c4af2361da9d",
+                    "id": "b4d9219d-6578-4aa9-820f-296bf77c1abb",
                     "exec": [
                       ""
                     ],
@@ -2015,7 +2025,7 @@
                   }
                 }
               ],
-              "id": "261ffbc4-a448-42b8-a8c3-3333c5848207",
+              "_postman_id": "042f30f1-a1eb-400b-8d51-48f5969daf39",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -2111,7 +2121,7 @@
                 {
                   "listen": "test",
                   "script": {
-                    "id": "ad97e0c6-2d77-4ea8-b7b8-75c9b960edc6",
+                    "id": "0a6c5d9e-c931-46a0-91ba-c7a867d0f120",
                     "exec": [
                       ""
                     ],
@@ -2119,7 +2129,7 @@
                   }
                 }
               ],
-              "id": "865cdc55-13c1-433f-94c4-e2f46bf51f54",
+              "_postman_id": "ee0a4bfd-4d5c-460e-8694-3b67a5acaf8b",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -2221,7 +2231,7 @@
                 {
                   "listen": "test",
                   "script": {
-                    "id": "1078c570-8d36-4f95-b2ea-7066edccde9e",
+                    "id": "6e2651e0-72e5-4e1b-a322-eb84a8323e78",
                     "exec": [
                       ""
                     ],
@@ -2229,7 +2239,7 @@
                   }
                 }
               ],
-              "id": "e9abd1eb-57e4-4b2e-a8d2-7541690f7990",
+              "_postman_id": "430cdd63-2ca6-4978-8ed3-c9423ba93540",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -2299,8 +2309,10 @@
                   ],
                   "variable": [
                     {
+                      "id": "05ee806c-056a-4e39-be4a-863e8df5bc71",
                       "key": "id",
-                      "value": "76121"
+                      "value": "76121",
+                      "type": "string"
                     }
                   ]
                 },
@@ -2314,7 +2326,7 @@
                 {
                   "listen": "test",
                   "script": {
-                    "id": "be06a369-7ef0-4b3d-834b-ac7cdfc10676",
+                    "id": "9d56354a-67dd-4d84-a701-d9f06fdd3313",
                     "exec": [
                       ""
                     ],
@@ -2322,7 +2334,7 @@
                   }
                 }
               ],
-              "id": "14cd6675-c6cb-4f8f-a3e0-79ecb756e11d",
+              "_postman_id": "9505a3a3-12aa-4410-a37c-02692f9263ee",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -2400,8 +2412,10 @@
                   ],
                   "variable": [
                     {
+                      "id": "b96ddc47-6299-4960-908c-9d3cd618ac60",
                       "key": "sale_id",
-                      "value": "76176"
+                      "value": "76176",
+                      "type": "string"
                     }
                   ]
                 },
@@ -2415,7 +2429,7 @@
                 {
                   "listen": "test",
                   "script": {
-                    "id": "b96136ab-468e-4cb6-81c2-5d9647ba5656",
+                    "id": "653c8a32-6e75-4825-ad97-97e5bc346604",
                     "exec": [
                       ""
                     ],
@@ -2423,7 +2437,7 @@
                   }
                 }
               ],
-              "id": "98d0723b-8f26-4b26-acde-9e930799b8b6",
+              "_postman_id": "530ece4d-8de0-42e4-815e-1cdeac86930b",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -2492,7 +2506,7 @@
                 {
                   "listen": "test",
                   "script": {
-                    "id": "fd816780-e8f4-40ee-ab26-c87dd25e8853",
+                    "id": "0cba2c9b-426b-4493-8f8c-258e9b093875",
                     "exec": [
                       ""
                     ],
@@ -2500,7 +2514,7 @@
                   }
                 }
               ],
-              "id": "1854b0a0-27e0-4bdd-b0ac-ff14ba90e85d",
+              "_postman_id": "db18c043-d202-4a80-a59f-e08fdf5ac3dc",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -2569,7 +2583,7 @@
                 {
                   "listen": "test",
                   "script": {
-                    "id": "175892e6-3ee9-4c4b-937c-339d5a81d32c",
+                    "id": "48b97610-c3f5-4265-b07b-945df5139c97",
                     "exec": [
                       ""
                     ],
@@ -2577,7 +2591,7 @@
                   }
                 }
               ],
-              "id": "612f2ef6-12a7-405f-91c1-763249fa5def",
+              "_postman_id": "0132b0e8-e923-4f5f-af90-592f98ca3471",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -2647,7 +2661,7 @@
                 {
                   "listen": "test",
                   "script": {
-                    "id": "dd7815e4-8de8-4a8c-b88b-28b1e363a53c",
+                    "id": "b5335c0d-a465-4ed1-b445-cbe2ff47e18f",
                     "exec": [
                       ""
                     ],
@@ -2655,7 +2669,7 @@
                   }
                 }
               ],
-              "id": "8cc01d91-ab61-4776-b1c1-9b1a2f8da71b",
+              "_postman_id": "ceebd546-6210-4339-a4b0-ae6cc307dc63",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -2725,7 +2739,7 @@
                 {
                   "listen": "test",
                   "script": {
-                    "id": "01889e23-64e2-4c57-a497-c1ea8beaa125",
+                    "id": "24f9e15d-d0eb-4f42-b400-984311d8717f",
                     "exec": [
                       ""
                     ],
@@ -2733,7 +2747,7 @@
                   }
                 }
               ],
-              "id": "30a23403-4d75-4b0c-bddd-57c5b708d7d4",
+              "_postman_id": "ffa934e1-2168-4551-9737-328bd3794436",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -2803,7 +2817,7 @@
                 {
                   "listen": "test",
                   "script": {
-                    "id": "9c564aae-37e9-4e3b-a08a-ef6516a57b53",
+                    "id": "38c0d3c8-f315-4f8d-acd4-439f2d80dc3e",
                     "exec": [
                       ""
                     ],
@@ -2811,7 +2825,7 @@
                   }
                 }
               ],
-              "id": "82cc52bf-0659-4b17-8ab6-e9331a8d2317",
+              "_postman_id": "3515e6d2-2d01-4f12-9386-f2f97a7a8df9",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -2880,7 +2894,7 @@
                 {
                   "listen": "test",
                   "script": {
-                    "id": "0a196bff-2d65-404e-91fa-c7a71f54e773",
+                    "id": "325cd00b-1206-4f8b-90ad-ad654c350491",
                     "exec": [
                       ""
                     ],
@@ -2888,7 +2902,7 @@
                   }
                 }
               ],
-              "id": "6743143b-5c6f-4091-87f8-127621db616b",
+              "_postman_id": "fe300ec6-0783-48c7-bff4-d6282c47eabc",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -2932,7 +2946,8 @@
               "response": []
             }
           ],
-          "id": "f4a88044-cbc3-4d27-a1bf-a3cfdb5539a2"
+          "_postman_id": "a0230b0c-ba03-42a6-b684-3b3fb69c1d9d",
+          "_postman_isSubFolder": true
         },
         {
           "name": "Compras",
@@ -2943,7 +2958,7 @@
                 {
                   "listen": "test",
                   "script": {
-                    "id": "0a196bff-2d65-404e-91fa-c7a71f54e773",
+                    "id": "efb33e0d-8d31-4d16-9d1b-3e9bcd682a57",
                     "exec": [
                       ""
                     ],
@@ -2951,7 +2966,7 @@
                   }
                 }
               ],
-              "id": "2a84c5ba-8909-4ec7-b298-d4a9af0c59b3",
+              "_postman_id": "54aab695-ef8d-40c7-8140-c67aa7ad5d24",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -2999,7 +3014,7 @@
                 {
                   "listen": "test",
                   "script": {
-                    "id": "f178e6ad-a158-4165-8220-fcd58626ed40",
+                    "id": "fea93759-8d08-45a1-9bbf-83736a00d3bd",
                     "exec": [
                       ""
                     ],
@@ -3007,7 +3022,7 @@
                   }
                 }
               ],
-              "id": "7e4091c3-f17e-4eb3-8cbe-b39304f7eba6",
+              "_postman_id": "6ecee26b-bc8b-4b62-89c9-22301515997e",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -3073,7 +3088,7 @@
                 {
                   "listen": "test",
                   "script": {
-                    "id": "bc02548a-3d86-4606-a8ba-bbff5adb3eee",
+                    "id": "43fa806b-23a7-4262-ac0b-ade41b135740",
                     "exec": [
                       ""
                     ],
@@ -3081,7 +3096,7 @@
                   }
                 }
               ],
-              "id": "916dc954-3840-4942-8971-6107995720e4",
+              "_postman_id": "ae1436c3-5627-441d-a6a3-c35aca23fd4d",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -3150,7 +3165,7 @@
                 {
                   "listen": "test",
                   "script": {
-                    "id": "0a196bff-2d65-404e-91fa-c7a71f54e773",
+                    "id": "c429909b-13e7-4ee3-a17f-3c90a2692ce6",
                     "exec": [
                       ""
                     ],
@@ -3158,7 +3173,7 @@
                   }
                 }
               ],
-              "id": "9632145b-e759-497f-a05a-12268030f784",
+              "_postman_id": "3c557421-5ff5-4f45-a765-2e36d26a598f",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -3201,14 +3216,15 @@
               "response": []
             }
           ],
-          "id": "02d3bcf8-df4d-4f73-b535-d893110aa8a4"
+          "_postman_id": "b7f1881a-90eb-4a9e-bc31-97047a1baaa7",
+          "_postman_isSubFolder": true
         },
         {
           "name": "Auth",
           "item": [
             {
               "name": "Auth",
-              "id": "c687f600-b7f0-487c-8e07-2e778cea159f",
+              "_postman_id": "e20e80bf-1618-4b8b-845a-60212954cbee",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -3217,7 +3233,10 @@
                 "header": [],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n\t\n\n}"
+                  "raw": "{\n\t\n\n}",
+                  "options": {
+                    "raw": {}
+                  }
                 },
                 "url": "http://auth.tugerente.me:3000/login"
               },
@@ -3225,7 +3244,7 @@
             },
             {
               "name": "Auth Copy",
-              "id": "449c018d-709e-41e2-b317-8d9511ce647a",
+              "_postman_id": "1e013f48-3608-41cf-875d-649180442ad9",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -3237,7 +3256,8 @@
               "response": []
             }
           ],
-          "id": "5c4eaf64-aab3-42ae-b5f4-b86ea2f024d7"
+          "_postman_id": "1b3b03ee-6688-4c32-b4e3-c133ac334375",
+          "_postman_isSubFolder": true
         },
         {
           "name": "Plan Emprendedor y Plan básico",
@@ -3248,7 +3268,7 @@
                 {
                   "listen": "test",
                   "script": {
-                    "id": "c728c1d2-36fd-4023-936e-5093e4de6a7e",
+                    "id": "df90a46c-33ad-4773-a316-270869f7cd8b",
                     "exec": [
                       ""
                     ],
@@ -3256,7 +3276,7 @@
                   }
                 }
               ],
-              "id": "970699ab-a0e8-4e54-bb3a-4ae64661a5c1",
+              "_postman_id": "0228954f-2139-4c7c-aa8a-d91ff06247e7",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -3294,7 +3314,8 @@
               "response": []
             }
           ],
-          "id": "b4e3ba2d-f3b0-4852-8a55-cfb798f2f8d2"
+          "_postman_id": "887773f9-7c63-48ab-a8ff-c361e4502878",
+          "_postman_isSubFolder": true
         },
         {
           "name": "Ajustes",
@@ -3308,7 +3329,7 @@
                     {
                       "listen": "test",
                       "script": {
-                        "id": "5b18a8dc-cbda-4a64-913a-70fea7023020",
+                        "id": "b0826417-0f3f-4455-a461-21d7d6d6759f",
                         "exec": [
                           ""
                         ],
@@ -3316,7 +3337,7 @@
                       }
                     }
                   ],
-                  "id": "f102fa3e-627d-416b-9687-b7a5092151f4",
+                  "_postman_id": "beb3834f-86da-4906-821f-88ebc4422a6e",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -3359,7 +3380,7 @@
                     {
                       "listen": "test",
                       "script": {
-                        "id": "c0e42530-f1d7-4526-9fcf-5e9a77f554cd",
+                        "id": "1d37a341-eb97-4b8b-be1e-74c99bef7078",
                         "exec": [
                           ""
                         ],
@@ -3367,7 +3388,7 @@
                       }
                     }
                   ],
-                  "id": "00e513d5-0d21-441c-ab07-705d7b343275",
+                  "_postman_id": "1de7b5f2-b43f-4f95-babc-1581aedc273d",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -3410,7 +3431,7 @@
                     {
                       "listen": "test",
                       "script": {
-                        "id": "ec379bc6-0881-4b37-b58e-95cbb83366bf",
+                        "id": "8f72c7c6-15b7-48f4-bb0b-559efa694e0d",
                         "exec": [
                           ""
                         ],
@@ -3418,7 +3439,7 @@
                       }
                     }
                   ],
-                  "id": "d5bdd7ae-ad72-4958-904e-5d5724a097c7",
+                  "_postman_id": "f3166d0d-ac56-4809-8034-5ece896163f7",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -3479,7 +3500,8 @@
                   "response": []
                 }
               ],
-              "id": "5bf8afcf-a1fd-459f-bc7c-f7c495c28b99"
+              "_postman_id": "4e691125-ad42-4502-a8c9-0537c874f38f",
+              "_postman_isSubFolder": true
             },
             {
               "name": "Reporte movimiento de deuda Excel Copy 2",
@@ -3487,7 +3509,7 @@
                 {
                   "listen": "test",
                   "script": {
-                    "id": "4d14b1fb-dc9a-4609-a8da-19fd5d140729",
+                    "id": "0a95c3f9-fa41-4d26-83dd-801fa7ad5dc1",
                     "exec": [
                       ""
                     ],
@@ -3495,7 +3517,7 @@
                   }
                 }
               ],
-              "id": "7a122a72-6063-4f75-8b04-276b842c56df",
+              "_postman_id": "065d36d1-0267-4d17-ae93-55a1bbcc51c5",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -3572,7 +3594,7 @@
                 {
                   "listen": "test",
                   "script": {
-                    "id": "18d58816-0d8f-4d5c-81b4-35d74f84fe4a",
+                    "id": "22dd2b7a-3a2b-4e3a-b83d-9f891d73051b",
                     "exec": [
                       ""
                     ],
@@ -3580,7 +3602,7 @@
                   }
                 }
               ],
-              "id": "869022e8-0b18-4126-90f9-360fc59165e3",
+              "_postman_id": "ab00d7bf-b4f9-4f9f-9d02-a55c53b9cb1c",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -3627,8 +3649,10 @@
                   ],
                   "variable": [
                     {
+                      "id": "ac54ed6b-7283-42b9-a67e-7b5598a304db",
                       "key": "id_company_setting",
-                      "value": "223"
+                      "value": "223",
+                      "type": "string"
                     }
                   ]
                 }
@@ -3636,7 +3660,8 @@
               "response": []
             }
           ],
-          "id": "786d6468-af68-457b-a9fd-213af0c1cd74"
+          "_postman_id": "f3ffeeed-cccc-4113-badf-58f290190a11",
+          "_postman_isSubFolder": true
         },
         {
           "name": "Integrations",
@@ -3650,7 +3675,7 @@
                     {
                       "listen": "test",
                       "script": {
-                        "id": "8ba2bf23-889d-4b95-ab29-fa18a9ababd7",
+                        "id": "7f74dc0f-8047-4add-960f-8e014593c045",
                         "exec": [
                           ""
                         ],
@@ -3658,7 +3683,7 @@
                       }
                     }
                   ],
-                  "id": "c20b2ec2-88c4-41ef-a76d-0ca11ed3f3eb",
+                  "_postman_id": "26552e0e-0fbc-4d5f-811e-404e539f0e37",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -3696,7 +3721,8 @@
                   "response": []
                 }
               ],
-              "id": "e81e6141-fbe2-4735-be52-34f4ad115f5b"
+              "_postman_id": "df6d7382-e285-4e2e-987f-e1e1d92bd0aa",
+              "_postman_isSubFolder": true
             },
             {
               "name": "Wordpress",
@@ -3707,7 +3733,7 @@
                     {
                       "listen": "test",
                       "script": {
-                        "id": "c52e402e-918e-4dfa-9045-bc305f53165e",
+                        "id": "94b78e4d-76cd-4fe8-92ff-1fc942647e69",
                         "exec": [
                           ""
                         ],
@@ -3715,7 +3741,7 @@
                       }
                     }
                   ],
-                  "id": "a6aa7d18-8a91-4c7a-b059-bdbe3c1e8b6f",
+                  "_postman_id": "035b07c2-3c61-4ba6-b6ee-03140a60302c",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -3753,7 +3779,8 @@
                   "response": []
                 }
               ],
-              "id": "31747f0d-0b56-4279-bc46-605f9323bc35"
+              "_postman_id": "8517b8c2-e730-4d3c-b0a5-708e974f9e08",
+              "_postman_isSubFolder": true
             },
             {
               "name": "Homologación FCL",
@@ -3764,7 +3791,7 @@
                     {
                       "listen": "test",
                       "script": {
-                        "id": "176fa11f-382f-43b6-8506-097f9520c264",
+                        "id": "d7c438c5-3480-4174-99cf-3d67181fe52f",
                         "exec": [
                           ""
                         ],
@@ -3772,7 +3799,7 @@
                       }
                     }
                   ],
-                  "id": "1ffd3f2e-edc5-4146-aa2c-12d9d04f9273",
+                  "_postman_id": "bfdf600b-1d70-4db3-827e-f35227ba3257",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -3834,7 +3861,7 @@
                     {
                       "listen": "test",
                       "script": {
-                        "id": "fb17a2a0-3e01-4da6-8512-dd730989a6c5",
+                        "id": "220d2ee3-7807-409e-96df-9dd87ca75b0e",
                         "exec": [
                           ""
                         ],
@@ -3842,7 +3869,7 @@
                       }
                     }
                   ],
-                  "id": "e98d123a-0ed0-44b4-aafb-fadce665386d",
+                  "_postman_id": "8ff8c4f2-d436-4b73-a37c-efd218622820",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -3904,7 +3931,7 @@
                     {
                       "listen": "test",
                       "script": {
-                        "id": "a3bb9169-f03d-4742-b867-2280c0b81777",
+                        "id": "26095eb6-f3bf-4f5b-b3c7-85f83129d105",
                         "exec": [
                           ""
                         ],
@@ -3912,7 +3939,7 @@
                       }
                     }
                   ],
-                  "id": "189af7e7-4926-45cf-ba9c-ecda46603b87",
+                  "_postman_id": "8121efa1-426e-4a98-b8ec-8b76d92dd6a4",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -3974,7 +4001,7 @@
                     {
                       "listen": "test",
                       "script": {
-                        "id": "1f307775-7b09-4073-bee9-7332bf4febae",
+                        "id": "9cd3412e-3ef5-41ee-a62e-319b3d7bc8ba",
                         "exec": [
                           ""
                         ],
@@ -3982,7 +4009,7 @@
                       }
                     }
                   ],
-                  "id": "8ff2eb80-ebc4-4326-a496-e8b9362b1866",
+                  "_postman_id": "b5ee8ce9-3cae-4fe0-bea0-1f1abedc0fba",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -4038,127 +4065,7 @@
                   },
                   "response": [
                     {
-                      "id": "7f4a6d9c-adf0-49cb-a29c-d8400a2a3ff2",
-                      "name": "integrate_entity_products",
-                      "originalRequest": {
-                        "method": "POST",
-                        "header": [
-                          {
-                            "key": "Accept",
-                            "type": "text",
-                            "value": "{{Accept}}"
-                          },
-                          {
-                            "key": "Timezone",
-                            "type": "text",
-                            "value": "{{Timezone}}"
-                          },
-                          {
-                            "key": "Content-Type",
-                            "name": "Content-Type",
-                            "type": "text",
-                            "value": "{{Content-Type}}"
-                          }
-                        ],
-                        "body": {
-                          "mode": "raw",
-                          "raw": "[\r\n    {\r\n        \"siat_code\": \"1\",\r\n        \"object_id\": 20,\r\n        \"content_type\": 7\r\n    },\r\n    {\r\n        \"siat_code\": \"3\",\r\n        \"object_id\": 30,\r\n        \"content_type\": 7\r\n    }\r\n]",
-                          "options": {
-                            "raw": {
-                              "language": "json"
-                            }
-                          }
-                        },
-                        "url": "{{base_url_back}}/v1/integrations/siat_integrate_entity/"
-                      },
-                      "_postman_previewlanguage": null,
-                      "header": null,
-                      "cookie": [],
-                      "responseTime": null,
-                      "body": null
-                    },
-                    {
-                      "id": "5c3a2fdf-54b6-41b9-9491-2bd64cf31f61",
-                      "name": "integrate_entity_product",
-                      "originalRequest": {
-                        "method": "POST",
-                        "header": [
-                          {
-                            "key": "Accept",
-                            "type": "text",
-                            "value": "{{Accept}}"
-                          },
-                          {
-                            "key": "Timezone",
-                            "type": "text",
-                            "value": "{{Timezone}}"
-                          },
-                          {
-                            "key": "Content-Type",
-                            "name": "Content-Type",
-                            "type": "text",
-                            "value": "{{Content-Type}}"
-                          }
-                        ],
-                        "body": {
-                          "mode": "raw",
-                          "raw": "{\r\n    \"siat_code\": \"2\",\r\n    \"content_type\": \"7\",\r\n    \"object_id\": 5\r\n}",
-                          "options": {
-                            "raw": {
-                              "language": "json"
-                            }
-                          }
-                        },
-                        "url": "{{base_url_back}}/v1/integrations/siat_integrate_entity/"
-                      },
-                      "_postman_previewlanguage": null,
-                      "header": null,
-                      "cookie": [],
-                      "responseTime": null,
-                      "body": null
-                    },
-                    {
-                      "id": "a1759ec6-5481-4937-927f-716b0d6c68ad",
-                      "name": "integrate_entity_unit_measures",
-                      "originalRequest": {
-                        "method": "POST",
-                        "header": [
-                          {
-                            "key": "Accept",
-                            "type": "text",
-                            "value": "{{Accept}}"
-                          },
-                          {
-                            "key": "Timezone",
-                            "type": "text",
-                            "value": "{{Timezone}}"
-                          },
-                          {
-                            "key": "Content-Type",
-                            "name": "Content-Type",
-                            "type": "text",
-                            "value": "{{Content-Type}}"
-                          }
-                        ],
-                        "body": {
-                          "mode": "raw",
-                          "raw": "{\r\n    \"unit_measures\": [\r\n        {\r\n            \"siat_code\": 1,\r\n            \"id\": 20\r\n        },\r\n        {\r\n            \"siat_code\": 3,\r\n            \"id\": 30\r\n        }\r\n    ]\r\n}",
-                          "options": {
-                            "raw": {
-                              "language": "json"
-                            }
-                          }
-                        },
-                        "url": "{{base_url_back}}/v1/integrations/siat_integrate_entity/"
-                      },
-                      "_postman_previewlanguage": null,
-                      "header": null,
-                      "cookie": [],
-                      "responseTime": null,
-                      "body": null
-                    },
-                    {
-                      "id": "6328aa62-b540-4ed8-9498-5e313850fea9",
+                      "id": "14288df7-ae7e-4426-86c9-a6084f40ec88",
                       "name": "integrate_entity_unit_measure",
                       "originalRequest": {
                         "method": "POST",
@@ -4191,11 +4098,131 @@
                         },
                         "url": "{{base_url_back}}/v1/integrations/siat_integrate_entity/"
                       },
-                      "_postman_previewlanguage": null,
-                      "header": null,
+                      "_postman_previewlanguage": "Text",
+                      "header": [],
                       "cookie": [],
                       "responseTime": null,
-                      "body": null
+                      "body": ""
+                    },
+                    {
+                      "id": "be6f8b6e-617b-4448-a616-b513d51b60b1",
+                      "name": "integrate_entity_product",
+                      "originalRequest": {
+                        "method": "POST",
+                        "header": [
+                          {
+                            "key": "Accept",
+                            "type": "text",
+                            "value": "{{Accept}}"
+                          },
+                          {
+                            "key": "Timezone",
+                            "type": "text",
+                            "value": "{{Timezone}}"
+                          },
+                          {
+                            "key": "Content-Type",
+                            "name": "Content-Type",
+                            "type": "text",
+                            "value": "{{Content-Type}}"
+                          }
+                        ],
+                        "body": {
+                          "mode": "raw",
+                          "raw": "{\r\n    \"siat_code\": \"2\",\r\n    \"content_type\": \"7\",\r\n    \"object_id\": 5\r\n}",
+                          "options": {
+                            "raw": {
+                              "language": "json"
+                            }
+                          }
+                        },
+                        "url": "{{base_url_back}}/v1/integrations/siat_integrate_entity/"
+                      },
+                      "_postman_previewlanguage": "Text",
+                      "header": [],
+                      "cookie": [],
+                      "responseTime": null,
+                      "body": ""
+                    },
+                    {
+                      "id": "dc38d4d9-4298-455f-a85b-002fcfefd182",
+                      "name": "integrate_entity_products",
+                      "originalRequest": {
+                        "method": "POST",
+                        "header": [
+                          {
+                            "key": "Accept",
+                            "type": "text",
+                            "value": "{{Accept}}"
+                          },
+                          {
+                            "key": "Timezone",
+                            "type": "text",
+                            "value": "{{Timezone}}"
+                          },
+                          {
+                            "key": "Content-Type",
+                            "name": "Content-Type",
+                            "type": "text",
+                            "value": "{{Content-Type}}"
+                          }
+                        ],
+                        "body": {
+                          "mode": "raw",
+                          "raw": "[\r\n    {\r\n        \"siat_code\": \"1\",\r\n        \"object_id\": 20,\r\n        \"content_type\": 7\r\n    },\r\n    {\r\n        \"siat_code\": \"3\",\r\n        \"object_id\": 30,\r\n        \"content_type\": 7\r\n    }\r\n]",
+                          "options": {
+                            "raw": {
+                              "language": "json"
+                            }
+                          }
+                        },
+                        "url": "{{base_url_back}}/v1/integrations/siat_integrate_entity/"
+                      },
+                      "_postman_previewlanguage": "Text",
+                      "header": [],
+                      "cookie": [],
+                      "responseTime": null,
+                      "body": ""
+                    },
+                    {
+                      "id": "eb33022d-8d15-406d-80c1-0b02e282756f",
+                      "name": "integrate_entity_unit_measures",
+                      "originalRequest": {
+                        "method": "POST",
+                        "header": [
+                          {
+                            "key": "Accept",
+                            "type": "text",
+                            "value": "{{Accept}}"
+                          },
+                          {
+                            "key": "Timezone",
+                            "type": "text",
+                            "value": "{{Timezone}}"
+                          },
+                          {
+                            "key": "Content-Type",
+                            "name": "Content-Type",
+                            "type": "text",
+                            "value": "{{Content-Type}}"
+                          }
+                        ],
+                        "body": {
+                          "mode": "raw",
+                          "raw": "{\r\n    \"unit_measures\": [\r\n        {\r\n            \"siat_code\": 1,\r\n            \"id\": 20\r\n        },\r\n        {\r\n            \"siat_code\": 3,\r\n            \"id\": 30\r\n        }\r\n    ]\r\n}",
+                          "options": {
+                            "raw": {
+                              "language": "json"
+                            }
+                          }
+                        },
+                        "url": "{{base_url_back}}/v1/integrations/siat_integrate_entity/"
+                      },
+                      "_postman_previewlanguage": "Text",
+                      "header": [],
+                      "cookie": [],
+                      "responseTime": null,
+                      "body": ""
                     }
                   ]
                 },
@@ -4205,7 +4232,7 @@
                     {
                       "listen": "test",
                       "script": {
-                        "id": "22601388-39e2-49cf-8e78-b43535cd0799",
+                        "id": "5d3fff23-a55f-44fe-be9a-7feaedaa13e2",
                         "exec": [
                           ""
                         ],
@@ -4213,7 +4240,7 @@
                       }
                     }
                   ],
-                  "id": "df90ea83-e304-4815-beed-7e250dbf6247",
+                  "_postman_id": "61656034-61fd-48ee-ba57-9a2077ab87c9",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -4269,47 +4296,7 @@
                   },
                   "response": [
                     {
-                      "id": "2e49f835-ffbb-450e-81cf-ec3a933ee61b",
-                      "name": "integrate_entity_products",
-                      "originalRequest": {
-                        "method": "POST",
-                        "header": [
-                          {
-                            "key": "Accept",
-                            "type": "text",
-                            "value": "{{Accept}}"
-                          },
-                          {
-                            "key": "Timezone",
-                            "type": "text",
-                            "value": "{{Timezone}}"
-                          },
-                          {
-                            "key": "Content-Type",
-                            "name": "Content-Type",
-                            "type": "text",
-                            "value": "{{Content-Type}}"
-                          }
-                        ],
-                        "body": {
-                          "mode": "raw",
-                          "raw": "{\r\n    \"products\": [\r\n        {\r\n            \"siat_code\": 1,\r\n            \"id\": 20\r\n        },\r\n        {\r\n            \"siat_code\": 3,\r\n            \"id\": 30\r\n        }\r\n    ]\r\n}",
-                          "options": {
-                            "raw": {
-                              "language": "json"
-                            }
-                          }
-                        },
-                        "url": "{{base_url_back}}/v1/integrations/siat_integrate_entity/"
-                      },
-                      "_postman_previewlanguage": null,
-                      "header": null,
-                      "cookie": [],
-                      "responseTime": null,
-                      "body": null
-                    },
-                    {
-                      "id": "8fd4ee3d-d917-4976-b1ea-66e7f657889d",
+                      "id": "7f61f1f8-76ee-41c0-b404-b0ceeb9194b8",
                       "name": "integrate_entity_unit_measures",
                       "originalRequest": {
                         "method": "POST",
@@ -4342,11 +4329,51 @@
                         },
                         "url": "{{base_url_back}}/v1/integrations/siat_integrate_entity/"
                       },
-                      "_postman_previewlanguage": null,
-                      "header": null,
+                      "_postman_previewlanguage": "Text",
+                      "header": [],
                       "cookie": [],
                       "responseTime": null,
-                      "body": null
+                      "body": ""
+                    },
+                    {
+                      "id": "bf3dcd68-9814-4bb7-ab96-7e3534ca573d",
+                      "name": "integrate_entity_products",
+                      "originalRequest": {
+                        "method": "POST",
+                        "header": [
+                          {
+                            "key": "Accept",
+                            "type": "text",
+                            "value": "{{Accept}}"
+                          },
+                          {
+                            "key": "Timezone",
+                            "type": "text",
+                            "value": "{{Timezone}}"
+                          },
+                          {
+                            "key": "Content-Type",
+                            "name": "Content-Type",
+                            "type": "text",
+                            "value": "{{Content-Type}}"
+                          }
+                        ],
+                        "body": {
+                          "mode": "raw",
+                          "raw": "{\r\n    \"products\": [\r\n        {\r\n            \"siat_code\": 1,\r\n            \"id\": 20\r\n        },\r\n        {\r\n            \"siat_code\": 3,\r\n            \"id\": 30\r\n        }\r\n    ]\r\n}",
+                          "options": {
+                            "raw": {
+                              "language": "json"
+                            }
+                          }
+                        },
+                        "url": "{{base_url_back}}/v1/integrations/siat_integrate_entity/"
+                      },
+                      "_postman_previewlanguage": "Text",
+                      "header": [],
+                      "cookie": [],
+                      "responseTime": null,
+                      "body": ""
                     }
                   ]
                 },
@@ -4356,7 +4383,7 @@
                     {
                       "listen": "test",
                       "script": {
-                        "id": "34173563-295e-491b-a618-172dac9b3dd4",
+                        "id": "a1b4d01a-044c-4021-8ebb-438c341e7f96",
                         "exec": [
                           ""
                         ],
@@ -4364,7 +4391,7 @@
                       }
                     }
                   ],
-                  "id": "779b1423-1489-450e-af7f-6fe01298ef85",
+                  "_postman_id": "308f331d-c207-48c9-8f92-8ab7b3084787",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -4420,47 +4447,7 @@
                   },
                   "response": [
                     {
-                      "id": "99fe66ac-f12e-4432-a30a-a7e731c284a8",
-                      "name": "integrate_entity_products",
-                      "originalRequest": {
-                        "method": "POST",
-                        "header": [
-                          {
-                            "key": "Accept",
-                            "type": "text",
-                            "value": "{{Accept}}"
-                          },
-                          {
-                            "key": "Timezone",
-                            "type": "text",
-                            "value": "{{Timezone}}"
-                          },
-                          {
-                            "key": "Content-Type",
-                            "name": "Content-Type",
-                            "type": "text",
-                            "value": "{{Content-Type}}"
-                          }
-                        ],
-                        "body": {
-                          "mode": "raw",
-                          "raw": "{\r\n    \"products\": [\r\n        {\r\n            \"siat_code\": 1,\r\n            \"id\": 20\r\n        },\r\n        {\r\n            \"siat_code\": 3,\r\n            \"id\": 30\r\n        }\r\n    ]\r\n}",
-                          "options": {
-                            "raw": {
-                              "language": "json"
-                            }
-                          }
-                        },
-                        "url": "{{base_url_back}}/v1/integrations/siat_integrate_entity/"
-                      },
-                      "_postman_previewlanguage": null,
-                      "header": null,
-                      "cookie": [],
-                      "responseTime": null,
-                      "body": null
-                    },
-                    {
-                      "id": "b4518192-f1f4-4400-9ab6-8d67fe79ee03",
+                      "id": "1b2945d8-26bb-4c53-9c9c-ad5d4c8bb1ef",
                       "name": "integrate_entity_product",
                       "originalRequest": {
                         "method": "POST",
@@ -4493,54 +4480,14 @@
                         },
                         "url": "{{base_url_back}}/v1/integrations/siat_integrate_entity/"
                       },
-                      "_postman_previewlanguage": null,
-                      "header": null,
+                      "_postman_previewlanguage": "Text",
+                      "header": [],
                       "cookie": [],
                       "responseTime": null,
-                      "body": null
+                      "body": ""
                     },
                     {
-                      "id": "51048960-e405-4cd6-bd74-4a7f12d2924a",
-                      "name": "integrate_entity_unit_measures",
-                      "originalRequest": {
-                        "method": "POST",
-                        "header": [
-                          {
-                            "key": "Accept",
-                            "type": "text",
-                            "value": "{{Accept}}"
-                          },
-                          {
-                            "key": "Timezone",
-                            "type": "text",
-                            "value": "{{Timezone}}"
-                          },
-                          {
-                            "key": "Content-Type",
-                            "name": "Content-Type",
-                            "type": "text",
-                            "value": "{{Content-Type}}"
-                          }
-                        ],
-                        "body": {
-                          "mode": "raw",
-                          "raw": "{\r\n    \"unit_measures\": [\r\n        {\r\n            \"siat_code\": 1,\r\n            \"id\": 20\r\n        },\r\n        {\r\n            \"siat_code\": 3,\r\n            \"id\": 30\r\n        }\r\n    ]\r\n}",
-                          "options": {
-                            "raw": {
-                              "language": "json"
-                            }
-                          }
-                        },
-                        "url": "{{base_url_back}}/v1/integrations/siat_integrate_entity/"
-                      },
-                      "_postman_previewlanguage": null,
-                      "header": null,
-                      "cookie": [],
-                      "responseTime": null,
-                      "body": null
-                    },
-                    {
-                      "id": "7383df69-76b2-4b90-9953-5ea6819f4256",
+                      "id": "79122c40-0957-4461-be5f-ef480941a635",
                       "name": "integrate_entity_unit_measure",
                       "originalRequest": {
                         "method": "POST",
@@ -4573,11 +4520,91 @@
                         },
                         "url": "{{base_url_back}}/v1/integrations/siat_integrate_entity/"
                       },
-                      "_postman_previewlanguage": null,
-                      "header": null,
+                      "_postman_previewlanguage": "Text",
+                      "header": [],
                       "cookie": [],
                       "responseTime": null,
-                      "body": null
+                      "body": ""
+                    },
+                    {
+                      "id": "7e6b444c-b8a8-46cf-813d-b452dd797489",
+                      "name": "integrate_entity_unit_measures",
+                      "originalRequest": {
+                        "method": "POST",
+                        "header": [
+                          {
+                            "key": "Accept",
+                            "type": "text",
+                            "value": "{{Accept}}"
+                          },
+                          {
+                            "key": "Timezone",
+                            "type": "text",
+                            "value": "{{Timezone}}"
+                          },
+                          {
+                            "key": "Content-Type",
+                            "name": "Content-Type",
+                            "type": "text",
+                            "value": "{{Content-Type}}"
+                          }
+                        ],
+                        "body": {
+                          "mode": "raw",
+                          "raw": "{\r\n    \"unit_measures\": [\r\n        {\r\n            \"siat_code\": 1,\r\n            \"id\": 20\r\n        },\r\n        {\r\n            \"siat_code\": 3,\r\n            \"id\": 30\r\n        }\r\n    ]\r\n}",
+                          "options": {
+                            "raw": {
+                              "language": "json"
+                            }
+                          }
+                        },
+                        "url": "{{base_url_back}}/v1/integrations/siat_integrate_entity/"
+                      },
+                      "_postman_previewlanguage": "Text",
+                      "header": [],
+                      "cookie": [],
+                      "responseTime": null,
+                      "body": ""
+                    },
+                    {
+                      "id": "d403b361-0c8d-4734-a532-19f1e41d04ce",
+                      "name": "integrate_entity_products",
+                      "originalRequest": {
+                        "method": "POST",
+                        "header": [
+                          {
+                            "key": "Accept",
+                            "type": "text",
+                            "value": "{{Accept}}"
+                          },
+                          {
+                            "key": "Timezone",
+                            "type": "text",
+                            "value": "{{Timezone}}"
+                          },
+                          {
+                            "key": "Content-Type",
+                            "name": "Content-Type",
+                            "type": "text",
+                            "value": "{{Content-Type}}"
+                          }
+                        ],
+                        "body": {
+                          "mode": "raw",
+                          "raw": "{\r\n    \"products\": [\r\n        {\r\n            \"siat_code\": 1,\r\n            \"id\": 20\r\n        },\r\n        {\r\n            \"siat_code\": 3,\r\n            \"id\": 30\r\n        }\r\n    ]\r\n}",
+                          "options": {
+                            "raw": {
+                              "language": "json"
+                            }
+                          }
+                        },
+                        "url": "{{base_url_back}}/v1/integrations/siat_integrate_entity/"
+                      },
+                      "_postman_previewlanguage": "Text",
+                      "header": [],
+                      "cookie": [],
+                      "responseTime": null,
+                      "body": ""
                     }
                   ]
                 },
@@ -4587,7 +4614,7 @@
                     {
                       "listen": "test",
                       "script": {
-                        "id": "f10447f9-af2d-49c1-89d0-2900b4195263",
+                        "id": "347be877-6a85-4805-89e8-ee47f475fdb9",
                         "exec": [
                           ""
                         ],
@@ -4595,7 +4622,7 @@
                       }
                     }
                   ],
-                  "id": "4428adfe-666e-4f57-9fe9-efd06fce75e3",
+                  "_postman_id": "03b81d92-acb5-4377-96e6-3f255f4a481b",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -4651,7 +4678,7 @@
                   },
                   "response": [
                     {
-                      "id": "117164d8-61e3-4b20-ac85-fadd7c7b96c6",
+                      "id": "026946bd-3214-447a-807d-92e35950799b",
                       "name": "integrate_entity_unit_measure",
                       "originalRequest": {
                         "method": "POST",
@@ -4684,11 +4711,11 @@
                         },
                         "url": "{{base_url_back}}/v1/integrations/siat_integrate_entity/"
                       },
-                      "_postman_previewlanguage": null,
-                      "header": null,
+                      "_postman_previewlanguage": "Text",
+                      "header": [],
                       "cookie": [],
                       "responseTime": null,
-                      "body": null
+                      "body": ""
                     }
                   ]
                 },
@@ -4698,7 +4725,7 @@
                     {
                       "listen": "test",
                       "script": {
-                        "id": "238df36d-3945-4a3a-a331-955eaa2ec0f5",
+                        "id": "64e1f53b-351c-4f05-bd67-21394c5ba7d6",
                         "exec": [
                           ""
                         ],
@@ -4706,7 +4733,7 @@
                       }
                     }
                   ],
-                  "id": "6f1446a9-ef47-409c-9ddc-8ec1c7fea357",
+                  "_postman_id": "a9cefc39-8c03-4dab-9679-6d0b332bf80b",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -4762,7 +4789,7 @@
                   },
                   "response": [
                     {
-                      "id": "5e3b4e77-bdfa-4349-8d67-a8e907a32454",
+                      "id": "0d3df9a8-659d-456b-9e3f-6e783d53da50",
                       "name": "integrate_entity_product",
                       "originalRequest": {
                         "method": "POST",
@@ -4795,19 +4822,21 @@
                         },
                         "url": "{{base_url_back}}/v1/integrations/siat_integrate_entity/"
                       },
-                      "_postman_previewlanguage": null,
-                      "header": null,
+                      "_postman_previewlanguage": "Text",
+                      "header": [],
                       "cookie": [],
                       "responseTime": null,
-                      "body": null
+                      "body": ""
                     }
                   ]
                 }
               ],
-              "id": "51e2f97c-e60b-41df-9297-2805381d5b6f"
+              "_postman_id": "74dd0d62-2666-4cd4-b49e-14382e4ca572",
+              "_postman_isSubFolder": true
             }
           ],
-          "id": "754dc19a-e41f-4b7b-bf13-31cb2515e18b"
+          "_postman_id": "633c408b-4a6c-4df5-87a8-4af6b803bda0",
+          "_postman_isSubFolder": true
         },
         {
           "name": "Test Redis",
@@ -4815,7 +4844,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "e1ab43eb-0fce-4e91-b649-0938a531dd7e",
+                "id": "eaed02c9-bf18-456c-be14-8c60740a83eb",
                 "exec": [
                   "var currentUrl = pm.request.url.toString();",
                   "var headers = pm.request.headers.toObject(true);",
@@ -4888,7 +4917,7 @@
               }
             }
           ],
-          "id": "4b177f3c-94eb-4d97-b56f-38d64247015e",
+          "_postman_id": "18e5506e-0741-4339-9ea6-98caf92595a2",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -4937,7 +4966,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "16477020-0f32-475f-bef5-bf997397d0e8",
+                "id": "1fd26e2b-dd57-463a-87df-16667071f549",
                 "exec": [
                   ""
                 ],
@@ -4945,7 +4974,7 @@
               }
             }
           ],
-          "id": "77aa9b13-71bb-4d39-ad3c-e51f6b323b15",
+          "_postman_id": "1e7859e9-8b05-4d81-be89-fb1ed2724bdd",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -4987,72 +5016,16 @@
             "url": "{{base_url_back}}/v1/settings/company/myself/"
           },
           "response": []
-        },
-        {
-          "name": "myself Copy",
-          "event": [
-            {
-              "listen": "test",
-              "script": {
-                "id": "de1041d2-1fa2-4b80-9ca5-cb55610a7e86",
-                "exec": [
-                  ""
-                ],
-                "type": "text/javascript"
-              }
-            }
-          ],
-          "id": "8e89bee0-aa65-421e-a062-9510ab09286a",
-          "protocolProfileBehavior": {
-            "disableBodyPruning": true
-          },
-          "request": {
-            "method": "GET",
-            "header": [
-              {
-                "key": "Accept",
-                "type": "text",
-                "value": "{{Accept}}"
-              },
-              {
-                "key": "Timezone",
-                "type": "text",
-                "value": "{{Timezone}}"
-              },
-              {
-                "key": "Content-Type",
-                "name": "Content-Type",
-                "type": "text",
-                "value": "{{Content-Type}}"
-              },
-              {
-                "key": "Data-Operations",
-                "value": "{\"filter\":{\"logic\":\"and\",\"filters\":[]},\"take\":1,\"all\":false,\"sort\":[{\"field\":\"deadline_date\",\"dir\":\"asc\"}]}",
-                "type": "text"
-              }
-            ],
-            "body": {
-              "mode": "raw",
-              "raw": "",
-              "options": {
-                "raw": {
-                  "language": "json"
-                }
-              }
-            },
-            "url": "{{base_url_back}}/v1/invoices/invoice_setting/"
-          },
-          "response": []
         }
       ],
-      "id": "64ba3f9a-7b34-4036-ac2b-95f8272c5b0f"
+      "_postman_id": "510c12af-6a8a-45ff-9069-6503ce6b5590"
     },
     {
       "name": "Lobby",
       "item": [
         {
           "name": "Upgrade subscription",
-          "id": "7b04e109-675c-4f22-8da5-109e5c77c683",
+          "_postman_id": "d8f9d974-accf-4452-8892-38126ad0997a",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -5078,7 +5051,10 @@
             ],
             "body": {
               "mode": "raw",
-              "raw": "{\n    \"pack\": 3,\n    \"periodicity\": 3\n}"
+              "raw": "{\n    \"pack\": 3,\n    \"periodicity\": 3\n}",
+              "options": {
+                "raw": {}
+              }
             },
             "url": {
               "raw": "http://lobby.tugerente.me:8000/v1/subscriptions/subscription/:subscriptionId/getbubo/",
@@ -5099,8 +5075,10 @@
               ],
               "variable": [
                 {
+                  "id": "3f411229-38f5-45cb-af5e-fc820b77bf8d",
                   "key": "subscriptionId",
-                  "value": "1339"
+                  "value": "1339",
+                  "type": "string"
                 }
               ]
             }
@@ -5108,7 +5086,7 @@
           "response": []
         }
       ],
-      "id": "12210bbd-5562-4c9a-a303-f6a8bcf5fdda"
+      "_postman_id": "0b1567c7-639c-462c-90bf-9718d6ac6760"
     },
     {
       "name": "user_provider",
@@ -5119,7 +5097,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "f2a252db-1565-47dc-ae38-c4af2361da9d",
+                "id": "6056f909-93aa-40e3-963c-4eae2ed68318",
                 "exec": [
                   ""
                 ],
@@ -5127,7 +5105,7 @@
               }
             }
           ],
-          "id": "c466702a-d10d-473c-8f46-b9497c8287a1",
+          "_postman_id": "49dd36c5-d987-412c-a984-775977a7ff1d",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -5178,8 +5156,10 @@
               ],
               "variable": [
                 {
+                  "id": "01028895-fd26-48e4-b4aa-6dcdd1249738",
                   "key": "tenant_id",
-                  "value": "7956"
+                  "value": "7956",
+                  "type": "string"
                 }
               ]
             }
@@ -5192,7 +5172,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "e364ad4e-abb7-4aef-aaa7-bed67f912099",
+                "id": "5758d9bb-ac0c-4316-9b26-bc825301cd3b",
                 "exec": [
                   ""
                 ],
@@ -5200,7 +5180,7 @@
               }
             }
           ],
-          "id": "8f6e6fbf-555b-49a7-b143-352bde951dc8",
+          "_postman_id": "4d91e915-b9fc-40c3-876f-ccca633f5ef9",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -5250,8 +5230,10 @@
               ],
               "variable": [
                 {
+                  "id": "156379b6-24bf-4b25-8268-27b8454ba8be",
                   "key": "user_id",
-                  "value": null
+                  "value": null,
+                  "type": "any"
                 }
               ]
             }
@@ -5259,11 +5241,11 @@
           "response": []
         }
       ],
-      "id": "890f0832-61e0-497f-b857-782b39900560"
+      "_postman_id": "d190ffce-fccb-4601-ac22-f10e2fcae7f8"
     },
     {
       "name": "S3",
-      "id": "bff4205d-df25-4382-95e6-1bed658f21b0",
+      "_postman_id": "3550051e-3d70-47e5-ad46-91131a6dc2ec",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
       },
@@ -5291,7 +5273,7 @@
     {
       "listen": "prerequest",
       "script": {
-        "id": "f8771b56-b8d6-4eb0-9c79-b53d3d9d1daa",
+        "id": "3893b78e-089a-426b-aa48-6553be91962f",
         "type": "text/javascript",
         "exec": [
           " const isApi = pm.variables.get('isApi') || false;",
@@ -5323,7 +5305,7 @@
     {
       "listen": "test",
       "script": {
-        "id": "f767361f-5f43-4a5b-a916-4d69d2569ec6",
+        "id": "07b70138-e021-40e3-97cc-26d259acc123",
         "type": "text/javascript",
         "exec": [
           "var currentUrl = pm.request.url.toString();",
@@ -5403,34 +5385,40 @@
   ],
   "variable": [
     {
-      "id": "c05b5131-4b80-4de3-a74a-8d7c7979999b",
+      "id": "cf827c45-602d-4e80-bc35-fd8a65c63b7c",
       "key": "Cookie",
-      "value": "_ga=GA1.2.995623964.1629400496; _gid=GA1.2.1579657039.1629400496; _fbp=fb.1.1629400714958.1618680225; ajs_user_id=\"1339\"; ajs_anonymous_id=\"8310621c-456f-44b7-a285-f979bb8c5e76\"; _gat_UA-179458013-2=1; tuGerenteToken=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2Mjk4NTE2NDYsImlhdCI6MTYyOTQ5MTY0NiwiaWQiOjQ4NjQsInVzZXIiOiJ7XCJpZFwiOjQ4NjQsXCJub21icmVcIjpcIlFBIE5vbWJyZSBjYW1iaWFkb1wiLFwiYXBlbGxpZG9cIjpudWxsLFwiZmVjaGFfbmFjaW1pZW50b1wiOm51bGwsXCJnZW5lcm9cIjpudWxsLFwicGFpc1wiOlwiQk9cIixcImNpdWRhZFwiOm51bGwsXCJlbWFpbFwiOlwiYmVsYXlhZzEzMEBhbXBzd2lwZS5jb21cIixcInRlbGVmb25vXCI6XCI3NjM3NTY0N1wiLFwiYWN0aXZvXCI6MCxcImNvZFwiOlwidHVHLTQ4NjRcIixcImNyZWF0ZWRfYXRcIjpcIjIwMjEtMDgtMTlUMTk6NTI6NTkuMDAwWlwiLFwidXBkYXRlZF9hdFwiOlwiMjAyMS0wOC0xOVQyMDoxMDo0NC4wMDBaXCIsXCJkZWxldGVkX2F0XCI6bnVsbCxcInNlc3Npb25faWRcIjpudWxsLFwiaGF2ZV9jb21wYW55XCI6XCJzaVwiLFwidmFsaWRhdGlvbl9yZXF1ZXN0XCI6bnVsbH0ifQ.XnZwnSNps4xDOnkKudj-7x-PJlC2GdzfT2xIoSwqiQ6S0zBd7jp4r4ZI4G7YTgnXOB2CSFHTEp891pMJtYWeCQ; LobbyCookie=\"eyIxIjogW3sib3duZXJfdXNlcl9pZCI6IDQ4NjQsICJ0ZW5hbnRfaWQiOiAxODQyLCAic3Vic2NyaXB0aW9uX3N0YXRlIjogImFjdGl2ZSIsICJhY3RpdmUiOiB0cnVlLCAiYnVzaW5lc3NfbmFtZSI6ICJRYSIsICJzdGFydF9kYXRlIjogIjIwMjEtMDgtMTkiLCAiZmluaXNoX2RhdGUiOiAiMjAyMS0xMC0wMiIsICJpc19kZW1vIjogZmFsc2UsICJlbWFpbCI6IG51bGwsICJwYWNrIjogMywgImNvdW50cnkiOiAiQk8iLCAiY2l0eSI6IG51bGwsICJuaXQiOiBudWxsLCAidXNlcnNfcXR5IjogMTAsICJydWJyb19pZCI6IDEsICJ0ZXJtc19hY2NlcHRlZCI6IHRydWUsICJpc19pbmZvX3ZpZXdlZCI6IGZhbHNlLCAidmFsaWRhdGVkIjogZmFsc2UsICJyZXF1ZXN0X2RhdGUiOiAiMjAyMS0wOC0xOVQyMDoxMDo0NC45Mzg2NDArMDA6MDAifV0sICIyIjogW10sICIzIjogW10sICJ2ZXJzaW9uc19zdXBwb3J0ZWQiOiBbIjEuMCJdfXx2Tk5HamxQU1lMVkVWLVRsVk5jSTg5a1pVN0k=\""
+      "value": "_ga=GA1.2.995623964.1629400496; _gid=GA1.2.1579657039.1629400496; _fbp=fb.1.1629400714958.1618680225; ajs_user_id=\"1339\"; ajs_anonymous_id=\"8310621c-456f-44b7-a285-f979bb8c5e76\"; _gat_UA-179458013-2=1; tuGerenteToken=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2Mjk4NTE2NDYsImlhdCI6MTYyOTQ5MTY0NiwiaWQiOjQ4NjQsInVzZXIiOiJ7XCJpZFwiOjQ4NjQsXCJub21icmVcIjpcIlFBIE5vbWJyZSBjYW1iaWFkb1wiLFwiYXBlbGxpZG9cIjpudWxsLFwiZmVjaGFfbmFjaW1pZW50b1wiOm51bGwsXCJnZW5lcm9cIjpudWxsLFwicGFpc1wiOlwiQk9cIixcImNpdWRhZFwiOm51bGwsXCJlbWFpbFwiOlwiYmVsYXlhZzEzMEBhbXBzd2lwZS5jb21cIixcInRlbGVmb25vXCI6XCI3NjM3NTY0N1wiLFwiYWN0aXZvXCI6MCxcImNvZFwiOlwidHVHLTQ4NjRcIixcImNyZWF0ZWRfYXRcIjpcIjIwMjEtMDgtMTlUMTk6NTI6NTkuMDAwWlwiLFwidXBkYXRlZF9hdFwiOlwiMjAyMS0wOC0xOVQyMDoxMDo0NC4wMDBaXCIsXCJkZWxldGVkX2F0XCI6bnVsbCxcInNlc3Npb25faWRcIjpudWxsLFwiaGF2ZV9jb21wYW55XCI6XCJzaVwiLFwidmFsaWRhdGlvbl9yZXF1ZXN0XCI6bnVsbH0ifQ.XnZwnSNps4xDOnkKudj-7x-PJlC2GdzfT2xIoSwqiQ6S0zBd7jp4r4ZI4G7YTgnXOB2CSFHTEp891pMJtYWeCQ; LobbyCookie=\"eyIxIjogW3sib3duZXJfdXNlcl9pZCI6IDQ4NjQsICJ0ZW5hbnRfaWQiOiAxODQyLCAic3Vic2NyaXB0aW9uX3N0YXRlIjogImFjdGl2ZSIsICJhY3RpdmUiOiB0cnVlLCAiYnVzaW5lc3NfbmFtZSI6ICJRYSIsICJzdGFydF9kYXRlIjogIjIwMjEtMDgtMTkiLCAiZmluaXNoX2RhdGUiOiAiMjAyMS0xMC0wMiIsICJpc19kZW1vIjogZmFsc2UsICJlbWFpbCI6IG51bGwsICJwYWNrIjogMywgImNvdW50cnkiOiAiQk8iLCAiY2l0eSI6IG51bGwsICJuaXQiOiBudWxsLCAidXNlcnNfcXR5IjogMTAsICJydWJyb19pZCI6IDEsICJ0ZXJtc19hY2NlcHRlZCI6IHRydWUsICJpc19pbmZvX3ZpZXdlZCI6IGZhbHNlLCAidmFsaWRhdGVkIjogZmFsc2UsICJyZXF1ZXN0X2RhdGUiOiAiMjAyMS0wOC0xOVQyMDoxMDo0NC45Mzg2NDArMDA6MDAifV0sICIyIjogW10sICIzIjogW10sICJ2ZXJzaW9uc19zdXBwb3J0ZWQiOiBbIjEuMCJdfXx2Tk5HamxQU1lMVkVWLVRsVk5jSTg5a1pVN0k=\"",
+      "type": "string"
     },
     {
-      "id": "6fd81945-fdfd-41c2-a16e-317d12e0ccbd",
+      "id": "cc0ddca9-d453-4c64-bba5-67160ad283b0",
       "key": "base_url_back",
-      "value": "http://back.tugerente.me:8001"
+      "value": "http://back.tugerente.me:8001",
+      "type": "string"
     },
     {
-      "id": "ec2f03d8-9a72-4fcc-bb08-b82945a6e20b",
+      "id": "a463f3b0-3ba2-4852-b827-59a2a6181021",
       "key": "Accept",
-      "value": "application/json, text/plain, */*"
+      "value": "application/json, text/plain, */*",
+      "type": "string"
     },
     {
-      "id": "2d9528fb-281e-4191-bab1-9e9b5e8e777a",
+      "id": "c4d23b02-27f2-425a-84e1-a10896810867",
       "key": "Timezone",
-      "value": "America/La_Paz"
+      "value": "America/La_Paz",
+      "type": "string"
     },
     {
-      "id": "94ea5872-6cc1-45a6-bf48-14ac6f10bd3b",
+      "id": "28a5fc98-b2e8-4909-8382-a7b8cada0487",
       "key": "Content-Type",
-      "value": "application/json"
+      "value": "application/json",
+      "type": "string"
     },
     {
-      "id": "b76b5f7f-cb3b-4647-b4af-fb37e6f52dc5",
+      "id": "31b70714-82ba-4b52-9664-9b3f45391b8b",
       "key": "ApiKey",
-      "value": "NSqs04Y7M6OAB32WA5UzOziCGAHETz3fGRk3g2C0"
+      "value": "NSqs04Y7M6OAB32WA5UzOziCGAHETz3fGRk3g2C0",
+      "type": "string"
     }
   ]
 }
