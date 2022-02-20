@@ -28,7 +28,7 @@
                       }
                     }
                   ],
-                  "_postman_id": "ba82b5b6-c93d-49e7-8204-65f4ca249f0e",
+                  "id": "ba82b5b6-c93d-49e7-8204-65f4ca249f0e",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -84,7 +84,7 @@
                       }
                     }
                   ],
-                  "_postman_id": "84ba9037-1221-4a89-af29-d255d96a14b6",
+                  "id": "84ba9037-1221-4a89-af29-d255d96a14b6",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -140,7 +140,7 @@
                       }
                     }
                   ],
-                  "_postman_id": "d7b4ff45-45db-4b60-8f11-d1e5b2b28db5",
+                  "id": "d7b4ff45-45db-4b60-8f11-d1e5b2b28db5",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -208,7 +208,7 @@
                   "response": []
                 }
               ],
-              "_postman_id": "63117230-dafc-4713-9960-b65e3ca14382",
+              "id": "63117230-dafc-4713-9960-b65e3ca14382",
               "event": [
                 {
                   "listen": "prerequest",
@@ -230,8 +230,7 @@
                     ]
                   }
                 }
-              ],
-              "_postman_isSubFolder": true
+              ]
             },
             {
               "name": "(Green) Ventas & Clientes",
@@ -250,7 +249,7 @@
                       }
                     }
                   ],
-                  "_postman_id": "068bb1d1-5cde-429a-ba7e-0089baf29701",
+                  "id": "068bb1d1-5cde-429a-ba7e-0089baf29701",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -335,7 +334,7 @@
                       }
                     }
                   ],
-                  "_postman_id": "18e6ff5d-da7c-4bbb-a3a5-303c253d02bc",
+                  "id": "18e6ff5d-da7c-4bbb-a3a5-303c253d02bc",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -391,7 +390,7 @@
                       }
                     }
                   ],
-                  "_postman_id": "49a451f8-c971-488c-b238-f206ef3543b6",
+                  "id": "49a451f8-c971-488c-b238-f206ef3543b6",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -453,7 +452,7 @@
                       }
                     }
                   ],
-                  "_postman_id": "7b38c4d1-7a4e-4ff6-b985-56fdc126ed2c",
+                  "id": "7b38c4d1-7a4e-4ff6-b985-56fdc126ed2c",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -509,7 +508,7 @@
                       }
                     }
                   ],
-                  "_postman_id": "cfea88ad-2f38-4015-a117-57e1cf86571e",
+                  "id": "cfea88ad-2f38-4015-a117-57e1cf86571e",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -630,7 +629,7 @@
                       }
                     }
                   ],
-                  "_postman_id": "6105f04e-369f-48b0-8224-f2030f321193",
+                  "id": "6105f04e-369f-48b0-8224-f2030f321193",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -686,7 +685,7 @@
                       }
                     }
                   ],
-                  "_postman_id": "0bac5263-cb44-48a1-a4bd-c4276c995085",
+                  "id": "0bac5263-cb44-48a1-a4bd-c4276c995085",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -742,7 +741,7 @@
                       }
                     }
                   ],
-                  "_postman_id": "d183e3d1-388c-4f87-bae9-27e8bebcea3e",
+                  "id": "d183e3d1-388c-4f87-bae9-27e8bebcea3e",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -810,8 +809,7 @@
                   "response": []
                 }
               ],
-              "_postman_id": "627fc7d9-7805-4ddc-a20f-54d879cd0121",
-              "_postman_isSubFolder": true
+              "id": "627fc7d9-7805-4ddc-a20f-54d879cd0121"
             },
             {
               "name": "Financiero",
@@ -830,7 +828,7 @@
                       }
                     }
                   ],
-                  "_postman_id": "7ea13fd0-6b29-42a0-a2c8-b8b0e7f69d92",
+                  "id": "7ea13fd0-6b29-42a0-a2c8-b8b0e7f69d92",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -886,7 +884,7 @@
                       }
                     }
                   ],
-                  "_postman_id": "e8746ae8-0fce-4498-b4bf-2e7237879cf3",
+                  "id": "e8746ae8-0fce-4498-b4bf-2e7237879cf3",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -972,7 +970,7 @@
                       }
                     }
                   ],
-                  "_postman_id": "136251a2-1951-4c5a-83f0-f673741871e5",
+                  "id": "136251a2-1951-4c5a-83f0-f673741871e5",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -1055,7 +1053,7 @@
                       }
                     }
                   ],
-                  "_postman_id": "4801ccf8-013e-4ed1-93d5-3e268e32d8b6",
+                  "id": "4801ccf8-013e-4ed1-93d5-3e268e32d8b6",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -1138,7 +1136,7 @@
                       }
                     }
                   ],
-                  "_postman_id": "0ab6fc26-6835-4f7d-91cc-d86b83cf6277",
+                  "id": "0ab6fc26-6835-4f7d-91cc-d86b83cf6277",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -1216,7 +1214,7 @@
                       }
                     }
                   ],
-                  "_postman_id": "c5e6e143-dda0-4479-962d-0ef1c26e33d1",
+                  "id": "c5e6e143-dda0-4479-962d-0ef1c26e33d1",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -1296,7 +1294,7 @@
                       }
                     }
                   ],
-                  "_postman_id": "aeda3995-119a-446e-88b7-529a39861611",
+                  "id": "aeda3995-119a-446e-88b7-529a39861611",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -1339,8 +1337,7 @@
                   "response": []
                 }
               ],
-              "_postman_id": "050f346d-1955-4e1e-9b85-c79d23f9efbb",
-              "_postman_isSubFolder": true
+              "id": "050f346d-1955-4e1e-9b85-c79d23f9efbb"
             },
             {
               "name": "delivery_status",
@@ -1356,7 +1353,7 @@
                   }
                 }
               ],
-              "_postman_id": "a002f2d8-3438-439a-921d-0ece8ee359ff",
+              "id": "a002f2d8-3438-439a-921d-0ece8ee359ff",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -1394,9 +1391,8 @@
               "response": []
             }
           ],
-          "_postman_id": "d6a94d24-5e8c-4d2a-b289-e38d8f483e61",
-          "description": "Endpoints para consultar reportes del ERP",
-          "_postman_isSubFolder": true
+          "id": "d6a94d24-5e8c-4d2a-b289-e38d8f483e61",
+          "description": "Endpoints para consultar reportes del ERP"
         },
         {
           "name": "Dashboard",
@@ -1406,7 +1402,7 @@
               "item": [
                 {
                   "name": "total_sales_last_year_until_current_month",
-                  "_postman_id": "f75f2eb9-d6c2-43e2-be7f-6d1f71a5cabe",
+                  "id": "f75f2eb9-d6c2-43e2-be7f-6d1f71a5cabe",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -1435,7 +1431,7 @@
                 },
                 {
                   "name": "total_sales_current_year_until_current_month",
-                  "_postman_id": "2f7901a6-da7c-4fde-b8d8-6c66d4438e23",
+                  "id": "2f7901a6-da7c-4fde-b8d8-6c66d4438e23",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -1463,12 +1459,11 @@
                   "response": []
                 }
               ],
-              "_postman_id": "696484d4-7ac3-4da6-8401-e689f088a17c",
-              "_postman_isSubFolder": true
+              "id": "696484d4-7ac3-4da6-8401-e689f088a17c"
             },
             {
               "name": "YTG",
-              "_postman_id": "9654d53b-a8ec-4558-9479-22859e8c69ad",
+              "id": "9654d53b-a8ec-4558-9479-22859e8c69ad",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -1497,8 +1492,7 @@
               "response": []
             }
           ],
-          "_postman_id": "a9847b4c-0637-4ae9-935b-69b6ed7907c2",
-          "_postman_isSubFolder": true
+          "id": "a9847b4c-0637-4ae9-935b-69b6ed7907c2"
         },
         {
           "name": "Inventario",
@@ -1517,7 +1511,7 @@
                   }
                 }
               ],
-              "_postman_id": "5648b06e-7cf2-4933-a26f-4b5ad9e685f8",
+              "id": "5648b06e-7cf2-4933-a26f-4b5ad9e685f8",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -1573,7 +1567,7 @@
                   }
                 }
               ],
-              "_postman_id": "7565b436-7e54-40d4-ae2f-27821718b2f4",
+              "id": "7565b436-7e54-40d4-ae2f-27821718b2f4",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -1629,7 +1623,7 @@
                   }
                 }
               ],
-              "_postman_id": "8c0cac38-6767-40d2-8f54-ab2f6d5bc531",
+              "id": "8c0cac38-6767-40d2-8f54-ab2f6d5bc531",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -1686,7 +1680,7 @@
                   }
                 }
               ],
-              "_postman_id": "25416c30-b325-4144-b088-a58d057630c6",
+              "id": "25416c30-b325-4144-b088-a58d057630c6",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -1729,15 +1723,14 @@
               "response": []
             }
           ],
-          "_postman_id": "6fd38487-7713-4793-b4c1-663582f0b449",
-          "_postman_isSubFolder": true
+          "id": "6fd38487-7713-4793-b4c1-663582f0b449"
         },
         {
           "name": "Settings",
           "item": [
             {
               "name": "myself",
-              "_postman_id": "0d48dcde-6636-4862-a2dc-72eca7b8259c",
+              "id": "0d48dcde-6636-4862-a2dc-72eca7b8259c",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -1765,8 +1758,7 @@
               "response": []
             }
           ],
-          "_postman_id": "194e7c16-4816-4195-9d13-b20aa25e852c",
-          "_postman_isSubFolder": true
+          "id": "194e7c16-4816-4195-9d13-b20aa25e852c"
         },
         {
           "name": "Ventas",
@@ -1785,7 +1777,7 @@
                   }
                 }
               ],
-              "_postman_id": "62a2f6a3-0691-41ac-9528-6ae462cefffd",
+              "id": "62a2f6a3-0691-41ac-9528-6ae462cefffd",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -1862,7 +1854,7 @@
                   }
                 }
               ],
-              "_postman_id": "4e6ec06b-6d19-435e-a41f-f3c7f8321376",
+              "id": "4e6ec06b-6d19-435e-a41f-f3c7f8321376",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -1940,7 +1932,7 @@
                   }
                 }
               ],
-              "_postman_id": "b3e97d76-96b3-4e4e-ab0c-2e14eaee9be5",
+              "id": "b3e97d76-96b3-4e4e-ab0c-2e14eaee9be5",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -2001,8 +1993,7 @@
                   "variable": [
                     {
                       "key": "product_id",
-                      "value": "554205",
-                      "type": "string"
+                      "value": "554205"
                     }
                   ]
                 },
@@ -2024,7 +2015,7 @@
                   }
                 }
               ],
-              "_postman_id": "261ffbc4-a448-42b8-a8c3-3333c5848207",
+              "id": "261ffbc4-a448-42b8-a8c3-3333c5848207",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -2128,7 +2119,7 @@
                   }
                 }
               ],
-              "_postman_id": "865cdc55-13c1-433f-94c4-e2f46bf51f54",
+              "id": "865cdc55-13c1-433f-94c4-e2f46bf51f54",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -2238,7 +2229,7 @@
                   }
                 }
               ],
-              "_postman_id": "e9abd1eb-57e4-4b2e-a8d2-7541690f7990",
+              "id": "e9abd1eb-57e4-4b2e-a8d2-7541690f7990",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -2309,8 +2300,7 @@
                   "variable": [
                     {
                       "key": "id",
-                      "value": "76121",
-                      "type": "string"
+                      "value": "76121"
                     }
                   ]
                 },
@@ -2332,7 +2322,7 @@
                   }
                 }
               ],
-              "_postman_id": "14cd6675-c6cb-4f8f-a3e0-79ecb756e11d",
+              "id": "14cd6675-c6cb-4f8f-a3e0-79ecb756e11d",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -2411,8 +2401,7 @@
                   "variable": [
                     {
                       "key": "sale_id",
-                      "value": "76176",
-                      "type": "string"
+                      "value": "76176"
                     }
                   ]
                 },
@@ -2434,7 +2423,7 @@
                   }
                 }
               ],
-              "_postman_id": "98d0723b-8f26-4b26-acde-9e930799b8b6",
+              "id": "98d0723b-8f26-4b26-acde-9e930799b8b6",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -2511,7 +2500,7 @@
                   }
                 }
               ],
-              "_postman_id": "1854b0a0-27e0-4bdd-b0ac-ff14ba90e85d",
+              "id": "1854b0a0-27e0-4bdd-b0ac-ff14ba90e85d",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -2588,7 +2577,7 @@
                   }
                 }
               ],
-              "_postman_id": "612f2ef6-12a7-405f-91c1-763249fa5def",
+              "id": "612f2ef6-12a7-405f-91c1-763249fa5def",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -2666,7 +2655,7 @@
                   }
                 }
               ],
-              "_postman_id": "8cc01d91-ab61-4776-b1c1-9b1a2f8da71b",
+              "id": "8cc01d91-ab61-4776-b1c1-9b1a2f8da71b",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -2744,7 +2733,7 @@
                   }
                 }
               ],
-              "_postman_id": "30a23403-4d75-4b0c-bddd-57c5b708d7d4",
+              "id": "30a23403-4d75-4b0c-bddd-57c5b708d7d4",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -2822,7 +2811,7 @@
                   }
                 }
               ],
-              "_postman_id": "82cc52bf-0659-4b17-8ab6-e9331a8d2317",
+              "id": "82cc52bf-0659-4b17-8ab6-e9331a8d2317",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -2899,7 +2888,7 @@
                   }
                 }
               ],
-              "_postman_id": "6743143b-5c6f-4091-87f8-127621db616b",
+              "id": "6743143b-5c6f-4091-87f8-127621db616b",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -2943,8 +2932,7 @@
               "response": []
             }
           ],
-          "_postman_id": "f4a88044-cbc3-4d27-a1bf-a3cfdb5539a2",
-          "_postman_isSubFolder": true
+          "id": "f4a88044-cbc3-4d27-a1bf-a3cfdb5539a2"
         },
         {
           "name": "Compras",
@@ -2963,7 +2951,7 @@
                   }
                 }
               ],
-              "_postman_id": "2a84c5ba-8909-4ec7-b298-d4a9af0c59b3",
+              "id": "2a84c5ba-8909-4ec7-b298-d4a9af0c59b3",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -3019,7 +3007,7 @@
                   }
                 }
               ],
-              "_postman_id": "7e4091c3-f17e-4eb3-8cbe-b39304f7eba6",
+              "id": "7e4091c3-f17e-4eb3-8cbe-b39304f7eba6",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -3093,7 +3081,7 @@
                   }
                 }
               ],
-              "_postman_id": "916dc954-3840-4942-8971-6107995720e4",
+              "id": "916dc954-3840-4942-8971-6107995720e4",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -3170,7 +3158,7 @@
                   }
                 }
               ],
-              "_postman_id": "9632145b-e759-497f-a05a-12268030f784",
+              "id": "9632145b-e759-497f-a05a-12268030f784",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -3213,15 +3201,14 @@
               "response": []
             }
           ],
-          "_postman_id": "02d3bcf8-df4d-4f73-b535-d893110aa8a4",
-          "_postman_isSubFolder": true
+          "id": "02d3bcf8-df4d-4f73-b535-d893110aa8a4"
         },
         {
           "name": "Auth",
           "item": [
             {
               "name": "Auth",
-              "_postman_id": "c687f600-b7f0-487c-8e07-2e778cea159f",
+              "id": "c687f600-b7f0-487c-8e07-2e778cea159f",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -3230,10 +3217,7 @@
                 "header": [],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n\t\n\n}",
-                  "options": {
-                    "raw": {}
-                  }
+                  "raw": "{\n\t\n\n}"
                 },
                 "url": "http://auth.tugerente.me:3000/login"
               },
@@ -3241,7 +3225,7 @@
             },
             {
               "name": "Auth Copy",
-              "_postman_id": "449c018d-709e-41e2-b317-8d9511ce647a",
+              "id": "449c018d-709e-41e2-b317-8d9511ce647a",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -3253,8 +3237,7 @@
               "response": []
             }
           ],
-          "_postman_id": "5c4eaf64-aab3-42ae-b5f4-b86ea2f024d7",
-          "_postman_isSubFolder": true
+          "id": "5c4eaf64-aab3-42ae-b5f4-b86ea2f024d7"
         },
         {
           "name": "Plan Emprendedor y Plan básico",
@@ -3273,7 +3256,7 @@
                   }
                 }
               ],
-              "_postman_id": "970699ab-a0e8-4e54-bb3a-4ae64661a5c1",
+              "id": "970699ab-a0e8-4e54-bb3a-4ae64661a5c1",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -3311,8 +3294,7 @@
               "response": []
             }
           ],
-          "_postman_id": "b4e3ba2d-f3b0-4852-8a55-cfb798f2f8d2",
-          "_postman_isSubFolder": true
+          "id": "b4e3ba2d-f3b0-4852-8a55-cfb798f2f8d2"
         },
         {
           "name": "Ajustes",
@@ -3334,7 +3316,7 @@
                       }
                     }
                   ],
-                  "_postman_id": "f102fa3e-627d-416b-9687-b7a5092151f4",
+                  "id": "f102fa3e-627d-416b-9687-b7a5092151f4",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -3360,7 +3342,7 @@
                     ],
                     "body": {
                       "mode": "raw",
-                      "raw": "{\r\n    \"topic\": \"create\",\r\n    \"model\": \"provider\",\r\n    \"external_url\": \"https://edbf7af3f8.to.intercept.rest\"\r\n}",
+                      "raw": "{\r\n    \"topic\": \"create\",\r\n    \"model\": \"provider\",\r\n    \"external_url\": \"https://edbf7af3f8.to.intercept.rest\",\r\n}",
                       "options": {
                         "raw": {
                           "language": "json"
@@ -3385,7 +3367,7 @@
                       }
                     }
                   ],
-                  "_postman_id": "00e513d5-0d21-441c-ab07-705d7b343275",
+                  "id": "00e513d5-0d21-441c-ab07-705d7b343275",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -3436,7 +3418,7 @@
                       }
                     }
                   ],
-                  "_postman_id": "d5bdd7ae-ad72-4958-904e-5d5724a097c7",
+                  "id": "d5bdd7ae-ad72-4958-904e-5d5724a097c7",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -3497,8 +3479,7 @@
                   "response": []
                 }
               ],
-              "_postman_id": "5bf8afcf-a1fd-459f-bc7c-f7c495c28b99",
-              "_postman_isSubFolder": true
+              "id": "5bf8afcf-a1fd-459f-bc7c-f7c495c28b99"
             },
             {
               "name": "Reporte movimiento de deuda Excel Copy 2",
@@ -3514,7 +3495,7 @@
                   }
                 }
               ],
-              "_postman_id": "7a122a72-6063-4f75-8b04-276b842c56df",
+              "id": "7a122a72-6063-4f75-8b04-276b842c56df",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -3599,7 +3580,7 @@
                   }
                 }
               ],
-              "_postman_id": "869022e8-0b18-4126-90f9-360fc59165e3",
+              "id": "869022e8-0b18-4126-90f9-360fc59165e3",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -3647,8 +3628,7 @@
                   "variable": [
                     {
                       "key": "id_company_setting",
-                      "value": "223",
-                      "type": "string"
+                      "value": "223"
                     }
                   ]
                 }
@@ -3656,8 +3636,7 @@
               "response": []
             }
           ],
-          "_postman_id": "786d6468-af68-457b-a9fd-213af0c1cd74",
-          "_postman_isSubFolder": true
+          "id": "786d6468-af68-457b-a9fd-213af0c1cd74"
         },
         {
           "name": "Integrations",
@@ -3679,7 +3658,7 @@
                       }
                     }
                   ],
-                  "_postman_id": "c20b2ec2-88c4-41ef-a76d-0ca11ed3f3eb",
+                  "id": "c20b2ec2-88c4-41ef-a76d-0ca11ed3f3eb",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -3717,8 +3696,7 @@
                   "response": []
                 }
               ],
-              "_postman_id": "e81e6141-fbe2-4735-be52-34f4ad115f5b",
-              "_postman_isSubFolder": true
+              "id": "e81e6141-fbe2-4735-be52-34f4ad115f5b"
             },
             {
               "name": "Wordpress",
@@ -3737,7 +3715,7 @@
                       }
                     }
                   ],
-                  "_postman_id": "a6aa7d18-8a91-4c7a-b059-bdbe3c1e8b6f",
+                  "id": "a6aa7d18-8a91-4c7a-b059-bdbe3c1e8b6f",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -3775,8 +3753,7 @@
                   "response": []
                 }
               ],
-              "_postman_id": "31747f0d-0b56-4279-bc46-605f9323bc35",
-              "_postman_isSubFolder": true
+              "id": "31747f0d-0b56-4279-bc46-605f9323bc35"
             },
             {
               "name": "Homologación FCL",
@@ -3795,7 +3772,7 @@
                       }
                     }
                   ],
-                  "_postman_id": "1ffd3f2e-edc5-4146-aa2c-12d9d04f9273",
+                  "id": "1ffd3f2e-edc5-4146-aa2c-12d9d04f9273",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -3865,7 +3842,7 @@
                       }
                     }
                   ],
-                  "_postman_id": "e98d123a-0ed0-44b4-aafb-fadce665386d",
+                  "id": "e98d123a-0ed0-44b4-aafb-fadce665386d",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -3935,7 +3912,7 @@
                       }
                     }
                   ],
-                  "_postman_id": "189af7e7-4926-45cf-ba9c-ecda46603b87",
+                  "id": "189af7e7-4926-45cf-ba9c-ecda46603b87",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -4005,7 +3982,7 @@
                       }
                     }
                   ],
-                  "_postman_id": "8ff2eb80-ebc4-4326-a496-e8b9362b1866",
+                  "id": "8ff2eb80-ebc4-4326-a496-e8b9362b1866",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -4101,46 +4078,6 @@
                       "body": null
                     },
                     {
-                      "id": "a1759ec6-5481-4937-927f-716b0d6c68ad",
-                      "name": "integrate_entity_unit_measures",
-                      "originalRequest": {
-                        "method": "POST",
-                        "header": [
-                          {
-                            "key": "Accept",
-                            "type": "text",
-                            "value": "{{Accept}}"
-                          },
-                          {
-                            "key": "Timezone",
-                            "type": "text",
-                            "value": "{{Timezone}}"
-                          },
-                          {
-                            "key": "Content-Type",
-                            "name": "Content-Type",
-                            "type": "text",
-                            "value": "{{Content-Type}}"
-                          }
-                        ],
-                        "body": {
-                          "mode": "raw",
-                          "raw": "{\r\n    \"unit_measures\": [\r\n        {\r\n            \"siat_code\": 1,\r\n            \"id\": 20\r\n        },\r\n        {\r\n            \"siat_code\": 3,\r\n            \"id\": 30\r\n        }\r\n    ]\r\n}",
-                          "options": {
-                            "raw": {
-                              "language": "json"
-                            }
-                          }
-                        },
-                        "url": "{{base_url_back}}/v1/integrations/siat_integrate_entity/"
-                      },
-                      "_postman_previewlanguage": null,
-                      "header": null,
-                      "cookie": [],
-                      "responseTime": null,
-                      "body": null
-                    },
-                    {
                       "id": "5c3a2fdf-54b6-41b9-9491-2bd64cf31f61",
                       "name": "integrate_entity_product",
                       "originalRequest": {
@@ -4166,6 +4103,46 @@
                         "body": {
                           "mode": "raw",
                           "raw": "{\r\n    \"siat_code\": \"2\",\r\n    \"content_type\": \"7\",\r\n    \"object_id\": 5\r\n}",
+                          "options": {
+                            "raw": {
+                              "language": "json"
+                            }
+                          }
+                        },
+                        "url": "{{base_url_back}}/v1/integrations/siat_integrate_entity/"
+                      },
+                      "_postman_previewlanguage": null,
+                      "header": null,
+                      "cookie": [],
+                      "responseTime": null,
+                      "body": null
+                    },
+                    {
+                      "id": "a1759ec6-5481-4937-927f-716b0d6c68ad",
+                      "name": "integrate_entity_unit_measures",
+                      "originalRequest": {
+                        "method": "POST",
+                        "header": [
+                          {
+                            "key": "Accept",
+                            "type": "text",
+                            "value": "{{Accept}}"
+                          },
+                          {
+                            "key": "Timezone",
+                            "type": "text",
+                            "value": "{{Timezone}}"
+                          },
+                          {
+                            "key": "Content-Type",
+                            "name": "Content-Type",
+                            "type": "text",
+                            "value": "{{Content-Type}}"
+                          }
+                        ],
+                        "body": {
+                          "mode": "raw",
+                          "raw": "{\r\n    \"unit_measures\": [\r\n        {\r\n            \"siat_code\": 1,\r\n            \"id\": 20\r\n        },\r\n        {\r\n            \"siat_code\": 3,\r\n            \"id\": 30\r\n        }\r\n    ]\r\n}",
                           "options": {
                             "raw": {
                               "language": "json"
@@ -4236,7 +4213,7 @@
                       }
                     }
                   ],
-                  "_postman_id": "df90ea83-e304-4815-beed-7e250dbf6247",
+                  "id": "df90ea83-e304-4815-beed-7e250dbf6247",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -4387,7 +4364,7 @@
                       }
                     }
                   ],
-                  "_postman_id": "779b1423-1489-450e-af7f-6fe01298ef85",
+                  "id": "779b1423-1489-450e-af7f-6fe01298ef85",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -4442,86 +4419,6 @@
                     }
                   },
                   "response": [
-                    {
-                      "id": "51048960-e405-4cd6-bd74-4a7f12d2924a",
-                      "name": "integrate_entity_unit_measures",
-                      "originalRequest": {
-                        "method": "POST",
-                        "header": [
-                          {
-                            "key": "Accept",
-                            "type": "text",
-                            "value": "{{Accept}}"
-                          },
-                          {
-                            "key": "Timezone",
-                            "type": "text",
-                            "value": "{{Timezone}}"
-                          },
-                          {
-                            "key": "Content-Type",
-                            "name": "Content-Type",
-                            "type": "text",
-                            "value": "{{Content-Type}}"
-                          }
-                        ],
-                        "body": {
-                          "mode": "raw",
-                          "raw": "{\r\n    \"unit_measures\": [\r\n        {\r\n            \"siat_code\": 1,\r\n            \"id\": 20\r\n        },\r\n        {\r\n            \"siat_code\": 3,\r\n            \"id\": 30\r\n        }\r\n    ]\r\n}",
-                          "options": {
-                            "raw": {
-                              "language": "json"
-                            }
-                          }
-                        },
-                        "url": "{{base_url_back}}/v1/integrations/siat_integrate_entity/"
-                      },
-                      "_postman_previewlanguage": null,
-                      "header": null,
-                      "cookie": [],
-                      "responseTime": null,
-                      "body": null
-                    },
-                    {
-                      "id": "7383df69-76b2-4b90-9953-5ea6819f4256",
-                      "name": "integrate_entity_unit_measure",
-                      "originalRequest": {
-                        "method": "POST",
-                        "header": [
-                          {
-                            "key": "Accept",
-                            "type": "text",
-                            "value": "{{Accept}}"
-                          },
-                          {
-                            "key": "Timezone",
-                            "type": "text",
-                            "value": "{{Timezone}}"
-                          },
-                          {
-                            "key": "Content-Type",
-                            "name": "Content-Type",
-                            "type": "text",
-                            "value": "{{Content-Type}}"
-                          }
-                        ],
-                        "body": {
-                          "mode": "raw",
-                          "raw": "{\r\n    \"siat_code\": \"2\",\r\n    \"content_type\": \"unitmeasure\",\r\n    \"object_id\": 5\r\n}",
-                          "options": {
-                            "raw": {
-                              "language": "json"
-                            }
-                          }
-                        },
-                        "url": "{{base_url_back}}/v1/integrations/siat_integrate_entity/"
-                      },
-                      "_postman_previewlanguage": null,
-                      "header": null,
-                      "cookie": [],
-                      "responseTime": null,
-                      "body": null
-                    },
                     {
                       "id": "99fe66ac-f12e-4432-a30a-a7e731c284a8",
                       "name": "integrate_entity_products",
@@ -4601,6 +4498,86 @@
                       "cookie": [],
                       "responseTime": null,
                       "body": null
+                    },
+                    {
+                      "id": "51048960-e405-4cd6-bd74-4a7f12d2924a",
+                      "name": "integrate_entity_unit_measures",
+                      "originalRequest": {
+                        "method": "POST",
+                        "header": [
+                          {
+                            "key": "Accept",
+                            "type": "text",
+                            "value": "{{Accept}}"
+                          },
+                          {
+                            "key": "Timezone",
+                            "type": "text",
+                            "value": "{{Timezone}}"
+                          },
+                          {
+                            "key": "Content-Type",
+                            "name": "Content-Type",
+                            "type": "text",
+                            "value": "{{Content-Type}}"
+                          }
+                        ],
+                        "body": {
+                          "mode": "raw",
+                          "raw": "{\r\n    \"unit_measures\": [\r\n        {\r\n            \"siat_code\": 1,\r\n            \"id\": 20\r\n        },\r\n        {\r\n            \"siat_code\": 3,\r\n            \"id\": 30\r\n        }\r\n    ]\r\n}",
+                          "options": {
+                            "raw": {
+                              "language": "json"
+                            }
+                          }
+                        },
+                        "url": "{{base_url_back}}/v1/integrations/siat_integrate_entity/"
+                      },
+                      "_postman_previewlanguage": null,
+                      "header": null,
+                      "cookie": [],
+                      "responseTime": null,
+                      "body": null
+                    },
+                    {
+                      "id": "7383df69-76b2-4b90-9953-5ea6819f4256",
+                      "name": "integrate_entity_unit_measure",
+                      "originalRequest": {
+                        "method": "POST",
+                        "header": [
+                          {
+                            "key": "Accept",
+                            "type": "text",
+                            "value": "{{Accept}}"
+                          },
+                          {
+                            "key": "Timezone",
+                            "type": "text",
+                            "value": "{{Timezone}}"
+                          },
+                          {
+                            "key": "Content-Type",
+                            "name": "Content-Type",
+                            "type": "text",
+                            "value": "{{Content-Type}}"
+                          }
+                        ],
+                        "body": {
+                          "mode": "raw",
+                          "raw": "{\r\n    \"siat_code\": \"2\",\r\n    \"content_type\": \"unitmeasure\",\r\n    \"object_id\": 5\r\n}",
+                          "options": {
+                            "raw": {
+                              "language": "json"
+                            }
+                          }
+                        },
+                        "url": "{{base_url_back}}/v1/integrations/siat_integrate_entity/"
+                      },
+                      "_postman_previewlanguage": null,
+                      "header": null,
+                      "cookie": [],
+                      "responseTime": null,
+                      "body": null
                     }
                   ]
                 },
@@ -4618,7 +4595,7 @@
                       }
                     }
                   ],
-                  "_postman_id": "4428adfe-666e-4f57-9fe9-efd06fce75e3",
+                  "id": "4428adfe-666e-4f57-9fe9-efd06fce75e3",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -4729,7 +4706,7 @@
                       }
                     }
                   ],
-                  "_postman_id": "6f1446a9-ef47-409c-9ddc-8ec1c7fea357",
+                  "id": "6f1446a9-ef47-409c-9ddc-8ec1c7fea357",
                   "protocolProfileBehavior": {
                     "disableBodyPruning": true
                   },
@@ -4827,12 +4804,10 @@
                   ]
                 }
               ],
-              "_postman_id": "51e2f97c-e60b-41df-9297-2805381d5b6f",
-              "_postman_isSubFolder": true
+              "id": "51e2f97c-e60b-41df-9297-2805381d5b6f"
             }
           ],
-          "_postman_id": "754dc19a-e41f-4b7b-bf13-31cb2515e18b",
-          "_postman_isSubFolder": true
+          "id": "754dc19a-e41f-4b7b-bf13-31cb2515e18b"
         },
         {
           "name": "Test Redis",
@@ -4913,7 +4888,7 @@
               }
             }
           ],
-          "_postman_id": "4b177f3c-94eb-4d97-b56f-38d64247015e",
+          "id": "4b177f3c-94eb-4d97-b56f-38d64247015e",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -4970,7 +4945,7 @@
               }
             }
           ],
-          "_postman_id": "77aa9b13-71bb-4d39-ad3c-e51f6b323b15",
+          "id": "77aa9b13-71bb-4d39-ad3c-e51f6b323b15",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -5027,7 +5002,7 @@
               }
             }
           ],
-          "_postman_id": "8e89bee0-aa65-421e-a062-9510ab09286a",
+          "id": "8e89bee0-aa65-421e-a062-9510ab09286a",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -5070,14 +5045,14 @@
           "response": []
         }
       ],
-      "_postman_id": "64ba3f9a-7b34-4036-ac2b-95f8272c5b0f"
+      "id": "64ba3f9a-7b34-4036-ac2b-95f8272c5b0f"
     },
     {
       "name": "Lobby",
       "item": [
         {
           "name": "Upgrade subscription",
-          "_postman_id": "7b04e109-675c-4f22-8da5-109e5c77c683",
+          "id": "7b04e109-675c-4f22-8da5-109e5c77c683",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -5103,10 +5078,7 @@
             ],
             "body": {
               "mode": "raw",
-              "raw": "{\n    \"pack\": 3,\n    \"periodicity\": 3\n}",
-              "options": {
-                "raw": {}
-              }
+              "raw": "{\n    \"pack\": 3,\n    \"periodicity\": 3\n}"
             },
             "url": {
               "raw": "http://lobby.tugerente.me:8000/v1/subscriptions/subscription/:subscriptionId/getbubo/",
@@ -5128,8 +5100,7 @@
               "variable": [
                 {
                   "key": "subscriptionId",
-                  "value": "1339",
-                  "type": "string"
+                  "value": "1339"
                 }
               ]
             }
@@ -5137,7 +5108,7 @@
           "response": []
         }
       ],
-      "_postman_id": "12210bbd-5562-4c9a-a303-f6a8bcf5fdda"
+      "id": "12210bbd-5562-4c9a-a303-f6a8bcf5fdda"
     },
     {
       "name": "user_provider",
@@ -5156,7 +5127,7 @@
               }
             }
           ],
-          "_postman_id": "c466702a-d10d-473c-8f46-b9497c8287a1",
+          "id": "c466702a-d10d-473c-8f46-b9497c8287a1",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -5208,8 +5179,7 @@
               "variable": [
                 {
                   "key": "tenant_id",
-                  "value": "7956",
-                  "type": "string"
+                  "value": "7956"
                 }
               ]
             }
@@ -5230,7 +5200,7 @@
               }
             }
           ],
-          "_postman_id": "8f6e6fbf-555b-49a7-b143-352bde951dc8",
+          "id": "8f6e6fbf-555b-49a7-b143-352bde951dc8",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -5281,8 +5251,7 @@
               "variable": [
                 {
                   "key": "user_id",
-                  "value": null,
-                  "type": "any"
+                  "value": null
                 }
               ]
             }
@@ -5290,11 +5259,11 @@
           "response": []
         }
       ],
-      "_postman_id": "890f0832-61e0-497f-b857-782b39900560"
+      "id": "890f0832-61e0-497f-b857-782b39900560"
     },
     {
       "name": "S3",
-      "_postman_id": "bff4205d-df25-4382-95e6-1bed658f21b0",
+      "id": "bff4205d-df25-4382-95e6-1bed658f21b0",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
       },
@@ -5434,40 +5403,34 @@
   ],
   "variable": [
     {
-      "id": "e9dd02e3-a350-45f4-a9b5-5e1f52f7ef73",
+      "id": "c6fe7c96-ab03-41ef-b3fa-d540d99d17d0",
       "key": "Cookie",
-      "value": "_ga=GA1.2.995623964.1629400496; _gid=GA1.2.1579657039.1629400496; _fbp=fb.1.1629400714958.1618680225; ajs_user_id=\"1339\"; ajs_anonymous_id=\"8310621c-456f-44b7-a285-f979bb8c5e76\"; _gat_UA-179458013-2=1; tuGerenteToken=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2Mjk4NTE2NDYsImlhdCI6MTYyOTQ5MTY0NiwiaWQiOjQ4NjQsInVzZXIiOiJ7XCJpZFwiOjQ4NjQsXCJub21icmVcIjpcIlFBIE5vbWJyZSBjYW1iaWFkb1wiLFwiYXBlbGxpZG9cIjpudWxsLFwiZmVjaGFfbmFjaW1pZW50b1wiOm51bGwsXCJnZW5lcm9cIjpudWxsLFwicGFpc1wiOlwiQk9cIixcImNpdWRhZFwiOm51bGwsXCJlbWFpbFwiOlwiYmVsYXlhZzEzMEBhbXBzd2lwZS5jb21cIixcInRlbGVmb25vXCI6XCI3NjM3NTY0N1wiLFwiYWN0aXZvXCI6MCxcImNvZFwiOlwidHVHLTQ4NjRcIixcImNyZWF0ZWRfYXRcIjpcIjIwMjEtMDgtMTlUMTk6NTI6NTkuMDAwWlwiLFwidXBkYXRlZF9hdFwiOlwiMjAyMS0wOC0xOVQyMDoxMDo0NC4wMDBaXCIsXCJkZWxldGVkX2F0XCI6bnVsbCxcInNlc3Npb25faWRcIjpudWxsLFwiaGF2ZV9jb21wYW55XCI6XCJzaVwiLFwidmFsaWRhdGlvbl9yZXF1ZXN0XCI6bnVsbH0ifQ.XnZwnSNps4xDOnkKudj-7x-PJlC2GdzfT2xIoSwqiQ6S0zBd7jp4r4ZI4G7YTgnXOB2CSFHTEp891pMJtYWeCQ; LobbyCookie=\"eyIxIjogW3sib3duZXJfdXNlcl9pZCI6IDQ4NjQsICJ0ZW5hbnRfaWQiOiAxODQyLCAic3Vic2NyaXB0aW9uX3N0YXRlIjogImFjdGl2ZSIsICJhY3RpdmUiOiB0cnVlLCAiYnVzaW5lc3NfbmFtZSI6ICJRYSIsICJzdGFydF9kYXRlIjogIjIwMjEtMDgtMTkiLCAiZmluaXNoX2RhdGUiOiAiMjAyMS0xMC0wMiIsICJpc19kZW1vIjogZmFsc2UsICJlbWFpbCI6IG51bGwsICJwYWNrIjogMywgImNvdW50cnkiOiAiQk8iLCAiY2l0eSI6IG51bGwsICJuaXQiOiBudWxsLCAidXNlcnNfcXR5IjogMTAsICJydWJyb19pZCI6IDEsICJ0ZXJtc19hY2NlcHRlZCI6IHRydWUsICJpc19pbmZvX3ZpZXdlZCI6IGZhbHNlLCAidmFsaWRhdGVkIjogZmFsc2UsICJyZXF1ZXN0X2RhdGUiOiAiMjAyMS0wOC0xOVQyMDoxMDo0NC45Mzg2NDArMDA6MDAifV0sICIyIjogW10sICIzIjogW10sICJ2ZXJzaW9uc19zdXBwb3J0ZWQiOiBbIjEuMCJdfXx2Tk5HamxQU1lMVkVWLVRsVk5jSTg5a1pVN0k=\"",
-      "type": "string"
+      "value": "_ga=GA1.2.995623964.1629400496; _gid=GA1.2.1579657039.1629400496; _fbp=fb.1.1629400714958.1618680225; ajs_user_id=\"1339\"; ajs_anonymous_id=\"8310621c-456f-44b7-a285-f979bb8c5e76\"; _gat_UA-179458013-2=1; tuGerenteToken=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2Mjk4NTE2NDYsImlhdCI6MTYyOTQ5MTY0NiwiaWQiOjQ4NjQsInVzZXIiOiJ7XCJpZFwiOjQ4NjQsXCJub21icmVcIjpcIlFBIE5vbWJyZSBjYW1iaWFkb1wiLFwiYXBlbGxpZG9cIjpudWxsLFwiZmVjaGFfbmFjaW1pZW50b1wiOm51bGwsXCJnZW5lcm9cIjpudWxsLFwicGFpc1wiOlwiQk9cIixcImNpdWRhZFwiOm51bGwsXCJlbWFpbFwiOlwiYmVsYXlhZzEzMEBhbXBzd2lwZS5jb21cIixcInRlbGVmb25vXCI6XCI3NjM3NTY0N1wiLFwiYWN0aXZvXCI6MCxcImNvZFwiOlwidHVHLTQ4NjRcIixcImNyZWF0ZWRfYXRcIjpcIjIwMjEtMDgtMTlUMTk6NTI6NTkuMDAwWlwiLFwidXBkYXRlZF9hdFwiOlwiMjAyMS0wOC0xOVQyMDoxMDo0NC4wMDBaXCIsXCJkZWxldGVkX2F0XCI6bnVsbCxcInNlc3Npb25faWRcIjpudWxsLFwiaGF2ZV9jb21wYW55XCI6XCJzaVwiLFwidmFsaWRhdGlvbl9yZXF1ZXN0XCI6bnVsbH0ifQ.XnZwnSNps4xDOnkKudj-7x-PJlC2GdzfT2xIoSwqiQ6S0zBd7jp4r4ZI4G7YTgnXOB2CSFHTEp891pMJtYWeCQ; LobbyCookie=\"eyIxIjogW3sib3duZXJfdXNlcl9pZCI6IDQ4NjQsICJ0ZW5hbnRfaWQiOiAxODQyLCAic3Vic2NyaXB0aW9uX3N0YXRlIjogImFjdGl2ZSIsICJhY3RpdmUiOiB0cnVlLCAiYnVzaW5lc3NfbmFtZSI6ICJRYSIsICJzdGFydF9kYXRlIjogIjIwMjEtMDgtMTkiLCAiZmluaXNoX2RhdGUiOiAiMjAyMS0xMC0wMiIsICJpc19kZW1vIjogZmFsc2UsICJlbWFpbCI6IG51bGwsICJwYWNrIjogMywgImNvdW50cnkiOiAiQk8iLCAiY2l0eSI6IG51bGwsICJuaXQiOiBudWxsLCAidXNlcnNfcXR5IjogMTAsICJydWJyb19pZCI6IDEsICJ0ZXJtc19hY2NlcHRlZCI6IHRydWUsICJpc19pbmZvX3ZpZXdlZCI6IGZhbHNlLCAidmFsaWRhdGVkIjogZmFsc2UsICJyZXF1ZXN0X2RhdGUiOiAiMjAyMS0wOC0xOVQyMDoxMDo0NC45Mzg2NDArMDA6MDAifV0sICIyIjogW10sICIzIjogW10sICJ2ZXJzaW9uc19zdXBwb3J0ZWQiOiBbIjEuMCJdfXx2Tk5HamxQU1lMVkVWLVRsVk5jSTg5a1pVN0k=\""
     },
     {
-      "id": "58f5ecc3-d8c8-42a8-9ed1-c602bc580f7a",
+      "id": "a51967ed-9f87-4a7a-abe9-f511693bf9f0",
       "key": "base_url_back",
-      "value": "http://back.tugerente.me:8001",
-      "type": "string"
+      "value": "http://back.tugerente.me:8001"
     },
     {
-      "id": "e1fe2a77-41f0-44da-b67f-1130e922866f",
+      "id": "71b6b7b1-6298-49af-84e3-a3f281cc7104",
       "key": "Accept",
-      "value": "application/json, text/plain, */*",
-      "type": "string"
+      "value": "application/json, text/plain, */*"
     },
     {
-      "id": "b4754e7e-cb6e-4d2f-ab6c-3e2c294dbc2d",
+      "id": "6b919a07-0854-48ff-a1fc-c710013e559d",
       "key": "Timezone",
-      "value": "America/La_Paz",
-      "type": "string"
+      "value": "America/La_Paz"
     },
     {
-      "id": "be74ddd8-a7c7-4432-8fec-45286b67e36d",
+      "id": "369e2b6d-1851-45f2-940a-30962ad869ae",
       "key": "Content-Type",
-      "value": "application/json",
-      "type": "string"
+      "value": "application/json"
     },
     {
-      "id": "6d9b9991-a981-462c-ad7d-be086cf5113f",
+      "id": "5495f2fc-9493-4d89-97d6-0a34dc2a6f54",
       "key": "ApiKey",
-      "value": "NSqs04Y7M6OAB32WA5UzOziCGAHETz3fGRk3g2C0",
-      "type": "string"
+      "value": "NSqs04Y7M6OAB32WA5UzOziCGAHETz3fGRk3g2C0"
     }
   ]
 }
