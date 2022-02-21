@@ -4921,48 +4921,7 @@
                       ]
                     }
                   },
-                  "response": [
-                    {
-                      "id": "2e49f835-ffbb-450e-81cf-ec3a933ee61b",
-                      "name": "integrate_entity_products",
-                      "originalRequest": {
-                        "method": "POST",
-                        "header": [
-                          {
-                            "key": "Accept",
-                            "type": "text",
-                            "value": "{{Accept}}"
-                          },
-                          {
-                            "key": "Timezone",
-                            "type": "text",
-                            "value": "{{Timezone}}"
-                          },
-                          {
-                            "key": "Content-Type",
-                            "name": "Content-Type",
-                            "type": "text",
-                            "value": "{{Content-Type}}"
-                          }
-                        ],
-                        "body": {
-                          "mode": "raw",
-                          "raw": "{\r\n    \"products\": [\r\n        {\r\n            \"siat_code\": 1,\r\n            \"id\": 20\r\n        },\r\n        {\r\n            \"siat_code\": 3,\r\n            \"id\": 30\r\n        }\r\n    ]\r\n}",
-                          "options": {
-                            "raw": {
-                              "language": "json"
-                            }
-                          }
-                        },
-                        "url": "{{base_url_back}}/v1/integrations/siat_integrate_entity/"
-                      },
-                      "_postman_previewlanguage": null,
-                      "header": null,
-                      "cookie": [],
-                      "responseTime": null,
-                      "body": null
-                    }
-                  ]
+                  "response": []
                 },
                 {
                   "name": "siat_integrate_entity/bulk_linking_unit_measure_siat/",
@@ -5155,7 +5114,7 @@
                     },
                     {
                       "id": "d9bd7feb-7d86-4fc2-a73f-8a77ae5213eb",
-                      "name": "create and update Copy",
+                      "name": "delete",
                       "originalRequest": {
                         "method": "POST",
                         "header": [
@@ -5178,7 +5137,7 @@
                         ],
                         "body": {
                           "mode": "raw",
-                          "raw": "{\r\n    \"unit_measures\": [\r\n        {\r\n            \"siat_code\": 1,\r\n            \"id\": 20\r\n        },\r\n        {\r\n            \"siat_code\": 3,\r\n            \"id\": 30,\r\n            \"relation_id\": 3\r\n        }\r\n    ]\r\n}",
+                          "raw": "{\r\n    \"unit_measures\": [\r\n        {\r\n            \"siat_code\": null,\r\n            \"id\": 20\r\n        },\r\n        {\r\n            \"siat_code\": null,\r\n            \"id\": 30,\r\n            \"relation_id\": 3\r\n        }\r\n    ]\r\n}",
                           "options": {
                             "raw": {
                               "language": "json"
@@ -6082,32 +6041,32 @@
   ],
   "variable": [
     {
-      "id": "5c148a9b-5ae2-49cf-b2b7-dda63cbf37e8",
+      "id": "9245acdb-712d-480c-b16a-5bc32daed1d9",
       "key": "Cookie",
       "value": "_ga=GA1.2.995623964.1629400496; _gid=GA1.2.1579657039.1629400496; _fbp=fb.1.1629400714958.1618680225; ajs_user_id=\"1339\"; ajs_anonymous_id=\"8310621c-456f-44b7-a285-f979bb8c5e76\"; _gat_UA-179458013-2=1; tuGerenteToken=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2Mjk4NTE2NDYsImlhdCI6MTYyOTQ5MTY0NiwiaWQiOjQ4NjQsInVzZXIiOiJ7XCJpZFwiOjQ4NjQsXCJub21icmVcIjpcIlFBIE5vbWJyZSBjYW1iaWFkb1wiLFwiYXBlbGxpZG9cIjpudWxsLFwiZmVjaGFfbmFjaW1pZW50b1wiOm51bGwsXCJnZW5lcm9cIjpudWxsLFwicGFpc1wiOlwiQk9cIixcImNpdWRhZFwiOm51bGwsXCJlbWFpbFwiOlwiYmVsYXlhZzEzMEBhbXBzd2lwZS5jb21cIixcInRlbGVmb25vXCI6XCI3NjM3NTY0N1wiLFwiYWN0aXZvXCI6MCxcImNvZFwiOlwidHVHLTQ4NjRcIixcImNyZWF0ZWRfYXRcIjpcIjIwMjEtMDgtMTlUMTk6NTI6NTkuMDAwWlwiLFwidXBkYXRlZF9hdFwiOlwiMjAyMS0wOC0xOVQyMDoxMDo0NC4wMDBaXCIsXCJkZWxldGVkX2F0XCI6bnVsbCxcInNlc3Npb25faWRcIjpudWxsLFwiaGF2ZV9jb21wYW55XCI6XCJzaVwiLFwidmFsaWRhdGlvbl9yZXF1ZXN0XCI6bnVsbH0ifQ.XnZwnSNps4xDOnkKudj-7x-PJlC2GdzfT2xIoSwqiQ6S0zBd7jp4r4ZI4G7YTgnXOB2CSFHTEp891pMJtYWeCQ; LobbyCookie=\"eyIxIjogW3sib3duZXJfdXNlcl9pZCI6IDQ4NjQsICJ0ZW5hbnRfaWQiOiAxODQyLCAic3Vic2NyaXB0aW9uX3N0YXRlIjogImFjdGl2ZSIsICJhY3RpdmUiOiB0cnVlLCAiYnVzaW5lc3NfbmFtZSI6ICJRYSIsICJzdGFydF9kYXRlIjogIjIwMjEtMDgtMTkiLCAiZmluaXNoX2RhdGUiOiAiMjAyMS0xMC0wMiIsICJpc19kZW1vIjogZmFsc2UsICJlbWFpbCI6IG51bGwsICJwYWNrIjogMywgImNvdW50cnkiOiAiQk8iLCAiY2l0eSI6IG51bGwsICJuaXQiOiBudWxsLCAidXNlcnNfcXR5IjogMTAsICJydWJyb19pZCI6IDEsICJ0ZXJtc19hY2NlcHRlZCI6IHRydWUsICJpc19pbmZvX3ZpZXdlZCI6IGZhbHNlLCAidmFsaWRhdGVkIjogZmFsc2UsICJyZXF1ZXN0X2RhdGUiOiAiMjAyMS0wOC0xOVQyMDoxMDo0NC45Mzg2NDArMDA6MDAifV0sICIyIjogW10sICIzIjogW10sICJ2ZXJzaW9uc19zdXBwb3J0ZWQiOiBbIjEuMCJdfXx2Tk5HamxQU1lMVkVWLVRsVk5jSTg5a1pVN0k=\""
     },
     {
-      "id": "dafa55d0-89ca-46c4-9f2b-d5b2978f1705",
+      "id": "eda92122-d333-4a13-9557-f71e0a184c4b",
       "key": "base_url_back",
       "value": "http://back.tugerente.me:8001"
     },
     {
-      "id": "ed2a14a6-cd71-4f11-867c-d9c653da3864",
+      "id": "d2daafe3-c8d9-4af4-a218-91f7fd2e9954",
       "key": "Accept",
       "value": "application/json, text/plain, */*"
     },
     {
-      "id": "a8e1504d-91f2-4203-bc1f-7b53a6dda249",
+      "id": "dd02de75-fa7b-462c-b675-8c2c1b3212a0",
       "key": "Timezone",
       "value": "America/La_Paz"
     },
     {
-      "id": "b7ebb60e-d752-4986-9688-6b449907a6a4",
+      "id": "60302ff5-5ec9-4a2d-aef7-8b68233a76c9",
       "key": "Content-Type",
       "value": "application/json"
     },
     {
-      "id": "30191c4c-3df6-4800-851f-7e9c9a440914",
+      "id": "67f4d849-8668-4898-8995-3d37bbb24701",
       "key": "ApiKey",
       "value": "NSqs04Y7M6OAB32WA5UzOziCGAHETz3fGRk3g2C0"
     }
