@@ -4921,7 +4921,48 @@
                       ]
                     }
                   },
-                  "response": []
+                  "response": [
+                    {
+                      "id": "be5413e1-4256-4db2-909e-e05d108690a0",
+                      "name": "create",
+                      "originalRequest": {
+                        "method": "POST",
+                        "header": [
+                          {
+                            "key": "Accept",
+                            "type": "text",
+                            "value": "{{Accept}}"
+                          },
+                          {
+                            "key": "Timezone",
+                            "type": "text",
+                            "value": "{{Timezone}}"
+                          },
+                          {
+                            "key": "Content-Type",
+                            "name": "Content-Type",
+                            "type": "text",
+                            "value": "{{Content-Type}}"
+                          }
+                        ],
+                        "body": {
+                          "mode": "raw",
+                          "raw": "{\r\n    \"unit_measures\": [\r\n        {\r\n            \"siat_code\": 1,\r\n            \"id\": 20\r\n        },\r\n        {\r\n            \"siat_code\": 3,\r\n            \"id\": 30\r\n        }\r\n    ]\r\n}",
+                          "options": {
+                            "raw": {
+                              "language": "json"
+                            }
+                          }
+                        },
+                        "url": "{{base_url_back}}/v1/integrations/siat_integrate_entity/"
+                      },
+                      "_postman_previewlanguage": null,
+                      "header": null,
+                      "cookie": [],
+                      "responseTime": null,
+                      "body": null
+                    }
+                  ]
                 },
                 {
                   "name": "siat_integrate_entity/bulk_linking_unit_measure_siat/",
@@ -5073,6 +5114,46 @@
                       "body": null
                     },
                     {
+                      "id": "2d12fe2d-453b-4f28-8217-eac413c8b0fb",
+                      "name": "update Copy",
+                      "originalRequest": {
+                        "method": "POST",
+                        "header": [
+                          {
+                            "key": "Accept",
+                            "type": "text",
+                            "value": "{{Accept}}"
+                          },
+                          {
+                            "key": "Timezone",
+                            "type": "text",
+                            "value": "{{Timezone}}"
+                          },
+                          {
+                            "key": "Content-Type",
+                            "name": "Content-Type",
+                            "type": "text",
+                            "value": "{{Content-Type}}"
+                          }
+                        ],
+                        "body": {
+                          "mode": "raw",
+                          "raw": "{\r\n    \"unit_measures\": [\r\n        {\r\n            \"siat_code\": 1,\r\n            \"id\": 20,\r\n            \"relation_id\": 2\r\n        },\r\n        {\r\n            \"siat_code\": 3,\r\n            \"id\": 30,\r\n            \"relation_id\": 3\r\n        }\r\n    ]\r\n}",
+                          "options": {
+                            "raw": {
+                              "language": "json"
+                            }
+                          }
+                        },
+                        "url": "{{base_url_back}}/v1/integrations/siat_integrate_entity/"
+                      },
+                      "_postman_previewlanguage": null,
+                      "header": null,
+                      "cookie": [],
+                      "responseTime": null,
+                      "body": null
+                    },
+                    {
                       "id": "aaceec89-fe5e-4f0f-a6ed-a8714343db15",
                       "name": "create and update",
                       "originalRequest": {
@@ -5138,46 +5219,6 @@
                         "body": {
                           "mode": "raw",
                           "raw": "{\r\n    \"unit_measures\": [\r\n        {\r\n            \"siat_code\": null,\r\n            \"id\": 20\r\n        },\r\n        {\r\n            \"siat_code\": null,\r\n            \"id\": 30,\r\n            \"relation_id\": 3\r\n        }\r\n    ]\r\n}",
-                          "options": {
-                            "raw": {
-                              "language": "json"
-                            }
-                          }
-                        },
-                        "url": "{{base_url_back}}/v1/integrations/siat_integrate_entity/"
-                      },
-                      "_postman_previewlanguage": null,
-                      "header": null,
-                      "cookie": [],
-                      "responseTime": null,
-                      "body": null
-                    },
-                    {
-                      "id": "be5413e1-4256-4db2-909e-e05d108690a0",
-                      "name": "create Copy",
-                      "originalRequest": {
-                        "method": "POST",
-                        "header": [
-                          {
-                            "key": "Accept",
-                            "type": "text",
-                            "value": "{{Accept}}"
-                          },
-                          {
-                            "key": "Timezone",
-                            "type": "text",
-                            "value": "{{Timezone}}"
-                          },
-                          {
-                            "key": "Content-Type",
-                            "name": "Content-Type",
-                            "type": "text",
-                            "value": "{{Content-Type}}"
-                          }
-                        ],
-                        "body": {
-                          "mode": "raw",
-                          "raw": "{\r\n    \"unit_measures\": [\r\n        {\r\n            \"siat_code\": 1,\r\n            \"id\": 20\r\n        },\r\n        {\r\n            \"siat_code\": 3,\r\n            \"id\": 30\r\n        }\r\n    ]\r\n}",
                           "options": {
                             "raw": {
                               "language": "json"
@@ -6081,32 +6122,32 @@
   ],
   "variable": [
     {
-      "id": "d2953c6e-93a0-43d1-94ba-fe727f786762",
+      "id": "4d6d84aa-d474-4d74-ae42-0d4c892e9479",
       "key": "Cookie",
       "value": "_ga=GA1.2.995623964.1629400496; _gid=GA1.2.1579657039.1629400496; _fbp=fb.1.1629400714958.1618680225; ajs_user_id=\"1339\"; ajs_anonymous_id=\"8310621c-456f-44b7-a285-f979bb8c5e76\"; _gat_UA-179458013-2=1; tuGerenteToken=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2Mjk4NTE2NDYsImlhdCI6MTYyOTQ5MTY0NiwiaWQiOjQ4NjQsInVzZXIiOiJ7XCJpZFwiOjQ4NjQsXCJub21icmVcIjpcIlFBIE5vbWJyZSBjYW1iaWFkb1wiLFwiYXBlbGxpZG9cIjpudWxsLFwiZmVjaGFfbmFjaW1pZW50b1wiOm51bGwsXCJnZW5lcm9cIjpudWxsLFwicGFpc1wiOlwiQk9cIixcImNpdWRhZFwiOm51bGwsXCJlbWFpbFwiOlwiYmVsYXlhZzEzMEBhbXBzd2lwZS5jb21cIixcInRlbGVmb25vXCI6XCI3NjM3NTY0N1wiLFwiYWN0aXZvXCI6MCxcImNvZFwiOlwidHVHLTQ4NjRcIixcImNyZWF0ZWRfYXRcIjpcIjIwMjEtMDgtMTlUMTk6NTI6NTkuMDAwWlwiLFwidXBkYXRlZF9hdFwiOlwiMjAyMS0wOC0xOVQyMDoxMDo0NC4wMDBaXCIsXCJkZWxldGVkX2F0XCI6bnVsbCxcInNlc3Npb25faWRcIjpudWxsLFwiaGF2ZV9jb21wYW55XCI6XCJzaVwiLFwidmFsaWRhdGlvbl9yZXF1ZXN0XCI6bnVsbH0ifQ.XnZwnSNps4xDOnkKudj-7x-PJlC2GdzfT2xIoSwqiQ6S0zBd7jp4r4ZI4G7YTgnXOB2CSFHTEp891pMJtYWeCQ; LobbyCookie=\"eyIxIjogW3sib3duZXJfdXNlcl9pZCI6IDQ4NjQsICJ0ZW5hbnRfaWQiOiAxODQyLCAic3Vic2NyaXB0aW9uX3N0YXRlIjogImFjdGl2ZSIsICJhY3RpdmUiOiB0cnVlLCAiYnVzaW5lc3NfbmFtZSI6ICJRYSIsICJzdGFydF9kYXRlIjogIjIwMjEtMDgtMTkiLCAiZmluaXNoX2RhdGUiOiAiMjAyMS0xMC0wMiIsICJpc19kZW1vIjogZmFsc2UsICJlbWFpbCI6IG51bGwsICJwYWNrIjogMywgImNvdW50cnkiOiAiQk8iLCAiY2l0eSI6IG51bGwsICJuaXQiOiBudWxsLCAidXNlcnNfcXR5IjogMTAsICJydWJyb19pZCI6IDEsICJ0ZXJtc19hY2NlcHRlZCI6IHRydWUsICJpc19pbmZvX3ZpZXdlZCI6IGZhbHNlLCAidmFsaWRhdGVkIjogZmFsc2UsICJyZXF1ZXN0X2RhdGUiOiAiMjAyMS0wOC0xOVQyMDoxMDo0NC45Mzg2NDArMDA6MDAifV0sICIyIjogW10sICIzIjogW10sICJ2ZXJzaW9uc19zdXBwb3J0ZWQiOiBbIjEuMCJdfXx2Tk5HamxQU1lMVkVWLVRsVk5jSTg5a1pVN0k=\""
     },
     {
-      "id": "3a2371e2-4866-44a1-94bb-d1b8f8212d8b",
+      "id": "81cb0f7c-02a2-4a63-a732-d174cadf5774",
       "key": "base_url_back",
       "value": "http://back.tugerente.me:8001"
     },
     {
-      "id": "941367bf-1e92-4b9e-ac9f-9050b9faa62a",
+      "id": "990ee86c-8031-4a6c-8d09-3f987b8faaa8",
       "key": "Accept",
       "value": "application/json, text/plain, */*"
     },
     {
-      "id": "083ccbe3-6813-4321-bb58-f972bd578273",
+      "id": "b5d0ca95-645b-42a6-9b8f-67e52fa953db",
       "key": "Timezone",
       "value": "America/La_Paz"
     },
     {
-      "id": "02305b35-51f4-4a8d-aea1-7a2b409c08a2",
+      "id": "bbbecd00-1f9f-4392-8e89-07ac38e3270b",
       "key": "Content-Type",
       "value": "application/json"
     },
     {
-      "id": "593b3de9-a999-4a9f-ba0f-7f2c001e7fda",
+      "id": "376f33de-063b-4543-8c69-75e285cba4cc",
       "key": "ApiKey",
       "value": "NSqs04Y7M6OAB32WA5UzOziCGAHETz3fGRk3g2C0"
     }
