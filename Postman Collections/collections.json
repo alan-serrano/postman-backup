@@ -5822,39 +5822,17 @@
     {
       "listen": "prerequest",
       "script": {
-        "id": "53e2e0e4-8c0b-4257-97cf-397e8eebc170",
+        "id": "f47d48ae-0f00-4674-933a-a4137ab246a9",
         "type": "text/javascript",
         "exec": [
-          " const isApi = pm.variables.get('isApi') || false;",
-          " const ApiKey = pm.variables.get('ApiKey');",
-          " const Cookie = pm.variables.get('Cookie');",
-          " ",
-          " //console.log(\"Apikey:\", ApiKey,\"Cookie\", Cookie,\"isApi\",isApi)",
-          "",
-          "if(isApi) {",
-          "    pm.request.headers.add({",
-          "      key: \"ApiKey\",",
-          "      value: ApiKey",
-          "    });",
-          "    ",
-          "    console.log(ApiKey)",
-          "    ",
-          "    ",
-          "} else {",
-          "    pm.request.headers.add({",
-          "      key: \"Cookie\",",
-          "      value: Cookie",
-          "    });",
-          "    ",
-          "    console.log(Cookie)",
-          "}"
+          ""
         ]
       }
     },
     {
       "listen": "test",
       "script": {
-        "id": "1b5291c0-e146-4692-896e-abfdfb6805cf",
+        "id": "3cd70bd6-5ad4-401e-a9c9-92a3973ce809",
         "type": "text/javascript",
         "exec": [
           "var currentUrl = pm.request.url.toString();",
@@ -5934,32 +5912,32 @@
   ],
   "variable": [
     {
-      "id": "5bce0d92-cd46-4922-b36a-403cfad01278",
+      "id": "c37f1bc9-4fac-43ba-95ff-5179b7bd8485",
       "key": "Cookie",
       "value": "_ga=GA1.2.995623964.1629400496; _gid=GA1.2.1579657039.1629400496; _fbp=fb.1.1629400714958.1618680225; ajs_user_id=\"1339\"; ajs_anonymous_id=\"8310621c-456f-44b7-a285-f979bb8c5e76\"; _gat_UA-179458013-2=1; tuGerenteToken=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2Mjk4NTE2NDYsImlhdCI6MTYyOTQ5MTY0NiwiaWQiOjQ4NjQsInVzZXIiOiJ7XCJpZFwiOjQ4NjQsXCJub21icmVcIjpcIlFBIE5vbWJyZSBjYW1iaWFkb1wiLFwiYXBlbGxpZG9cIjpudWxsLFwiZmVjaGFfbmFjaW1pZW50b1wiOm51bGwsXCJnZW5lcm9cIjpudWxsLFwicGFpc1wiOlwiQk9cIixcImNpdWRhZFwiOm51bGwsXCJlbWFpbFwiOlwiYmVsYXlhZzEzMEBhbXBzd2lwZS5jb21cIixcInRlbGVmb25vXCI6XCI3NjM3NTY0N1wiLFwiYWN0aXZvXCI6MCxcImNvZFwiOlwidHVHLTQ4NjRcIixcImNyZWF0ZWRfYXRcIjpcIjIwMjEtMDgtMTlUMTk6NTI6NTkuMDAwWlwiLFwidXBkYXRlZF9hdFwiOlwiMjAyMS0wOC0xOVQyMDoxMDo0NC4wMDBaXCIsXCJkZWxldGVkX2F0XCI6bnVsbCxcInNlc3Npb25faWRcIjpudWxsLFwiaGF2ZV9jb21wYW55XCI6XCJzaVwiLFwidmFsaWRhdGlvbl9yZXF1ZXN0XCI6bnVsbH0ifQ.XnZwnSNps4xDOnkKudj-7x-PJlC2GdzfT2xIoSwqiQ6S0zBd7jp4r4ZI4G7YTgnXOB2CSFHTEp891pMJtYWeCQ; LobbyCookie=\"eyIxIjogW3sib3duZXJfdXNlcl9pZCI6IDQ4NjQsICJ0ZW5hbnRfaWQiOiAxODQyLCAic3Vic2NyaXB0aW9uX3N0YXRlIjogImFjdGl2ZSIsICJhY3RpdmUiOiB0cnVlLCAiYnVzaW5lc3NfbmFtZSI6ICJRYSIsICJzdGFydF9kYXRlIjogIjIwMjEtMDgtMTkiLCAiZmluaXNoX2RhdGUiOiAiMjAyMS0xMC0wMiIsICJpc19kZW1vIjogZmFsc2UsICJlbWFpbCI6IG51bGwsICJwYWNrIjogMywgImNvdW50cnkiOiAiQk8iLCAiY2l0eSI6IG51bGwsICJuaXQiOiBudWxsLCAidXNlcnNfcXR5IjogMTAsICJydWJyb19pZCI6IDEsICJ0ZXJtc19hY2NlcHRlZCI6IHRydWUsICJpc19pbmZvX3ZpZXdlZCI6IGZhbHNlLCAidmFsaWRhdGVkIjogZmFsc2UsICJyZXF1ZXN0X2RhdGUiOiAiMjAyMS0wOC0xOVQyMDoxMDo0NC45Mzg2NDArMDA6MDAifV0sICIyIjogW10sICIzIjogW10sICJ2ZXJzaW9uc19zdXBwb3J0ZWQiOiBbIjEuMCJdfXx2Tk5HamxQU1lMVkVWLVRsVk5jSTg5a1pVN0k=\""
     },
     {
-      "id": "808fe440-cd56-40c6-b57c-cc800a9da586",
+      "id": "21814ff3-e910-490c-92d8-55b67b101b56",
       "key": "base_url_back",
       "value": "http://back.tugerente.me:8001"
     },
     {
-      "id": "393e9b77-fe6b-4175-a887-cc925d32880c",
+      "id": "e28bc943-59e2-4951-a606-d7950a4211e5",
       "key": "Accept",
       "value": "application/json, text/plain, */*"
     },
     {
-      "id": "b797b588-549b-44ec-8092-e419448f052f",
+      "id": "18934071-be78-4e55-8d5c-865e1be386a7",
       "key": "Timezone",
       "value": "America/La_Paz"
     },
     {
-      "id": "9deacc3e-4f41-4a79-a303-aeea96d1bada",
+      "id": "7ab94583-2dfb-4e23-8a31-5ce43bfb0a32",
       "key": "Content-Type",
       "value": "application/json"
     },
     {
-      "id": "7ba3d8ec-40a1-42c0-b8d2-b530410eb8c6",
+      "id": "971580f0-1e29-44ca-b0a0-be39200fe889",
       "key": "ApiKey",
       "value": "NSqs04Y7M6OAB32WA5UzOziCGAHETz3fGRk3g2C0"
     }
