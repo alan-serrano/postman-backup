@@ -4093,23 +4093,6 @@
                     }
                   },
                   "response": []
-                },
-                {
-                  "name": "siat_disable_invoice",
-                  "id": "2acb2188-cd33-4839-b43f-9e0d3519a08d",
-                  "protocolProfileBehavior": {
-                    "disableBodyPruning": true
-                  },
-                  "request": {
-                    "method": "POST",
-                    "header": [],
-                    "body": {
-                      "mode": "raw",
-                      "raw": "{\r\n    \"nit\": \"368566024\",\r\n    \"vo_user\": \"TUGERENTE\",\r\n    \"vo_password\": \"dHVHZXJlbnRlMjAyMQ==\",\r\n    \"cufd\": \"BQW9DJi5rQUE=NkTU5MTM4RDYzMjc=Q28rdUFTQ0xWVUFQwOEFBMzY0RTMxN\",\r\n    \"control\": \"73377202B3EDC74\",\r\n    \"codigoSucursal\": 0,\r\n    \"codigoModalidad\":2,\r\n    \"codigoEmision\": 1,\r\n    \"pos\": 1,\r\n    \"description\": \"CAMBIO DE INFRAESTRUCTURA DEL SISTEMA INFORMÁTICO DE FACTURACIÓN O FALLA DE HARDWARE\",\r\n    \"event_code\": 2,\r\n    \"cuf\": \"1937E3363EA72AD843A33FE8A7FFFA26BB058606AE36B5E662B3EDC74\"\r\n}"
-                    },
-                    "url": "localhost:3010/billing/siat_disable_invoice"
-                  },
-                  "response": []
                 }
               ],
               "id": "e81e6141-fbe2-4735-be52-34f4ad115f5b"
@@ -5773,32 +5756,32 @@
   ],
   "variable": [
     {
-      "id": "7ce54bac-b451-47f3-a71b-83ef050a8534",
+      "id": "bcc8dc4a-ce28-4650-bc80-fa3d693e7439",
       "key": "Cookie",
       "value": "_ga=GA1.2.995623964.1629400496; _gid=GA1.2.1579657039.1629400496; _fbp=fb.1.1629400714958.1618680225; ajs_user_id=\"1339\"; ajs_anonymous_id=\"8310621c-456f-44b7-a285-f979bb8c5e76\"; _gat_UA-179458013-2=1; tuGerenteToken=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2Mjk4NTE2NDYsImlhdCI6MTYyOTQ5MTY0NiwiaWQiOjQ4NjQsInVzZXIiOiJ7XCJpZFwiOjQ4NjQsXCJub21icmVcIjpcIlFBIE5vbWJyZSBjYW1iaWFkb1wiLFwiYXBlbGxpZG9cIjpudWxsLFwiZmVjaGFfbmFjaW1pZW50b1wiOm51bGwsXCJnZW5lcm9cIjpudWxsLFwicGFpc1wiOlwiQk9cIixcImNpdWRhZFwiOm51bGwsXCJlbWFpbFwiOlwiYmVsYXlhZzEzMEBhbXBzd2lwZS5jb21cIixcInRlbGVmb25vXCI6XCI3NjM3NTY0N1wiLFwiYWN0aXZvXCI6MCxcImNvZFwiOlwidHVHLTQ4NjRcIixcImNyZWF0ZWRfYXRcIjpcIjIwMjEtMDgtMTlUMTk6NTI6NTkuMDAwWlwiLFwidXBkYXRlZF9hdFwiOlwiMjAyMS0wOC0xOVQyMDoxMDo0NC4wMDBaXCIsXCJkZWxldGVkX2F0XCI6bnVsbCxcInNlc3Npb25faWRcIjpudWxsLFwiaGF2ZV9jb21wYW55XCI6XCJzaVwiLFwidmFsaWRhdGlvbl9yZXF1ZXN0XCI6bnVsbH0ifQ.XnZwnSNps4xDOnkKudj-7x-PJlC2GdzfT2xIoSwqiQ6S0zBd7jp4r4ZI4G7YTgnXOB2CSFHTEp891pMJtYWeCQ; LobbyCookie=\"eyIxIjogW3sib3duZXJfdXNlcl9pZCI6IDQ4NjQsICJ0ZW5hbnRfaWQiOiAxODQyLCAic3Vic2NyaXB0aW9uX3N0YXRlIjogImFjdGl2ZSIsICJhY3RpdmUiOiB0cnVlLCAiYnVzaW5lc3NfbmFtZSI6ICJRYSIsICJzdGFydF9kYXRlIjogIjIwMjEtMDgtMTkiLCAiZmluaXNoX2RhdGUiOiAiMjAyMS0xMC0wMiIsICJpc19kZW1vIjogZmFsc2UsICJlbWFpbCI6IG51bGwsICJwYWNrIjogMywgImNvdW50cnkiOiAiQk8iLCAiY2l0eSI6IG51bGwsICJuaXQiOiBudWxsLCAidXNlcnNfcXR5IjogMTAsICJydWJyb19pZCI6IDEsICJ0ZXJtc19hY2NlcHRlZCI6IHRydWUsICJpc19pbmZvX3ZpZXdlZCI6IGZhbHNlLCAidmFsaWRhdGVkIjogZmFsc2UsICJyZXF1ZXN0X2RhdGUiOiAiMjAyMS0wOC0xOVQyMDoxMDo0NC45Mzg2NDArMDA6MDAifV0sICIyIjogW10sICIzIjogW10sICJ2ZXJzaW9uc19zdXBwb3J0ZWQiOiBbIjEuMCJdfXx2Tk5HamxQU1lMVkVWLVRsVk5jSTg5a1pVN0k=\""
     },
     {
-      "id": "0d7f2a18-8186-4bf4-8403-403151234737",
+      "id": "275c5275-f7c4-4b0a-ab4f-a8ac25c5f424",
       "key": "base_url_back",
       "value": "http://back.tugerente.me:8001"
     },
     {
-      "id": "488f74a9-eb16-491a-b287-cdcc24c865d9",
+      "id": "e182fc59-4d46-4de0-beba-95b00aec5c00",
       "key": "Accept",
       "value": "application/json, text/plain, */*"
     },
     {
-      "id": "ee211476-821f-4568-bde4-0e1ae5abda6f",
+      "id": "335f8d66-f5a8-4157-8158-e874a5a28430",
       "key": "Timezone",
       "value": "America/La_Paz"
     },
     {
-      "id": "d0f316c5-eac6-4a6e-b254-1aa4c249ae7a",
+      "id": "9ffc0a92-daab-4002-bf24-33703a5c7db2",
       "key": "Content-Type",
       "value": "application/json"
     },
     {
-      "id": "9f125d63-f248-4dfd-9930-9461180a7ec5",
+      "id": "317cf382-3b19-4da4-b050-0e2f3aabff9d",
       "key": "ApiKey",
       "value": "NSqs04Y7M6OAB32WA5UzOziCGAHETz3fGRk3g2C0"
     }
