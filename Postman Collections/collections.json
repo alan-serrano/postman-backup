@@ -3793,6 +3793,54 @@
                     "url": "{{base_url}}/billing/siat_create_pos"
                   },
                   "response": []
+                },
+                {
+                  "name": "siat_cufd_request",
+                  "id": "40c18ccf-0784-4dca-a0c2-ad43dba9cb80",
+                  "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                  },
+                  "request": {
+                    "method": "POST",
+                    "header": [
+                      {
+                        "key": "Content-Type",
+                        "name": "Content-Type",
+                        "value": "application/json",
+                        "type": "text"
+                      }
+                    ],
+                    "body": {
+                      "mode": "raw",
+                      "raw": "{\r\n    \"sucursal\": 0,\r\n    \"punto_venta\": 0,\r\n    \"tenant_id\": 1339\r\n}"
+                    },
+                    "url": "{{base_url}}/billing/siat_cufd_request"
+                  },
+                  "response": []
+                },
+                {
+                  "name": "get_values_cuf",
+                  "id": "85b55c79-3a99-4006-90b0-41417a7825aa",
+                  "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                  },
+                  "request": {
+                    "method": "POST",
+                    "header": [
+                      {
+                        "key": "Content-Type",
+                        "name": "Content-Type",
+                        "value": "application/json",
+                        "type": "text"
+                      }
+                    ],
+                    "body": {
+                      "mode": "raw",
+                      "raw": "{\r\n    \"cufs\": [\r\n        \"1937E3363EADF5F49C3EE4FA0392039A634BB4266915E693F22A16D74\"\r\n    ]\r\n}"
+                    },
+                    "url": "{{base_url}}/billing/get_values_cuf"
+                  },
+                  "response": []
                 }
               ],
               "id": "e81e6141-fbe2-4735-be52-34f4ad115f5b"
@@ -5456,32 +5504,32 @@
   ],
   "variable": [
     {
-      "id": "ac52f82d-3758-4807-ad69-e032ab84a8c2",
+      "id": "99d12494-e3c0-4c80-9228-bd2d487ab85a",
       "key": "Cookie",
       "value": "_ga=GA1.2.995623964.1629400496; _gid=GA1.2.1579657039.1629400496; _fbp=fb.1.1629400714958.1618680225; ajs_user_id=\"1339\"; ajs_anonymous_id=\"8310621c-456f-44b7-a285-f979bb8c5e76\"; _gat_UA-179458013-2=1; tuGerenteToken=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2Mjk4NTE2NDYsImlhdCI6MTYyOTQ5MTY0NiwiaWQiOjQ4NjQsInVzZXIiOiJ7XCJpZFwiOjQ4NjQsXCJub21icmVcIjpcIlFBIE5vbWJyZSBjYW1iaWFkb1wiLFwiYXBlbGxpZG9cIjpudWxsLFwiZmVjaGFfbmFjaW1pZW50b1wiOm51bGwsXCJnZW5lcm9cIjpudWxsLFwicGFpc1wiOlwiQk9cIixcImNpdWRhZFwiOm51bGwsXCJlbWFpbFwiOlwiYmVsYXlhZzEzMEBhbXBzd2lwZS5jb21cIixcInRlbGVmb25vXCI6XCI3NjM3NTY0N1wiLFwiYWN0aXZvXCI6MCxcImNvZFwiOlwidHVHLTQ4NjRcIixcImNyZWF0ZWRfYXRcIjpcIjIwMjEtMDgtMTlUMTk6NTI6NTkuMDAwWlwiLFwidXBkYXRlZF9hdFwiOlwiMjAyMS0wOC0xOVQyMDoxMDo0NC4wMDBaXCIsXCJkZWxldGVkX2F0XCI6bnVsbCxcInNlc3Npb25faWRcIjpudWxsLFwiaGF2ZV9jb21wYW55XCI6XCJzaVwiLFwidmFsaWRhdGlvbl9yZXF1ZXN0XCI6bnVsbH0ifQ.XnZwnSNps4xDOnkKudj-7x-PJlC2GdzfT2xIoSwqiQ6S0zBd7jp4r4ZI4G7YTgnXOB2CSFHTEp891pMJtYWeCQ; LobbyCookie=\"eyIxIjogW3sib3duZXJfdXNlcl9pZCI6IDQ4NjQsICJ0ZW5hbnRfaWQiOiAxODQyLCAic3Vic2NyaXB0aW9uX3N0YXRlIjogImFjdGl2ZSIsICJhY3RpdmUiOiB0cnVlLCAiYnVzaW5lc3NfbmFtZSI6ICJRYSIsICJzdGFydF9kYXRlIjogIjIwMjEtMDgtMTkiLCAiZmluaXNoX2RhdGUiOiAiMjAyMS0xMC0wMiIsICJpc19kZW1vIjogZmFsc2UsICJlbWFpbCI6IG51bGwsICJwYWNrIjogMywgImNvdW50cnkiOiAiQk8iLCAiY2l0eSI6IG51bGwsICJuaXQiOiBudWxsLCAidXNlcnNfcXR5IjogMTAsICJydWJyb19pZCI6IDEsICJ0ZXJtc19hY2NlcHRlZCI6IHRydWUsICJpc19pbmZvX3ZpZXdlZCI6IGZhbHNlLCAidmFsaWRhdGVkIjogZmFsc2UsICJyZXF1ZXN0X2RhdGUiOiAiMjAyMS0wOC0xOVQyMDoxMDo0NC45Mzg2NDArMDA6MDAifV0sICIyIjogW10sICIzIjogW10sICJ2ZXJzaW9uc19zdXBwb3J0ZWQiOiBbIjEuMCJdfXx2Tk5HamxQU1lMVkVWLVRsVk5jSTg5a1pVN0k=\""
     },
     {
-      "id": "7433641d-47df-4622-8c4b-d134be6510fc",
+      "id": "662ed2cb-85b6-4f84-bdf6-7cc93c7a9d3b",
       "key": "base_url_back",
       "value": "http://back.tugerente.me:8001"
     },
     {
-      "id": "926ca688-d34d-429c-a037-77859974eb06",
+      "id": "a29e827c-1624-4b54-8dc8-a2c541ffb649",
       "key": "Accept",
       "value": "application/json, text/plain, */*"
     },
     {
-      "id": "4157a554-c20a-4473-a04b-fc1e6a61a2aa",
+      "id": "1e95c033-5be3-4321-97c9-49039a9a6cff",
       "key": "Timezone",
       "value": "America/La_Paz"
     },
     {
-      "id": "75c68e33-64ce-4a95-b845-830adb652aec",
+      "id": "9200004a-ee49-4db3-8c96-53b517e2367d",
       "key": "Content-Type",
       "value": "application/json"
     },
     {
-      "id": "b814fe00-43d0-4d9d-b200-04cd14b05b31",
+      "id": "5c928c47-c12e-4113-94b8-897d69431258",
       "key": "ApiKey",
       "value": "NSqs04Y7M6OAB32WA5UzOziCGAHETz3fGRk3g2C0"
     }
