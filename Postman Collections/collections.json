@@ -5837,6 +5837,640 @@
       "id": "890f0832-61e0-497f-b857-782b39900560"
     },
     {
+      "name": "FCL Copy",
+      "item": [
+        {
+          "name": "get_api_key",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "id": "3ef28331-a83f-493c-83f6-35fa41296657",
+                "exec": [
+                  ""
+                ],
+                "type": "text/javascript"
+              }
+            }
+          ],
+          "id": "f1c9f109-bddd-475e-a84f-9d3d970feceb",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Accept",
+                "type": "text",
+                "value": "{{Accept}}"
+              },
+              {
+                "key": "Timezone",
+                "type": "text",
+                "value": "{{Timezone}}"
+              },
+              {
+                "key": "Content-Type",
+                "name": "Content-Type",
+                "type": "text",
+                "value": "{{Content-Type}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": "{{base_url_back}}/v1/integrations/integration_fcl/get_api_key/"
+          },
+          "response": []
+        },
+        {
+          "name": "set_api_key",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "id": "512a91c6-d7fc-48bb-9921-3533769bacf4",
+                "exec": [
+                  ""
+                ],
+                "type": "text/javascript"
+              }
+            }
+          ],
+          "id": "b3d970c6-7f89-4119-aab1-738ea9a9a223",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Accept",
+                "type": "text",
+                "value": "{{Accept}}"
+              },
+              {
+                "key": "Timezone",
+                "type": "text",
+                "value": "{{Timezone}}"
+              },
+              {
+                "key": "Content-Type",
+                "name": "Content-Type",
+                "type": "text",
+                "value": "{{Content-Type}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"tenant_id\": 1339, \r\n    \"api_key\": \"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJUVUdFUkVOVEUiLCJjb2RpZ29TaXN0ZW1hIjoiNkQwOEFBMzY0RTMxNTU5MTM4RDYzMjciLCJuaXQiOiJINHNJQUFBQUFBQUFBRE0yc3pBMU16TXdNZ0VBWjJDaWJna0FBQUE9IiwiaWQiOjEzNjg1NTAsImV4cCI6MTY0NjAwNjQwMCwiaWF0IjoxNjQzNjMzMTUwLCJuaXREZWxlZ2FkbyI6MzY4NTY2MDI0LCJzdWJzaXN0ZW1hIjoiU0ZFIn0.lTJ3qOjPBZbCkAMizYXn6PtqlucbxH3sM2km1p1f5TrFCmczOHQ1ux7Iacr7b07FGZuL9M5wpo-iFhsssJoQ9g\",\r\n    \"expiration_date\": \"2022-08-21T00:47:18.982Z\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": "{{base_url_back}}/v1/integrations/integration_fcl/set_api_key/"
+          },
+          "response": []
+        },
+        {
+          "name": "siat_cuis_request",
+          "id": "3391f84a-1672-471d-b2fc-e6d097d79a74",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "name": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"tenant_id\": 1339,\r\n    \"sucursal\": 0,\r\n    \"punto_venta\": 0\r\n}"
+            },
+            "url": "{{base_url}}/billing/siat_cuis_request"
+          },
+          "response": []
+        },
+        {
+          "name": "siat_create_pos",
+          "id": "89793b25-dd5d-4c23-b1be-6cb58a6c9928",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "name": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"nit\": \"368566024\",\r\n    \"vo_user\": \"TUGERENTE\",\r\n    \"vo_password\": \"dHVHZXJlbnRlMjAyMQ==\"\r\n}"
+            },
+            "url": "{{base_url}}/billing/siat_create_pos"
+          },
+          "response": []
+        },
+        {
+          "name": "siat_cufd_request",
+          "id": "c839286a-86e7-43e4-9148-02d8a0f4f4ed",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "name": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"sucursal\": 0,\r\n    \"punto_venta\": 0,\r\n    \"tenant_id\": 1339\r\n}"
+            },
+            "url": "{{base_url}}/billing/siat_cufd_request"
+          },
+          "response": []
+        },
+        {
+          "name": "get_values_cuf",
+          "id": "82ba6a5d-0c21-4c15-8913-15b42e63bd41",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "name": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"cufs\": [\r\n        \"1937E3363EADF5F49C3EE4FA0392039A634BB4266915E693F22A16D74\"\r\n    ]\r\n}"
+            },
+            "url": "{{base_url}}/billing/get_values_cuf"
+          },
+          "response": []
+        },
+        {
+          "name": "siat_validate_nit",
+          "id": "67c98ecd-8828-499e-8421-cae2baf23a47",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "name": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"sucursal\": 0,\r\n    \"tenant_id\": 1339,\r\n    \"nitToValidate\": \"9026832017\"\r\n}"
+            },
+            "url": "{{base_url}}/billing/siat_validate_nit"
+          },
+          "response": []
+        },
+        {
+          "name": "siat_get_parameters",
+          "id": "7e406c59-67ff-4109-85ea-b849492020fd",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "name": "Content-Type",
+                "type": "text",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"nit\": \"368566024\",\r\n    \"cuis\": \"B694348B\",\r\n    \"punto_venta\": \"0\"\r\n}"
+            },
+            "url": "{{base_url}}/billing/siat_get_parameters"
+          },
+          "response": []
+        },
+        {
+          "name": "siat_send_invoice",
+          "id": "dbf4c251-3cfd-4249-a470-c343bf66c3ae",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "name": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"tenant_id\": 1339,\r\n    \"sale\": {\r\n      \"id\": 76179,\r\n      \"created_at\": \"2021-12-21T13:37:36.221768-04:00\",\r\n      \"updated_at\": \"2021-12-21T13:37:36.390758-04:00\",\r\n      \"deleted_at\": null,\r\n      \"tenant_id\": 1339,\r\n      \"code\": 50496,\r\n      \"payment_method\": {\r\n        \"id\": 35,\r\n        \"created_at\": \"2019-09-24T17:29:11.398705-04:00\",\r\n        \"updated_at\": \"2019-09-24T17:29:11.398719-04:00\",\r\n        \"deleted_at\": null,\r\n        \"name\": \"GIFT-CARD EFECTIVO\",\r\n        \"number\": null\r\n      },\r\n      \"second_payment_method\": null,\r\n      \"third_payment_method\": null,\r\n      \"warehouse\": {\r\n        \"id\": 480,\r\n        \"created_at\": \"2019-09-24T17:28:28.508384-04:00\",\r\n        \"updated_at\": \"2021-01-08T14:32:58.134987-04:00\",\r\n        \"deleted_at\": null,\r\n        \"tenant_id\": 1339,\r\n        \"name\": \"Almacén por defecto\",\r\n        \"address\": \"NETBITS DIRECCION 4\",\r\n        \"attendant\": \"Encargadeishon\",\r\n        \"is_generic\": true,\r\n        \"virtual_order_command\": false,\r\n        \"command_physical_print\": false,\r\n        \"blind_inventory_on_turn_close\": false,\r\n        \"change_price_from_sale\": false,\r\n        \"use_manual_blind_inventory\": false,\r\n        \"current_version\": \"2021-12-21T13:36:49.351818-04:00\",\r\n        \"is_enable_py\": false,\r\n        \"pos_centralized\": false,\r\n        \"use_parameterizable_blind_inventory\": false,\r\n        \"monthly_blind_inventory\": false,\r\n        \"woocommerce_default\": false,\r\n        \"show_employee_name_in_tab\": false,\r\n        \"confirm_dispatch_automatically\": false,\r\n        \"confirm_receipt_automatically\": false,\r\n        \"phone_number\": null,\r\n        \"city\": null,\r\n        \"batch_in_invoices\": false,\r\n        \"unit_measure_in_invoice\": false\r\n      },\r\n      \"customer\": {\r\n        \"id\": 18972,\r\n        \"created_at\": \"2021-12-21T13:36:10.759682-04:00\",\r\n        \"updated_at\": \"2021-12-21T13:36:23.576383-04:00\",\r\n        \"deleted_at\": null,\r\n        \"tenant_id\": 1339,\r\n        \"business_name\": null,\r\n        \"business_email\": null,\r\n        \"name\": \"Sin Nombre\",\r\n        \"reference_name\": \"Sin Nombre\",\r\n        \"position\": null,\r\n        \"contact_email\": null,\r\n        \"contact_name\": null,\r\n        \"contact_phone\": null,\r\n        \"contact_phone_number\": null,\r\n        \"contact_phone_number_extra\": null,\r\n        \"country\": null,\r\n        \"city\": null,\r\n        \"nit\": \"9026832\",\r\n        \"complement\": \"SC\",\r\n        \"siat_document_type\": 1,\r\n        \"delivery_time\": 0,\r\n        \"credit_days\": 0,\r\n        \"comment\": null,\r\n        \"latitude\": null,\r\n        \"longitude\": null,\r\n        \"priority\": null,\r\n        \"code\": null,\r\n        \"birthdate\": null,\r\n        \"discount\": \"0.0000\",\r\n        \"address\": null,\r\n        \"merged\": false,\r\n        \"category\": 331,\r\n        \"subcategory\": 312,\r\n        \"payment_method\": 1,\r\n        \"delivery_method\": 1\r\n      },\r\n      \"employee\": {\r\n        \"id\": 9265,\r\n        \"created_at\": \"2021-12-21T13:37:28.150182-04:00\",\r\n        \"updated_at\": \"2021-12-21T13:37:28.158011-04:00\",\r\n        \"deleted_at\": null,\r\n        \"tenant_id\": 1339,\r\n        \"name\": \"Netbits vendedor\",\r\n        \"dni\": null,\r\n        \"email\": null,\r\n        \"phone\": null,\r\n        \"phone_number\": null,\r\n        \"phone_number_extra\": null,\r\n        \"birth_date\": null,\r\n        \"can_use_pos\": true,\r\n        \"salary\": null,\r\n        \"net_salary\": null,\r\n        \"pension_fund_type\": null,\r\n        \"hire_date\": null,\r\n        \"retirement_date\": null,\r\n        \"pension_affiliation_date\": null,\r\n        \"has_commission_for_sale\": false,\r\n        \"commission\": null,\r\n        \"has_commission_for_product\": false,\r\n        \"is_collector\": false,\r\n        \"has_commission_for_collected_account_receivable\": false,\r\n        \"commission_for_collected_account_receivable\": null,\r\n        \"has_commission_for_customer_category\": false,\r\n        \"has_commission_for_customer_subcategory\": false,\r\n        \"seniority_bonus\": null,\r\n        \"address\": null,\r\n        \"comment\": null,\r\n        \"all_warehouses\": false,\r\n        \"is_cashier\": false,\r\n        \"_pin_data\": 9649,\r\n        \"pin\": \"9649\",\r\n        \"warehouse\": 480,\r\n        \"manager\": null,\r\n        \"employment\": null\r\n      },\r\n      \"turn\": null,\r\n      \"currency\": {\r\n        \"id\": 1111,\r\n        \"created_at\": \"2019-09-24T17:29:05.942304-04:00\",\r\n        \"updated_at\": \"2019-09-24T17:29:05.942325-04:00\",\r\n        \"deleted_at\": null,\r\n        \"tenant_id\": 1339,\r\n        \"currency_symbol\": \"Bs\",\r\n        \"name\": \"Boliviano\",\r\n        \"plural_name\": \"bolivianos\",\r\n        \"country\": \"Bolivia\"\r\n      },\r\n      \"sale_details_deleted\": [],\r\n      \"sale_details\": [\r\n        {\r\n          \"id\": 22256,\r\n          \"created_at\": \"2021-12-21T13:37:36.230579-04:00\",\r\n          \"updated_at\": \"2021-12-21T13:37:36.386894-04:00\",\r\n          \"deleted_at\": null,\r\n          \"tenant_id\": 1339,\r\n          \"product\": {\r\n            \"id\": 48223,\r\n            \"created_at\": \"2021-12-21T13:36:38.432636-04:00\",\r\n            \"updated_at\": \"2021-12-21T13:36:38.432652-04:00\",\r\n            \"deleted_at\": null,\r\n            \"tenant_id\": 1339,\r\n            \"code\": \"8243\",\r\n            \"name\": \"Nombre muy largo Nombre muy largo Nombre muy largo Nombre muy largo Nombre muy largo Nombre muy largo Nombre muy largo Nombre muy largo Nombre muy largo\",\r\n            \"product_type\": \"FINISHED\",\r\n            \"for_sale\": true,\r\n            \"for_purchase\": true,\r\n            \"show_stock\": true,\r\n            \"min_stock\": \"0.0000\",\r\n            \"default_for_tenant\": false,\r\n            \"commission\": null,\r\n            \"sale_ice\": false,\r\n            \"ice_factor\": \"0.00000\",\r\n            \"tariff_items\": null,\r\n            \"aliquots\": null,\r\n            \"additional_info\": null,\r\n            \"category\": 1076,\r\n            \"subcategory\": 1154,\r\n            \"unit_measure\": {\r\n              \"siat_code\": 57\r\n            }\r\n          },\r\n          \"sale\": {\r\n            \"id\": 76179,\r\n            \"created_at\": \"2021-12-21T13:37:36.221768-04:00\",\r\n            \"updated_at\": \"2021-12-21T13:37:36.390758-04:00\",\r\n            \"deleted_at\": null,\r\n            \"tenant_id\": 1339,\r\n            \"comment\": \"\",\r\n            \"amount\": \"40.0000\",\r\n            \"discount\": \"0.0000\",\r\n            \"elaboration_date\": \"2021-12-21T13:37:37-04:00\",\r\n            \"planned_delivery_date\": \"2021-12-21T13:37:37-04:00\",\r\n            \"actual_delivery_date\": \"2021-12-21T13:37:37-04:00\",\r\n            \"delivered\": true,\r\n            \"code\": \"50496\",\r\n            \"bill\": \"50025\",\r\n            \"latitude\": null,\r\n            \"longitude\": null,\r\n            \"commission\": null,\r\n            \"no_discount_amount\": \"40.0000\",\r\n            \"sale_type\": null,\r\n            \"batched\": false,\r\n            \"generated_on_new_pos\": false,\r\n            \"margin_of_gain\": \"100.0000\",\r\n            \"amount_before_advance\": \"40.0000\",\r\n            \"is_py\": false,\r\n            \"use_second_payment_method\": false,\r\n            \"first_paid_amount\": null,\r\n            \"second_paid_amount\": null,\r\n            \"is_total_advance\": false,\r\n            \"product_from_another_warehouse\": false,\r\n            \"credit_payments_with_multipago\": false,\r\n            \"amount_billed\": \"0.0000\",\r\n            \"stock_delivered\": false,\r\n            \"cashflow_generated\": false,\r\n            \"third_paid_amount\": null,\r\n            \"use_third_payment_method\": false,\r\n            \"coupon_amount\": \"0.0000\",\r\n            \"coupon_number\": \"\",\r\n            \"was_refunded\": false,\r\n            \"refund_date\": null,\r\n            \"nro_transaction\": null,\r\n            \"currency_type\": null,\r\n            \"bank\": null,\r\n            \"second_nro_transaction\": \"\",\r\n            \"second_currency_type\": \"\",\r\n            \"second_bank\": \"\",\r\n            \"with_email\": false,\r\n            \"email\": \"\",\r\n            \"billed\": true,\r\n            \"receipt_number\": null,\r\n            \"document_id\": null,\r\n            \"is_globalfood\": false,\r\n            \"latitud\": null,\r\n            \"longitud\": null,\r\n            \"transaction_mode\": \"1\",\r\n            \"contract_number\": \"0\",\r\n            \"discount_amount\": \"0.0000\",\r\n            \"use_discount_amount\": false,\r\n            \"state\": 0,\r\n            \"sku\": null,\r\n            \"stage\": null,\r\n            \"payment_method\": 2,\r\n            \"second_payment_method\": null,\r\n            \"third_payment_method\": null,\r\n            \"warehouse\": 480,\r\n            \"customer\": 18972,\r\n            \"employee\": 9265,\r\n            \"turn\": null,\r\n            \"currency\": 1111,\r\n            \"output_warehouse\": null,\r\n            \"card_manager\": null,\r\n            \"delivery\": null\r\n          },\r\n          \"batch\": null,\r\n          \"no_discount_total\": 20000,\r\n          \"no_discount_price\": 20000,\r\n          \"discounted_total\": 0,\r\n          \"ice\": \"0.0000\",\r\n          \"qty\": \"1.0000\",\r\n          \"price\": \"20000\",\r\n          \"real_qty\": \"1.0000\",\r\n          \"real_price\": \"20000\",\r\n          \"total\": \"20000\",\r\n          \"discount_per_unit\": \"0.0000\",\r\n          \"product_cost\": null,\r\n          \"ice_factor\": \"0.00000\",\r\n          \"ice_specific\": \"0.00000\",\r\n          \"show_in_bill\": true,\r\n          \"discount_amount\": \"0.0000\",\r\n          \"total_discount_promo\": \"0.0000\"\r\n        },\r\n        {\r\n          \"id\": 22257,\r\n          \"created_at\": \"2021-12-21T13:37:36.235346-04:00\",\r\n          \"updated_at\": \"2021-12-21T13:37:36.389239-04:00\",\r\n          \"deleted_at\": null,\r\n          \"tenant_id\": 1339,\r\n          \"product\": {\r\n            \"id\": 48224,\r\n            \"created_at\": \"2021-12-21T13:36:49.346803-04:00\",\r\n            \"updated_at\": \"2021-12-21T13:36:49.346815-04:00\",\r\n            \"deleted_at\": null,\r\n            \"tenant_id\": 1339,\r\n            \"code\": \"8244\",\r\n            \"name\": \"Pan dulce\",\r\n            \"product_type\": \"FINISHED\",\r\n            \"for_sale\": true,\r\n            \"for_purchase\": true,\r\n            \"show_stock\": true,\r\n            \"min_stock\": \"0.0000\",\r\n            \"default_for_tenant\": false,\r\n            \"commission\": null,\r\n            \"sale_ice\": false,\r\n            \"ice_factor\": \"0.00000\",\r\n            \"tariff_items\": null,\r\n            \"aliquots\": null,\r\n            \"additional_info\": null,\r\n            \"category\": 1076,\r\n            \"subcategory\": 1154,\r\n            \"unit_measure\": {\r\n              \"siat_code\": 58\r\n            }\r\n          },\r\n          \"sale\": {\r\n            \"id\": 76179,\r\n            \"created_at\": \"2021-12-21T13:37:36.221768-04:00\",\r\n            \"updated_at\": \"2021-12-21T13:37:36.390758-04:00\",\r\n            \"deleted_at\": null,\r\n            \"tenant_id\": 1339,\r\n            \"comment\": \"\",\r\n            \"amount\": \"40.0000\",\r\n            \"discount\": \"0.0000\",\r\n            \"elaboration_date\": \"2021-12-21T13:37:37-04:00\",\r\n            \"planned_delivery_date\": \"2021-12-21T13:37:37-04:00\",\r\n            \"actual_delivery_date\": \"2021-12-21T13:37:37-04:00\",\r\n            \"delivered\": true,\r\n            \"code\": \"50496\",\r\n            \"bill\": \"50025\",\r\n            \"latitude\": null,\r\n            \"longitude\": null,\r\n            \"commission\": null,\r\n            \"no_discount_amount\": \"40.0000\",\r\n            \"sale_type\": null,\r\n            \"batched\": false,\r\n            \"generated_on_new_pos\": false,\r\n            \"margin_of_gain\": \"100.0000\",\r\n            \"amount_before_advance\": \"40.0000\",\r\n            \"is_py\": false,\r\n            \"use_second_payment_method\": false,\r\n            \"first_paid_amount\": null,\r\n            \"second_paid_amount\": null,\r\n            \"is_total_advance\": false,\r\n            \"product_from_another_warehouse\": false,\r\n            \"credit_payments_with_multipago\": false,\r\n            \"amount_billed\": \"0.0000\",\r\n            \"stock_delivered\": false,\r\n            \"cashflow_generated\": false,\r\n            \"third_paid_amount\": null,\r\n            \"use_third_payment_method\": false,\r\n            \"coupon_amount\": \"0.0000\",\r\n            \"coupon_number\": \"\",\r\n            \"was_refunded\": false,\r\n            \"refund_date\": null,\r\n            \"nro_transaction\": null,\r\n            \"currency_type\": null,\r\n            \"bank\": null,\r\n            \"second_nro_transaction\": \"\",\r\n            \"second_currency_type\": \"\",\r\n            \"second_bank\": \"\",\r\n            \"with_email\": false,\r\n            \"email\": \"\",\r\n            \"billed\": true,\r\n            \"receipt_number\": null,\r\n            \"document_id\": null,\r\n            \"is_globalfood\": false,\r\n            \"latitud\": null,\r\n            \"longitud\": null,\r\n            \"transaction_mode\": \"1\",\r\n            \"contract_number\": \"0\",\r\n            \"discount_amount\": \"0.0000\",\r\n            \"use_discount_amount\": false,\r\n            \"state\": 0,\r\n            \"sku\": null,\r\n            \"stage\": null,\r\n            \"payment_method\": 2,\r\n            \"second_payment_method\": null,\r\n            \"third_payment_method\": null,\r\n            \"warehouse\": 480,\r\n            \"customer\": 18972,\r\n            \"employee\": 9265,\r\n            \"turn\": null,\r\n            \"currency\": 1111,\r\n            \"output_warehouse\": null,\r\n            \"card_manager\": null,\r\n            \"delivery\": null\r\n          },\r\n          \"batch\": null,\r\n          \"no_discount_total\": 30,\r\n          \"no_discount_price\": 30,\r\n          \"discounted_total\": 0,\r\n          \"ice\": \"0.0000\",\r\n          \"qty\": \"1.0000\",\r\n          \"price\": \"30.0000\",\r\n          \"real_qty\": \"1.0000\",\r\n          \"real_price\": \"30.0000\",\r\n          \"total\": \"30.0000\",\r\n          \"discount_per_unit\": \"0.0000\",\r\n          \"product_cost\": null,\r\n          \"ice_factor\": \"0.00000\",\r\n          \"ice_specific\": \"0.00000\",\r\n          \"show_in_bill\": true,\r\n          \"discount_amount\": \"0.0000\",\r\n          \"total_discount_promo\": \"0.0000\"\r\n        },\r\n        {\r\n          \"id\": 22257,\r\n          \"created_at\": \"2021-12-21T13:37:36.235346-04:00\",\r\n          \"updated_at\": \"2021-12-21T13:37:36.389239-04:00\",\r\n          \"deleted_at\": null,\r\n          \"tenant_id\": 1339,\r\n          \"product\": {\r\n            \"id\": 48224,\r\n            \"created_at\": \"2021-12-21T13:36:49.346803-04:00\",\r\n            \"updated_at\": \"2021-12-21T13:36:49.346815-04:00\",\r\n            \"deleted_at\": null,\r\n            \"tenant_id\": 1339,\r\n            \"code\": \"8244\",\r\n            \"name\": \"Pan dulce\",\r\n            \"product_type\": \"FINISHED\",\r\n            \"for_sale\": true,\r\n            \"for_purchase\": true,\r\n            \"show_stock\": true,\r\n            \"min_stock\": \"0.0000\",\r\n            \"default_for_tenant\": false,\r\n            \"commission\": null,\r\n            \"sale_ice\": false,\r\n            \"ice_factor\": \"0.00000\",\r\n            \"tariff_items\": null,\r\n            \"aliquots\": null,\r\n            \"additional_info\": null,\r\n            \"category\": 1076,\r\n            \"subcategory\": 1154,\r\n            \"unit_measure\": {\r\n              \"siat_code\": 58\r\n            }\r\n          },\r\n          \"sale\": {\r\n            \"id\": 76179,\r\n            \"created_at\": \"2021-12-21T13:37:36.221768-04:00\",\r\n            \"updated_at\": \"2021-12-21T13:37:36.390758-04:00\",\r\n            \"deleted_at\": null,\r\n            \"tenant_id\": 1339,\r\n            \"comment\": \"\",\r\n            \"amount\": \"40.0000\",\r\n            \"discount\": \"0.0000\",\r\n            \"elaboration_date\": \"2021-12-21T13:37:37-04:00\",\r\n            \"planned_delivery_date\": \"2021-12-21T13:37:37-04:00\",\r\n            \"actual_delivery_date\": \"2021-12-21T13:37:37-04:00\",\r\n            \"delivered\": true,\r\n            \"code\": \"50496\",\r\n            \"bill\": \"50025\",\r\n            \"latitude\": null,\r\n            \"longitude\": null,\r\n            \"commission\": null,\r\n            \"no_discount_amount\": \"40.0000\",\r\n            \"sale_type\": null,\r\n            \"batched\": false,\r\n            \"generated_on_new_pos\": false,\r\n            \"margin_of_gain\": \"100.0000\",\r\n            \"amount_before_advance\": \"40.0000\",\r\n            \"is_py\": false,\r\n            \"use_second_payment_method\": false,\r\n            \"first_paid_amount\": null,\r\n            \"second_paid_amount\": null,\r\n            \"is_total_advance\": false,\r\n            \"product_from_another_warehouse\": false,\r\n            \"credit_payments_with_multipago\": false,\r\n            \"amount_billed\": \"0.0000\",\r\n            \"stock_delivered\": false,\r\n            \"cashflow_generated\": false,\r\n            \"third_paid_amount\": null,\r\n            \"use_third_payment_method\": false,\r\n            \"coupon_amount\": \"0.0000\",\r\n            \"coupon_number\": \"\",\r\n            \"was_refunded\": false,\r\n            \"refund_date\": null,\r\n            \"nro_transaction\": null,\r\n            \"currency_type\": null,\r\n            \"bank\": null,\r\n            \"second_nro_transaction\": \"\",\r\n            \"second_currency_type\": \"\",\r\n            \"second_bank\": \"\",\r\n            \"with_email\": false,\r\n            \"email\": \"\",\r\n            \"billed\": true,\r\n            \"receipt_number\": null,\r\n            \"document_id\": null,\r\n            \"is_globalfood\": false,\r\n            \"latitud\": null,\r\n            \"longitud\": null,\r\n            \"transaction_mode\": \"1\",\r\n            \"contract_number\": \"0\",\r\n            \"discount_amount\": \"0.0000\",\r\n            \"use_discount_amount\": false,\r\n            \"state\": 0,\r\n            \"sku\": null,\r\n            \"stage\": null,\r\n            \"payment_method\": 2,\r\n            \"second_payment_method\": null,\r\n            \"third_payment_method\": null,\r\n            \"warehouse\": 480,\r\n            \"customer\": 18972,\r\n            \"employee\": 9265,\r\n            \"turn\": null,\r\n            \"currency\": 1111,\r\n            \"output_warehouse\": null,\r\n            \"card_manager\": null,\r\n            \"delivery\": null\r\n          },\r\n          \"batch\": null,\r\n          \"no_discount_total\": 30000,\r\n          \"no_discount_price\": 30000,\r\n          \"discounted_total\": 0,\r\n          \"ice\": \"0.0000\",\r\n          \"qty\": \"1.0000\",\r\n          \"price\": \"30000.0000\",\r\n          \"real_qty\": \"1.0000\",\r\n          \"real_price\": \"30000.0000\",\r\n          \"total\": \"30000.0000\",\r\n          \"discount_per_unit\": \"0.0000\",\r\n          \"product_cost\": null,\r\n          \"ice_factor\": \"0.00000\",\r\n          \"ice_specific\": \"0.00000\",\r\n          \"show_in_bill\": true,\r\n          \"discount_amount\": \"0.0000\",\r\n          \"total_discount_promo\": \"0.0000\"\r\n        }\r\n      ],\r\n      \"batch_detail_cards\": [],\r\n      \"output_warehouse\": null,\r\n      \"card_manager\": null,\r\n      \"amount_before_advance\": 0,\r\n      \"motoclick_shipment\": null,\r\n      \"delivery\": null,\r\n      \"invoice_qr_code\": \"7814237011|50025|1234567890|21/12/2021|40|40.00|4B-BB-64-FD-39|1200000|0|0|0|0\",\r\n      \"invoice_or_actual_delivery_date\": \"2021-12-21\",\r\n      \"comment\": \"\",\r\n      \"amount\": \"50030.0000\",\r\n      \"discount\": \"0.0000\",\r\n      \"elaboration_date\": \"2021-12-21T13:37:37-04:00\",\r\n      \"planned_delivery_date\": \"2021-12-21T13:37:37-04:00\",\r\n      \"actual_delivery_date\": \"2021-12-21T13:37:37-04:00\",\r\n      \"delivered\": true,\r\n      \"bill\": \"50025\",\r\n      \"latitude\": null,\r\n      \"longitude\": null,\r\n      \"commission\": null,\r\n      \"no_discount_amount\": \"50030.00\",\r\n      \"sale_type\": null,\r\n      \"batched\": false,\r\n      \"generated_on_new_pos\": false,\r\n      \"margin_of_gain\": \"100.0000\",\r\n      \"is_py\": false,\r\n      \"use_second_payment_method\": false,\r\n      \"first_paid_amount\": null,\r\n      \"second_paid_amount\": null,\r\n      \"is_total_advance\": false,\r\n      \"product_from_another_warehouse\": false,\r\n      \"credit_payments_with_multipago\": false,\r\n      \"amount_billed\": \"0.0000\",\r\n      \"stock_delivered\": false,\r\n      \"cashflow_generated\": false,\r\n      \"third_paid_amount\": null,\r\n      \"use_third_payment_method\": false,\r\n      \"coupon_amount\": \"0.0000\",\r\n      \"coupon_number\": \"\",\r\n      \"was_refunded\": false,\r\n      \"refund_date\": null,\r\n      \"nro_transaction\": null,\r\n      \"currency_type\": null,\r\n      \"bank\": null,\r\n      \"second_nro_transaction\": \"\",\r\n      \"second_currency_type\": \"\",\r\n      \"second_bank\": \"\",\r\n      \"with_email\": false,\r\n      \"email\": [\"alan.serrano.pch@gmail.com\"],\r\n      \"billed\": true,\r\n      \"receipt_number\": null,\r\n      \"document_id\": null,\r\n      \"is_globalfood\": false,\r\n      \"latitud\": null,\r\n      \"longitud\": null,\r\n      \"transaction_mode\": \"1\",\r\n      \"contract_number\": \"0\",\r\n      \"discount_amount\": \"0.0000\",\r\n      \"use_discount_amount\": false,\r\n      \"state\": 0,\r\n      \"sku\": null,\r\n      \"stage\": null\r\n    }\r\n  }"
+            },
+            "url": "{{base_url}}/billing/siat_send_invoice"
+          },
+          "response": []
+        },
+        {
+          "name": "siat_send_invoice_package",
+          "id": "3fb48cd5-599e-4cad-90b0-d08de22c1aea",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "name": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"tenant_id\": 1339\r\n}"
+            },
+            "url": "{{base_url}}/billing/siat_send_invoice_package"
+          },
+          "response": []
+        },
+        {
+          "name": "siat_invoice_package_validation",
+          "id": "777ec93a-2633-4910-b7a4-b5016388e741",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "name": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"tenant_id\": 1339\r\n}"
+            },
+            "url": "{{base_url}}/billing/siat_invoice_package_validation"
+          },
+          "response": []
+        },
+        {
+          "name": "siat_disable_invoice",
+          "id": "b5648809-0327-4792-baa4-d5f862590205",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "name": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"tenant_id\": 1339,\r\n    \"event_code\": 1,\r\n    \"bill\": 230,\r\n    \"email\": [\"alan.serrano.pch@gmail.com\"]\r\n}"
+            },
+            "url": "{{base_url}}/billing/siat_disable_invoice"
+          },
+          "response": []
+        },
+        {
+          "name": "siat_register_exception",
+          "id": "1e9673d0-efa1-43ac-946d-680ab64cedc0",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "name": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"nit\": \"368566024\",\r\n    \"vo_user\": \"TUGERENTE\",\r\n    \"vo_password\": \"dHVHZXJlbnRlMjAyMQ==\",\r\n    \"cufd\": \"BQW9DJi5rQUE=NkTU5MTM4RDYzMjc=Q1UhaUJVSEJXVUFQwOEFBMzY0RTMxN\",\r\n    \"cufd_evento\": \"BQUFvQyYua0FBNkTU5MTM4RDYzMjc=Q8KhNkU0WERNVlVQwOEFBMzY0RTMxN\",\r\n    \"control\": \"5ED331675416D74\",\r\n    \"codigoSucursal\": 0,\r\n    \"codigoModalidad\":2,\r\n    \"codigoEmision\": 1,\r\n    \"punto_venta\": \"0\",\r\n    \"cuis\": \"B694348B\",\r\n    \"description\": \"CAMBIO DE INFRAESTRUCTURA DEL SISTEMA INFORMÁTICO DE FACTURACIÓN O FALLA DE HARDWARE\",\r\n    \"event_code\": 7,\r\n    \"initial_date\": \"2021-12-02T23:59:00.000\",\r\n    \"final_date\": \"2021-12-03T00:00:00.000\"\r\n}"
+            },
+            "url": "{{base_url}}/billing/siat_register_exception"
+          },
+          "response": []
+        },
+        {
+          "name": "siat_get_invoices",
+          "id": "f854c795-d027-42af-861f-bb694c1bef2e",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "name": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": ""
+            },
+            "url": {
+              "raw": "localhost:3010/billing/siat_get_invoices",
+              "host": [
+                "localhost"
+              ],
+              "port": "3010",
+              "path": [
+                "billing",
+                "siat_get_invoices"
+              ],
+              "query": [
+                {
+                  "key": "state",
+                  "value": "1",
+                  "type": "default",
+                  "disabled": true
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "init firebase (cuidado reemplaza la base de datos)",
+          "id": "992f2fd3-1dc6-400f-b618-e1d7f5207434",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "name": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": ""
+            },
+            "url": {
+              "raw": "localhost:3010/billing/init_firebase",
+              "host": [
+                "localhost"
+              ],
+              "port": "3010",
+              "path": [
+                "billing",
+                "init_firebase"
+              ],
+              "query": [
+                {
+                  "key": "state",
+                  "value": "1",
+                  "type": "default",
+                  "disabled": true
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "siat_disable_invoice",
+          "id": "97c90cf6-df48-4d31-a0b8-101149434921",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"nit\": \"368566024\",\r\n    \"vo_user\": \"TUGERENTE\",\r\n    \"vo_password\": \"dHVHZXJlbnRlMjAyMQ==\",\r\n    \"cufd\": \"BQW9DJi5rQUE=NkTU5MTM4RDYzMjc=Q28rdUFTQ0xWVUFQwOEFBMzY0RTMxN\",\r\n    \"control\": \"73377202B3EDC74\",\r\n    \"codigoSucursal\": 0,\r\n    \"codigoModalidad\":2,\r\n    \"codigoEmision\": 1,\r\n    \"pos\": 1,\r\n    \"description\": \"CAMBIO DE INFRAESTRUCTURA DEL SISTEMA INFORMÁTICO DE FACTURACIÓN O FALLA DE HARDWARE\",\r\n    \"event_code\": 2,\r\n    \"cuf\": \"1937E3363EA72AD843A33FE8A7FFFA26BB058606AE36B5E662B3EDC74\"\r\n}"
+            },
+            "url": "localhost:3010/billing/siat_disable_invoice"
+          },
+          "response": []
+        },
+        {
+          "name": "testEndpoint",
+          "id": "10e28183-4eba-4c46-b897-f498a0a11e93",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"ids\": [2,7]\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": "localhost:3010/billing/testEndpoint"
+          },
+          "response": []
+        },
+        {
+          "name": "siat_send_invoice_package",
+          "id": "4b020e4a-1baa-4ad1-920a-ba6174cd35b2",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"nit\": \"368566024\",\r\n    \"vo_user\": \"TUGERENTE\",\r\n    \"vo_password\": \"dHVHZXJlbnRlMjAyMQ==\",\r\n    \"cufd\": \"BQW9DJi5rQUE=NkTU5MTM4RDYzMjc=Q28rdUFTQ0xWVUFQwOEFBMzY0RTMxN\",\r\n    \"control\": \"73377202B3EDC74\",\r\n    \"codigoSucursal\": 0,\r\n    \"codigoModalidad\":2,\r\n    \"codigoEmision\": 1,\r\n    \"pos\": 1,\r\n    \"description\": \"CAMBIO DE INFRAESTRUCTURA DEL SISTEMA INFORMÁTICO DE FACTURACIÓN O FALLA DE HARDWARE\",\r\n    \"event_code\": 2,\r\n    \"cuf\": \"1937E3363EA72AD843A33FE8A7FFFA26BB058606AE36B5E662B3EDC74\"\r\n}"
+            },
+            "url": "localhost:3010/billing/siat_disable_invoice"
+          },
+          "response": []
+        },
+        {
+          "name": "https://pilotosiatservicios.impuestos.gob.bo/v2/ServicioFacturacionCompraVenta?wsdl",
+          "id": "c9c31682-78f3-4337-bbd8-c1070be6ed08",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "name": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"nit\": \"368566024\",\r\n  \"tenant_id\": \"1339\",\r\n  \"vo_user\": \"TUGERENTE\",\r\n  \"vo_password\": \"dHVHZXJlbnRlMjAyMQ==\",\r\n  \"cufd\": \"BQW9DJi5rQUE=NkTU5MTM4RDYzMjc=Q1UhaUJVSEJXVUFQwOEFBMzY0RTMxN\",\r\n  \"sucursal\": \"0\",\r\n  \"punto_venta\": \"0\",\r\n  \"cuis\": \"B694348B\",\r\n  \"control\": \"5ED331675416D74\",\r\n  \"codigoSucursal\": 0,\r\n  \"codigoModalidad\": 2,\r\n  \"codigoEmision\": 1,\r\n  \"tipoFacturaDocumento\": 1,\r\n  \"codigoDocumentoSector\": 1,\r\n  \"invoiceNumber\": 1,\r\n  \"cuf\": \"1A9A46D090898A209B95AA0F2F131C8BE1DFA6E06A355DB450F1CFDC74\",\r\n  \"sale\": {\r\n    \"id\": 76179,\r\n    \"created_at\": \"2021-12-21T13:37:36.221768-04:00\",\r\n    \"updated_at\": \"2021-12-21T13:37:36.390758-04:00\",\r\n    \"deleted_at\": null,\r\n    \"tenant_id\": 1339,\r\n    \"code\": 50496,\r\n    \"payment_method\": {\r\n      \"id\": 2,\r\n      \"created_at\": \"2019-09-24T17:29:11.398705-04:00\",\r\n      \"updated_at\": \"2019-09-24T17:29:11.398719-04:00\",\r\n      \"deleted_at\": null,\r\n      \"name\": \"Efectivo\"\r\n    },\r\n    \"second_payment_method\": null,\r\n    \"third_payment_method\": null,\r\n    \"warehouse\": {\r\n      \"id\": 480,\r\n      \"created_at\": \"2019-09-24T17:28:28.508384-04:00\",\r\n      \"updated_at\": \"2021-01-08T14:32:58.134987-04:00\",\r\n      \"deleted_at\": null,\r\n      \"tenant_id\": 1339,\r\n      \"name\": \"Almacén por defecto\",\r\n      \"address\": \"NETBITS DIRECCION 4\",\r\n      \"attendant\": \"Encargadeishon\",\r\n      \"is_generic\": true,\r\n      \"virtual_order_command\": false,\r\n      \"command_physical_print\": false,\r\n      \"blind_inventory_on_turn_close\": false,\r\n      \"change_price_from_sale\": false,\r\n      \"use_manual_blind_inventory\": false,\r\n      \"current_version\": \"2021-12-21T13:36:49.351818-04:00\",\r\n      \"is_enable_py\": false,\r\n      \"pos_centralized\": false,\r\n      \"use_parameterizable_blind_inventory\": false,\r\n      \"monthly_blind_inventory\": false,\r\n      \"woocommerce_default\": false,\r\n      \"show_employee_name_in_tab\": false,\r\n      \"confirm_dispatch_automatically\": false,\r\n      \"confirm_receipt_automatically\": false,\r\n      \"phone_number\": null,\r\n      \"city\": null,\r\n      \"batch_in_invoices\": false,\r\n      \"unit_measure_in_invoice\": false\r\n    },\r\n    \"customer\": {\r\n      \"id\": 18972,\r\n      \"created_at\": \"2021-12-21T13:36:10.759682-04:00\",\r\n      \"updated_at\": \"2021-12-21T13:36:23.576383-04:00\",\r\n      \"deleted_at\": null,\r\n      \"tenant_id\": 1339,\r\n      \"business_name\": null,\r\n      \"business_email\": null,\r\n      \"name\": \"Huasebé\",\r\n      \"reference_name\": \"ERNESTO OLAZABAL SILVA\",\r\n      \"position\": null,\r\n      \"contact_email\": null,\r\n      \"contact_name\": null,\r\n      \"contact_phone\": null,\r\n      \"contact_phone_number\": null,\r\n      \"contact_phone_number_extra\": null,\r\n      \"country\": null,\r\n      \"city\": null,\r\n      \"nit\": \"3354162014\",\r\n      \"delivery_time\": 0,\r\n      \"credit_days\": 0,\r\n      \"comment\": null,\r\n      \"latitude\": null,\r\n      \"longitude\": null,\r\n      \"priority\": null,\r\n      \"code\": null,\r\n      \"birthdate\": null,\r\n      \"discount\": \"0.0000\",\r\n      \"address\": null,\r\n      \"merged\": false,\r\n      \"category\": 331,\r\n      \"subcategory\": 312,\r\n      \"payment_method\": 1,\r\n      \"delivery_method\": 1\r\n    },\r\n    \"employee\": {\r\n      \"id\": 9265,\r\n      \"created_at\": \"2021-12-21T13:37:28.150182-04:00\",\r\n      \"updated_at\": \"2021-12-21T13:37:28.158011-04:00\",\r\n      \"deleted_at\": null,\r\n      \"tenant_id\": 1339,\r\n      \"name\": \"Netbits vendedor\",\r\n      \"dni\": null,\r\n      \"email\": null,\r\n      \"phone\": null,\r\n      \"phone_number\": null,\r\n      \"phone_number_extra\": null,\r\n      \"birth_date\": null,\r\n      \"can_use_pos\": true,\r\n      \"salary\": null,\r\n      \"net_salary\": null,\r\n      \"pension_fund_type\": null,\r\n      \"hire_date\": null,\r\n      \"retirement_date\": null,\r\n      \"pension_affiliation_date\": null,\r\n      \"has_commission_for_sale\": false,\r\n      \"commission\": null,\r\n      \"has_commission_for_product\": false,\r\n      \"is_collector\": false,\r\n      \"has_commission_for_collected_account_receivable\": false,\r\n      \"commission_for_collected_account_receivable\": null,\r\n      \"has_commission_for_customer_category\": false,\r\n      \"has_commission_for_customer_subcategory\": false,\r\n      \"seniority_bonus\": null,\r\n      \"address\": null,\r\n      \"comment\": null,\r\n      \"all_warehouses\": false,\r\n      \"is_cashier\": false,\r\n      \"_pin_data\": 9649,\r\n      \"pin\": \"9649\",\r\n      \"warehouse\": 480,\r\n      \"manager\": null,\r\n      \"employment\": null\r\n    },\r\n    \"turn\": null,\r\n    \"currency\": {\r\n      \"id\": 1111,\r\n      \"created_at\": \"2019-09-24T17:29:05.942304-04:00\",\r\n      \"updated_at\": \"2019-09-24T17:29:05.942325-04:00\",\r\n      \"deleted_at\": null,\r\n      \"tenant_id\": 1339,\r\n      \"currency_symbol\": \"Bs\",\r\n      \"name\": \"Boliviano\",\r\n      \"plural_name\": \"bolivianos\",\r\n      \"country\": \"Bolivia\"\r\n    },\r\n    \"sale_details_deleted\": [],\r\n    \"sale_details\": [\r\n      {\r\n        \"id\": 22256,\r\n        \"created_at\": \"2021-12-21T13:37:36.230579-04:00\",\r\n        \"updated_at\": \"2021-12-21T13:37:36.386894-04:00\",\r\n        \"deleted_at\": null,\r\n        \"tenant_id\": 1339,\r\n        \"product\": {\r\n          \"id\": 48223,\r\n          \"created_at\": \"2021-12-21T13:36:38.432636-04:00\",\r\n          \"updated_at\": \"2021-12-21T13:36:38.432652-04:00\",\r\n          \"deleted_at\": null,\r\n          \"tenant_id\": 1339,\r\n          \"code\": \"8243\",\r\n          \"name\": \"Licuado\",\r\n          \"product_type\": \"FINISHED\",\r\n          \"for_sale\": true,\r\n          \"for_purchase\": true,\r\n          \"show_stock\": true,\r\n          \"min_stock\": \"0.0000\",\r\n          \"default_for_tenant\": false,\r\n          \"commission\": null,\r\n          \"sale_ice\": false,\r\n          \"ice_factor\": \"0.00000\",\r\n          \"tariff_items\": null,\r\n          \"aliquots\": null,\r\n          \"additional_info\": null,\r\n          \"category\": 1076,\r\n          \"subcategory\": 1154,\r\n          \"unit_measure\": {\r\n            \"name\": \"Unidades\"\r\n          }\r\n        },\r\n        \"sale\": {\r\n          \"id\": 76179,\r\n          \"created_at\": \"2021-12-21T13:37:36.221768-04:00\",\r\n          \"updated_at\": \"2021-12-21T13:37:36.390758-04:00\",\r\n          \"deleted_at\": null,\r\n          \"tenant_id\": 1339,\r\n          \"comment\": \"\",\r\n          \"amount\": \"40.0000\",\r\n          \"discount\": \"0.0000\",\r\n          \"elaboration_date\": \"2021-12-21T13:37:37-04:00\",\r\n          \"planned_delivery_date\": \"2021-12-21T13:37:37-04:00\",\r\n          \"actual_delivery_date\": \"2021-12-21T13:37:37-04:00\",\r\n          \"delivered\": true,\r\n          \"code\": \"50496\",\r\n          \"bill\": \"50025\",\r\n          \"latitude\": null,\r\n          \"longitude\": null,\r\n          \"commission\": null,\r\n          \"no_discount_amount\": \"40.0000\",\r\n          \"sale_type\": null,\r\n          \"batched\": false,\r\n          \"generated_on_new_pos\": false,\r\n          \"margin_of_gain\": \"100.0000\",\r\n          \"amount_before_advance\": \"40.0000\",\r\n          \"is_py\": false,\r\n          \"use_second_payment_method\": false,\r\n          \"first_paid_amount\": null,\r\n          \"second_paid_amount\": null,\r\n          \"is_total_advance\": false,\r\n          \"product_from_another_warehouse\": false,\r\n          \"credit_payments_with_multipago\": false,\r\n          \"amount_billed\": \"0.0000\",\r\n          \"stock_delivered\": false,\r\n          \"cashflow_generated\": false,\r\n          \"third_paid_amount\": null,\r\n          \"use_third_payment_method\": false,\r\n          \"coupon_amount\": \"0.0000\",\r\n          \"coupon_number\": \"\",\r\n          \"was_refunded\": false,\r\n          \"refund_date\": null,\r\n          \"nro_transaction\": null,\r\n          \"currency_type\": null,\r\n          \"bank\": null,\r\n          \"second_nro_transaction\": \"\",\r\n          \"second_currency_type\": \"\",\r\n          \"second_bank\": \"\",\r\n          \"with_email\": false,\r\n          \"email\": \"\",\r\n          \"billed\": true,\r\n          \"receipt_number\": null,\r\n          \"document_id\": null,\r\n          \"is_globalfood\": false,\r\n          \"latitud\": null,\r\n          \"longitud\": null,\r\n          \"transaction_mode\": \"1\",\r\n          \"contract_number\": \"0\",\r\n          \"discount_amount\": \"0.0000\",\r\n          \"use_discount_amount\": false,\r\n          \"state\": 0,\r\n          \"sku\": null,\r\n          \"stage\": null,\r\n          \"payment_method\": 2,\r\n          \"second_payment_method\": null,\r\n          \"third_payment_method\": null,\r\n          \"warehouse\": 480,\r\n          \"customer\": 18972,\r\n          \"employee\": 9265,\r\n          \"turn\": null,\r\n          \"currency\": 1111,\r\n          \"output_warehouse\": null,\r\n          \"card_manager\": null,\r\n          \"delivery\": null\r\n        },\r\n        \"batch\": null,\r\n        \"no_discount_total\": 10,\r\n        \"no_discount_price\": 10,\r\n        \"discounted_total\": 0,\r\n        \"ice\": \"0.0000\",\r\n        \"qty\": \"1.0000\",\r\n        \"price\": \"10.0000\",\r\n        \"real_qty\": \"1.0000\",\r\n        \"real_price\": \"10.0000\",\r\n        \"total\": \"10.0000\",\r\n        \"discount_per_unit\": \"0.0000\",\r\n        \"product_cost\": null,\r\n        \"ice_factor\": \"0.00000\",\r\n        \"ice_specific\": \"0.00000\",\r\n        \"show_in_bill\": true,\r\n        \"discount_amount\": \"0.0000\",\r\n        \"total_discount_promo\": \"0.0000\"\r\n      },\r\n      {\r\n        \"id\": 22257,\r\n        \"created_at\": \"2021-12-21T13:37:36.235346-04:00\",\r\n        \"updated_at\": \"2021-12-21T13:37:36.389239-04:00\",\r\n        \"deleted_at\": null,\r\n        \"tenant_id\": 1339,\r\n        \"product\": {\r\n          \"id\": 48224,\r\n          \"created_at\": \"2021-12-21T13:36:49.346803-04:00\",\r\n          \"updated_at\": \"2021-12-21T13:36:49.346815-04:00\",\r\n          \"deleted_at\": null,\r\n          \"tenant_id\": 1339,\r\n          \"code\": \"8244\",\r\n          \"name\": \"Pan dulce\",\r\n          \"product_type\": \"FINISHED\",\r\n          \"for_sale\": true,\r\n          \"for_purchase\": true,\r\n          \"show_stock\": true,\r\n          \"min_stock\": \"0.0000\",\r\n          \"default_for_tenant\": false,\r\n          \"commission\": null,\r\n          \"sale_ice\": false,\r\n          \"ice_factor\": \"0.00000\",\r\n          \"tariff_items\": null,\r\n          \"aliquots\": null,\r\n          \"additional_info\": null,\r\n          \"category\": 1076,\r\n          \"subcategory\": 1154,\r\n          \"unit_measure\": {\r\n            \"name\": \"Unidades\"\r\n          }\r\n        },\r\n        \"sale\": {\r\n          \"id\": 76179,\r\n          \"created_at\": \"2021-12-21T13:37:36.221768-04:00\",\r\n          \"updated_at\": \"2021-12-21T13:37:36.390758-04:00\",\r\n          \"deleted_at\": null,\r\n          \"tenant_id\": 1339,\r\n          \"comment\": \"\",\r\n          \"amount\": \"40.0000\",\r\n          \"discount\": \"0.0000\",\r\n          \"elaboration_date\": \"2021-12-21T13:37:37-04:00\",\r\n          \"planned_delivery_date\": \"2021-12-21T13:37:37-04:00\",\r\n          \"actual_delivery_date\": \"2021-12-21T13:37:37-04:00\",\r\n          \"delivered\": true,\r\n          \"code\": \"50496\",\r\n          \"bill\": \"50025\",\r\n          \"latitude\": null,\r\n          \"longitude\": null,\r\n          \"commission\": null,\r\n          \"no_discount_amount\": \"40.0000\",\r\n          \"sale_type\": null,\r\n          \"batched\": false,\r\n          \"generated_on_new_pos\": false,\r\n          \"margin_of_gain\": \"100.0000\",\r\n          \"amount_before_advance\": \"40.0000\",\r\n          \"is_py\": false,\r\n          \"use_second_payment_method\": false,\r\n          \"first_paid_amount\": null,\r\n          \"second_paid_amount\": null,\r\n          \"is_total_advance\": false,\r\n          \"product_from_another_warehouse\": false,\r\n          \"credit_payments_with_multipago\": false,\r\n          \"amount_billed\": \"0.0000\",\r\n          \"stock_delivered\": false,\r\n          \"cashflow_generated\": false,\r\n          \"third_paid_amount\": null,\r\n          \"use_third_payment_method\": false,\r\n          \"coupon_amount\": \"0.0000\",\r\n          \"coupon_number\": \"\",\r\n          \"was_refunded\": false,\r\n          \"refund_date\": null,\r\n          \"nro_transaction\": null,\r\n          \"currency_type\": null,\r\n          \"bank\": null,\r\n          \"second_nro_transaction\": \"\",\r\n          \"second_currency_type\": \"\",\r\n          \"second_bank\": \"\",\r\n          \"with_email\": false,\r\n          \"email\": \"\",\r\n          \"billed\": true,\r\n          \"receipt_number\": null,\r\n          \"document_id\": null,\r\n          \"is_globalfood\": false,\r\n          \"latitud\": null,\r\n          \"longitud\": null,\r\n          \"transaction_mode\": \"1\",\r\n          \"contract_number\": \"0\",\r\n          \"discount_amount\": \"0.0000\",\r\n          \"use_discount_amount\": false,\r\n          \"state\": 0,\r\n          \"sku\": null,\r\n          \"stage\": null,\r\n          \"payment_method\": 2,\r\n          \"second_payment_method\": null,\r\n          \"third_payment_method\": null,\r\n          \"warehouse\": 480,\r\n          \"customer\": 18972,\r\n          \"employee\": 9265,\r\n          \"turn\": null,\r\n          \"currency\": 1111,\r\n          \"output_warehouse\": null,\r\n          \"card_manager\": null,\r\n          \"delivery\": null\r\n        },\r\n        \"batch\": null,\r\n        \"no_discount_total\": 30,\r\n        \"no_discount_price\": 30,\r\n        \"discounted_total\": 0,\r\n        \"ice\": \"0.0000\",\r\n        \"qty\": \"1.0000\",\r\n        \"price\": \"30.0000\",\r\n        \"real_qty\": \"1.0000\",\r\n        \"real_price\": \"30.0000\",\r\n        \"total\": \"30.0000\",\r\n        \"discount_per_unit\": \"0.0000\",\r\n        \"product_cost\": null,\r\n        \"ice_factor\": \"0.00000\",\r\n        \"ice_specific\": \"0.00000\",\r\n        \"show_in_bill\": true,\r\n        \"discount_amount\": \"0.0000\",\r\n        \"total_discount_promo\": \"0.0000\"\r\n      }\r\n    ],\r\n    \"batch_detail_cards\": [],\r\n    \"output_warehouse\": null,\r\n    \"card_manager\": null,\r\n    \"amount_before_advance\": 40,\r\n    \"motoclick_shipment\": null,\r\n    \"delivery\": null,\r\n    \"invoice_qr_code\": \"7814237011|50025|1234567890|21/12/2021|40|40.00|4B-BB-64-FD-39|1200000|0|0|0|0\",\r\n    \"invoice_or_actual_delivery_date\": \"2021-12-21\",\r\n    \"comment\": \"\",\r\n    \"amount\": \"40.0000\",\r\n    \"discount\": \"0.0000\",\r\n    \"elaboration_date\": \"2021-12-21T13:37:37-04:00\",\r\n    \"planned_delivery_date\": \"2021-12-21T13:37:37-04:00\",\r\n    \"actual_delivery_date\": \"2021-12-21T13:37:37-04:00\",\r\n    \"delivered\": true,\r\n    \"bill\": \"50025\",\r\n    \"latitude\": null,\r\n    \"longitude\": null,\r\n    \"commission\": null,\r\n    \"no_discount_amount\": \"40.0000\",\r\n    \"sale_type\": null,\r\n    \"batched\": false,\r\n    \"generated_on_new_pos\": false,\r\n    \"margin_of_gain\": \"100.0000\",\r\n    \"is_py\": false,\r\n    \"use_second_payment_method\": false,\r\n    \"first_paid_amount\": null,\r\n    \"second_paid_amount\": null,\r\n    \"is_total_advance\": false,\r\n    \"product_from_another_warehouse\": false,\r\n    \"credit_payments_with_multipago\": false,\r\n    \"amount_billed\": \"0.0000\",\r\n    \"stock_delivered\": false,\r\n    \"cashflow_generated\": false,\r\n    \"third_paid_amount\": null,\r\n    \"use_third_payment_method\": false,\r\n    \"coupon_amount\": \"0.0000\",\r\n    \"coupon_number\": \"\",\r\n    \"was_refunded\": false,\r\n    \"refund_date\": null,\r\n    \"nro_transaction\": null,\r\n    \"currency_type\": null,\r\n    \"bank\": null,\r\n    \"second_nro_transaction\": \"\",\r\n    \"second_currency_type\": \"\",\r\n    \"second_bank\": \"\",\r\n    \"with_email\": false,\r\n    \"email\": \"alan.serrano.pch@gmail.com\",\r\n    \"billed\": true,\r\n    \"receipt_number\": null,\r\n    \"document_id\": null,\r\n    \"is_globalfood\": false,\r\n    \"latitud\": null,\r\n    \"longitud\": null,\r\n    \"transaction_mode\": \"1\",\r\n    \"contract_number\": \"0\",\r\n    \"discount_amount\": \"0.0000\",\r\n    \"use_discount_amount\": false,\r\n    \"state\": 0,\r\n    \"sku\": null,\r\n    \"stage\": null\r\n  }\r\n}"
+            },
+            "url": "localhost:3010/billing/siat_send_invoice"
+          },
+          "response": []
+        },
+        {
+          "name": "New Request",
+          "id": "db58ff8b-a26c-47e3-ae85-5c8b86796898",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "https://pilotosiat.impuestos.gob.bo/consulta/QR?nit=368566024&cuf=1937E3363EA743AC890ACAE460D93373AAE4B097A13B7D14A6B10EC74&numero=1",
+              "protocol": "https",
+              "host": [
+                "pilotosiat",
+                "impuestos",
+                "gob",
+                "bo"
+              ],
+              "path": [
+                "consulta",
+                "QR"
+              ],
+              "query": [
+                {
+                  "key": "nit",
+                  "value": "368566024",
+                  "description": "Es el valor del NIT del emisor de la Factura o Nota de Crédito-Débito."
+                },
+                {
+                  "key": "cuf",
+                  "value": "1937E3363EA743AC890ACAE460D93373AAE4B097A13B7D14A6B10EC74",
+                  "description": "Es el Código Único de la Factura de la Factura o Nota de Crédito-Débito."
+                },
+                {
+                  "key": "numero",
+                  "value": "1",
+                  "description": "Es el número correlativo de la Factura o Nota de Crédito-Débito."
+                },
+                {
+                  "key": "t",
+                  "value": "2",
+                  "description": "es el tamaño para la pre visualización 1 = rollo, 2 = media hoja, si no se incluye este parámetro su valor por defecto será 1.",
+                  "disabled": true
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "New Request Copy",
+          "id": "b1daaf2f-73c3-49ea-a868-eae72ba4ac6c",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "https://pilotosiat.impuestos.gob.bo/consulta/QR?nit=368566024&cuf=1937E3363EA743AC890ACAE460D93373AAE4B097A13B7D14A6B10EC74&numero=1",
+              "protocol": "https",
+              "host": [
+                "pilotosiat",
+                "impuestos",
+                "gob",
+                "bo"
+              ],
+              "path": [
+                "consulta",
+                "QR"
+              ],
+              "query": [
+                {
+                  "key": "nit",
+                  "value": "368566024",
+                  "description": "Es el valor del NIT del emisor de la Factura o Nota de Crédito-Débito."
+                },
+                {
+                  "key": "cuf",
+                  "value": "1937E3363EA743AC890ACAE460D93373AAE4B097A13B7D14A6B10EC74",
+                  "description": "Es el Código Único de la Factura de la Factura o Nota de Crédito-Débito."
+                },
+                {
+                  "key": "numero",
+                  "value": "1",
+                  "description": "Es el número correlativo de la Factura o Nota de Crédito-Débito."
+                },
+                {
+                  "key": "t",
+                  "value": "2",
+                  "description": "es el tamaño para la pre visualización 1 = rollo, 2 = media hoja, si no se incluye este parámetro su valor por defecto será 1.",
+                  "disabled": true
+                }
+              ]
+            }
+          },
+          "response": []
+        }
+      ],
+      "id": "513ba4c1-0fd4-479f-ab70-0504a5a3cd28"
+    },
+    {
       "name": "S3",
       "id": "bff4205d-df25-4382-95e6-1bed658f21b0",
       "protocolProfileBehavior": {
@@ -5956,32 +6590,32 @@
   ],
   "variable": [
     {
-      "id": "b852eafb-4fb8-4fb2-baa3-1dd496989bd9",
+      "id": "8f03b902-fc27-4502-90fb-03a94aba90d9",
       "key": "Cookie",
       "value": "_ga=GA1.2.995623964.1629400496; _gid=GA1.2.1579657039.1629400496; _fbp=fb.1.1629400714958.1618680225; ajs_user_id=\"1339\"; ajs_anonymous_id=\"8310621c-456f-44b7-a285-f979bb8c5e76\"; _gat_UA-179458013-2=1; tuGerenteToken=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2Mjk4NTE2NDYsImlhdCI6MTYyOTQ5MTY0NiwiaWQiOjQ4NjQsInVzZXIiOiJ7XCJpZFwiOjQ4NjQsXCJub21icmVcIjpcIlFBIE5vbWJyZSBjYW1iaWFkb1wiLFwiYXBlbGxpZG9cIjpudWxsLFwiZmVjaGFfbmFjaW1pZW50b1wiOm51bGwsXCJnZW5lcm9cIjpudWxsLFwicGFpc1wiOlwiQk9cIixcImNpdWRhZFwiOm51bGwsXCJlbWFpbFwiOlwiYmVsYXlhZzEzMEBhbXBzd2lwZS5jb21cIixcInRlbGVmb25vXCI6XCI3NjM3NTY0N1wiLFwiYWN0aXZvXCI6MCxcImNvZFwiOlwidHVHLTQ4NjRcIixcImNyZWF0ZWRfYXRcIjpcIjIwMjEtMDgtMTlUMTk6NTI6NTkuMDAwWlwiLFwidXBkYXRlZF9hdFwiOlwiMjAyMS0wOC0xOVQyMDoxMDo0NC4wMDBaXCIsXCJkZWxldGVkX2F0XCI6bnVsbCxcInNlc3Npb25faWRcIjpudWxsLFwiaGF2ZV9jb21wYW55XCI6XCJzaVwiLFwidmFsaWRhdGlvbl9yZXF1ZXN0XCI6bnVsbH0ifQ.XnZwnSNps4xDOnkKudj-7x-PJlC2GdzfT2xIoSwqiQ6S0zBd7jp4r4ZI4G7YTgnXOB2CSFHTEp891pMJtYWeCQ; LobbyCookie=\"eyIxIjogW3sib3duZXJfdXNlcl9pZCI6IDQ4NjQsICJ0ZW5hbnRfaWQiOiAxODQyLCAic3Vic2NyaXB0aW9uX3N0YXRlIjogImFjdGl2ZSIsICJhY3RpdmUiOiB0cnVlLCAiYnVzaW5lc3NfbmFtZSI6ICJRYSIsICJzdGFydF9kYXRlIjogIjIwMjEtMDgtMTkiLCAiZmluaXNoX2RhdGUiOiAiMjAyMS0xMC0wMiIsICJpc19kZW1vIjogZmFsc2UsICJlbWFpbCI6IG51bGwsICJwYWNrIjogMywgImNvdW50cnkiOiAiQk8iLCAiY2l0eSI6IG51bGwsICJuaXQiOiBudWxsLCAidXNlcnNfcXR5IjogMTAsICJydWJyb19pZCI6IDEsICJ0ZXJtc19hY2NlcHRlZCI6IHRydWUsICJpc19pbmZvX3ZpZXdlZCI6IGZhbHNlLCAidmFsaWRhdGVkIjogZmFsc2UsICJyZXF1ZXN0X2RhdGUiOiAiMjAyMS0wOC0xOVQyMDoxMDo0NC45Mzg2NDArMDA6MDAifV0sICIyIjogW10sICIzIjogW10sICJ2ZXJzaW9uc19zdXBwb3J0ZWQiOiBbIjEuMCJdfXx2Tk5HamxQU1lMVkVWLVRsVk5jSTg5a1pVN0k=\""
     },
     {
-      "id": "e0a2516f-708e-470c-a183-afba75a39315",
+      "id": "1793b2c5-2f50-422e-9492-5ee6cc6120e7",
       "key": "base_url_back",
       "value": "http://back.tugerente.me:8001"
     },
     {
-      "id": "cf1558ba-d244-4bd3-8123-0b1f49aceb05",
+      "id": "d85b48ae-95f2-4f48-aac1-ac49aa59037c",
       "key": "Accept",
       "value": "application/json, text/plain, */*"
     },
     {
-      "id": "f95e8d0e-7173-46c5-9d87-9dc982d8cc84",
+      "id": "9b53cbd2-bc16-4540-a364-d5070ac1a49c",
       "key": "Timezone",
       "value": "America/La_Paz"
     },
     {
-      "id": "e960156f-5bff-4d26-ae4c-1b25961d7b14",
+      "id": "d3cfac58-4b1c-4dc7-acb0-90ef82ec9895",
       "key": "Content-Type",
       "value": "application/json"
     },
     {
-      "id": "85da2e12-6653-44ba-be49-72a10f3b7d53",
+      "id": "f121df89-1f5c-4a8b-8e92-4b87841abcc1",
       "key": "ApiKey",
       "value": "NSqs04Y7M6OAB32WA5UzOziCGAHETz3fGRk3g2C0"
     }
