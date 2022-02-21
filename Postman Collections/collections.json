@@ -9,57 +9,6 @@
       "name": "FCL",
       "item": [
         {
-          "name": "get_api_key",
-          "event": [
-            {
-              "listen": "test",
-              "script": {
-                "id": "8ba2bf23-889d-4b95-ab29-fa18a9ababd7",
-                "exec": [
-                  ""
-                ],
-                "type": "text/javascript"
-              }
-            }
-          ],
-          "id": "c20b2ec2-88c4-41ef-a76d-0ca11ed3f3eb",
-          "protocolProfileBehavior": {
-            "disableBodyPruning": true
-          },
-          "request": {
-            "method": "GET",
-            "header": [
-              {
-                "key": "Accept",
-                "type": "text",
-                "value": "{{Accept}}"
-              },
-              {
-                "key": "Timezone",
-                "type": "text",
-                "value": "{{Timezone}}"
-              },
-              {
-                "key": "Content-Type",
-                "name": "Content-Type",
-                "type": "text",
-                "value": "{{Content-Type}}"
-              }
-            ],
-            "body": {
-              "mode": "raw",
-              "raw": "",
-              "options": {
-                "raw": {
-                  "language": "json"
-                }
-              }
-            },
-            "url": "{{base_url_back}}/v1/integrations/integration_fcl/get_api_key/"
-          },
-          "response": []
-        },
-        {
           "name": "set_api_key",
           "event": [
             {
@@ -5461,7 +5410,59 @@
             },
             {
               "name": "FCL",
-              "item": [],
+              "item": [
+                {
+                  "name": "get_api_key",
+                  "event": [
+                    {
+                      "listen": "test",
+                      "script": {
+                        "id": "8ba2bf23-889d-4b95-ab29-fa18a9ababd7",
+                        "exec": [
+                          ""
+                        ],
+                        "type": "text/javascript"
+                      }
+                    }
+                  ],
+                  "id": "c20b2ec2-88c4-41ef-a76d-0ca11ed3f3eb",
+                  "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                  },
+                  "request": {
+                    "method": "GET",
+                    "header": [
+                      {
+                        "key": "Accept",
+                        "type": "text",
+                        "value": "{{Accept}}"
+                      },
+                      {
+                        "key": "Timezone",
+                        "type": "text",
+                        "value": "{{Timezone}}"
+                      },
+                      {
+                        "key": "Content-Type",
+                        "name": "Content-Type",
+                        "type": "text",
+                        "value": "{{Content-Type}}"
+                      }
+                    ],
+                    "body": {
+                      "mode": "raw",
+                      "raw": "",
+                      "options": {
+                        "raw": {
+                          "language": "json"
+                        }
+                      }
+                    },
+                    "url": "{{base_url_back}}/v1/integrations/integration_fcl/get_api_key/"
+                  },
+                  "response": []
+                }
+              ],
               "id": "f9ddf96d-5d11-4084-9bb0-58da9337c700"
             }
           ],
@@ -5961,32 +5962,32 @@
   ],
   "variable": [
     {
-      "id": "054b041c-049c-4601-b9d9-3ed0b6050136",
+      "id": "6ce7fe7d-1fad-4ccc-bbbc-c47ecc9e4ee5",
       "key": "Cookie",
       "value": "_ga=GA1.2.995623964.1629400496; _gid=GA1.2.1579657039.1629400496; _fbp=fb.1.1629400714958.1618680225; ajs_user_id=\"1339\"; ajs_anonymous_id=\"8310621c-456f-44b7-a285-f979bb8c5e76\"; _gat_UA-179458013-2=1; tuGerenteToken=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2Mjk4NTE2NDYsImlhdCI6MTYyOTQ5MTY0NiwiaWQiOjQ4NjQsInVzZXIiOiJ7XCJpZFwiOjQ4NjQsXCJub21icmVcIjpcIlFBIE5vbWJyZSBjYW1iaWFkb1wiLFwiYXBlbGxpZG9cIjpudWxsLFwiZmVjaGFfbmFjaW1pZW50b1wiOm51bGwsXCJnZW5lcm9cIjpudWxsLFwicGFpc1wiOlwiQk9cIixcImNpdWRhZFwiOm51bGwsXCJlbWFpbFwiOlwiYmVsYXlhZzEzMEBhbXBzd2lwZS5jb21cIixcInRlbGVmb25vXCI6XCI3NjM3NTY0N1wiLFwiYWN0aXZvXCI6MCxcImNvZFwiOlwidHVHLTQ4NjRcIixcImNyZWF0ZWRfYXRcIjpcIjIwMjEtMDgtMTlUMTk6NTI6NTkuMDAwWlwiLFwidXBkYXRlZF9hdFwiOlwiMjAyMS0wOC0xOVQyMDoxMDo0NC4wMDBaXCIsXCJkZWxldGVkX2F0XCI6bnVsbCxcInNlc3Npb25faWRcIjpudWxsLFwiaGF2ZV9jb21wYW55XCI6XCJzaVwiLFwidmFsaWRhdGlvbl9yZXF1ZXN0XCI6bnVsbH0ifQ.XnZwnSNps4xDOnkKudj-7x-PJlC2GdzfT2xIoSwqiQ6S0zBd7jp4r4ZI4G7YTgnXOB2CSFHTEp891pMJtYWeCQ; LobbyCookie=\"eyIxIjogW3sib3duZXJfdXNlcl9pZCI6IDQ4NjQsICJ0ZW5hbnRfaWQiOiAxODQyLCAic3Vic2NyaXB0aW9uX3N0YXRlIjogImFjdGl2ZSIsICJhY3RpdmUiOiB0cnVlLCAiYnVzaW5lc3NfbmFtZSI6ICJRYSIsICJzdGFydF9kYXRlIjogIjIwMjEtMDgtMTkiLCAiZmluaXNoX2RhdGUiOiAiMjAyMS0xMC0wMiIsICJpc19kZW1vIjogZmFsc2UsICJlbWFpbCI6IG51bGwsICJwYWNrIjogMywgImNvdW50cnkiOiAiQk8iLCAiY2l0eSI6IG51bGwsICJuaXQiOiBudWxsLCAidXNlcnNfcXR5IjogMTAsICJydWJyb19pZCI6IDEsICJ0ZXJtc19hY2NlcHRlZCI6IHRydWUsICJpc19pbmZvX3ZpZXdlZCI6IGZhbHNlLCAidmFsaWRhdGVkIjogZmFsc2UsICJyZXF1ZXN0X2RhdGUiOiAiMjAyMS0wOC0xOVQyMDoxMDo0NC45Mzg2NDArMDA6MDAifV0sICIyIjogW10sICIzIjogW10sICJ2ZXJzaW9uc19zdXBwb3J0ZWQiOiBbIjEuMCJdfXx2Tk5HamxQU1lMVkVWLVRsVk5jSTg5a1pVN0k=\""
     },
     {
-      "id": "7dedcdfb-faa2-4fb2-9ac9-f5585b1d6067",
+      "id": "7f62f215-cd0c-4372-84c1-c01725b13762",
       "key": "base_url_back",
       "value": "http://back.tugerente.me:8001"
     },
     {
-      "id": "04d476a6-53b8-4606-811c-77e087091f4a",
+      "id": "90c10395-4a03-4bd4-8848-867770a03415",
       "key": "Accept",
       "value": "application/json, text/plain, */*"
     },
     {
-      "id": "1d685a4e-98d7-403d-b2d6-f3f6cace4dd2",
+      "id": "25c5cf7d-1974-4521-a070-5cf02ee0a73f",
       "key": "Timezone",
       "value": "America/La_Paz"
     },
     {
-      "id": "5caebf0e-13df-4869-9f16-d4b7a4dc9348",
+      "id": "a3107544-90a9-41a2-b3c7-5480abc1fe4b",
       "key": "Content-Type",
       "value": "application/json"
     },
     {
-      "id": "2501b2f0-3205-4b24-ad6f-492cc2afcef6",
+      "id": "6bd325a9-718a-4786-af78-68e356f4f5a7",
       "key": "ApiKey",
       "value": "NSqs04Y7M6OAB32WA5UzOziCGAHETz3fGRk3g2C0"
     }
