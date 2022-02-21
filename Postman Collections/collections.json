@@ -3950,6 +3950,76 @@
                   "response": []
                 },
                 {
+                  "name": "siat/unit_measures Copy",
+                  "event": [
+                    {
+                      "listen": "test",
+                      "script": {
+                        "id": "013171f5-c72b-487e-8201-bc66548b83be",
+                        "exec": [
+                          ""
+                        ],
+                        "type": "text/javascript"
+                      }
+                    }
+                  ],
+                  "id": "f36f62be-841d-4454-a009-28cd14bd6b7f",
+                  "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                  },
+                  "request": {
+                    "method": "GET",
+                    "header": [
+                      {
+                        "key": "Accept",
+                        "type": "text",
+                        "value": "{{Accept}}"
+                      },
+                      {
+                        "key": "Timezone",
+                        "type": "text",
+                        "value": "{{Timezone}}"
+                      },
+                      {
+                        "key": "Content-Type",
+                        "name": "Content-Type",
+                        "type": "text",
+                        "value": "{{Content-Type}}"
+                      }
+                    ],
+                    "body": {
+                      "mode": "raw",
+                      "raw": "",
+                      "options": {
+                        "raw": {
+                          "language": "json"
+                        }
+                      }
+                    },
+                    "url": {
+                      "raw": "{{base_url_back}}/v1/integrations/siat/products",
+                      "host": [
+                        "{{base_url_back}}"
+                      ],
+                      "path": [
+                        "v1",
+                        "integrations",
+                        "siat",
+                        "products"
+                      ],
+                      "query": [
+                        {
+                          "key": "Data-Operations",
+                          "value": "",
+                          "disabled": true
+                        }
+                      ]
+                    },
+                    "description": "Se obtiene las unidades de medida del siat"
+                  },
+                  "response": []
+                },
+                {
                   "name": "siat_integrate_entity/unit_measures",
                   "event": [
                     {
@@ -4763,76 +4833,6 @@
                       "body": null
                     }
                   ]
-                },
-                {
-                  "name": "siat/unit_measures Copy",
-                  "event": [
-                    {
-                      "listen": "test",
-                      "script": {
-                        "id": "013171f5-c72b-487e-8201-bc66548b83be",
-                        "exec": [
-                          ""
-                        ],
-                        "type": "text/javascript"
-                      }
-                    }
-                  ],
-                  "id": "f36f62be-841d-4454-a009-28cd14bd6b7f",
-                  "protocolProfileBehavior": {
-                    "disableBodyPruning": true
-                  },
-                  "request": {
-                    "method": "GET",
-                    "header": [
-                      {
-                        "key": "Accept",
-                        "type": "text",
-                        "value": "{{Accept}}"
-                      },
-                      {
-                        "key": "Timezone",
-                        "type": "text",
-                        "value": "{{Timezone}}"
-                      },
-                      {
-                        "key": "Content-Type",
-                        "name": "Content-Type",
-                        "type": "text",
-                        "value": "{{Content-Type}}"
-                      }
-                    ],
-                    "body": {
-                      "mode": "raw",
-                      "raw": "",
-                      "options": {
-                        "raw": {
-                          "language": "json"
-                        }
-                      }
-                    },
-                    "url": {
-                      "raw": "{{base_url_back}}/v1/integrations/siat/unit_measures",
-                      "host": [
-                        "{{base_url_back}}"
-                      ],
-                      "path": [
-                        "v1",
-                        "integrations",
-                        "siat",
-                        "unit_measures"
-                      ],
-                      "query": [
-                        {
-                          "key": "Data-Operations",
-                          "value": "",
-                          "disabled": true
-                        }
-                      ]
-                    },
-                    "description": "Se obtiene las unidades de medida del siat"
-                  },
-                  "response": []
                 }
               ],
               "id": "51e2f97c-e60b-41df-9297-2805381d5b6f"
@@ -5312,32 +5312,32 @@
   ],
   "variable": [
     {
-      "id": "297fdf70-02a9-42dd-a7cb-20a4bf8467f8",
+      "id": "e6d2cf59-e8b1-4969-9d89-0a959af2d199",
       "key": "Cookie",
       "value": "_ga=GA1.2.995623964.1629400496; _gid=GA1.2.1579657039.1629400496; _fbp=fb.1.1629400714958.1618680225; ajs_user_id=\"1339\"; ajs_anonymous_id=\"8310621c-456f-44b7-a285-f979bb8c5e76\"; _gat_UA-179458013-2=1; tuGerenteToken=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2Mjk4NTE2NDYsImlhdCI6MTYyOTQ5MTY0NiwiaWQiOjQ4NjQsInVzZXIiOiJ7XCJpZFwiOjQ4NjQsXCJub21icmVcIjpcIlFBIE5vbWJyZSBjYW1iaWFkb1wiLFwiYXBlbGxpZG9cIjpudWxsLFwiZmVjaGFfbmFjaW1pZW50b1wiOm51bGwsXCJnZW5lcm9cIjpudWxsLFwicGFpc1wiOlwiQk9cIixcImNpdWRhZFwiOm51bGwsXCJlbWFpbFwiOlwiYmVsYXlhZzEzMEBhbXBzd2lwZS5jb21cIixcInRlbGVmb25vXCI6XCI3NjM3NTY0N1wiLFwiYWN0aXZvXCI6MCxcImNvZFwiOlwidHVHLTQ4NjRcIixcImNyZWF0ZWRfYXRcIjpcIjIwMjEtMDgtMTlUMTk6NTI6NTkuMDAwWlwiLFwidXBkYXRlZF9hdFwiOlwiMjAyMS0wOC0xOVQyMDoxMDo0NC4wMDBaXCIsXCJkZWxldGVkX2F0XCI6bnVsbCxcInNlc3Npb25faWRcIjpudWxsLFwiaGF2ZV9jb21wYW55XCI6XCJzaVwiLFwidmFsaWRhdGlvbl9yZXF1ZXN0XCI6bnVsbH0ifQ.XnZwnSNps4xDOnkKudj-7x-PJlC2GdzfT2xIoSwqiQ6S0zBd7jp4r4ZI4G7YTgnXOB2CSFHTEp891pMJtYWeCQ; LobbyCookie=\"eyIxIjogW3sib3duZXJfdXNlcl9pZCI6IDQ4NjQsICJ0ZW5hbnRfaWQiOiAxODQyLCAic3Vic2NyaXB0aW9uX3N0YXRlIjogImFjdGl2ZSIsICJhY3RpdmUiOiB0cnVlLCAiYnVzaW5lc3NfbmFtZSI6ICJRYSIsICJzdGFydF9kYXRlIjogIjIwMjEtMDgtMTkiLCAiZmluaXNoX2RhdGUiOiAiMjAyMS0xMC0wMiIsICJpc19kZW1vIjogZmFsc2UsICJlbWFpbCI6IG51bGwsICJwYWNrIjogMywgImNvdW50cnkiOiAiQk8iLCAiY2l0eSI6IG51bGwsICJuaXQiOiBudWxsLCAidXNlcnNfcXR5IjogMTAsICJydWJyb19pZCI6IDEsICJ0ZXJtc19hY2NlcHRlZCI6IHRydWUsICJpc19pbmZvX3ZpZXdlZCI6IGZhbHNlLCAidmFsaWRhdGVkIjogZmFsc2UsICJyZXF1ZXN0X2RhdGUiOiAiMjAyMS0wOC0xOVQyMDoxMDo0NC45Mzg2NDArMDA6MDAifV0sICIyIjogW10sICIzIjogW10sICJ2ZXJzaW9uc19zdXBwb3J0ZWQiOiBbIjEuMCJdfXx2Tk5HamxQU1lMVkVWLVRsVk5jSTg5a1pVN0k=\""
     },
     {
-      "id": "f4bc24e4-03fb-4c68-a364-1492be76a2bb",
+      "id": "7c659e90-7b7b-4c4e-90b8-0a43edab6486",
       "key": "base_url_back",
       "value": "http://back.tugerente.me:8001"
     },
     {
-      "id": "9290fc9e-69f8-495d-b59b-b5c1b5b56ba8",
+      "id": "826566ad-5dea-42e6-82f5-8df1f84db4c6",
       "key": "Accept",
       "value": "application/json, text/plain, */*"
     },
     {
-      "id": "2807d7cf-0da9-4495-9800-ec0a06a1f299",
+      "id": "ff500350-f06c-4cec-82a4-0b294693f364",
       "key": "Timezone",
       "value": "America/La_Paz"
     },
     {
-      "id": "519e890b-b7a2-4cad-ae7a-74d8fa8bca1f",
+      "id": "637f68d6-b62a-4b0f-8b09-8a4f0d925355",
       "key": "Content-Type",
       "value": "application/json"
     },
     {
-      "id": "004aceaa-9ef8-4280-b350-fc516a6695c3",
+      "id": "e2464644-9633-4b6e-9e75-a46cce62822e",
       "key": "ApiKey",
       "value": "NSqs04Y7M6OAB32WA5UzOziCGAHETz3fGRk3g2C0"
     }
