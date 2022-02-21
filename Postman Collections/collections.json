@@ -5429,32 +5429,32 @@
   ],
   "variable": [
     {
-      "id": "25cceca4-9473-4804-8c15-7bcd549c9082",
+      "id": "f93c2586-773a-4c78-bfe5-1bef8681500c",
       "key": "Cookie",
       "value": "_ga=GA1.2.995623964.1629400496; _gid=GA1.2.1579657039.1629400496; _fbp=fb.1.1629400714958.1618680225; ajs_user_id=\"1339\"; ajs_anonymous_id=\"8310621c-456f-44b7-a285-f979bb8c5e76\"; _gat_UA-179458013-2=1; tuGerenteToken=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2Mjk4NTE2NDYsImlhdCI6MTYyOTQ5MTY0NiwiaWQiOjQ4NjQsInVzZXIiOiJ7XCJpZFwiOjQ4NjQsXCJub21icmVcIjpcIlFBIE5vbWJyZSBjYW1iaWFkb1wiLFwiYXBlbGxpZG9cIjpudWxsLFwiZmVjaGFfbmFjaW1pZW50b1wiOm51bGwsXCJnZW5lcm9cIjpudWxsLFwicGFpc1wiOlwiQk9cIixcImNpdWRhZFwiOm51bGwsXCJlbWFpbFwiOlwiYmVsYXlhZzEzMEBhbXBzd2lwZS5jb21cIixcInRlbGVmb25vXCI6XCI3NjM3NTY0N1wiLFwiYWN0aXZvXCI6MCxcImNvZFwiOlwidHVHLTQ4NjRcIixcImNyZWF0ZWRfYXRcIjpcIjIwMjEtMDgtMTlUMTk6NTI6NTkuMDAwWlwiLFwidXBkYXRlZF9hdFwiOlwiMjAyMS0wOC0xOVQyMDoxMDo0NC4wMDBaXCIsXCJkZWxldGVkX2F0XCI6bnVsbCxcInNlc3Npb25faWRcIjpudWxsLFwiaGF2ZV9jb21wYW55XCI6XCJzaVwiLFwidmFsaWRhdGlvbl9yZXF1ZXN0XCI6bnVsbH0ifQ.XnZwnSNps4xDOnkKudj-7x-PJlC2GdzfT2xIoSwqiQ6S0zBd7jp4r4ZI4G7YTgnXOB2CSFHTEp891pMJtYWeCQ; LobbyCookie=\"eyIxIjogW3sib3duZXJfdXNlcl9pZCI6IDQ4NjQsICJ0ZW5hbnRfaWQiOiAxODQyLCAic3Vic2NyaXB0aW9uX3N0YXRlIjogImFjdGl2ZSIsICJhY3RpdmUiOiB0cnVlLCAiYnVzaW5lc3NfbmFtZSI6ICJRYSIsICJzdGFydF9kYXRlIjogIjIwMjEtMDgtMTkiLCAiZmluaXNoX2RhdGUiOiAiMjAyMS0xMC0wMiIsICJpc19kZW1vIjogZmFsc2UsICJlbWFpbCI6IG51bGwsICJwYWNrIjogMywgImNvdW50cnkiOiAiQk8iLCAiY2l0eSI6IG51bGwsICJuaXQiOiBudWxsLCAidXNlcnNfcXR5IjogMTAsICJydWJyb19pZCI6IDEsICJ0ZXJtc19hY2NlcHRlZCI6IHRydWUsICJpc19pbmZvX3ZpZXdlZCI6IGZhbHNlLCAidmFsaWRhdGVkIjogZmFsc2UsICJyZXF1ZXN0X2RhdGUiOiAiMjAyMS0wOC0xOVQyMDoxMDo0NC45Mzg2NDArMDA6MDAifV0sICIyIjogW10sICIzIjogW10sICJ2ZXJzaW9uc19zdXBwb3J0ZWQiOiBbIjEuMCJdfXx2Tk5HamxQU1lMVkVWLVRsVk5jSTg5a1pVN0k=\""
     },
     {
-      "id": "9db00864-fa31-49ca-a56d-ca1c6c6c89a4",
+      "id": "62a7111b-34a1-4b65-b046-ee67e15a3943",
       "key": "base_url_back",
       "value": "http://back.tugerente.me:8001"
     },
     {
-      "id": "eb888d38-530d-42be-a753-633818912f6e",
+      "id": "15362297-cb92-4cc7-9841-5fec3900d421",
       "key": "Accept",
       "value": "application/json, text/plain, */*"
     },
     {
-      "id": "2a6ea826-aa57-498c-8cb1-745a832d063f",
+      "id": "6408147a-3a08-464c-9cea-69e2a5b77866",
       "key": "Timezone",
       "value": "America/La_Paz"
     },
     {
-      "id": "ae8a386e-5f92-4462-8089-a77f5b8d5f7c",
+      "id": "a6b947ca-1baa-46f0-95cc-01780efe0f40",
       "key": "Content-Type",
       "value": "application/json"
     },
     {
-      "id": "22d64232-eb6a-4442-8428-9cb9b1d8395c",
+      "id": "c01dcd2b-479d-47dc-af35-c53270403456",
       "key": "ApiKey",
       "value": "NSqs04Y7M6OAB32WA5UzOziCGAHETz3fGRk3g2C0"
     }
