@@ -3817,6 +3817,78 @@
                     "url": "{{base_url}}/billing/siat_cufd_request"
                   },
                   "response": []
+                },
+                {
+                  "name": "get_values_cuf",
+                  "id": "85b55c79-3a99-4006-90b0-41417a7825aa",
+                  "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                  },
+                  "request": {
+                    "method": "POST",
+                    "header": [
+                      {
+                        "key": "Content-Type",
+                        "name": "Content-Type",
+                        "value": "application/json",
+                        "type": "text"
+                      }
+                    ],
+                    "body": {
+                      "mode": "raw",
+                      "raw": "{\r\n    \"cufs\": [\r\n        \"1937E3363EADF5F49C3EE4FA0392039A634BB4266915E693F22A16D74\"\r\n    ]\r\n}"
+                    },
+                    "url": "{{base_url}}/billing/get_values_cuf"
+                  },
+                  "response": []
+                },
+                {
+                  "name": "siat_validate_nit",
+                  "id": "3dba0c56-a30a-40fe-964e-27d4ac2f3b94",
+                  "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                  },
+                  "request": {
+                    "method": "POST",
+                    "header": [
+                      {
+                        "key": "Content-Type",
+                        "name": "Content-Type",
+                        "value": "application/json",
+                        "type": "text"
+                      }
+                    ],
+                    "body": {
+                      "mode": "raw",
+                      "raw": "{\r\n    \"sucursal\": 0,\r\n    \"tenant_id\": 1339,\r\n    \"nitToValidate\": \"9026832017\"\r\n}"
+                    },
+                    "url": "{{base_url}}/billing/siat_validate_nit"
+                  },
+                  "response": []
+                },
+                {
+                  "name": "siat_get_parameters",
+                  "id": "f68e1d80-a3b9-4d97-b156-363f4acb1de2",
+                  "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                  },
+                  "request": {
+                    "method": "POST",
+                    "header": [
+                      {
+                        "key": "Content-Type",
+                        "name": "Content-Type",
+                        "type": "text",
+                        "value": "application/json"
+                      }
+                    ],
+                    "body": {
+                      "mode": "raw",
+                      "raw": "{\r\n    \"nit\": \"368566024\",\r\n    \"cuis\": \"B694348B\",\r\n    \"punto_venta\": \"0\"\r\n}"
+                    },
+                    "url": "{{base_url}}/billing/siat_get_parameters"
+                  },
+                  "response": []
                 }
               ],
               "id": "e81e6141-fbe2-4735-be52-34f4ad115f5b"
@@ -5480,32 +5552,32 @@
   ],
   "variable": [
     {
-      "id": "7469bbd5-22d5-4c35-a836-5a0adef842d8",
+      "id": "6f15aab4-d0a6-43a1-9135-90e8f71437f7",
       "key": "Cookie",
       "value": "_ga=GA1.2.995623964.1629400496; _gid=GA1.2.1579657039.1629400496; _fbp=fb.1.1629400714958.1618680225; ajs_user_id=\"1339\"; ajs_anonymous_id=\"8310621c-456f-44b7-a285-f979bb8c5e76\"; _gat_UA-179458013-2=1; tuGerenteToken=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2Mjk4NTE2NDYsImlhdCI6MTYyOTQ5MTY0NiwiaWQiOjQ4NjQsInVzZXIiOiJ7XCJpZFwiOjQ4NjQsXCJub21icmVcIjpcIlFBIE5vbWJyZSBjYW1iaWFkb1wiLFwiYXBlbGxpZG9cIjpudWxsLFwiZmVjaGFfbmFjaW1pZW50b1wiOm51bGwsXCJnZW5lcm9cIjpudWxsLFwicGFpc1wiOlwiQk9cIixcImNpdWRhZFwiOm51bGwsXCJlbWFpbFwiOlwiYmVsYXlhZzEzMEBhbXBzd2lwZS5jb21cIixcInRlbGVmb25vXCI6XCI3NjM3NTY0N1wiLFwiYWN0aXZvXCI6MCxcImNvZFwiOlwidHVHLTQ4NjRcIixcImNyZWF0ZWRfYXRcIjpcIjIwMjEtMDgtMTlUMTk6NTI6NTkuMDAwWlwiLFwidXBkYXRlZF9hdFwiOlwiMjAyMS0wOC0xOVQyMDoxMDo0NC4wMDBaXCIsXCJkZWxldGVkX2F0XCI6bnVsbCxcInNlc3Npb25faWRcIjpudWxsLFwiaGF2ZV9jb21wYW55XCI6XCJzaVwiLFwidmFsaWRhdGlvbl9yZXF1ZXN0XCI6bnVsbH0ifQ.XnZwnSNps4xDOnkKudj-7x-PJlC2GdzfT2xIoSwqiQ6S0zBd7jp4r4ZI4G7YTgnXOB2CSFHTEp891pMJtYWeCQ; LobbyCookie=\"eyIxIjogW3sib3duZXJfdXNlcl9pZCI6IDQ4NjQsICJ0ZW5hbnRfaWQiOiAxODQyLCAic3Vic2NyaXB0aW9uX3N0YXRlIjogImFjdGl2ZSIsICJhY3RpdmUiOiB0cnVlLCAiYnVzaW5lc3NfbmFtZSI6ICJRYSIsICJzdGFydF9kYXRlIjogIjIwMjEtMDgtMTkiLCAiZmluaXNoX2RhdGUiOiAiMjAyMS0xMC0wMiIsICJpc19kZW1vIjogZmFsc2UsICJlbWFpbCI6IG51bGwsICJwYWNrIjogMywgImNvdW50cnkiOiAiQk8iLCAiY2l0eSI6IG51bGwsICJuaXQiOiBudWxsLCAidXNlcnNfcXR5IjogMTAsICJydWJyb19pZCI6IDEsICJ0ZXJtc19hY2NlcHRlZCI6IHRydWUsICJpc19pbmZvX3ZpZXdlZCI6IGZhbHNlLCAidmFsaWRhdGVkIjogZmFsc2UsICJyZXF1ZXN0X2RhdGUiOiAiMjAyMS0wOC0xOVQyMDoxMDo0NC45Mzg2NDArMDA6MDAifV0sICIyIjogW10sICIzIjogW10sICJ2ZXJzaW9uc19zdXBwb3J0ZWQiOiBbIjEuMCJdfXx2Tk5HamxQU1lMVkVWLVRsVk5jSTg5a1pVN0k=\""
     },
     {
-      "id": "9f549df2-d187-4741-acae-eb6094c0b313",
+      "id": "2371ae16-8db1-484a-b6fa-5f81b32521d7",
       "key": "base_url_back",
       "value": "http://back.tugerente.me:8001"
     },
     {
-      "id": "a1c44603-8b4a-43f7-96cb-12925014e549",
+      "id": "8cb6bff9-44d7-4725-9d93-808d21128405",
       "key": "Accept",
       "value": "application/json, text/plain, */*"
     },
     {
-      "id": "549c1f3b-2dbc-41cd-b4a2-d5a487d9f7fc",
+      "id": "ef2e7347-07d4-4d1c-9b17-ff674c6e871f",
       "key": "Timezone",
       "value": "America/La_Paz"
     },
     {
-      "id": "16246080-279e-4d47-91c8-af23e38c63e3",
+      "id": "bae7653c-4cd5-4a3a-b96d-88ad5f02898f",
       "key": "Content-Type",
       "value": "application/json"
     },
     {
-      "id": "5e2699e0-7be1-4ba5-a99a-173c60716c96",
+      "id": "bf6540c0-16bc-4edd-b947-da07542e3c92",
       "key": "ApiKey",
       "value": "NSqs04Y7M6OAB32WA5UzOziCGAHETz3fGRk3g2C0"
     }
