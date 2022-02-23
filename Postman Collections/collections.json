@@ -4656,6 +4656,11 @@
                         "name": "Content-Type",
                         "type": "text",
                         "value": "{{Content-Type}}"
+                      },
+                      {
+                        "key": "",
+                        "value": "{\"filter\":{\"logic\":\"and\",\"filters\":[{\"field\":\"product__category\",\"operator\":\"eq\",\"value\":\"1\"}]},\"sort\":[]}",
+                        "type": "text"
                       }
                     ],
                     "body": {
@@ -4667,25 +4672,7 @@
                         }
                       }
                     },
-                    "url": {
-                      "raw": "{{base_url_back}}/v1/integrations/siat_integrate_entity/products",
-                      "host": [
-                        "{{base_url_back}}"
-                      ],
-                      "path": [
-                        "v1",
-                        "integrations",
-                        "siat_integrate_entity",
-                        "products"
-                      ],
-                      "query": [
-                        {
-                          "key": "Data-Operations",
-                          "value": "",
-                          "disabled": true
-                        }
-                      ]
-                    },
+                    "url": "{{base_url_back}}/v1/integrations/siat_integrate_entity/products",
                     "description": "Se obtiene el match de productos con el siat"
                   },
                   "response": []
@@ -6270,37 +6257,37 @@
   ],
   "variable": [
     {
-      "id": "7e8ea546-e70a-4101-95dd-f8f9a72fb52c",
+      "id": "571564a6-4b2c-4b4d-9adc-b3c02c0e727b",
       "key": "Cookie",
       "value": "_ga=GA1.2.995623964.1629400496; _gid=GA1.2.1579657039.1629400496; _fbp=fb.1.1629400714958.1618680225; ajs_user_id=\"1339\"; ajs_anonymous_id=\"8310621c-456f-44b7-a285-f979bb8c5e76\"; _gat_UA-179458013-2=1; tuGerenteToken=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2Mjk4NTE2NDYsImlhdCI6MTYyOTQ5MTY0NiwiaWQiOjQ4NjQsInVzZXIiOiJ7XCJpZFwiOjQ4NjQsXCJub21icmVcIjpcIlFBIE5vbWJyZSBjYW1iaWFkb1wiLFwiYXBlbGxpZG9cIjpudWxsLFwiZmVjaGFfbmFjaW1pZW50b1wiOm51bGwsXCJnZW5lcm9cIjpudWxsLFwicGFpc1wiOlwiQk9cIixcImNpdWRhZFwiOm51bGwsXCJlbWFpbFwiOlwiYmVsYXlhZzEzMEBhbXBzd2lwZS5jb21cIixcInRlbGVmb25vXCI6XCI3NjM3NTY0N1wiLFwiYWN0aXZvXCI6MCxcImNvZFwiOlwidHVHLTQ4NjRcIixcImNyZWF0ZWRfYXRcIjpcIjIwMjEtMDgtMTlUMTk6NTI6NTkuMDAwWlwiLFwidXBkYXRlZF9hdFwiOlwiMjAyMS0wOC0xOVQyMDoxMDo0NC4wMDBaXCIsXCJkZWxldGVkX2F0XCI6bnVsbCxcInNlc3Npb25faWRcIjpudWxsLFwiaGF2ZV9jb21wYW55XCI6XCJzaVwiLFwidmFsaWRhdGlvbl9yZXF1ZXN0XCI6bnVsbH0ifQ.XnZwnSNps4xDOnkKudj-7x-PJlC2GdzfT2xIoSwqiQ6S0zBd7jp4r4ZI4G7YTgnXOB2CSFHTEp891pMJtYWeCQ; LobbyCookie=\"eyIxIjogW3sib3duZXJfdXNlcl9pZCI6IDQ4NjQsICJ0ZW5hbnRfaWQiOiAxODQyLCAic3Vic2NyaXB0aW9uX3N0YXRlIjogImFjdGl2ZSIsICJhY3RpdmUiOiB0cnVlLCAiYnVzaW5lc3NfbmFtZSI6ICJRYSIsICJzdGFydF9kYXRlIjogIjIwMjEtMDgtMTkiLCAiZmluaXNoX2RhdGUiOiAiMjAyMS0xMC0wMiIsICJpc19kZW1vIjogZmFsc2UsICJlbWFpbCI6IG51bGwsICJwYWNrIjogMywgImNvdW50cnkiOiAiQk8iLCAiY2l0eSI6IG51bGwsICJuaXQiOiBudWxsLCAidXNlcnNfcXR5IjogMTAsICJydWJyb19pZCI6IDEsICJ0ZXJtc19hY2NlcHRlZCI6IHRydWUsICJpc19pbmZvX3ZpZXdlZCI6IGZhbHNlLCAidmFsaWRhdGVkIjogZmFsc2UsICJyZXF1ZXN0X2RhdGUiOiAiMjAyMS0wOC0xOVQyMDoxMDo0NC45Mzg2NDArMDA6MDAifV0sICIyIjogW10sICIzIjogW10sICJ2ZXJzaW9uc19zdXBwb3J0ZWQiOiBbIjEuMCJdfXx2Tk5HamxQU1lMVkVWLVRsVk5jSTg5a1pVN0k=\""
     },
     {
-      "id": "30303f8c-629b-4025-97d3-4072c32d2ce4",
+      "id": "e82ae3ab-e3d2-41cc-a150-004142912bb7",
       "key": "base_url_back",
       "value": "http://back.tugerente.me:8001"
     },
     {
-      "id": "263e30cc-f768-48ac-95f3-7e0dd85ae21f",
+      "id": "2b2558d0-1bb6-4b12-ab6c-80e1b453610b",
       "key": "Accept",
       "value": "application/json, text/plain, */*"
     },
     {
-      "id": "3d0c4eb7-c8cb-4475-b126-b910d9de2e3f",
+      "id": "42e3d7a5-4cc0-4cd2-94f6-8326a204a9d7",
       "key": "Timezone",
       "value": "America/La_Paz"
     },
     {
-      "id": "1f33548a-e61a-49b4-b846-41662e073a9c",
+      "id": "7d6c66c2-0ad8-41ac-b302-298f7e8ca22f",
       "key": "Content-Type",
       "value": "application/json"
     },
     {
-      "id": "41bc4909-51af-400d-8678-31af9c23e035",
+      "id": "b3eb3eb9-397c-4483-85c8-f26c08dd0fb6",
       "key": "ApiKey",
       "value": "NSqs04Y7M6OAB32WA5UzOziCGAHETz3fGRk3g2C0"
     },
     {
-      "id": "22516038-ac15-4925-953c-5041cd5c00ce",
+      "id": "97134eb9-9c90-40a3-9ce5-951f997f7873",
       "key": "base_fcl",
       "value": "",
       "type": "string"
