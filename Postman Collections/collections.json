@@ -148,7 +148,7 @@
               "mode": "raw",
               "raw": "{\r\n    \"nit\": \"368566024\",\r\n    \"cuis\": \"B694348B\",\r\n    \"punto_venta\": \"0\"\r\n}"
             },
-            "url": "{{base_url}}/billing/siat_get_parameters"
+            "url": "{{base_fcl}}/billing/siat_get_parameters"
           },
           "response": []
         },
@@ -6270,37 +6270,37 @@
   ],
   "variable": [
     {
-      "id": "df78b29b-1765-4b43-abcc-602c6bb4e6fc",
+      "id": "59a1ec56-ddb9-47a5-b2cb-4ae313bd0707",
       "key": "Cookie",
       "value": "_ga=GA1.2.995623964.1629400496; _gid=GA1.2.1579657039.1629400496; _fbp=fb.1.1629400714958.1618680225; ajs_user_id=\"1339\"; ajs_anonymous_id=\"8310621c-456f-44b7-a285-f979bb8c5e76\"; _gat_UA-179458013-2=1; tuGerenteToken=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2Mjk4NTE2NDYsImlhdCI6MTYyOTQ5MTY0NiwiaWQiOjQ4NjQsInVzZXIiOiJ7XCJpZFwiOjQ4NjQsXCJub21icmVcIjpcIlFBIE5vbWJyZSBjYW1iaWFkb1wiLFwiYXBlbGxpZG9cIjpudWxsLFwiZmVjaGFfbmFjaW1pZW50b1wiOm51bGwsXCJnZW5lcm9cIjpudWxsLFwicGFpc1wiOlwiQk9cIixcImNpdWRhZFwiOm51bGwsXCJlbWFpbFwiOlwiYmVsYXlhZzEzMEBhbXBzd2lwZS5jb21cIixcInRlbGVmb25vXCI6XCI3NjM3NTY0N1wiLFwiYWN0aXZvXCI6MCxcImNvZFwiOlwidHVHLTQ4NjRcIixcImNyZWF0ZWRfYXRcIjpcIjIwMjEtMDgtMTlUMTk6NTI6NTkuMDAwWlwiLFwidXBkYXRlZF9hdFwiOlwiMjAyMS0wOC0xOVQyMDoxMDo0NC4wMDBaXCIsXCJkZWxldGVkX2F0XCI6bnVsbCxcInNlc3Npb25faWRcIjpudWxsLFwiaGF2ZV9jb21wYW55XCI6XCJzaVwiLFwidmFsaWRhdGlvbl9yZXF1ZXN0XCI6bnVsbH0ifQ.XnZwnSNps4xDOnkKudj-7x-PJlC2GdzfT2xIoSwqiQ6S0zBd7jp4r4ZI4G7YTgnXOB2CSFHTEp891pMJtYWeCQ; LobbyCookie=\"eyIxIjogW3sib3duZXJfdXNlcl9pZCI6IDQ4NjQsICJ0ZW5hbnRfaWQiOiAxODQyLCAic3Vic2NyaXB0aW9uX3N0YXRlIjogImFjdGl2ZSIsICJhY3RpdmUiOiB0cnVlLCAiYnVzaW5lc3NfbmFtZSI6ICJRYSIsICJzdGFydF9kYXRlIjogIjIwMjEtMDgtMTkiLCAiZmluaXNoX2RhdGUiOiAiMjAyMS0xMC0wMiIsICJpc19kZW1vIjogZmFsc2UsICJlbWFpbCI6IG51bGwsICJwYWNrIjogMywgImNvdW50cnkiOiAiQk8iLCAiY2l0eSI6IG51bGwsICJuaXQiOiBudWxsLCAidXNlcnNfcXR5IjogMTAsICJydWJyb19pZCI6IDEsICJ0ZXJtc19hY2NlcHRlZCI6IHRydWUsICJpc19pbmZvX3ZpZXdlZCI6IGZhbHNlLCAidmFsaWRhdGVkIjogZmFsc2UsICJyZXF1ZXN0X2RhdGUiOiAiMjAyMS0wOC0xOVQyMDoxMDo0NC45Mzg2NDArMDA6MDAifV0sICIyIjogW10sICIzIjogW10sICJ2ZXJzaW9uc19zdXBwb3J0ZWQiOiBbIjEuMCJdfXx2Tk5HamxQU1lMVkVWLVRsVk5jSTg5a1pVN0k=\""
     },
     {
-      "id": "0d4a915f-8490-4add-adcc-7f0e4961024e",
+      "id": "abb0a0be-d494-493a-8775-14a15fdc4f6a",
       "key": "base_url_back",
       "value": "http://back.tugerente.me:8001"
     },
     {
-      "id": "36fa1c86-d2d4-44a9-b1ad-b61f087e53e3",
+      "id": "db10a1e6-07fa-4c3e-8e55-3adad86cdeb4",
       "key": "Accept",
       "value": "application/json, text/plain, */*"
     },
     {
-      "id": "b6559670-865e-4f77-9154-c0d80f0916b7",
+      "id": "088957b0-f8e0-4fa8-b731-f75034056fa6",
       "key": "Timezone",
       "value": "America/La_Paz"
     },
     {
-      "id": "4351412f-50cb-4d08-9feb-46eee4a93c05",
+      "id": "4d350df0-eceb-4342-a60a-62353091aae9",
       "key": "Content-Type",
       "value": "application/json"
     },
     {
-      "id": "a238ef23-71aa-4ba1-9624-44acbf61e83f",
+      "id": "ad6c6399-c6f8-4f47-bea7-ed662631c696",
       "key": "ApiKey",
       "value": "NSqs04Y7M6OAB32WA5UzOziCGAHETz3fGRk3g2C0"
     },
     {
-      "id": "4ac3ae46-03e0-473c-9f7b-24962b4678ef",
+      "id": "0cf5a81f-59c8-44cc-bbb9-c435be4f8174",
       "key": "base_fcl",
       "value": "",
       "type": "string"
