@@ -4586,6 +4586,11 @@
                         "name": "Content-Type",
                         "type": "text",
                         "value": "{{Content-Type}}"
+                      },
+                      {
+                        "key": "Data-Operations",
+                        "value": "{\"filter\":{\"logic\":\"and\",\"filters\":[{\"field\":\"unit_measure\",\"operator\":\"eq\",\"value\":\"726\"}]},\"sort\":[]}",
+                        "type": "text"
                       }
                     ],
                     "body": {
@@ -4597,25 +4602,7 @@
                         }
                       }
                     },
-                    "url": {
-                      "raw": "{{base_url_back}}/v1/integrations/siat_integrate_entity/unit_measures",
-                      "host": [
-                        "{{base_url_back}}"
-                      ],
-                      "path": [
-                        "v1",
-                        "integrations",
-                        "siat_integrate_entity",
-                        "unit_measures"
-                      ],
-                      "query": [
-                        {
-                          "key": "Data-Operations",
-                          "value": "",
-                          "disabled": true
-                        }
-                      ]
-                    },
+                    "url": "{{base_url_back}}/v1/integrations/siat_integrate_entity/unit_measures",
                     "description": "Se obtiene el match de unidades de medidas con el siat"
                   },
                   "response": []
@@ -6257,37 +6244,37 @@
   ],
   "variable": [
     {
-      "id": "571564a6-4b2c-4b4d-9adc-b3c02c0e727b",
+      "id": "02c53558-2740-46e7-9009-ee88d0cbfe46",
       "key": "Cookie",
       "value": "_ga=GA1.2.995623964.1629400496; _gid=GA1.2.1579657039.1629400496; _fbp=fb.1.1629400714958.1618680225; ajs_user_id=\"1339\"; ajs_anonymous_id=\"8310621c-456f-44b7-a285-f979bb8c5e76\"; _gat_UA-179458013-2=1; tuGerenteToken=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2Mjk4NTE2NDYsImlhdCI6MTYyOTQ5MTY0NiwiaWQiOjQ4NjQsInVzZXIiOiJ7XCJpZFwiOjQ4NjQsXCJub21icmVcIjpcIlFBIE5vbWJyZSBjYW1iaWFkb1wiLFwiYXBlbGxpZG9cIjpudWxsLFwiZmVjaGFfbmFjaW1pZW50b1wiOm51bGwsXCJnZW5lcm9cIjpudWxsLFwicGFpc1wiOlwiQk9cIixcImNpdWRhZFwiOm51bGwsXCJlbWFpbFwiOlwiYmVsYXlhZzEzMEBhbXBzd2lwZS5jb21cIixcInRlbGVmb25vXCI6XCI3NjM3NTY0N1wiLFwiYWN0aXZvXCI6MCxcImNvZFwiOlwidHVHLTQ4NjRcIixcImNyZWF0ZWRfYXRcIjpcIjIwMjEtMDgtMTlUMTk6NTI6NTkuMDAwWlwiLFwidXBkYXRlZF9hdFwiOlwiMjAyMS0wOC0xOVQyMDoxMDo0NC4wMDBaXCIsXCJkZWxldGVkX2F0XCI6bnVsbCxcInNlc3Npb25faWRcIjpudWxsLFwiaGF2ZV9jb21wYW55XCI6XCJzaVwiLFwidmFsaWRhdGlvbl9yZXF1ZXN0XCI6bnVsbH0ifQ.XnZwnSNps4xDOnkKudj-7x-PJlC2GdzfT2xIoSwqiQ6S0zBd7jp4r4ZI4G7YTgnXOB2CSFHTEp891pMJtYWeCQ; LobbyCookie=\"eyIxIjogW3sib3duZXJfdXNlcl9pZCI6IDQ4NjQsICJ0ZW5hbnRfaWQiOiAxODQyLCAic3Vic2NyaXB0aW9uX3N0YXRlIjogImFjdGl2ZSIsICJhY3RpdmUiOiB0cnVlLCAiYnVzaW5lc3NfbmFtZSI6ICJRYSIsICJzdGFydF9kYXRlIjogIjIwMjEtMDgtMTkiLCAiZmluaXNoX2RhdGUiOiAiMjAyMS0xMC0wMiIsICJpc19kZW1vIjogZmFsc2UsICJlbWFpbCI6IG51bGwsICJwYWNrIjogMywgImNvdW50cnkiOiAiQk8iLCAiY2l0eSI6IG51bGwsICJuaXQiOiBudWxsLCAidXNlcnNfcXR5IjogMTAsICJydWJyb19pZCI6IDEsICJ0ZXJtc19hY2NlcHRlZCI6IHRydWUsICJpc19pbmZvX3ZpZXdlZCI6IGZhbHNlLCAidmFsaWRhdGVkIjogZmFsc2UsICJyZXF1ZXN0X2RhdGUiOiAiMjAyMS0wOC0xOVQyMDoxMDo0NC45Mzg2NDArMDA6MDAifV0sICIyIjogW10sICIzIjogW10sICJ2ZXJzaW9uc19zdXBwb3J0ZWQiOiBbIjEuMCJdfXx2Tk5HamxQU1lMVkVWLVRsVk5jSTg5a1pVN0k=\""
     },
     {
-      "id": "e82ae3ab-e3d2-41cc-a150-004142912bb7",
+      "id": "ae6da9d0-8bd4-47bf-9c01-ff348e6f4b8f",
       "key": "base_url_back",
       "value": "http://back.tugerente.me:8001"
     },
     {
-      "id": "2b2558d0-1bb6-4b12-ab6c-80e1b453610b",
+      "id": "3139cddf-fe2a-4910-af18-1863675a7213",
       "key": "Accept",
       "value": "application/json, text/plain, */*"
     },
     {
-      "id": "42e3d7a5-4cc0-4cd2-94f6-8326a204a9d7",
+      "id": "a90e65a3-ec00-4634-aceb-6f0becb75640",
       "key": "Timezone",
       "value": "America/La_Paz"
     },
     {
-      "id": "7d6c66c2-0ad8-41ac-b302-298f7e8ca22f",
+      "id": "fdb58639-8a97-49c5-90ce-24d8c606e759",
       "key": "Content-Type",
       "value": "application/json"
     },
     {
-      "id": "b3eb3eb9-397c-4483-85c8-f26c08dd0fb6",
+      "id": "ab5393a3-cabc-4fda-b149-09fd605b089a",
       "key": "ApiKey",
       "value": "NSqs04Y7M6OAB32WA5UzOziCGAHETz3fGRk3g2C0"
     },
     {
-      "id": "97134eb9-9c90-40a3-9ce5-951f997f7873",
+      "id": "af006634-51e7-4a8a-bbc0-536b2fe093ff",
       "key": "base_fcl",
       "value": "",
       "type": "string"
