@@ -28,7 +28,7 @@
               "mode": "raw",
               "raw": "{\r\n    \"tenant_id\": 1339,\r\n    \"sucursal\": 0,\r\n    \"punto_venta\": 0\r\n}"
             },
-            "url": "{{base_fcl}}/billing/siat_cuis_request"
+            "url": "{{base_url}}/billing/siat_cuis_request"
           },
           "response": []
         },
@@ -52,7 +52,7 @@
               "mode": "raw",
               "raw": "{\r\n    \"nit\": \"368566024\",\r\n    \"vo_user\": \"TUGERENTE\",\r\n    \"vo_password\": \"dHVHZXJlbnRlMjAyMQ==\"\r\n}"
             },
-            "url": "{{base_fcl}}/billing/siat_create_pos"
+            "url": "{{base_url}}/billing/siat_create_pos"
           },
           "response": []
         },
@@ -76,7 +76,7 @@
               "mode": "raw",
               "raw": "{\r\n    \"sucursal\": 0,\r\n    \"punto_venta\": 0,\r\n    \"tenant_id\": 1339\r\n}"
             },
-            "url": "{{base_fcl}}/billing/siat_cufd_request"
+            "url": "{{base_url}}/billing/siat_cufd_request"
           },
           "response": []
         },
@@ -100,7 +100,7 @@
               "mode": "raw",
               "raw": "{\r\n    \"cufs\": [\r\n        \"1937E3363EADF5F49C3EE4FA0392039A634BB4266915E693F22A16D74\"\r\n    ]\r\n}"
             },
-            "url": "{{base_fcl}}/billing/get_values_cuf"
+            "url": "{{base_url}}/billing/get_values_cuf"
           },
           "response": []
         },
@@ -124,7 +124,7 @@
               "mode": "raw",
               "raw": "{\r\n    \"sucursal\": 0,\r\n    \"tenant_id\": 1339,\r\n    \"nitToValidate\": \"9026832017\"\r\n}"
             },
-            "url": "{{base_fcl}}/billing/siat_validate_nit"
+            "url": "{{base_url}}/billing/siat_validate_nit"
           },
           "response": []
         },
@@ -148,7 +148,7 @@
               "mode": "raw",
               "raw": "{\r\n    \"nit\": \"368566024\",\r\n    \"cuis\": \"B694348B\",\r\n    \"punto_venta\": \"0\"\r\n}"
             },
-            "url": "{{base_fcl}}/billing/siat_get_parameters"
+            "url": "{{base_url}}/billing/siat_get_parameters"
           },
           "response": []
         },
@@ -406,7 +406,7 @@
               "mode": "raw",
               "raw": "{\r\n    \"nit\": \"368566024\",\r\n    \"vo_user\": \"TUGERENTE\",\r\n    \"vo_password\": \"dHVHZXJlbnRlMjAyMQ==\",\r\n    \"cufd\": \"BQW9DJi5rQUE=NkTU5MTM4RDYzMjc=Q28rdUFTQ0xWVUFQwOEFBMzY0RTMxN\",\r\n    \"control\": \"73377202B3EDC74\",\r\n    \"codigoSucursal\": 0,\r\n    \"codigoModalidad\":2,\r\n    \"codigoEmision\": 1,\r\n    \"pos\": 1,\r\n    \"description\": \"CAMBIO DE INFRAESTRUCTURA DEL SISTEMA INFORMÁTICO DE FACTURACIÓN O FALLA DE HARDWARE\",\r\n    \"event_code\": 2,\r\n    \"cuf\": \"1937E3363EA72AD843A33FE8A7FFFA26BB058606AE36B5E662B3EDC74\"\r\n}"
             },
-            "url": "{{base_fcl}}/billing/siat_disable_invoice"
+            "url": "localhost:3010/billing/siat_disable_invoice"
           },
           "response": []
         },
@@ -6270,37 +6270,37 @@
   ],
   "variable": [
     {
-      "id": "cdcf7a60-598f-4253-9845-e629027cecd6",
+      "id": "df78b29b-1765-4b43-abcc-602c6bb4e6fc",
       "key": "Cookie",
       "value": "_ga=GA1.2.995623964.1629400496; _gid=GA1.2.1579657039.1629400496; _fbp=fb.1.1629400714958.1618680225; ajs_user_id=\"1339\"; ajs_anonymous_id=\"8310621c-456f-44b7-a285-f979bb8c5e76\"; _gat_UA-179458013-2=1; tuGerenteToken=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2Mjk4NTE2NDYsImlhdCI6MTYyOTQ5MTY0NiwiaWQiOjQ4NjQsInVzZXIiOiJ7XCJpZFwiOjQ4NjQsXCJub21icmVcIjpcIlFBIE5vbWJyZSBjYW1iaWFkb1wiLFwiYXBlbGxpZG9cIjpudWxsLFwiZmVjaGFfbmFjaW1pZW50b1wiOm51bGwsXCJnZW5lcm9cIjpudWxsLFwicGFpc1wiOlwiQk9cIixcImNpdWRhZFwiOm51bGwsXCJlbWFpbFwiOlwiYmVsYXlhZzEzMEBhbXBzd2lwZS5jb21cIixcInRlbGVmb25vXCI6XCI3NjM3NTY0N1wiLFwiYWN0aXZvXCI6MCxcImNvZFwiOlwidHVHLTQ4NjRcIixcImNyZWF0ZWRfYXRcIjpcIjIwMjEtMDgtMTlUMTk6NTI6NTkuMDAwWlwiLFwidXBkYXRlZF9hdFwiOlwiMjAyMS0wOC0xOVQyMDoxMDo0NC4wMDBaXCIsXCJkZWxldGVkX2F0XCI6bnVsbCxcInNlc3Npb25faWRcIjpudWxsLFwiaGF2ZV9jb21wYW55XCI6XCJzaVwiLFwidmFsaWRhdGlvbl9yZXF1ZXN0XCI6bnVsbH0ifQ.XnZwnSNps4xDOnkKudj-7x-PJlC2GdzfT2xIoSwqiQ6S0zBd7jp4r4ZI4G7YTgnXOB2CSFHTEp891pMJtYWeCQ; LobbyCookie=\"eyIxIjogW3sib3duZXJfdXNlcl9pZCI6IDQ4NjQsICJ0ZW5hbnRfaWQiOiAxODQyLCAic3Vic2NyaXB0aW9uX3N0YXRlIjogImFjdGl2ZSIsICJhY3RpdmUiOiB0cnVlLCAiYnVzaW5lc3NfbmFtZSI6ICJRYSIsICJzdGFydF9kYXRlIjogIjIwMjEtMDgtMTkiLCAiZmluaXNoX2RhdGUiOiAiMjAyMS0xMC0wMiIsICJpc19kZW1vIjogZmFsc2UsICJlbWFpbCI6IG51bGwsICJwYWNrIjogMywgImNvdW50cnkiOiAiQk8iLCAiY2l0eSI6IG51bGwsICJuaXQiOiBudWxsLCAidXNlcnNfcXR5IjogMTAsICJydWJyb19pZCI6IDEsICJ0ZXJtc19hY2NlcHRlZCI6IHRydWUsICJpc19pbmZvX3ZpZXdlZCI6IGZhbHNlLCAidmFsaWRhdGVkIjogZmFsc2UsICJyZXF1ZXN0X2RhdGUiOiAiMjAyMS0wOC0xOVQyMDoxMDo0NC45Mzg2NDArMDA6MDAifV0sICIyIjogW10sICIzIjogW10sICJ2ZXJzaW9uc19zdXBwb3J0ZWQiOiBbIjEuMCJdfXx2Tk5HamxQU1lMVkVWLVRsVk5jSTg5a1pVN0k=\""
     },
     {
-      "id": "e7c7b33a-1d8b-463b-9ba1-ae8c110e5221",
+      "id": "0d4a915f-8490-4add-adcc-7f0e4961024e",
       "key": "base_url_back",
       "value": "http://back.tugerente.me:8001"
     },
     {
-      "id": "a707dbba-025a-4873-875b-e3d257fdccd0",
+      "id": "36fa1c86-d2d4-44a9-b1ad-b61f087e53e3",
       "key": "Accept",
       "value": "application/json, text/plain, */*"
     },
     {
-      "id": "298ddcdc-a440-45b2-ae51-f45f69830ecd",
+      "id": "b6559670-865e-4f77-9154-c0d80f0916b7",
       "key": "Timezone",
       "value": "America/La_Paz"
     },
     {
-      "id": "3ddfc7ff-00b9-48a9-8bcd-7cbddad63f29",
+      "id": "4351412f-50cb-4d08-9feb-46eee4a93c05",
       "key": "Content-Type",
       "value": "application/json"
     },
     {
-      "id": "5b9f3012-1b19-4878-a3d7-e177db8669f4",
+      "id": "a238ef23-71aa-4ba1-9624-44acbf61e83f",
       "key": "ApiKey",
       "value": "NSqs04Y7M6OAB32WA5UzOziCGAHETz3fGRk3g2C0"
     },
     {
-      "id": "c27ea08c-24e0-4513-a806-83cc80c11fb1",
+      "id": "4ac3ae46-03e0-473c-9f7b-24962b4678ef",
       "key": "base_fcl",
       "value": "",
       "type": "string"
