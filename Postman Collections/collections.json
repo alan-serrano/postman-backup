@@ -220,7 +220,7 @@
               "mode": "raw",
               "raw": "{\r\n    \"tenant_id\": 1339\r\n}"
             },
-            "url": "{{base_url}}/billing/siat_invoice_package_validation"
+            "url": "{{base_fcl}}/billing/siat_invoice_package_validation"
           },
           "response": []
         },
@@ -244,7 +244,7 @@
               "mode": "raw",
               "raw": "{\r\n    \"tenant_id\": 1339,\r\n    \"event_code\": 1,\r\n    \"bill\": 230,\r\n    \"email\": [\"alan.serrano.pch@gmail.com\"]\r\n}"
             },
-            "url": "{{base_url}}/billing/siat_disable_invoice"
+            "url": "{{base_fcl}}/billing/siat_disable_invoice"
           },
           "response": []
         },
@@ -268,7 +268,7 @@
               "mode": "raw",
               "raw": "{\r\n    \"nit\": \"368566024\",\r\n    \"vo_user\": \"TUGERENTE\",\r\n    \"vo_password\": \"dHVHZXJlbnRlMjAyMQ==\",\r\n    \"cufd\": \"BQW9DJi5rQUE=NkTU5MTM4RDYzMjc=Q1UhaUJVSEJXVUFQwOEFBMzY0RTMxN\",\r\n    \"cufd_evento\": \"BQUFvQyYua0FBNkTU5MTM4RDYzMjc=Q8KhNkU0WERNVlVQwOEFBMzY0RTMxN\",\r\n    \"control\": \"5ED331675416D74\",\r\n    \"codigoSucursal\": 0,\r\n    \"codigoModalidad\":2,\r\n    \"codigoEmision\": 1,\r\n    \"punto_venta\": \"0\",\r\n    \"cuis\": \"B694348B\",\r\n    \"description\": \"CAMBIO DE INFRAESTRUCTURA DEL SISTEMA INFORMÁTICO DE FACTURACIÓN O FALLA DE HARDWARE\",\r\n    \"event_code\": 7,\r\n    \"initial_date\": \"2021-12-02T23:59:00.000\",\r\n    \"final_date\": \"2021-12-03T00:00:00.000\"\r\n}"
             },
-            "url": "{{base_url}}/billing/siat_register_exception"
+            "url": "{{base_fcl}}/billing/siat_register_exception"
           },
           "response": []
         },
@@ -293,11 +293,10 @@
               "raw": ""
             },
             "url": {
-              "raw": "localhost:3010/billing/siat_get_invoices",
+              "raw": "{{base_fcl}}/billing/siat_get_invoices",
               "host": [
-                "localhost"
+                "{{base_fcl}}"
               ],
-              "port": "3010",
               "path": [
                 "billing",
                 "siat_get_invoices"
@@ -6271,37 +6270,37 @@
   ],
   "variable": [
     {
-      "id": "e3b3f5e7-b628-464a-a682-9eb0684ad6d5",
+      "id": "4e030814-d4ba-4c3e-8a26-b1db09adfca4",
       "key": "Cookie",
       "value": "_ga=GA1.2.995623964.1629400496; _gid=GA1.2.1579657039.1629400496; _fbp=fb.1.1629400714958.1618680225; ajs_user_id=\"1339\"; ajs_anonymous_id=\"8310621c-456f-44b7-a285-f979bb8c5e76\"; _gat_UA-179458013-2=1; tuGerenteToken=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2Mjk4NTE2NDYsImlhdCI6MTYyOTQ5MTY0NiwiaWQiOjQ4NjQsInVzZXIiOiJ7XCJpZFwiOjQ4NjQsXCJub21icmVcIjpcIlFBIE5vbWJyZSBjYW1iaWFkb1wiLFwiYXBlbGxpZG9cIjpudWxsLFwiZmVjaGFfbmFjaW1pZW50b1wiOm51bGwsXCJnZW5lcm9cIjpudWxsLFwicGFpc1wiOlwiQk9cIixcImNpdWRhZFwiOm51bGwsXCJlbWFpbFwiOlwiYmVsYXlhZzEzMEBhbXBzd2lwZS5jb21cIixcInRlbGVmb25vXCI6XCI3NjM3NTY0N1wiLFwiYWN0aXZvXCI6MCxcImNvZFwiOlwidHVHLTQ4NjRcIixcImNyZWF0ZWRfYXRcIjpcIjIwMjEtMDgtMTlUMTk6NTI6NTkuMDAwWlwiLFwidXBkYXRlZF9hdFwiOlwiMjAyMS0wOC0xOVQyMDoxMDo0NC4wMDBaXCIsXCJkZWxldGVkX2F0XCI6bnVsbCxcInNlc3Npb25faWRcIjpudWxsLFwiaGF2ZV9jb21wYW55XCI6XCJzaVwiLFwidmFsaWRhdGlvbl9yZXF1ZXN0XCI6bnVsbH0ifQ.XnZwnSNps4xDOnkKudj-7x-PJlC2GdzfT2xIoSwqiQ6S0zBd7jp4r4ZI4G7YTgnXOB2CSFHTEp891pMJtYWeCQ; LobbyCookie=\"eyIxIjogW3sib3duZXJfdXNlcl9pZCI6IDQ4NjQsICJ0ZW5hbnRfaWQiOiAxODQyLCAic3Vic2NyaXB0aW9uX3N0YXRlIjogImFjdGl2ZSIsICJhY3RpdmUiOiB0cnVlLCAiYnVzaW5lc3NfbmFtZSI6ICJRYSIsICJzdGFydF9kYXRlIjogIjIwMjEtMDgtMTkiLCAiZmluaXNoX2RhdGUiOiAiMjAyMS0xMC0wMiIsICJpc19kZW1vIjogZmFsc2UsICJlbWFpbCI6IG51bGwsICJwYWNrIjogMywgImNvdW50cnkiOiAiQk8iLCAiY2l0eSI6IG51bGwsICJuaXQiOiBudWxsLCAidXNlcnNfcXR5IjogMTAsICJydWJyb19pZCI6IDEsICJ0ZXJtc19hY2NlcHRlZCI6IHRydWUsICJpc19pbmZvX3ZpZXdlZCI6IGZhbHNlLCAidmFsaWRhdGVkIjogZmFsc2UsICJyZXF1ZXN0X2RhdGUiOiAiMjAyMS0wOC0xOVQyMDoxMDo0NC45Mzg2NDArMDA6MDAifV0sICIyIjogW10sICIzIjogW10sICJ2ZXJzaW9uc19zdXBwb3J0ZWQiOiBbIjEuMCJdfXx2Tk5HamxQU1lMVkVWLVRsVk5jSTg5a1pVN0k=\""
     },
     {
-      "id": "4acb9b34-b01e-478b-aa62-f24eda1f4aa0",
+      "id": "7fc440df-b5ba-4f84-816c-cc99a8e68ad2",
       "key": "base_url_back",
       "value": "http://back.tugerente.me:8001"
     },
     {
-      "id": "6143a7b3-a9d6-4e3a-8e92-af5a6a516c71",
+      "id": "ae99bec2-882d-4a05-9c31-88f9a5aa1194",
       "key": "Accept",
       "value": "application/json, text/plain, */*"
     },
     {
-      "id": "99ee53e8-c848-4b3f-8518-b0cc6a7fe4b5",
+      "id": "fccf6e8e-e848-4cf1-b4a9-c5964cc7451e",
       "key": "Timezone",
       "value": "America/La_Paz"
     },
     {
-      "id": "617fb5ee-57fb-4458-9975-03f6bdda16f7",
+      "id": "484e2c0d-c2b8-4d31-b655-762397a51875",
       "key": "Content-Type",
       "value": "application/json"
     },
     {
-      "id": "49ef63e3-2418-443a-8a6f-244c637de20d",
+      "id": "26271049-c648-47a0-8aae-0cd5c64a78d6",
       "key": "ApiKey",
       "value": "NSqs04Y7M6OAB32WA5UzOziCGAHETz3fGRk3g2C0"
     },
     {
-      "id": "1046ff7c-b80b-44df-8bc3-87c8c44ac0fa",
+      "id": "67f45682-0905-4e68-b8ff-56828b4417e2",
       "key": "base_fcl",
       "value": "",
       "type": "string"
