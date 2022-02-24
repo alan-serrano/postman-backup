@@ -2214,7 +2214,7 @@
                   }
                 },
                 "url": {
-                  "raw": "{{base_url_back}}/v1/warehouses/product_category/categories_no_sub/?warehouse=480&show_only_with_prices=false",
+                  "raw": "{{base_url_back}}/v1/warehouses/product_category/with_finished_products_no_sub/?warehouse=480&show_only_with_prices=false",
                   "host": [
                     "{{base_url_back}}"
                   ],
@@ -2222,7 +2222,7 @@
                     "v1",
                     "warehouses",
                     "product_category",
-                    "categories_no_sub",
+                    "with_finished_products_no_sub",
                     ""
                   ],
                   "query": [
@@ -6400,37 +6400,37 @@
   ],
   "variable": [
     {
-      "id": "d2a4d661-6a2a-40fd-856e-569392a6ccbd",
+      "id": "c7e9b55b-0b6c-48fa-b260-659e54c64c03",
       "key": "Cookie",
       "value": "_ga=GA1.2.995623964.1629400496; _gid=GA1.2.1579657039.1629400496; _fbp=fb.1.1629400714958.1618680225; ajs_user_id=\"1339\"; ajs_anonymous_id=\"8310621c-456f-44b7-a285-f979bb8c5e76\"; _gat_UA-179458013-2=1; tuGerenteToken=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2Mjk4NTE2NDYsImlhdCI6MTYyOTQ5MTY0NiwiaWQiOjQ4NjQsInVzZXIiOiJ7XCJpZFwiOjQ4NjQsXCJub21icmVcIjpcIlFBIE5vbWJyZSBjYW1iaWFkb1wiLFwiYXBlbGxpZG9cIjpudWxsLFwiZmVjaGFfbmFjaW1pZW50b1wiOm51bGwsXCJnZW5lcm9cIjpudWxsLFwicGFpc1wiOlwiQk9cIixcImNpdWRhZFwiOm51bGwsXCJlbWFpbFwiOlwiYmVsYXlhZzEzMEBhbXBzd2lwZS5jb21cIixcInRlbGVmb25vXCI6XCI3NjM3NTY0N1wiLFwiYWN0aXZvXCI6MCxcImNvZFwiOlwidHVHLTQ4NjRcIixcImNyZWF0ZWRfYXRcIjpcIjIwMjEtMDgtMTlUMTk6NTI6NTkuMDAwWlwiLFwidXBkYXRlZF9hdFwiOlwiMjAyMS0wOC0xOVQyMDoxMDo0NC4wMDBaXCIsXCJkZWxldGVkX2F0XCI6bnVsbCxcInNlc3Npb25faWRcIjpudWxsLFwiaGF2ZV9jb21wYW55XCI6XCJzaVwiLFwidmFsaWRhdGlvbl9yZXF1ZXN0XCI6bnVsbH0ifQ.XnZwnSNps4xDOnkKudj-7x-PJlC2GdzfT2xIoSwqiQ6S0zBd7jp4r4ZI4G7YTgnXOB2CSFHTEp891pMJtYWeCQ; LobbyCookie=\"eyIxIjogW3sib3duZXJfdXNlcl9pZCI6IDQ4NjQsICJ0ZW5hbnRfaWQiOiAxODQyLCAic3Vic2NyaXB0aW9uX3N0YXRlIjogImFjdGl2ZSIsICJhY3RpdmUiOiB0cnVlLCAiYnVzaW5lc3NfbmFtZSI6ICJRYSIsICJzdGFydF9kYXRlIjogIjIwMjEtMDgtMTkiLCAiZmluaXNoX2RhdGUiOiAiMjAyMS0xMC0wMiIsICJpc19kZW1vIjogZmFsc2UsICJlbWFpbCI6IG51bGwsICJwYWNrIjogMywgImNvdW50cnkiOiAiQk8iLCAiY2l0eSI6IG51bGwsICJuaXQiOiBudWxsLCAidXNlcnNfcXR5IjogMTAsICJydWJyb19pZCI6IDEsICJ0ZXJtc19hY2NlcHRlZCI6IHRydWUsICJpc19pbmZvX3ZpZXdlZCI6IGZhbHNlLCAidmFsaWRhdGVkIjogZmFsc2UsICJyZXF1ZXN0X2RhdGUiOiAiMjAyMS0wOC0xOVQyMDoxMDo0NC45Mzg2NDArMDA6MDAifV0sICIyIjogW10sICIzIjogW10sICJ2ZXJzaW9uc19zdXBwb3J0ZWQiOiBbIjEuMCJdfXx2Tk5HamxQU1lMVkVWLVRsVk5jSTg5a1pVN0k=\""
     },
     {
-      "id": "e07f86a3-45c4-48be-8bf0-26795fc10524",
+      "id": "1f195fcb-0b0f-487d-9e56-ce1f8006a397",
       "key": "base_url_back",
       "value": "http://back.tugerente.me:8001"
     },
     {
-      "id": "741436b7-5e3a-4c5e-8518-a41ae6d63868",
+      "id": "26b62449-8de9-4455-9260-d4ae96afe90c",
       "key": "Accept",
       "value": "application/json, text/plain, */*"
     },
     {
-      "id": "8feacd91-3a8b-42f3-b5f5-5226a50231f8",
+      "id": "5085be7f-3238-45e6-91eb-4130f3c65b35",
       "key": "Timezone",
       "value": "America/La_Paz"
     },
     {
-      "id": "498325e9-a75d-4c7a-8177-c870fcdbae42",
+      "id": "47e05cf0-4a98-40c8-89bc-d789561abc75",
       "key": "Content-Type",
       "value": "application/json"
     },
     {
-      "id": "4ba2b019-41cf-4742-adb8-f25adccbcdae",
+      "id": "e41697e1-8d13-4f86-9d43-2bef15ee4bc4",
       "key": "ApiKey",
       "value": "NSqs04Y7M6OAB32WA5UzOziCGAHETz3fGRk3g2C0"
     },
     {
-      "id": "88eb6797-c8af-4817-8ccd-52afe934f698",
+      "id": "6da8496b-506a-40e2-9d4f-bba61c608246",
       "key": "base_fcl",
       "value": "",
       "type": "string"
