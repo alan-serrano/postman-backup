@@ -2084,6 +2084,84 @@
               "response": []
             },
             {
+              "name": "Movimiento de Inventario Copy",
+              "event": [
+                {
+                  "listen": "test",
+                  "script": {
+                    "id": "13e981b5-3258-4349-bebd-c511d4f98712",
+                    "exec": [
+                      ""
+                    ],
+                    "type": "text/javascript"
+                  }
+                }
+              ],
+              "id": "f50ff223-e7d1-439b-9770-9c9e59a3995c",
+              "protocolProfileBehavior": {
+                "disableBodyPruning": true
+              },
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "type": "text",
+                    "value": "{{Accept}}"
+                  },
+                  {
+                    "key": "Timezone",
+                    "type": "text",
+                    "value": "{{Timezone}}"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "name": "Content-Type",
+                    "type": "text",
+                    "value": "{{Content-Type}}"
+                  },
+                  {
+                    "key": "Data-Operations",
+                    "value": "{\"filter\":{\"logic\":\"and\",\"filters\":[]},\"skip\":0,\"take\":\"TODAS\",\"group\":[],\"all\":true}",
+                    "type": "text"
+                  }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "{{base_url_back}}/v1/warehouses/product_category/categories_no_sub/?warehouse=480&show_only_with_prices=false",
+                  "host": [
+                    "{{base_url_back}}"
+                  ],
+                  "path": [
+                    "v1",
+                    "warehouses",
+                    "product_category",
+                    "categories_no_sub",
+                    ""
+                  ],
+                  "query": [
+                    {
+                      "key": "warehouse",
+                      "value": "480"
+                    },
+                    {
+                      "key": "show_only_with_prices",
+                      "value": "false"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
               "name": "Traspaso de inventario",
               "event": [
                 {
@@ -2211,62 +2289,6 @@
                 }
               ],
               "id": "25416c30-b325-4144-b088-a58d057630c6",
-              "protocolProfileBehavior": {
-                "disableBodyPruning": true
-              },
-              "request": {
-                "method": "GET",
-                "header": [
-                  {
-                    "key": "Accept",
-                    "type": "text",
-                    "value": "{{Accept}}"
-                  },
-                  {
-                    "key": "Timezone",
-                    "type": "text",
-                    "value": "{{Timezone}}"
-                  },
-                  {
-                    "key": "Content-Type",
-                    "name": "Content-Type",
-                    "type": "text",
-                    "value": "{{Content-Type}}"
-                  },
-                  {
-                    "key": "Data-Operations",
-                    "value": "{\"filter\":{\"logic\":\"and\",\"filters\":[]},\"skip\":0,\"take\":\"TODAS\",\"group\":[],\"all\":true}",
-                    "type": "text"
-                  }
-                ],
-                "body": {
-                  "mode": "raw",
-                  "raw": "",
-                  "options": {
-                    "raw": {
-                      "language": "json"
-                    }
-                  }
-                },
-                "url": "{{base_url_back}}/v1/warehouses/stock/"
-              },
-              "response": []
-            },
-            {
-              "name": "Movimiento de Inventario Copy",
-              "event": [
-                {
-                  "listen": "test",
-                  "script": {
-                    "id": "13e981b5-3258-4349-bebd-c511d4f98712",
-                    "exec": [
-                      ""
-                    ],
-                    "type": "text/javascript"
-                  }
-                }
-              ],
-              "id": "f50ff223-e7d1-439b-9770-9c9e59a3995c",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -6300,37 +6322,37 @@
   ],
   "variable": [
     {
-      "id": "3a592e77-939e-42fd-a4ce-574ab080cd9a",
+      "id": "35f275a5-2dc8-40e9-bbcd-933dd36e9936",
       "key": "Cookie",
       "value": "_ga=GA1.2.995623964.1629400496; _gid=GA1.2.1579657039.1629400496; _fbp=fb.1.1629400714958.1618680225; ajs_user_id=\"1339\"; ajs_anonymous_id=\"8310621c-456f-44b7-a285-f979bb8c5e76\"; _gat_UA-179458013-2=1; tuGerenteToken=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2Mjk4NTE2NDYsImlhdCI6MTYyOTQ5MTY0NiwiaWQiOjQ4NjQsInVzZXIiOiJ7XCJpZFwiOjQ4NjQsXCJub21icmVcIjpcIlFBIE5vbWJyZSBjYW1iaWFkb1wiLFwiYXBlbGxpZG9cIjpudWxsLFwiZmVjaGFfbmFjaW1pZW50b1wiOm51bGwsXCJnZW5lcm9cIjpudWxsLFwicGFpc1wiOlwiQk9cIixcImNpdWRhZFwiOm51bGwsXCJlbWFpbFwiOlwiYmVsYXlhZzEzMEBhbXBzd2lwZS5jb21cIixcInRlbGVmb25vXCI6XCI3NjM3NTY0N1wiLFwiYWN0aXZvXCI6MCxcImNvZFwiOlwidHVHLTQ4NjRcIixcImNyZWF0ZWRfYXRcIjpcIjIwMjEtMDgtMTlUMTk6NTI6NTkuMDAwWlwiLFwidXBkYXRlZF9hdFwiOlwiMjAyMS0wOC0xOVQyMDoxMDo0NC4wMDBaXCIsXCJkZWxldGVkX2F0XCI6bnVsbCxcInNlc3Npb25faWRcIjpudWxsLFwiaGF2ZV9jb21wYW55XCI6XCJzaVwiLFwidmFsaWRhdGlvbl9yZXF1ZXN0XCI6bnVsbH0ifQ.XnZwnSNps4xDOnkKudj-7x-PJlC2GdzfT2xIoSwqiQ6S0zBd7jp4r4ZI4G7YTgnXOB2CSFHTEp891pMJtYWeCQ; LobbyCookie=\"eyIxIjogW3sib3duZXJfdXNlcl9pZCI6IDQ4NjQsICJ0ZW5hbnRfaWQiOiAxODQyLCAic3Vic2NyaXB0aW9uX3N0YXRlIjogImFjdGl2ZSIsICJhY3RpdmUiOiB0cnVlLCAiYnVzaW5lc3NfbmFtZSI6ICJRYSIsICJzdGFydF9kYXRlIjogIjIwMjEtMDgtMTkiLCAiZmluaXNoX2RhdGUiOiAiMjAyMS0xMC0wMiIsICJpc19kZW1vIjogZmFsc2UsICJlbWFpbCI6IG51bGwsICJwYWNrIjogMywgImNvdW50cnkiOiAiQk8iLCAiY2l0eSI6IG51bGwsICJuaXQiOiBudWxsLCAidXNlcnNfcXR5IjogMTAsICJydWJyb19pZCI6IDEsICJ0ZXJtc19hY2NlcHRlZCI6IHRydWUsICJpc19pbmZvX3ZpZXdlZCI6IGZhbHNlLCAidmFsaWRhdGVkIjogZmFsc2UsICJyZXF1ZXN0X2RhdGUiOiAiMjAyMS0wOC0xOVQyMDoxMDo0NC45Mzg2NDArMDA6MDAifV0sICIyIjogW10sICIzIjogW10sICJ2ZXJzaW9uc19zdXBwb3J0ZWQiOiBbIjEuMCJdfXx2Tk5HamxQU1lMVkVWLVRsVk5jSTg5a1pVN0k=\""
     },
     {
-      "id": "48756b49-ae90-4a51-889b-4bd18dbdda6e",
+      "id": "29ab4a4e-4f6d-449f-8b00-36265e73eb9b",
       "key": "base_url_back",
       "value": "http://back.tugerente.me:8001"
     },
     {
-      "id": "2d15682f-cf60-412e-b0a3-8684a52fc718",
+      "id": "e2b31370-f6b7-43a1-9a36-fc9934876bb3",
       "key": "Accept",
       "value": "application/json, text/plain, */*"
     },
     {
-      "id": "ecba1f15-0271-4569-b3a4-fcca33349bdd",
+      "id": "76643066-1ad3-4f61-80ec-123ecba2bc97",
       "key": "Timezone",
       "value": "America/La_Paz"
     },
     {
-      "id": "666514a5-98a3-4442-82ba-227ee2d086a9",
+      "id": "1c24a7a7-e350-416a-9478-10f7265974e2",
       "key": "Content-Type",
       "value": "application/json"
     },
     {
-      "id": "51242d91-268c-4e98-8e98-33e1849f9e5d",
+      "id": "85646575-49f1-4333-aefe-d5ee1b03e70b",
       "key": "ApiKey",
       "value": "NSqs04Y7M6OAB32WA5UzOziCGAHETz3fGRk3g2C0"
     },
     {
-      "id": "9164c67c-ee33-4bd2-9203-72a4ac3dee36",
+      "id": "cfc97d71-6d7c-4207-b7fd-3cfc761c6a0b",
       "key": "base_fcl",
       "value": "",
       "type": "string"
