@@ -2162,6 +2162,84 @@
               "response": []
             },
             {
+              "name": "product_category/categories_no_sub Copy",
+              "event": [
+                {
+                  "listen": "test",
+                  "script": {
+                    "id": "a1936964-7847-498d-87d9-46e2e96f05e9",
+                    "exec": [
+                      ""
+                    ],
+                    "type": "text/javascript"
+                  }
+                }
+              ],
+              "id": "d1d0c58c-6982-43cc-bb91-cd64fb17aa9e",
+              "protocolProfileBehavior": {
+                "disableBodyPruning": true
+              },
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "type": "text",
+                    "value": "{{Accept}}"
+                  },
+                  {
+                    "key": "Timezone",
+                    "type": "text",
+                    "value": "{{Timezone}}"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "name": "Content-Type",
+                    "type": "text",
+                    "value": "{{Content-Type}}"
+                  },
+                  {
+                    "key": "Data-Operations",
+                    "value": "{\"filter\":{\"logic\":\"and\",\"filters\":[]},\"skip\":0,\"take\":\"TODAS\",\"group\":[],\"all\":true}",
+                    "type": "text"
+                  }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "{{base_url_back}}/v1/warehouses/product_category/categories_no_sub/?warehouse=480&show_only_with_prices=false",
+                  "host": [
+                    "{{base_url_back}}"
+                  ],
+                  "path": [
+                    "v1",
+                    "warehouses",
+                    "product_category",
+                    "categories_no_sub",
+                    ""
+                  ],
+                  "query": [
+                    {
+                      "key": "warehouse",
+                      "value": "480"
+                    },
+                    {
+                      "key": "show_only_with_prices",
+                      "value": "false"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
               "name": "Traspaso de inventario",
               "event": [
                 {
@@ -2327,84 +2405,6 @@
                   }
                 },
                 "url": "{{base_url_back}}/v1/warehouses/stock/"
-              },
-              "response": []
-            },
-            {
-              "name": "product_category/categories_no_sub Copy",
-              "event": [
-                {
-                  "listen": "test",
-                  "script": {
-                    "id": "a1936964-7847-498d-87d9-46e2e96f05e9",
-                    "exec": [
-                      ""
-                    ],
-                    "type": "text/javascript"
-                  }
-                }
-              ],
-              "id": "d1d0c58c-6982-43cc-bb91-cd64fb17aa9e",
-              "protocolProfileBehavior": {
-                "disableBodyPruning": true
-              },
-              "request": {
-                "method": "GET",
-                "header": [
-                  {
-                    "key": "Accept",
-                    "type": "text",
-                    "value": "{{Accept}}"
-                  },
-                  {
-                    "key": "Timezone",
-                    "type": "text",
-                    "value": "{{Timezone}}"
-                  },
-                  {
-                    "key": "Content-Type",
-                    "name": "Content-Type",
-                    "type": "text",
-                    "value": "{{Content-Type}}"
-                  },
-                  {
-                    "key": "Data-Operations",
-                    "value": "{\"filter\":{\"logic\":\"and\",\"filters\":[]},\"skip\":0,\"take\":\"TODAS\",\"group\":[],\"all\":true}",
-                    "type": "text"
-                  }
-                ],
-                "body": {
-                  "mode": "raw",
-                  "raw": "",
-                  "options": {
-                    "raw": {
-                      "language": "json"
-                    }
-                  }
-                },
-                "url": {
-                  "raw": "{{base_url_back}}/v1/warehouses/product_category/categories_no_sub/?warehouse=480&show_only_with_prices=false",
-                  "host": [
-                    "{{base_url_back}}"
-                  ],
-                  "path": [
-                    "v1",
-                    "warehouses",
-                    "product_category",
-                    "categories_no_sub",
-                    ""
-                  ],
-                  "query": [
-                    {
-                      "key": "warehouse",
-                      "value": "480"
-                    },
-                    {
-                      "key": "show_only_with_prices",
-                      "value": "false"
-                    }
-                  ]
-                }
               },
               "response": []
             }
@@ -6400,37 +6400,37 @@
   ],
   "variable": [
     {
-      "id": "4ce6c9e7-3e7e-46b3-8900-67f5b4e8b7c4",
+      "id": "d6c105c7-ae20-4fae-9cdc-b49e6d8c4698",
       "key": "Cookie",
       "value": "_ga=GA1.2.995623964.1629400496; _gid=GA1.2.1579657039.1629400496; _fbp=fb.1.1629400714958.1618680225; ajs_user_id=\"1339\"; ajs_anonymous_id=\"8310621c-456f-44b7-a285-f979bb8c5e76\"; _gat_UA-179458013-2=1; tuGerenteToken=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2Mjk4NTE2NDYsImlhdCI6MTYyOTQ5MTY0NiwiaWQiOjQ4NjQsInVzZXIiOiJ7XCJpZFwiOjQ4NjQsXCJub21icmVcIjpcIlFBIE5vbWJyZSBjYW1iaWFkb1wiLFwiYXBlbGxpZG9cIjpudWxsLFwiZmVjaGFfbmFjaW1pZW50b1wiOm51bGwsXCJnZW5lcm9cIjpudWxsLFwicGFpc1wiOlwiQk9cIixcImNpdWRhZFwiOm51bGwsXCJlbWFpbFwiOlwiYmVsYXlhZzEzMEBhbXBzd2lwZS5jb21cIixcInRlbGVmb25vXCI6XCI3NjM3NTY0N1wiLFwiYWN0aXZvXCI6MCxcImNvZFwiOlwidHVHLTQ4NjRcIixcImNyZWF0ZWRfYXRcIjpcIjIwMjEtMDgtMTlUMTk6NTI6NTkuMDAwWlwiLFwidXBkYXRlZF9hdFwiOlwiMjAyMS0wOC0xOVQyMDoxMDo0NC4wMDBaXCIsXCJkZWxldGVkX2F0XCI6bnVsbCxcInNlc3Npb25faWRcIjpudWxsLFwiaGF2ZV9jb21wYW55XCI6XCJzaVwiLFwidmFsaWRhdGlvbl9yZXF1ZXN0XCI6bnVsbH0ifQ.XnZwnSNps4xDOnkKudj-7x-PJlC2GdzfT2xIoSwqiQ6S0zBd7jp4r4ZI4G7YTgnXOB2CSFHTEp891pMJtYWeCQ; LobbyCookie=\"eyIxIjogW3sib3duZXJfdXNlcl9pZCI6IDQ4NjQsICJ0ZW5hbnRfaWQiOiAxODQyLCAic3Vic2NyaXB0aW9uX3N0YXRlIjogImFjdGl2ZSIsICJhY3RpdmUiOiB0cnVlLCAiYnVzaW5lc3NfbmFtZSI6ICJRYSIsICJzdGFydF9kYXRlIjogIjIwMjEtMDgtMTkiLCAiZmluaXNoX2RhdGUiOiAiMjAyMS0xMC0wMiIsICJpc19kZW1vIjogZmFsc2UsICJlbWFpbCI6IG51bGwsICJwYWNrIjogMywgImNvdW50cnkiOiAiQk8iLCAiY2l0eSI6IG51bGwsICJuaXQiOiBudWxsLCAidXNlcnNfcXR5IjogMTAsICJydWJyb19pZCI6IDEsICJ0ZXJtc19hY2NlcHRlZCI6IHRydWUsICJpc19pbmZvX3ZpZXdlZCI6IGZhbHNlLCAidmFsaWRhdGVkIjogZmFsc2UsICJyZXF1ZXN0X2RhdGUiOiAiMjAyMS0wOC0xOVQyMDoxMDo0NC45Mzg2NDArMDA6MDAifV0sICIyIjogW10sICIzIjogW10sICJ2ZXJzaW9uc19zdXBwb3J0ZWQiOiBbIjEuMCJdfXx2Tk5HamxQU1lMVkVWLVRsVk5jSTg5a1pVN0k=\""
     },
     {
-      "id": "713d7c20-5df7-4d59-a945-af332ed340c6",
+      "id": "1fa619ff-f40d-46fb-96f3-bb0150c52dad",
       "key": "base_url_back",
       "value": "http://back.tugerente.me:8001"
     },
     {
-      "id": "e844a7ff-0dc4-43c5-9494-4e3193193f43",
+      "id": "e360c0a1-df87-42d8-a60d-c76ab17da148",
       "key": "Accept",
       "value": "application/json, text/plain, */*"
     },
     {
-      "id": "e0b8aeb0-55b6-4d05-9ae5-0853eb6ad891",
+      "id": "f939222a-f9be-4a9f-9982-fb877a51745a",
       "key": "Timezone",
       "value": "America/La_Paz"
     },
     {
-      "id": "06075568-afce-4059-91e6-e667d3f6c25b",
+      "id": "047181dc-4bda-48f7-b896-8106ab82e558",
       "key": "Content-Type",
       "value": "application/json"
     },
     {
-      "id": "d082a078-1765-4dbb-8a30-813b3e2389f6",
+      "id": "265366fb-d826-465d-b1e9-c6504c720af3",
       "key": "ApiKey",
       "value": "NSqs04Y7M6OAB32WA5UzOziCGAHETz3fGRk3g2C0"
     },
     {
-      "id": "19e2ba2e-5599-4344-8669-ee47906bcf48",
+      "id": "f5915740-18e4-42b3-9bcc-41e18e513374",
       "key": "base_fcl",
       "value": "",
       "type": "string"
