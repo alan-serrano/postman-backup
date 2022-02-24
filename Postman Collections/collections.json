@@ -2084,6 +2084,62 @@
               "response": []
             },
             {
+              "name": "Movimiento de Inventario Copy",
+              "event": [
+                {
+                  "listen": "test",
+                  "script": {
+                    "id": "13e981b5-3258-4349-bebd-c511d4f98712",
+                    "exec": [
+                      ""
+                    ],
+                    "type": "text/javascript"
+                  }
+                }
+              ],
+              "id": "f50ff223-e7d1-439b-9770-9c9e59a3995c",
+              "protocolProfileBehavior": {
+                "disableBodyPruning": true
+              },
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "type": "text",
+                    "value": "{{Accept}}"
+                  },
+                  {
+                    "key": "Timezone",
+                    "type": "text",
+                    "value": "{{Timezone}}"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "name": "Content-Type",
+                    "type": "text",
+                    "value": "{{Content-Type}}"
+                  },
+                  {
+                    "key": "Data-Operations",
+                    "value": "{\"filter\":{\"logic\":\"and\",\"filters\":[]},\"skip\":0,\"take\":\"TODAS\",\"group\":[],\"all\":true}",
+                    "type": "text"
+                  }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": "{{base_url_back}}/v1/warehouses/stock/"
+              },
+              "response": []
+            },
+            {
               "name": "Traspaso de inventario",
               "event": [
                 {
@@ -6244,37 +6300,37 @@
   ],
   "variable": [
     {
-      "id": "3eb902f2-09ae-4480-b2ac-878b795ada7f",
+      "id": "ffb7de3b-93e3-47c3-9fe0-8fc278fa5704",
       "key": "Cookie",
       "value": "_ga=GA1.2.995623964.1629400496; _gid=GA1.2.1579657039.1629400496; _fbp=fb.1.1629400714958.1618680225; ajs_user_id=\"1339\"; ajs_anonymous_id=\"8310621c-456f-44b7-a285-f979bb8c5e76\"; _gat_UA-179458013-2=1; tuGerenteToken=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2Mjk4NTE2NDYsImlhdCI6MTYyOTQ5MTY0NiwiaWQiOjQ4NjQsInVzZXIiOiJ7XCJpZFwiOjQ4NjQsXCJub21icmVcIjpcIlFBIE5vbWJyZSBjYW1iaWFkb1wiLFwiYXBlbGxpZG9cIjpudWxsLFwiZmVjaGFfbmFjaW1pZW50b1wiOm51bGwsXCJnZW5lcm9cIjpudWxsLFwicGFpc1wiOlwiQk9cIixcImNpdWRhZFwiOm51bGwsXCJlbWFpbFwiOlwiYmVsYXlhZzEzMEBhbXBzd2lwZS5jb21cIixcInRlbGVmb25vXCI6XCI3NjM3NTY0N1wiLFwiYWN0aXZvXCI6MCxcImNvZFwiOlwidHVHLTQ4NjRcIixcImNyZWF0ZWRfYXRcIjpcIjIwMjEtMDgtMTlUMTk6NTI6NTkuMDAwWlwiLFwidXBkYXRlZF9hdFwiOlwiMjAyMS0wOC0xOVQyMDoxMDo0NC4wMDBaXCIsXCJkZWxldGVkX2F0XCI6bnVsbCxcInNlc3Npb25faWRcIjpudWxsLFwiaGF2ZV9jb21wYW55XCI6XCJzaVwiLFwidmFsaWRhdGlvbl9yZXF1ZXN0XCI6bnVsbH0ifQ.XnZwnSNps4xDOnkKudj-7x-PJlC2GdzfT2xIoSwqiQ6S0zBd7jp4r4ZI4G7YTgnXOB2CSFHTEp891pMJtYWeCQ; LobbyCookie=\"eyIxIjogW3sib3duZXJfdXNlcl9pZCI6IDQ4NjQsICJ0ZW5hbnRfaWQiOiAxODQyLCAic3Vic2NyaXB0aW9uX3N0YXRlIjogImFjdGl2ZSIsICJhY3RpdmUiOiB0cnVlLCAiYnVzaW5lc3NfbmFtZSI6ICJRYSIsICJzdGFydF9kYXRlIjogIjIwMjEtMDgtMTkiLCAiZmluaXNoX2RhdGUiOiAiMjAyMS0xMC0wMiIsICJpc19kZW1vIjogZmFsc2UsICJlbWFpbCI6IG51bGwsICJwYWNrIjogMywgImNvdW50cnkiOiAiQk8iLCAiY2l0eSI6IG51bGwsICJuaXQiOiBudWxsLCAidXNlcnNfcXR5IjogMTAsICJydWJyb19pZCI6IDEsICJ0ZXJtc19hY2NlcHRlZCI6IHRydWUsICJpc19pbmZvX3ZpZXdlZCI6IGZhbHNlLCAidmFsaWRhdGVkIjogZmFsc2UsICJyZXF1ZXN0X2RhdGUiOiAiMjAyMS0wOC0xOVQyMDoxMDo0NC45Mzg2NDArMDA6MDAifV0sICIyIjogW10sICIzIjogW10sICJ2ZXJzaW9uc19zdXBwb3J0ZWQiOiBbIjEuMCJdfXx2Tk5HamxQU1lMVkVWLVRsVk5jSTg5a1pVN0k=\""
     },
     {
-      "id": "b9203ba4-1133-4b2f-8d2f-8de0942537b0",
+      "id": "85049225-0822-44af-baed-276dc3042ec1",
       "key": "base_url_back",
       "value": "http://back.tugerente.me:8001"
     },
     {
-      "id": "e02542f3-b8c6-4546-bdd0-29d6d4cb2da6",
+      "id": "c53b0594-812b-4882-b9ed-c4c520c72d42",
       "key": "Accept",
       "value": "application/json, text/plain, */*"
     },
     {
-      "id": "bf20a060-c20d-4158-a47e-0adecbdc6282",
+      "id": "e886eb50-a5b1-4f76-8969-ed47f97c6a3b",
       "key": "Timezone",
       "value": "America/La_Paz"
     },
     {
-      "id": "fe939f35-020a-403b-9f7f-8540e33ee93d",
+      "id": "74dc8e03-44f5-4125-a1c0-169ab7fbe8f8",
       "key": "Content-Type",
       "value": "application/json"
     },
     {
-      "id": "7331df3e-6f3b-46d4-8ed9-57ba15c1218c",
+      "id": "93f2cf20-594a-467a-8bd0-2f0effa4edeb",
       "key": "ApiKey",
       "value": "NSqs04Y7M6OAB32WA5UzOziCGAHETz3fGRk3g2C0"
     },
     {
-      "id": "a4ffa3d0-383e-4906-ab6b-6fa96255a62b",
+      "id": "905006c8-1213-4fdc-a97e-232986b87dc7",
       "key": "base_fcl",
       "value": "",
       "type": "string"
