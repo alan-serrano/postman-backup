@@ -523,7 +523,7 @@
             ],
             "body": {
               "mode": "raw",
-              "raw": "{\r\n    \"tenantId\": 1339, \r\n    \"apiKey\": \"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJUVUdFUkVOVEUiLCJjb2RpZ29TaXN0ZW1hIjoiNkQwOEFBMzY0RTMxNTU5MTM4RDYzMjciLCJuaXQiOiJINHNJQUFBQUFBQUFBRE0yc3pBMU16TXdNZ0VBWjJDaWJna0FBQUE9IiwiaWQiOjEzNjg1NTAsImV4cCI6MTY0ODY4NDgwMCwiaWF0IjoxNjQ1NjI0MjQ4LCJuaXREZWxlZ2FkbyI6MzY4NTY2MDI0LCJzdWJzaXN0ZW1hIjoiU0ZFIn0.5R18d-qHja_e-7wLZnPzFhUwAXvADCzLcS9YVNvxNhH9JOAhVoXg4_9Pz6oM9sXrs1q2fyQKdCYEBL1l_W5jcA\",\r\n    \"expiration_date\": \"2022-08-21T00:47:18.982Z\",\r\n    \"nit\": 368566024,\r\n    \"businessName\": \"Netbits SRL\",\r\n    \"message\": \"Gracias por su Compra\"\r\n}",
+              "raw": "{\r\n    \"tenantId\": 1339, \r\n    \"apiKey\": \"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJUVUdFUkVOVEUiLCJjb2RpZ29TaXN0ZW1hIjoiNkQwOEFBMzY0RTMxNTU5MTM4RDYzMjciLCJuaXQiOiJINHNJQUFBQUFBQUFBRE0yc3pBMU16TXdNZ0VBWjJDaWJna0FBQUE9IiwiaWQiOjEzNjg1NTAsImV4cCI6MTY0ODY4NDgwMCwiaWF0IjoxNjQ1NjI0MjQ4LCJuaXREZWxlZ2FkbyI6MzY4NTY2MDI0LCJzdWJzaXN0ZW1hIjoiU0ZFIn0.5R18d-qHja_e-7wLZnPzFhUwAXvADCzLcS9YVNvxNhH9JOAhVoXg4_9Pz6oM9sXrs1q2fyQKdCYEBL1l_W5jcA\",\r\n    \"expirationDate\": \"2022-08-21T00:47:18.982Z\",\r\n    \"nit\": 368566024,\r\n    \"businessName\": \"Netbits SRL\",\r\n    \"message\": \"Gracias por su Compra\"\r\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -6502,37 +6502,37 @@
   ],
   "variable": [
     {
-      "id": "0621f7fa-9642-491f-9464-bc2fbbc25496",
+      "id": "fd3ea609-ddbf-4f19-bcf5-d1ca79ea96a3",
       "key": "Cookie",
       "value": "_ga=GA1.2.995623964.1629400496; _gid=GA1.2.1579657039.1629400496; _fbp=fb.1.1629400714958.1618680225; ajs_user_id=\"1339\"; ajs_anonymous_id=\"8310621c-456f-44b7-a285-f979bb8c5e76\"; _gat_UA-179458013-2=1; tuGerenteToken=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2Mjk4NTE2NDYsImlhdCI6MTYyOTQ5MTY0NiwiaWQiOjQ4NjQsInVzZXIiOiJ7XCJpZFwiOjQ4NjQsXCJub21icmVcIjpcIlFBIE5vbWJyZSBjYW1iaWFkb1wiLFwiYXBlbGxpZG9cIjpudWxsLFwiZmVjaGFfbmFjaW1pZW50b1wiOm51bGwsXCJnZW5lcm9cIjpudWxsLFwicGFpc1wiOlwiQk9cIixcImNpdWRhZFwiOm51bGwsXCJlbWFpbFwiOlwiYmVsYXlhZzEzMEBhbXBzd2lwZS5jb21cIixcInRlbGVmb25vXCI6XCI3NjM3NTY0N1wiLFwiYWN0aXZvXCI6MCxcImNvZFwiOlwidHVHLTQ4NjRcIixcImNyZWF0ZWRfYXRcIjpcIjIwMjEtMDgtMTlUMTk6NTI6NTkuMDAwWlwiLFwidXBkYXRlZF9hdFwiOlwiMjAyMS0wOC0xOVQyMDoxMDo0NC4wMDBaXCIsXCJkZWxldGVkX2F0XCI6bnVsbCxcInNlc3Npb25faWRcIjpudWxsLFwiaGF2ZV9jb21wYW55XCI6XCJzaVwiLFwidmFsaWRhdGlvbl9yZXF1ZXN0XCI6bnVsbH0ifQ.XnZwnSNps4xDOnkKudj-7x-PJlC2GdzfT2xIoSwqiQ6S0zBd7jp4r4ZI4G7YTgnXOB2CSFHTEp891pMJtYWeCQ; LobbyCookie=\"eyIxIjogW3sib3duZXJfdXNlcl9pZCI6IDQ4NjQsICJ0ZW5hbnRfaWQiOiAxODQyLCAic3Vic2NyaXB0aW9uX3N0YXRlIjogImFjdGl2ZSIsICJhY3RpdmUiOiB0cnVlLCAiYnVzaW5lc3NfbmFtZSI6ICJRYSIsICJzdGFydF9kYXRlIjogIjIwMjEtMDgtMTkiLCAiZmluaXNoX2RhdGUiOiAiMjAyMS0xMC0wMiIsICJpc19kZW1vIjogZmFsc2UsICJlbWFpbCI6IG51bGwsICJwYWNrIjogMywgImNvdW50cnkiOiAiQk8iLCAiY2l0eSI6IG51bGwsICJuaXQiOiBudWxsLCAidXNlcnNfcXR5IjogMTAsICJydWJyb19pZCI6IDEsICJ0ZXJtc19hY2NlcHRlZCI6IHRydWUsICJpc19pbmZvX3ZpZXdlZCI6IGZhbHNlLCAidmFsaWRhdGVkIjogZmFsc2UsICJyZXF1ZXN0X2RhdGUiOiAiMjAyMS0wOC0xOVQyMDoxMDo0NC45Mzg2NDArMDA6MDAifV0sICIyIjogW10sICIzIjogW10sICJ2ZXJzaW9uc19zdXBwb3J0ZWQiOiBbIjEuMCJdfXx2Tk5HamxQU1lMVkVWLVRsVk5jSTg5a1pVN0k=\""
     },
     {
-      "id": "bf6dd2c4-3ef7-478d-8a40-73398d57feff",
+      "id": "04351727-7434-4022-b84f-c43cedc461e0",
       "key": "base_url_back",
       "value": "http://back.tugerente.me:8001"
     },
     {
-      "id": "5fc22a8a-9cd6-4985-bc1c-044175d165b5",
+      "id": "33ea67d0-b854-4830-a19c-8c53ddd127ef",
       "key": "Accept",
       "value": "application/json, text/plain, */*"
     },
     {
-      "id": "82b5b6c0-a882-4258-8e8f-940ec3f285a8",
+      "id": "4c85b737-e33f-4762-a909-7fc88dacf437",
       "key": "Timezone",
       "value": "America/La_Paz"
     },
     {
-      "id": "01b4af4c-daf7-4c99-889f-5c32e16b6dd9",
+      "id": "92aca1ac-1554-4ded-9461-ce4b43ff2724",
       "key": "Content-Type",
       "value": "application/json"
     },
     {
-      "id": "fbb0c26c-3af7-4b83-a3b0-67c51496e8ad",
+      "id": "7d3d6ebf-6435-49fd-bd1b-68747e77d2c3",
       "key": "ApiKey",
       "value": "NSqs04Y7M6OAB32WA5UzOziCGAHETz3fGRk3g2C0"
     },
     {
-      "id": "d91926a7-9248-447b-9d1f-d25c5202da4e",
+      "id": "0a4c78c4-f822-4fba-a266-4e917d42e3e7",
       "key": "base_fcl",
       "value": "",
       "type": "string"
