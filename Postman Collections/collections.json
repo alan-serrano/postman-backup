@@ -523,7 +523,7 @@
             ],
             "body": {
               "mode": "raw",
-              "raw": "{\r\n    \"tenant_id\": 1339, \r\n    \"api_key\": \"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJUVUdFUkVOVEUiLCJjb2RpZ29TaXN0ZW1hIjoiNkQwOEFBMzY0RTMxNTU5MTM4RDYzMjciLCJuaXQiOiJINHNJQUFBQUFBQUFBRE0yc3pBMU16TXdNZ0VBWjJDaWJna0FBQUE9IiwiaWQiOjEzNjg1NTAsImV4cCI6MTY0NjAwNjQwMCwiaWF0IjoxNjQzNjMzMTUwLCJuaXREZWxlZ2FkbyI6MzY4NTY2MDI0LCJzdWJzaXN0ZW1hIjoiU0ZFIn0.lTJ3qOjPBZbCkAMizYXn6PtqlucbxH3sM2km1p1f5TrFCmczOHQ1ux7Iacr7b07FGZuL9M5wpo-iFhsssJoQ9g\",\r\n    \"expiration_date\": \"2022-08-21T00:47:18.982Z\",\r\n    \"nit\": 368566024,\r\n    \"businessName\": \"Netbits SRL\",\r\n    \"message\": \"Gracias por su Compra\"\r\n}",
+              "raw": "{\r\n    \"tenant_id\": 1339, \r\n    \"api_key\": \"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJUVUdFUkVOVEUiLCJjb2RpZ29TaXN0ZW1hIjoiNkQwOEFBMzY0RTMxNTU5MTM4RDYzMjciLCJuaXQiOiJINHNJQUFBQUFBQUFBRE0yc3pBMU16TXdNZ0VBWjJDaWJna0FBQUE9IiwiaWQiOjEzNjg1NTAsImV4cCI6MTY0ODY4NDgwMCwiaWF0IjoxNjQ1NjI0MjQ4LCJuaXREZWxlZ2FkbyI6MzY4NTY2MDI0LCJzdWJzaXN0ZW1hIjoiU0ZFIn0.5R18d-qHja_e-7wLZnPzFhUwAXvADCzLcS9YVNvxNhH9JOAhVoXg4_9Pz6oM9sXrs1q2fyQKdCYEBL1l_W5jcA\",\r\n    \"expiration_date\": \"2022-08-21T00:47:18.982Z\",\r\n    \"nit\": 368566024,\r\n    \"businessName\": \"Netbits SRL\",\r\n    \"message\": \"Gracias por su Compra\"\r\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -6502,37 +6502,37 @@
   ],
   "variable": [
     {
-      "id": "8d30b53e-92b0-43a1-b180-6f1af4ee5af2",
+      "id": "c41e66da-1cf9-49ce-ae4a-adfe4e0a71ba",
       "key": "Cookie",
       "value": "_ga=GA1.2.995623964.1629400496; _gid=GA1.2.1579657039.1629400496; _fbp=fb.1.1629400714958.1618680225; ajs_user_id=\"1339\"; ajs_anonymous_id=\"8310621c-456f-44b7-a285-f979bb8c5e76\"; _gat_UA-179458013-2=1; tuGerenteToken=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2Mjk4NTE2NDYsImlhdCI6MTYyOTQ5MTY0NiwiaWQiOjQ4NjQsInVzZXIiOiJ7XCJpZFwiOjQ4NjQsXCJub21icmVcIjpcIlFBIE5vbWJyZSBjYW1iaWFkb1wiLFwiYXBlbGxpZG9cIjpudWxsLFwiZmVjaGFfbmFjaW1pZW50b1wiOm51bGwsXCJnZW5lcm9cIjpudWxsLFwicGFpc1wiOlwiQk9cIixcImNpdWRhZFwiOm51bGwsXCJlbWFpbFwiOlwiYmVsYXlhZzEzMEBhbXBzd2lwZS5jb21cIixcInRlbGVmb25vXCI6XCI3NjM3NTY0N1wiLFwiYWN0aXZvXCI6MCxcImNvZFwiOlwidHVHLTQ4NjRcIixcImNyZWF0ZWRfYXRcIjpcIjIwMjEtMDgtMTlUMTk6NTI6NTkuMDAwWlwiLFwidXBkYXRlZF9hdFwiOlwiMjAyMS0wOC0xOVQyMDoxMDo0NC4wMDBaXCIsXCJkZWxldGVkX2F0XCI6bnVsbCxcInNlc3Npb25faWRcIjpudWxsLFwiaGF2ZV9jb21wYW55XCI6XCJzaVwiLFwidmFsaWRhdGlvbl9yZXF1ZXN0XCI6bnVsbH0ifQ.XnZwnSNps4xDOnkKudj-7x-PJlC2GdzfT2xIoSwqiQ6S0zBd7jp4r4ZI4G7YTgnXOB2CSFHTEp891pMJtYWeCQ; LobbyCookie=\"eyIxIjogW3sib3duZXJfdXNlcl9pZCI6IDQ4NjQsICJ0ZW5hbnRfaWQiOiAxODQyLCAic3Vic2NyaXB0aW9uX3N0YXRlIjogImFjdGl2ZSIsICJhY3RpdmUiOiB0cnVlLCAiYnVzaW5lc3NfbmFtZSI6ICJRYSIsICJzdGFydF9kYXRlIjogIjIwMjEtMDgtMTkiLCAiZmluaXNoX2RhdGUiOiAiMjAyMS0xMC0wMiIsICJpc19kZW1vIjogZmFsc2UsICJlbWFpbCI6IG51bGwsICJwYWNrIjogMywgImNvdW50cnkiOiAiQk8iLCAiY2l0eSI6IG51bGwsICJuaXQiOiBudWxsLCAidXNlcnNfcXR5IjogMTAsICJydWJyb19pZCI6IDEsICJ0ZXJtc19hY2NlcHRlZCI6IHRydWUsICJpc19pbmZvX3ZpZXdlZCI6IGZhbHNlLCAidmFsaWRhdGVkIjogZmFsc2UsICJyZXF1ZXN0X2RhdGUiOiAiMjAyMS0wOC0xOVQyMDoxMDo0NC45Mzg2NDArMDA6MDAifV0sICIyIjogW10sICIzIjogW10sICJ2ZXJzaW9uc19zdXBwb3J0ZWQiOiBbIjEuMCJdfXx2Tk5HamxQU1lMVkVWLVRsVk5jSTg5a1pVN0k=\""
     },
     {
-      "id": "30a906b7-1c7b-44e5-901a-6794038ce8bd",
+      "id": "c7da237f-813c-43f6-af43-37918754dd68",
       "key": "base_url_back",
       "value": "http://back.tugerente.me:8001"
     },
     {
-      "id": "74630c74-f0d5-4e89-9c4b-4a3d3a788119",
+      "id": "87d39e7a-8080-4ae1-9b3a-af5b08e2b0a4",
       "key": "Accept",
       "value": "application/json, text/plain, */*"
     },
     {
-      "id": "cfe8ce5e-4e4b-40ad-8785-78e6224f34f3",
+      "id": "e2e15b89-a4a5-40a8-86b3-6f3ff47ddd06",
       "key": "Timezone",
       "value": "America/La_Paz"
     },
     {
-      "id": "065dcf4c-b7e3-4f5b-b01f-0f474f2a1a25",
+      "id": "5f1a104c-4df5-48da-b843-94cc61dbaa5f",
       "key": "Content-Type",
       "value": "application/json"
     },
     {
-      "id": "409f86c7-ad76-458a-9d04-159095134de7",
+      "id": "795e5fb2-e96d-40fd-bfc8-0b14e5bae6f4",
       "key": "ApiKey",
       "value": "NSqs04Y7M6OAB32WA5UzOziCGAHETz3fGRk3g2C0"
     },
     {
-      "id": "5bbb0f37-fadd-4c2f-a26e-e471422d1ac4",
+      "id": "985fa243-ba40-40ca-b7ed-bb99d6e2a24f",
       "key": "base_fcl",
       "value": "",
       "type": "string"
