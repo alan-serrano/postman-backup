@@ -484,6 +484,55 @@
           "response": []
         },
         {
+          "name": "New Request Copy",
+          "id": "4ba8eab7-74bf-440c-a407-1614419050c2",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "https://pilotosiat.impuestos.gob.bo/consulta/QR?nit=368566024&cuf=1937E3363EA743AC890ACAE460D93373AAE4B097A13B7D14A6B10EC74&numero=1",
+              "protocol": "https",
+              "host": [
+                "pilotosiat",
+                "impuestos",
+                "gob",
+                "bo"
+              ],
+              "path": [
+                "consulta",
+                "QR"
+              ],
+              "query": [
+                {
+                  "key": "nit",
+                  "value": "368566024",
+                  "description": "Es el valor del NIT del emisor de la Factura o Nota de Crédito-Débito."
+                },
+                {
+                  "key": "cuf",
+                  "value": "1937E3363EA743AC890ACAE460D93373AAE4B097A13B7D14A6B10EC74",
+                  "description": "Es el Código Único de la Factura de la Factura o Nota de Crédito-Débito."
+                },
+                {
+                  "key": "numero",
+                  "value": "1",
+                  "description": "Es el número correlativo de la Factura o Nota de Crédito-Débito."
+                },
+                {
+                  "key": "t",
+                  "value": "2",
+                  "description": "es el tamaño para la pre visualización 1 = rollo, 2 = media hoja, si no se incluye este parámetro su valor por defecto será 1.",
+                  "disabled": true
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
           "name": "get_api_key Copy",
           "event": [
             {
@@ -531,55 +580,6 @@
               }
             },
             "url": "{{base_url_back}}/v1/integrations/integration_fcl/get_api_key/"
-          },
-          "response": []
-        },
-        {
-          "name": "New Request Copy",
-          "id": "4ba8eab7-74bf-440c-a407-1614419050c2",
-          "protocolProfileBehavior": {
-            "disableBodyPruning": true
-          },
-          "request": {
-            "method": "GET",
-            "header": [],
-            "url": {
-              "raw": "https://pilotosiat.impuestos.gob.bo/consulta/QR?nit=368566024&cuf=1937E3363EA743AC890ACAE460D93373AAE4B097A13B7D14A6B10EC74&numero=1",
-              "protocol": "https",
-              "host": [
-                "pilotosiat",
-                "impuestos",
-                "gob",
-                "bo"
-              ],
-              "path": [
-                "consulta",
-                "QR"
-              ],
-              "query": [
-                {
-                  "key": "nit",
-                  "value": "368566024",
-                  "description": "Es el valor del NIT del emisor de la Factura o Nota de Crédito-Débito."
-                },
-                {
-                  "key": "cuf",
-                  "value": "1937E3363EA743AC890ACAE460D93373AAE4B097A13B7D14A6B10EC74",
-                  "description": "Es el Código Único de la Factura de la Factura o Nota de Crédito-Débito."
-                },
-                {
-                  "key": "numero",
-                  "value": "1",
-                  "description": "Es el número correlativo de la Factura o Nota de Crédito-Débito."
-                },
-                {
-                  "key": "t",
-                  "value": "2",
-                  "description": "es el tamaño para la pre visualización 1 = rollo, 2 = media hoja, si no se incluye este parámetro su valor por defecto será 1.",
-                  "disabled": true
-                }
-              ]
-            }
           },
           "response": []
         }
@@ -6451,37 +6451,37 @@
   ],
   "variable": [
     {
-      "id": "8da8bbff-b7bf-4188-9936-5479174e6495",
+      "id": "592ba9da-7946-4118-b63b-91bc783131be",
       "key": "Cookie",
       "value": "_ga=GA1.2.995623964.1629400496; _gid=GA1.2.1579657039.1629400496; _fbp=fb.1.1629400714958.1618680225; ajs_user_id=\"1339\"; ajs_anonymous_id=\"8310621c-456f-44b7-a285-f979bb8c5e76\"; _gat_UA-179458013-2=1; tuGerenteToken=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2Mjk4NTE2NDYsImlhdCI6MTYyOTQ5MTY0NiwiaWQiOjQ4NjQsInVzZXIiOiJ7XCJpZFwiOjQ4NjQsXCJub21icmVcIjpcIlFBIE5vbWJyZSBjYW1iaWFkb1wiLFwiYXBlbGxpZG9cIjpudWxsLFwiZmVjaGFfbmFjaW1pZW50b1wiOm51bGwsXCJnZW5lcm9cIjpudWxsLFwicGFpc1wiOlwiQk9cIixcImNpdWRhZFwiOm51bGwsXCJlbWFpbFwiOlwiYmVsYXlhZzEzMEBhbXBzd2lwZS5jb21cIixcInRlbGVmb25vXCI6XCI3NjM3NTY0N1wiLFwiYWN0aXZvXCI6MCxcImNvZFwiOlwidHVHLTQ4NjRcIixcImNyZWF0ZWRfYXRcIjpcIjIwMjEtMDgtMTlUMTk6NTI6NTkuMDAwWlwiLFwidXBkYXRlZF9hdFwiOlwiMjAyMS0wOC0xOVQyMDoxMDo0NC4wMDBaXCIsXCJkZWxldGVkX2F0XCI6bnVsbCxcInNlc3Npb25faWRcIjpudWxsLFwiaGF2ZV9jb21wYW55XCI6XCJzaVwiLFwidmFsaWRhdGlvbl9yZXF1ZXN0XCI6bnVsbH0ifQ.XnZwnSNps4xDOnkKudj-7x-PJlC2GdzfT2xIoSwqiQ6S0zBd7jp4r4ZI4G7YTgnXOB2CSFHTEp891pMJtYWeCQ; LobbyCookie=\"eyIxIjogW3sib3duZXJfdXNlcl9pZCI6IDQ4NjQsICJ0ZW5hbnRfaWQiOiAxODQyLCAic3Vic2NyaXB0aW9uX3N0YXRlIjogImFjdGl2ZSIsICJhY3RpdmUiOiB0cnVlLCAiYnVzaW5lc3NfbmFtZSI6ICJRYSIsICJzdGFydF9kYXRlIjogIjIwMjEtMDgtMTkiLCAiZmluaXNoX2RhdGUiOiAiMjAyMS0xMC0wMiIsICJpc19kZW1vIjogZmFsc2UsICJlbWFpbCI6IG51bGwsICJwYWNrIjogMywgImNvdW50cnkiOiAiQk8iLCAiY2l0eSI6IG51bGwsICJuaXQiOiBudWxsLCAidXNlcnNfcXR5IjogMTAsICJydWJyb19pZCI6IDEsICJ0ZXJtc19hY2NlcHRlZCI6IHRydWUsICJpc19pbmZvX3ZpZXdlZCI6IGZhbHNlLCAidmFsaWRhdGVkIjogZmFsc2UsICJyZXF1ZXN0X2RhdGUiOiAiMjAyMS0wOC0xOVQyMDoxMDo0NC45Mzg2NDArMDA6MDAifV0sICIyIjogW10sICIzIjogW10sICJ2ZXJzaW9uc19zdXBwb3J0ZWQiOiBbIjEuMCJdfXx2Tk5HamxQU1lMVkVWLVRsVk5jSTg5a1pVN0k=\""
     },
     {
-      "id": "39d1d845-685c-44ac-a2bb-7b3a25f00444",
+      "id": "8b044149-a81b-4ba1-b406-807b8a5260db",
       "key": "base_url_back",
       "value": "http://back.tugerente.me:8001"
     },
     {
-      "id": "a1c9b358-8f76-416b-85c3-b1b18d71c0a6",
+      "id": "e5b663d8-6903-4648-836f-c952f96616a5",
       "key": "Accept",
       "value": "application/json, text/plain, */*"
     },
     {
-      "id": "7a50f35e-d376-4f31-8e6f-6e6f8e7dc91b",
+      "id": "032e6cb8-b1e7-4160-b0ce-d8464830de40",
       "key": "Timezone",
       "value": "America/La_Paz"
     },
     {
-      "id": "31c22670-96e8-45e6-9985-bf12cd979f15",
+      "id": "6d030784-3dcd-4619-9c4b-a8e0a0b44563",
       "key": "Content-Type",
       "value": "application/json"
     },
     {
-      "id": "e05781ab-f76b-4c11-8c43-a8873b909c44",
+      "id": "1f183833-f963-4f80-b8c8-1fe79a79c2b6",
       "key": "ApiKey",
       "value": "NSqs04Y7M6OAB32WA5UzOziCGAHETz3fGRk3g2C0"
     },
     {
-      "id": "daee056f-e9fa-4be8-b4b0-90854e03aae5",
+      "id": "53f4b679-e0cf-40a5-aa10-2927a67a2efd",
       "key": "base_fcl",
       "value": "",
       "type": "string"
