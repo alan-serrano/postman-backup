@@ -5850,6 +5850,57 @@
                   "response": []
                 },
                 {
+                  "name": "get_api_key Copy",
+                  "event": [
+                    {
+                      "listen": "test",
+                      "script": {
+                        "id": "68bf9f95-e473-4e7b-94f0-877d248c19e3",
+                        "exec": [
+                          ""
+                        ],
+                        "type": "text/javascript"
+                      }
+                    }
+                  ],
+                  "id": "dc49075f-e340-430e-90bf-b6d52f2a14f4",
+                  "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                  },
+                  "request": {
+                    "method": "GET",
+                    "header": [
+                      {
+                        "key": "Accept",
+                        "type": "text",
+                        "value": "{{Accept}}"
+                      },
+                      {
+                        "key": "Timezone",
+                        "type": "text",
+                        "value": "{{Timezone}}"
+                      },
+                      {
+                        "key": "Content-Type",
+                        "name": "Content-Type",
+                        "type": "text",
+                        "value": "{{Content-Type}}"
+                      }
+                    ],
+                    "body": {
+                      "mode": "raw",
+                      "raw": "",
+                      "options": {
+                        "raw": {
+                          "language": "json"
+                        }
+                      }
+                    },
+                    "url": "{{base_url_back}}/v1/integrations/integration_fcl/get_api_key/"
+                  },
+                  "response": []
+                },
+                {
                   "name": "set_api_key",
                   "event": [
                     {
@@ -6400,37 +6451,37 @@
   ],
   "variable": [
     {
-      "id": "6cf4bfc2-5143-4b5a-99fc-8286ed950ad4",
+      "id": "e83dd401-8043-4bc1-982d-9ec7653641e1",
       "key": "Cookie",
       "value": "_ga=GA1.2.995623964.1629400496; _gid=GA1.2.1579657039.1629400496; _fbp=fb.1.1629400714958.1618680225; ajs_user_id=\"1339\"; ajs_anonymous_id=\"8310621c-456f-44b7-a285-f979bb8c5e76\"; _gat_UA-179458013-2=1; tuGerenteToken=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2Mjk4NTE2NDYsImlhdCI6MTYyOTQ5MTY0NiwiaWQiOjQ4NjQsInVzZXIiOiJ7XCJpZFwiOjQ4NjQsXCJub21icmVcIjpcIlFBIE5vbWJyZSBjYW1iaWFkb1wiLFwiYXBlbGxpZG9cIjpudWxsLFwiZmVjaGFfbmFjaW1pZW50b1wiOm51bGwsXCJnZW5lcm9cIjpudWxsLFwicGFpc1wiOlwiQk9cIixcImNpdWRhZFwiOm51bGwsXCJlbWFpbFwiOlwiYmVsYXlhZzEzMEBhbXBzd2lwZS5jb21cIixcInRlbGVmb25vXCI6XCI3NjM3NTY0N1wiLFwiYWN0aXZvXCI6MCxcImNvZFwiOlwidHVHLTQ4NjRcIixcImNyZWF0ZWRfYXRcIjpcIjIwMjEtMDgtMTlUMTk6NTI6NTkuMDAwWlwiLFwidXBkYXRlZF9hdFwiOlwiMjAyMS0wOC0xOVQyMDoxMDo0NC4wMDBaXCIsXCJkZWxldGVkX2F0XCI6bnVsbCxcInNlc3Npb25faWRcIjpudWxsLFwiaGF2ZV9jb21wYW55XCI6XCJzaVwiLFwidmFsaWRhdGlvbl9yZXF1ZXN0XCI6bnVsbH0ifQ.XnZwnSNps4xDOnkKudj-7x-PJlC2GdzfT2xIoSwqiQ6S0zBd7jp4r4ZI4G7YTgnXOB2CSFHTEp891pMJtYWeCQ; LobbyCookie=\"eyIxIjogW3sib3duZXJfdXNlcl9pZCI6IDQ4NjQsICJ0ZW5hbnRfaWQiOiAxODQyLCAic3Vic2NyaXB0aW9uX3N0YXRlIjogImFjdGl2ZSIsICJhY3RpdmUiOiB0cnVlLCAiYnVzaW5lc3NfbmFtZSI6ICJRYSIsICJzdGFydF9kYXRlIjogIjIwMjEtMDgtMTkiLCAiZmluaXNoX2RhdGUiOiAiMjAyMS0xMC0wMiIsICJpc19kZW1vIjogZmFsc2UsICJlbWFpbCI6IG51bGwsICJwYWNrIjogMywgImNvdW50cnkiOiAiQk8iLCAiY2l0eSI6IG51bGwsICJuaXQiOiBudWxsLCAidXNlcnNfcXR5IjogMTAsICJydWJyb19pZCI6IDEsICJ0ZXJtc19hY2NlcHRlZCI6IHRydWUsICJpc19pbmZvX3ZpZXdlZCI6IGZhbHNlLCAidmFsaWRhdGVkIjogZmFsc2UsICJyZXF1ZXN0X2RhdGUiOiAiMjAyMS0wOC0xOVQyMDoxMDo0NC45Mzg2NDArMDA6MDAifV0sICIyIjogW10sICIzIjogW10sICJ2ZXJzaW9uc19zdXBwb3J0ZWQiOiBbIjEuMCJdfXx2Tk5HamxQU1lMVkVWLVRsVk5jSTg5a1pVN0k=\""
     },
     {
-      "id": "b1482de2-2aeb-4cb5-819d-d70e24e12e61",
+      "id": "87634e9d-5139-4ae1-bb00-e43c0cff1f82",
       "key": "base_url_back",
       "value": "http://back.tugerente.me:8001"
     },
     {
-      "id": "7809cd99-4612-4177-8d3c-7c1df8aa6780",
+      "id": "e98e12e6-5ab3-4321-ba04-c152e4c16f84",
       "key": "Accept",
       "value": "application/json, text/plain, */*"
     },
     {
-      "id": "3b5849a3-57be-4fb4-a36a-88570056cdfb",
+      "id": "12652316-c6a0-4708-b834-f8ff6a410e58",
       "key": "Timezone",
       "value": "America/La_Paz"
     },
     {
-      "id": "483a8245-0d68-4ce8-9066-6c2ea2d80547",
+      "id": "39a2ae0f-844e-4147-ba69-5753d1e40c69",
       "key": "Content-Type",
       "value": "application/json"
     },
     {
-      "id": "7b43472c-736a-47aa-b664-0013bb4b04cb",
+      "id": "a2ce3a99-14e1-4627-bcc4-a3ae3fb36610",
       "key": "ApiKey",
       "value": "NSqs04Y7M6OAB32WA5UzOziCGAHETz3fGRk3g2C0"
     },
     {
-      "id": "bac5be6c-ad05-449d-98ac-43c3dbf7f5b8",
+      "id": "f7a052d8-88bf-4321-8cad-5f421ca1fa4f",
       "key": "base_fcl",
       "value": "",
       "type": "string"
