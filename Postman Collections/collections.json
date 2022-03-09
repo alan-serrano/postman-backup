@@ -2449,7 +2449,7 @@
                     }
                   }
                 },
-                "url": "{{base_url_back}}/v1/warehouses/stock_movement/"
+                "url": "{{base_url_back}}/v1/warehouses/warehouse/"
               },
               "response": []
             },
@@ -6558,37 +6558,37 @@
   ],
   "variable": [
     {
-      "id": "426865a6-2acf-4184-b9d6-42441377105a",
+      "id": "b66e0536-bc38-45ed-b1df-0f3804e81a52",
       "key": "Cookie",
       "value": "_ga=GA1.2.995623964.1629400496; _gid=GA1.2.1579657039.1629400496; _fbp=fb.1.1629400714958.1618680225; ajs_user_id=\"1339\"; ajs_anonymous_id=\"8310621c-456f-44b7-a285-f979bb8c5e76\"; _gat_UA-179458013-2=1; tuGerenteToken=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2Mjk4NTE2NDYsImlhdCI6MTYyOTQ5MTY0NiwiaWQiOjQ4NjQsInVzZXIiOiJ7XCJpZFwiOjQ4NjQsXCJub21icmVcIjpcIlFBIE5vbWJyZSBjYW1iaWFkb1wiLFwiYXBlbGxpZG9cIjpudWxsLFwiZmVjaGFfbmFjaW1pZW50b1wiOm51bGwsXCJnZW5lcm9cIjpudWxsLFwicGFpc1wiOlwiQk9cIixcImNpdWRhZFwiOm51bGwsXCJlbWFpbFwiOlwiYmVsYXlhZzEzMEBhbXBzd2lwZS5jb21cIixcInRlbGVmb25vXCI6XCI3NjM3NTY0N1wiLFwiYWN0aXZvXCI6MCxcImNvZFwiOlwidHVHLTQ4NjRcIixcImNyZWF0ZWRfYXRcIjpcIjIwMjEtMDgtMTlUMTk6NTI6NTkuMDAwWlwiLFwidXBkYXRlZF9hdFwiOlwiMjAyMS0wOC0xOVQyMDoxMDo0NC4wMDBaXCIsXCJkZWxldGVkX2F0XCI6bnVsbCxcInNlc3Npb25faWRcIjpudWxsLFwiaGF2ZV9jb21wYW55XCI6XCJzaVwiLFwidmFsaWRhdGlvbl9yZXF1ZXN0XCI6bnVsbH0ifQ.XnZwnSNps4xDOnkKudj-7x-PJlC2GdzfT2xIoSwqiQ6S0zBd7jp4r4ZI4G7YTgnXOB2CSFHTEp891pMJtYWeCQ; LobbyCookie=\"eyIxIjogW3sib3duZXJfdXNlcl9pZCI6IDQ4NjQsICJ0ZW5hbnRfaWQiOiAxODQyLCAic3Vic2NyaXB0aW9uX3N0YXRlIjogImFjdGl2ZSIsICJhY3RpdmUiOiB0cnVlLCAiYnVzaW5lc3NfbmFtZSI6ICJRYSIsICJzdGFydF9kYXRlIjogIjIwMjEtMDgtMTkiLCAiZmluaXNoX2RhdGUiOiAiMjAyMS0xMC0wMiIsICJpc19kZW1vIjogZmFsc2UsICJlbWFpbCI6IG51bGwsICJwYWNrIjogMywgImNvdW50cnkiOiAiQk8iLCAiY2l0eSI6IG51bGwsICJuaXQiOiBudWxsLCAidXNlcnNfcXR5IjogMTAsICJydWJyb19pZCI6IDEsICJ0ZXJtc19hY2NlcHRlZCI6IHRydWUsICJpc19pbmZvX3ZpZXdlZCI6IGZhbHNlLCAidmFsaWRhdGVkIjogZmFsc2UsICJyZXF1ZXN0X2RhdGUiOiAiMjAyMS0wOC0xOVQyMDoxMDo0NC45Mzg2NDArMDA6MDAifV0sICIyIjogW10sICIzIjogW10sICJ2ZXJzaW9uc19zdXBwb3J0ZWQiOiBbIjEuMCJdfXx2Tk5HamxQU1lMVkVWLVRsVk5jSTg5a1pVN0k=\""
     },
     {
-      "id": "4a5f54b1-65ea-417a-a9df-1dab67337321",
+      "id": "e2b69adc-1953-426f-9ad2-df4affaf1b6e",
       "key": "base_url_back",
       "value": "http://back.tugerente.me:8001"
     },
     {
-      "id": "b92af3d7-6e57-4d75-be4c-942dda9a43b0",
+      "id": "b8171c1f-4874-47b7-ac9c-2721e16d9797",
       "key": "Accept",
       "value": "application/json, text/plain, */*"
     },
     {
-      "id": "6a134651-6192-4ff0-aaba-4408a9273da3",
+      "id": "6617b366-ff42-4a3b-99d6-aa12fabe8dc7",
       "key": "Timezone",
       "value": "America/La_Paz"
     },
     {
-      "id": "8ace2336-cf5f-4a2a-a7d8-334ae6d9b90b",
+      "id": "abb23713-50c0-4f1b-b4db-2b713406d5a4",
       "key": "Content-Type",
       "value": "application/json"
     },
     {
-      "id": "fbc9ffbf-34d0-4f5e-a58b-f5c17e6acbb6",
+      "id": "b21eb514-dc65-4196-84bc-43829c3efbb5",
       "key": "ApiKey",
       "value": "NSqs04Y7M6OAB32WA5UzOziCGAHETz3fGRk3g2C0"
     },
     {
-      "id": "4921a54f-7a56-44ef-83ba-916c1eb59095",
+      "id": "1ce27fed-5be1-4bb8-9a53-45382ea96102",
       "key": "base_fcl",
       "value": "",
       "type": "string"
