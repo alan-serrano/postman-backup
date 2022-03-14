@@ -6042,7 +6042,7 @@
                     ],
                     "body": {
                       "mode": "raw",
-                      "raw": "{\r\n    \"tenant_id\": 1339, \r\n    \"api_key\": \"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJUVUdFUkVOVEUiLCJjb2RpZ29TaXN0ZW1hIjoiNkQwOEFBMzY0RTMxNTU5MTM4RDYzMjciLCJuaXQiOiJINHNJQUFBQUFBQUFBRE0yc3pBMU16TXdNZ0VBWjJDaWJna0FBQUE9IiwiaWQiOjEzNjg1NTAsImV4cCI6MTY0NjAwNjQwMCwiaWF0IjoxNjQzNjMzMTUwLCJuaXREZWxlZ2FkbyI6MzY4NTY2MDI0LCJzdWJzaXN0ZW1hIjoiU0ZFIn0.lTJ3qOjPBZbCkAMizYXn6PtqlucbxH3sM2km1p1f5TrFCmczOHQ1ux7Iacr7b07FGZuL9M5wpo-iFhsssJoQ9g\",\r\n    \"expiration_date\": \"2022-08-21T00:47:18.982Z\"\r\n}",
+                      "raw": "{\r\n    \"tenant_id\": 1339, \r\n    \"api_key\": \"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJUVUdFUkVOVEUiLCJjb2RpZ29TaXN0ZW1hIjoiNkQwOEFBMzY0RTMxNTU5MTM4RDYzMjciLCJuaXQiOiJINHNJQUFBQUFBQUFBRE0yc3pBMU16TXdNZ0VBWjJDaWJna0FBQUE9IiwiaWQiOjEzNjg1NTAsImV4cCI6MTY0ODY4NDgwMCwiaWF0IjoxNjQ1NjI0MjQ4LCJuaXREZWxlZ2FkbyI6MzY4NTY2MDI0LCJzdWJzaXN0ZW1hIjoiU0ZFIn0.5R18d-qHja_e-7wLZnPzFhUwAXvADCzLcS9YVNvxNhH9JOAhVoXg4_9Pz6oM9sXrs1q2fyQKdCYEBL1l_W5jcA\",\r\n    \"expiration_date\": \"2022-08-21T00:47:18.982Z\",\r\n    \"system_code\": \"6D08AA364E31559138D6327\"\r\n}",
                       "options": {
                         "raw": {
                           "language": "json"
@@ -6577,37 +6577,37 @@
   ],
   "variable": [
     {
-      "id": "8e1834d8-101c-405b-87b3-e1ae4b4867d6",
+      "id": "4de3ac4f-6b98-42dd-bf78-ca91a0326ac2",
       "key": "Cookie",
       "value": "_ga=GA1.2.995623964.1629400496; _gid=GA1.2.1579657039.1629400496; _fbp=fb.1.1629400714958.1618680225; ajs_user_id=\"1339\"; ajs_anonymous_id=\"8310621c-456f-44b7-a285-f979bb8c5e76\"; _gat_UA-179458013-2=1; tuGerenteToken=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2Mjk4NTE2NDYsImlhdCI6MTYyOTQ5MTY0NiwiaWQiOjQ4NjQsInVzZXIiOiJ7XCJpZFwiOjQ4NjQsXCJub21icmVcIjpcIlFBIE5vbWJyZSBjYW1iaWFkb1wiLFwiYXBlbGxpZG9cIjpudWxsLFwiZmVjaGFfbmFjaW1pZW50b1wiOm51bGwsXCJnZW5lcm9cIjpudWxsLFwicGFpc1wiOlwiQk9cIixcImNpdWRhZFwiOm51bGwsXCJlbWFpbFwiOlwiYmVsYXlhZzEzMEBhbXBzd2lwZS5jb21cIixcInRlbGVmb25vXCI6XCI3NjM3NTY0N1wiLFwiYWN0aXZvXCI6MCxcImNvZFwiOlwidHVHLTQ4NjRcIixcImNyZWF0ZWRfYXRcIjpcIjIwMjEtMDgtMTlUMTk6NTI6NTkuMDAwWlwiLFwidXBkYXRlZF9hdFwiOlwiMjAyMS0wOC0xOVQyMDoxMDo0NC4wMDBaXCIsXCJkZWxldGVkX2F0XCI6bnVsbCxcInNlc3Npb25faWRcIjpudWxsLFwiaGF2ZV9jb21wYW55XCI6XCJzaVwiLFwidmFsaWRhdGlvbl9yZXF1ZXN0XCI6bnVsbH0ifQ.XnZwnSNps4xDOnkKudj-7x-PJlC2GdzfT2xIoSwqiQ6S0zBd7jp4r4ZI4G7YTgnXOB2CSFHTEp891pMJtYWeCQ; LobbyCookie=\"eyIxIjogW3sib3duZXJfdXNlcl9pZCI6IDQ4NjQsICJ0ZW5hbnRfaWQiOiAxODQyLCAic3Vic2NyaXB0aW9uX3N0YXRlIjogImFjdGl2ZSIsICJhY3RpdmUiOiB0cnVlLCAiYnVzaW5lc3NfbmFtZSI6ICJRYSIsICJzdGFydF9kYXRlIjogIjIwMjEtMDgtMTkiLCAiZmluaXNoX2RhdGUiOiAiMjAyMS0xMC0wMiIsICJpc19kZW1vIjogZmFsc2UsICJlbWFpbCI6IG51bGwsICJwYWNrIjogMywgImNvdW50cnkiOiAiQk8iLCAiY2l0eSI6IG51bGwsICJuaXQiOiBudWxsLCAidXNlcnNfcXR5IjogMTAsICJydWJyb19pZCI6IDEsICJ0ZXJtc19hY2NlcHRlZCI6IHRydWUsICJpc19pbmZvX3ZpZXdlZCI6IGZhbHNlLCAidmFsaWRhdGVkIjogZmFsc2UsICJyZXF1ZXN0X2RhdGUiOiAiMjAyMS0wOC0xOVQyMDoxMDo0NC45Mzg2NDArMDA6MDAifV0sICIyIjogW10sICIzIjogW10sICJ2ZXJzaW9uc19zdXBwb3J0ZWQiOiBbIjEuMCJdfXx2Tk5HamxQU1lMVkVWLVRsVk5jSTg5a1pVN0k=\""
     },
     {
-      "id": "69a4bc8b-09f9-41ab-9f7d-ca54f19e0710",
+      "id": "a1983ab8-5636-41aa-aa51-3e38e4eb753a",
       "key": "base_url_back",
       "value": "http://back.tugerente.me:8001"
     },
     {
-      "id": "d02d5089-3d50-4c25-a8e2-f7121f0cdf54",
+      "id": "3a5ef7cb-7710-4cca-8756-282c871d3265",
       "key": "Accept",
       "value": "application/json, text/plain, */*"
     },
     {
-      "id": "eeac1877-4ca5-4f6e-830a-746942e8ae61",
+      "id": "78b0445f-307c-41a1-b9c7-064376a45b66",
       "key": "Timezone",
       "value": "America/La_Paz"
     },
     {
-      "id": "cd918e39-51dd-4cd0-91ab-54276f04b91a",
+      "id": "c4e5d692-9970-4db4-9887-1f4e495fa959",
       "key": "Content-Type",
       "value": "application/json"
     },
     {
-      "id": "b653b294-2bd0-4646-a634-f3a081374d01",
+      "id": "52e52d9b-99ae-42eb-8044-862d6f7708be",
       "key": "ApiKey",
       "value": "NSqs04Y7M6OAB32WA5UzOziCGAHETz3fGRk3g2C0"
     },
     {
-      "id": "aab91964-b79c-4045-9dfd-60bdd7a7a40f",
+      "id": "f490ffe4-6f1b-4468-9c68-61440ce9a6ef",
       "key": "base_fcl",
       "value": "",
       "type": "string"
