@@ -6071,6 +6071,57 @@
                   "response": []
                 },
                 {
+                  "name": "get_api_key Copy",
+                  "event": [
+                    {
+                      "listen": "test",
+                      "script": {
+                        "id": "68bf9f95-e473-4e7b-94f0-877d248c19e3",
+                        "exec": [
+                          ""
+                        ],
+                        "type": "text/javascript"
+                      }
+                    }
+                  ],
+                  "id": "dfb18df2-820d-40b8-919f-af3289ec7deb",
+                  "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                  },
+                  "request": {
+                    "method": "GET",
+                    "header": [
+                      {
+                        "key": "Accept",
+                        "type": "text",
+                        "value": "{{Accept}}"
+                      },
+                      {
+                        "key": "Timezone",
+                        "type": "text",
+                        "value": "{{Timezone}}"
+                      },
+                      {
+                        "key": "Content-Type",
+                        "name": "Content-Type",
+                        "type": "text",
+                        "value": "{{Content-Type}}"
+                      }
+                    ],
+                    "body": {
+                      "mode": "raw",
+                      "raw": "",
+                      "options": {
+                        "raw": {
+                          "language": "json"
+                        }
+                      }
+                    },
+                    "url": "{{base_url_back}}/v1/integrations/integration_fcl/get_api_key/"
+                  },
+                  "response": []
+                },
+                {
                   "name": "set_api_key",
                   "event": [
                     {
@@ -6555,7 +6606,7 @@
     {
       "listen": "prerequest",
       "script": {
-        "id": "9fdcefb4-3651-48f0-8993-3c974f1a326e",
+        "id": "e6c6b79c-ca7b-4b3d-8d85-de2ac031502e",
         "type": "text/javascript",
         "exec": [
           ""
@@ -6565,7 +6616,7 @@
     {
       "listen": "test",
       "script": {
-        "id": "e48e546e-0e50-42ab-9f25-bfe1d18dd41f",
+        "id": "9c1a1656-93da-414d-9805-cf489d45df90",
         "type": "text/javascript",
         "exec": [
           "var currentUrl = pm.request.url.toString();",
@@ -6645,37 +6696,37 @@
   ],
   "variable": [
     {
-      "id": "5d2463a9-374b-4399-8e1f-65f447a06f2d",
+      "id": "101741e6-615b-42c4-89e1-bd19d5eab003",
       "key": "Cookie",
       "value": "_ga=GA1.2.995623964.1629400496; _gid=GA1.2.1579657039.1629400496; _fbp=fb.1.1629400714958.1618680225; ajs_user_id=\"1339\"; ajs_anonymous_id=\"8310621c-456f-44b7-a285-f979bb8c5e76\"; _gat_UA-179458013-2=1; tuGerenteToken=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2Mjk4NTE2NDYsImlhdCI6MTYyOTQ5MTY0NiwiaWQiOjQ4NjQsInVzZXIiOiJ7XCJpZFwiOjQ4NjQsXCJub21icmVcIjpcIlFBIE5vbWJyZSBjYW1iaWFkb1wiLFwiYXBlbGxpZG9cIjpudWxsLFwiZmVjaGFfbmFjaW1pZW50b1wiOm51bGwsXCJnZW5lcm9cIjpudWxsLFwicGFpc1wiOlwiQk9cIixcImNpdWRhZFwiOm51bGwsXCJlbWFpbFwiOlwiYmVsYXlhZzEzMEBhbXBzd2lwZS5jb21cIixcInRlbGVmb25vXCI6XCI3NjM3NTY0N1wiLFwiYWN0aXZvXCI6MCxcImNvZFwiOlwidHVHLTQ4NjRcIixcImNyZWF0ZWRfYXRcIjpcIjIwMjEtMDgtMTlUMTk6NTI6NTkuMDAwWlwiLFwidXBkYXRlZF9hdFwiOlwiMjAyMS0wOC0xOVQyMDoxMDo0NC4wMDBaXCIsXCJkZWxldGVkX2F0XCI6bnVsbCxcInNlc3Npb25faWRcIjpudWxsLFwiaGF2ZV9jb21wYW55XCI6XCJzaVwiLFwidmFsaWRhdGlvbl9yZXF1ZXN0XCI6bnVsbH0ifQ.XnZwnSNps4xDOnkKudj-7x-PJlC2GdzfT2xIoSwqiQ6S0zBd7jp4r4ZI4G7YTgnXOB2CSFHTEp891pMJtYWeCQ; LobbyCookie=\"eyIxIjogW3sib3duZXJfdXNlcl9pZCI6IDQ4NjQsICJ0ZW5hbnRfaWQiOiAxODQyLCAic3Vic2NyaXB0aW9uX3N0YXRlIjogImFjdGl2ZSIsICJhY3RpdmUiOiB0cnVlLCAiYnVzaW5lc3NfbmFtZSI6ICJRYSIsICJzdGFydF9kYXRlIjogIjIwMjEtMDgtMTkiLCAiZmluaXNoX2RhdGUiOiAiMjAyMS0xMC0wMiIsICJpc19kZW1vIjogZmFsc2UsICJlbWFpbCI6IG51bGwsICJwYWNrIjogMywgImNvdW50cnkiOiAiQk8iLCAiY2l0eSI6IG51bGwsICJuaXQiOiBudWxsLCAidXNlcnNfcXR5IjogMTAsICJydWJyb19pZCI6IDEsICJ0ZXJtc19hY2NlcHRlZCI6IHRydWUsICJpc19pbmZvX3ZpZXdlZCI6IGZhbHNlLCAidmFsaWRhdGVkIjogZmFsc2UsICJyZXF1ZXN0X2RhdGUiOiAiMjAyMS0wOC0xOVQyMDoxMDo0NC45Mzg2NDArMDA6MDAifV0sICIyIjogW10sICIzIjogW10sICJ2ZXJzaW9uc19zdXBwb3J0ZWQiOiBbIjEuMCJdfXx2Tk5HamxQU1lMVkVWLVRsVk5jSTg5a1pVN0k=\""
     },
     {
-      "id": "5c7ec29c-d6a4-4d33-9840-e5f32a120321",
+      "id": "e709036c-3b2d-436f-ae62-f0f31a813954",
       "key": "base_url_back",
       "value": "http://back.tugerente.me:8001"
     },
     {
-      "id": "6c3e700b-5f94-4e29-b073-b720748bdb03",
+      "id": "97306fcb-4aab-450c-9a0d-50f5f78b0999",
       "key": "Accept",
       "value": "application/json, text/plain, */*"
     },
     {
-      "id": "169143ea-813e-41e7-973c-97fa56ab11c2",
+      "id": "970c30c2-eaef-4cd1-8451-5dcee46ec518",
       "key": "Timezone",
       "value": "America/La_Paz"
     },
     {
-      "id": "c5b87489-bba3-46bb-bd5c-be4bf1481a94",
+      "id": "707ea60f-26f1-4ac8-aa36-294ed4e7ae04",
       "key": "Content-Type",
       "value": "application/json"
     },
     {
-      "id": "c2967bf4-4ef4-4dfd-95b4-42ed52238d09",
+      "id": "891daa2e-41a2-47ac-a9ee-96227a0910fc",
       "key": "ApiKey",
       "value": "NSqs04Y7M6OAB32WA5UzOziCGAHETz3fGRk3g2C0"
     },
     {
-      "id": "f36d1d53-7b3e-4e97-b06f-0019badd50cf",
+      "id": "748ac5e3-d73c-4464-96ed-0a05697d5a3b",
       "key": "base_fcl",
       "value": "",
       "type": "string"
