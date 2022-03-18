@@ -872,7 +872,7 @@
             ],
             "body": {
               "mode": "raw",
-              "raw": "",
+              "raw": "{\r\n    \"tenantId\": 1339,\r\n    \"warehouseId\": 697,\r\n    \"id\": 697,\r\n    \"created_at\": \"2020-01-10T19:43:52.954885-04:00\",\r\n    \"updated_at\": \"2022-03-10T18:34:23.315164-04:00\",\r\n    \"deleted_at\": null,\r\n    \"tenant_id\": 1339,\r\n    \"is_generic\": false,\r\n    \"user_settings\": [],\r\n    \"content_type\": 9,\r\n    \"invoice_settings\": {\r\n        \"created_at\": \"2022-03-17T19:37:35.477Z\",\r\n        \"updated_at\": \"2022-03-17T20:42:00.826Z\",\r\n        \"deleted_at\": null,\r\n        \"tenant_id\": 1339,\r\n        \"business_name\": null,\r\n        \"branch_name\": \"Sucursal1\",\r\n        \"address\": \"Direcci\\\\u00f3n\",\r\n        \"city\": \"Santa Cruz de la Sierra\",\r\n        \"nit\": null,\r\n        \"dosage\": \"123456\",\r\n        \"authorization\": \"26340160000032\",\r\n        \"activity\": \"CONSULTORES EN PROYECTOS DE INFORM\\\\u00c1TICA Y SUMINISTRO DE PROGRAMAS DE INFORM\\\\u00c1TICA\",\r\n        \"initial_bill_number\": 1,\r\n        \"current_bill_number\": 1,\r\n        \"deadline_date\": \"2022-03-26\",\r\n        \"taxes_messages\": \"Ley N\\\\u00b0 453: Los servicios deben suministrarse en condiciones de inocuidad, calidad y seguridad.\",\r\n        \"message\": \"\",\r\n        \"comment\": null,\r\n        \"tab_name\": \"Pedido\",\r\n        \"only_invoice\": false,\r\n        \"close_sale\": true,\r\n        \"required_price\": false,\r\n        \"order_express\": false,\r\n        \"receipt_express\": false,\r\n        \"no_valid_for_tax_credit\": false,\r\n        \"apply_zero_rate\": false,\r\n        \"warehouse_id\": 697\r\n    },\r\n    \"py_code\": \"\",\r\n    \"name\": \"Nuevo almac\\\\u00e9n\",\r\n    \"address\": \"Direcci\\\\u00f3n\",\r\n    \"attendant\": \"\",\r\n    \"virtual_order_command\": false,\r\n    \"command_physical_print\": true,\r\n    \"blind_inventory_on_turn_close\": false,\r\n    \"change_price_from_sale\": false,\r\n    \"use_manual_blind_inventory\": false,\r\n    \"current_version\": \"2022-03-17T15:37:20.587483-04:00\",\r\n    \"is_enable_py\": false,\r\n    \"pos_centralized\": false,\r\n    \"use_parameterizable_blind_inventory\": false,\r\n    \"monthly_blind_inventory\": false,\r\n    \"woocommerce_default\": false,\r\n    \"show_employee_name_in_tab\": false,\r\n    \"confirm_dispatch_automatically\": false,\r\n    \"confirm_receipt_automatically\": false,\r\n    \"phone_number\": \"76375647\",\r\n    \"city\": \"Santa Cruz de la Sierra\",\r\n    \"batch_in_invoices\": false,\r\n    \"unit_measure_in_invoice\": false,\r\n    \"business_name\": \"\",\r\n    \"nit\": \"\",\r\n    \"message\": \"\",\r\n    \"tab_name\": \"tABLE\",\r\n    \"only_invoice\": false,\r\n    \"close_sale\": true,\r\n    \"required_price\": true,\r\n    \"order_express\": false,\r\n    \"reminder_to_order\": false,\r\n    \"receipt_express\": false,\r\n    \"pos_offline_mode\": true,\r\n    \"enable_pos_autosave\": false,\r\n    \"message_type\": 0,\r\n    \"signatures_in_receipt\": true,\r\n    \"optional_pos_supplies\": true,\r\n    \"ice_handle_product\": true,\r\n    \"print_discount_voucher\": false,\r\n    \"show_subcategory_in_pos\": true,\r\n    \"pos_type\": \"R\",\r\n    \"pending_sales\": false,\r\n    \"only_pending\": false,\r\n    \"sale_ice\": true,\r\n    \"combine_orders\": false,\r\n    \"show_free_on_sales_bill\": true,\r\n    \"use_beta_features\": true,\r\n    \"stock_transfer_logic\": false,\r\n    \"manage_differentiated_prices\": false,\r\n    \"enable_historical_inventory_by_turn\": false,\r\n    \"enable_fast_sales\": true,\r\n    \"apply_origin_sale\": false,\r\n    \"warehouse\": null,\r\n    \"activities\": [\r\n        1\r\n    ],\r\n    \"current_activity\": 1,\r\n    \"apply_zero_rate\": false,\r\n    \"branch_name\": \"\",\r\n    \"current_bill_number\": 1,\r\n    \"initial_bill_number\": 1,\r\n    \"no_valid_for_tax_credit\": false,\r\n    \"punto_venta\": 0,\r\n    \"sucursal\": 0,\r\n    \"selectedActivity\": null,\r\n    \"active_bill_warehouse\": false,\r\n    \"isEdit\": true,\r\n    \"warehouseBilling\": 2,\r\n    \"with_billing_data\": true\r\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -6893,43 +6893,43 @@
   ],
   "variable": [
     {
-      "id": "25ae7f91-7f63-48b0-bc53-74a90a15f32e",
+      "id": "e3c960a3-69c2-4cd4-9149-7a047413d0ec",
       "key": "Cookie",
       "value": "_ga=GA1.2.995623964.1629400496; _gid=GA1.2.1579657039.1629400496; _fbp=fb.1.1629400714958.1618680225; ajs_user_id=\"1339\"; ajs_anonymous_id=\"8310621c-456f-44b7-a285-f979bb8c5e76\"; _gat_UA-179458013-2=1; tuGerenteToken=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2Mjk4NTE2NDYsImlhdCI6MTYyOTQ5MTY0NiwiaWQiOjQ4NjQsInVzZXIiOiJ7XCJpZFwiOjQ4NjQsXCJub21icmVcIjpcIlFBIE5vbWJyZSBjYW1iaWFkb1wiLFwiYXBlbGxpZG9cIjpudWxsLFwiZmVjaGFfbmFjaW1pZW50b1wiOm51bGwsXCJnZW5lcm9cIjpudWxsLFwicGFpc1wiOlwiQk9cIixcImNpdWRhZFwiOm51bGwsXCJlbWFpbFwiOlwiYmVsYXlhZzEzMEBhbXBzd2lwZS5jb21cIixcInRlbGVmb25vXCI6XCI3NjM3NTY0N1wiLFwiYWN0aXZvXCI6MCxcImNvZFwiOlwidHVHLTQ4NjRcIixcImNyZWF0ZWRfYXRcIjpcIjIwMjEtMDgtMTlUMTk6NTI6NTkuMDAwWlwiLFwidXBkYXRlZF9hdFwiOlwiMjAyMS0wOC0xOVQyMDoxMDo0NC4wMDBaXCIsXCJkZWxldGVkX2F0XCI6bnVsbCxcInNlc3Npb25faWRcIjpudWxsLFwiaGF2ZV9jb21wYW55XCI6XCJzaVwiLFwidmFsaWRhdGlvbl9yZXF1ZXN0XCI6bnVsbH0ifQ.XnZwnSNps4xDOnkKudj-7x-PJlC2GdzfT2xIoSwqiQ6S0zBd7jp4r4ZI4G7YTgnXOB2CSFHTEp891pMJtYWeCQ; LobbyCookie=\"eyIxIjogW3sib3duZXJfdXNlcl9pZCI6IDQ4NjQsICJ0ZW5hbnRfaWQiOiAxODQyLCAic3Vic2NyaXB0aW9uX3N0YXRlIjogImFjdGl2ZSIsICJhY3RpdmUiOiB0cnVlLCAiYnVzaW5lc3NfbmFtZSI6ICJRYSIsICJzdGFydF9kYXRlIjogIjIwMjEtMDgtMTkiLCAiZmluaXNoX2RhdGUiOiAiMjAyMS0xMC0wMiIsICJpc19kZW1vIjogZmFsc2UsICJlbWFpbCI6IG51bGwsICJwYWNrIjogMywgImNvdW50cnkiOiAiQk8iLCAiY2l0eSI6IG51bGwsICJuaXQiOiBudWxsLCAidXNlcnNfcXR5IjogMTAsICJydWJyb19pZCI6IDEsICJ0ZXJtc19hY2NlcHRlZCI6IHRydWUsICJpc19pbmZvX3ZpZXdlZCI6IGZhbHNlLCAidmFsaWRhdGVkIjogZmFsc2UsICJyZXF1ZXN0X2RhdGUiOiAiMjAyMS0wOC0xOVQyMDoxMDo0NC45Mzg2NDArMDA6MDAifV0sICIyIjogW10sICIzIjogW10sICJ2ZXJzaW9uc19zdXBwb3J0ZWQiOiBbIjEuMCJdfXx2Tk5HamxQU1lMVkVWLVRsVk5jSTg5a1pVN0k=\""
     },
     {
-      "id": "6385ca4e-bc5d-42da-bb50-ebc1b39dc8d9",
+      "id": "6e415c49-88e5-4d22-8b26-27f111f0e354",
       "key": "base_url_back",
       "value": "http://back.tugerente.me:8001"
     },
     {
-      "id": "7fd9a849-2d12-4421-8ddf-f58661c2f390",
+      "id": "49d8fa8a-7c99-4bf6-966b-0107f1435a07",
       "key": "Accept",
       "value": "application/json, text/plain, */*"
     },
     {
-      "id": "d150f579-1081-45ec-a929-062729019df2",
+      "id": "192daba7-709b-496a-b9e0-b40d07c94e39",
       "key": "Timezone",
       "value": "America/La_Paz"
     },
     {
-      "id": "48d0301a-bd1e-4e00-945f-6d3995367d6a",
+      "id": "4342cb4b-63b7-4a21-98f1-80a436607e8a",
       "key": "Content-Type",
       "value": "application/json"
     },
     {
-      "id": "35bf483b-6893-4604-a196-6417e09805af",
+      "id": "a4ef2461-510f-46be-99ac-f603b9d0dc65",
       "key": "ApiKey",
       "value": "NSqs04Y7M6OAB32WA5UzOziCGAHETz3fGRk3g2C0"
     },
     {
-      "id": "21dd9eff-316f-4562-8104-b727f8692667",
+      "id": "0d323b2e-96dd-4fe8-abae-e5cf7f8467bc",
       "key": "base_fcl",
       "value": "",
       "type": "string"
     },
     {
-      "id": "f378def6-36d4-4b30-a1aa-eb7406fe6a0f",
+      "id": "b19c975a-efca-45f0-8ddc-1656cd99c136",
       "key": "base_hub",
       "value": "",
       "type": "string"
