@@ -9,6 +9,11 @@
       "name": "FCL",
       "item": [
         {
+          "name": "New Folder",
+          "item": [],
+          "id": "ad6a84fb-184c-4124-b1b8-717c28779486"
+        },
+        {
           "name": "siat_cuis_request",
           "id": "c0108f3c-a97c-4336-825d-eaf16675ab0f",
           "protocolProfileBehavior": {
@@ -593,6 +598,74 @@
               ],
               "variable": [
                 {
+                  "key": "tenant_id",
+                  "value": "1339"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "get_api_key Copy",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "id": "68bf9f95-e473-4e7b-94f0-877d248c19e3",
+                "exec": [
+                  ""
+                ],
+                "type": "text/javascript"
+              }
+            }
+          ],
+          "id": "cabf9d56-ae03-4271-93c0-01310caab75f",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Accept",
+                "type": "text",
+                "value": "{{Accept}}"
+              },
+              {
+                "key": "Timezone",
+                "type": "text",
+                "value": "{{Timezone}}"
+              },
+              {
+                "key": "Content-Type",
+                "name": "Content-Type",
+                "type": "text",
+                "value": "{{Content-Type}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{base_fcl}}/billing/integration_setting/:tenant_id",
+              "host": [
+                "{{base_fcl}}"
+              ],
+              "path": [
+                "billing",
+                "integration_setting",
+                ":tenant_id"
+              ],
+              "variable": [
+                {
+                  "id": "1979ae8c-50f6-4647-9e56-28ecffac0b39",
                   "key": "tenant_id",
                   "value": "1339"
                 }
@@ -6814,37 +6887,37 @@
   ],
   "variable": [
     {
-      "id": "42dfe124-ebb5-4604-abeb-1eaaead05e45",
+      "id": "d3a80919-8f2e-4977-96dc-a79861eb43ab",
       "key": "Cookie",
       "value": "_ga=GA1.2.995623964.1629400496; _gid=GA1.2.1579657039.1629400496; _fbp=fb.1.1629400714958.1618680225; ajs_user_id=\"1339\"; ajs_anonymous_id=\"8310621c-456f-44b7-a285-f979bb8c5e76\"; _gat_UA-179458013-2=1; tuGerenteToken=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2Mjk4NTE2NDYsImlhdCI6MTYyOTQ5MTY0NiwiaWQiOjQ4NjQsInVzZXIiOiJ7XCJpZFwiOjQ4NjQsXCJub21icmVcIjpcIlFBIE5vbWJyZSBjYW1iaWFkb1wiLFwiYXBlbGxpZG9cIjpudWxsLFwiZmVjaGFfbmFjaW1pZW50b1wiOm51bGwsXCJnZW5lcm9cIjpudWxsLFwicGFpc1wiOlwiQk9cIixcImNpdWRhZFwiOm51bGwsXCJlbWFpbFwiOlwiYmVsYXlhZzEzMEBhbXBzd2lwZS5jb21cIixcInRlbGVmb25vXCI6XCI3NjM3NTY0N1wiLFwiYWN0aXZvXCI6MCxcImNvZFwiOlwidHVHLTQ4NjRcIixcImNyZWF0ZWRfYXRcIjpcIjIwMjEtMDgtMTlUMTk6NTI6NTkuMDAwWlwiLFwidXBkYXRlZF9hdFwiOlwiMjAyMS0wOC0xOVQyMDoxMDo0NC4wMDBaXCIsXCJkZWxldGVkX2F0XCI6bnVsbCxcInNlc3Npb25faWRcIjpudWxsLFwiaGF2ZV9jb21wYW55XCI6XCJzaVwiLFwidmFsaWRhdGlvbl9yZXF1ZXN0XCI6bnVsbH0ifQ.XnZwnSNps4xDOnkKudj-7x-PJlC2GdzfT2xIoSwqiQ6S0zBd7jp4r4ZI4G7YTgnXOB2CSFHTEp891pMJtYWeCQ; LobbyCookie=\"eyIxIjogW3sib3duZXJfdXNlcl9pZCI6IDQ4NjQsICJ0ZW5hbnRfaWQiOiAxODQyLCAic3Vic2NyaXB0aW9uX3N0YXRlIjogImFjdGl2ZSIsICJhY3RpdmUiOiB0cnVlLCAiYnVzaW5lc3NfbmFtZSI6ICJRYSIsICJzdGFydF9kYXRlIjogIjIwMjEtMDgtMTkiLCAiZmluaXNoX2RhdGUiOiAiMjAyMS0xMC0wMiIsICJpc19kZW1vIjogZmFsc2UsICJlbWFpbCI6IG51bGwsICJwYWNrIjogMywgImNvdW50cnkiOiAiQk8iLCAiY2l0eSI6IG51bGwsICJuaXQiOiBudWxsLCAidXNlcnNfcXR5IjogMTAsICJydWJyb19pZCI6IDEsICJ0ZXJtc19hY2NlcHRlZCI6IHRydWUsICJpc19pbmZvX3ZpZXdlZCI6IGZhbHNlLCAidmFsaWRhdGVkIjogZmFsc2UsICJyZXF1ZXN0X2RhdGUiOiAiMjAyMS0wOC0xOVQyMDoxMDo0NC45Mzg2NDArMDA6MDAifV0sICIyIjogW10sICIzIjogW10sICJ2ZXJzaW9uc19zdXBwb3J0ZWQiOiBbIjEuMCJdfXx2Tk5HamxQU1lMVkVWLVRsVk5jSTg5a1pVN0k=\""
     },
     {
-      "id": "7cf40d5a-a209-46ff-84ef-2feafbea61ef",
+      "id": "b36c1bae-9526-4231-bb1e-6d2b2a7983b3",
       "key": "base_url_back",
       "value": "http://back.tugerente.me:8001"
     },
     {
-      "id": "b3b8b20d-9407-4bbc-8e44-5c9f369ffac6",
+      "id": "b1700ba1-a111-4adf-b42a-5dbca5fa9136",
       "key": "Accept",
       "value": "application/json, text/plain, */*"
     },
     {
-      "id": "ca097ab6-6937-4458-bdf7-1fa045a88c62",
+      "id": "95660375-4998-40e4-830f-09f78518e5aa",
       "key": "Timezone",
       "value": "America/La_Paz"
     },
     {
-      "id": "de2a15e7-9b94-45ac-be86-a01fd76ea6e8",
+      "id": "694592b1-7b9d-4197-b4a1-f89302f44f30",
       "key": "Content-Type",
       "value": "application/json"
     },
     {
-      "id": "021fef0c-f542-4c8b-b14f-cb5827727543",
+      "id": "be227c8a-1afc-4339-b7d6-61e3ce0c4999",
       "key": "ApiKey",
       "value": "NSqs04Y7M6OAB32WA5UzOziCGAHETz3fGRk3g2C0"
     },
     {
-      "id": "dd9423da-5ef5-4e64-ae88-6c808d1dca05",
+      "id": "36756941-01e9-4c62-b3a0-50fa36eb169c",
       "key": "base_fcl",
       "value": "",
       "type": "string"
