@@ -676,6 +676,74 @@
           "response": []
         },
         {
+          "name": "cufd",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "id": "68bf9f95-e473-4e7b-94f0-877d248c19e3",
+                "exec": [
+                  ""
+                ],
+                "type": "text/javascript"
+              }
+            }
+          ],
+          "id": "4d5cfe21-19cc-491f-9c8b-7ec27b39354a",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Accept",
+                "type": "text",
+                "value": "{{Accept}}"
+              },
+              {
+                "key": "Timezone",
+                "type": "text",
+                "value": "{{Timezone}}"
+              },
+              {
+                "key": "Content-Type",
+                "name": "Content-Type",
+                "type": "text",
+                "value": "{{Content-Type}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{base_fcl}}/billing/integration_setting/:tenant_id",
+              "host": [
+                "{{base_fcl}}"
+              ],
+              "path": [
+                "billing",
+                "integration_setting",
+                ":tenant_id"
+              ],
+              "variable": [
+                {
+                  "id": "fa95fc55-5486-440a-9338-0c03ae797ff9",
+                  "key": "tenant_id",
+                  "value": "1339"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
           "name": "cufds",
           "event": [
             {
@@ -6877,43 +6945,43 @@
   ],
   "variable": [
     {
-      "id": "477029af-80c4-4d53-ab3e-baec9bbb9931",
+      "id": "f9e13943-83c6-4167-b5a4-362463cfe66e",
       "key": "Cookie",
       "value": "_ga=GA1.2.995623964.1629400496; _gid=GA1.2.1579657039.1629400496; _fbp=fb.1.1629400714958.1618680225; ajs_user_id=\"1339\"; ajs_anonymous_id=\"8310621c-456f-44b7-a285-f979bb8c5e76\"; _gat_UA-179458013-2=1; tuGerenteToken=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2Mjk4NTE2NDYsImlhdCI6MTYyOTQ5MTY0NiwiaWQiOjQ4NjQsInVzZXIiOiJ7XCJpZFwiOjQ4NjQsXCJub21icmVcIjpcIlFBIE5vbWJyZSBjYW1iaWFkb1wiLFwiYXBlbGxpZG9cIjpudWxsLFwiZmVjaGFfbmFjaW1pZW50b1wiOm51bGwsXCJnZW5lcm9cIjpudWxsLFwicGFpc1wiOlwiQk9cIixcImNpdWRhZFwiOm51bGwsXCJlbWFpbFwiOlwiYmVsYXlhZzEzMEBhbXBzd2lwZS5jb21cIixcInRlbGVmb25vXCI6XCI3NjM3NTY0N1wiLFwiYWN0aXZvXCI6MCxcImNvZFwiOlwidHVHLTQ4NjRcIixcImNyZWF0ZWRfYXRcIjpcIjIwMjEtMDgtMTlUMTk6NTI6NTkuMDAwWlwiLFwidXBkYXRlZF9hdFwiOlwiMjAyMS0wOC0xOVQyMDoxMDo0NC4wMDBaXCIsXCJkZWxldGVkX2F0XCI6bnVsbCxcInNlc3Npb25faWRcIjpudWxsLFwiaGF2ZV9jb21wYW55XCI6XCJzaVwiLFwidmFsaWRhdGlvbl9yZXF1ZXN0XCI6bnVsbH0ifQ.XnZwnSNps4xDOnkKudj-7x-PJlC2GdzfT2xIoSwqiQ6S0zBd7jp4r4ZI4G7YTgnXOB2CSFHTEp891pMJtYWeCQ; LobbyCookie=\"eyIxIjogW3sib3duZXJfdXNlcl9pZCI6IDQ4NjQsICJ0ZW5hbnRfaWQiOiAxODQyLCAic3Vic2NyaXB0aW9uX3N0YXRlIjogImFjdGl2ZSIsICJhY3RpdmUiOiB0cnVlLCAiYnVzaW5lc3NfbmFtZSI6ICJRYSIsICJzdGFydF9kYXRlIjogIjIwMjEtMDgtMTkiLCAiZmluaXNoX2RhdGUiOiAiMjAyMS0xMC0wMiIsICJpc19kZW1vIjogZmFsc2UsICJlbWFpbCI6IG51bGwsICJwYWNrIjogMywgImNvdW50cnkiOiAiQk8iLCAiY2l0eSI6IG51bGwsICJuaXQiOiBudWxsLCAidXNlcnNfcXR5IjogMTAsICJydWJyb19pZCI6IDEsICJ0ZXJtc19hY2NlcHRlZCI6IHRydWUsICJpc19pbmZvX3ZpZXdlZCI6IGZhbHNlLCAidmFsaWRhdGVkIjogZmFsc2UsICJyZXF1ZXN0X2RhdGUiOiAiMjAyMS0wOC0xOVQyMDoxMDo0NC45Mzg2NDArMDA6MDAifV0sICIyIjogW10sICIzIjogW10sICJ2ZXJzaW9uc19zdXBwb3J0ZWQiOiBbIjEuMCJdfXx2Tk5HamxQU1lMVkVWLVRsVk5jSTg5a1pVN0k=\""
     },
     {
-      "id": "ab8608d9-44d5-492e-8ec4-d3635e773d2e",
+      "id": "1386239c-35c2-4590-8433-cabccfed0776",
       "key": "base_url_back",
       "value": "http://back.tugerente.me:8001"
     },
     {
-      "id": "2752259e-85fb-4ebd-ad12-a31d1958de64",
+      "id": "f7ef78db-238e-452f-9060-84fdcfe81e1b",
       "key": "Accept",
       "value": "application/json, text/plain, */*"
     },
     {
-      "id": "57c4adcf-3b1e-473f-a52f-415e13c8bd65",
+      "id": "ee99331d-9f1a-4692-80a6-9aeac99b52b1",
       "key": "Timezone",
       "value": "America/La_Paz"
     },
     {
-      "id": "8bf4e5f7-b9bb-4f34-82b7-ee7ef1f6e755",
+      "id": "6fde7965-de3d-45a0-8279-f52ed9cd3ee1",
       "key": "Content-Type",
       "value": "application/json"
     },
     {
-      "id": "127c5a3b-7c10-4817-bf55-28f064ac0475",
+      "id": "f5b5138f-a979-49ca-a7f2-1462f6eff146",
       "key": "ApiKey",
       "value": "NSqs04Y7M6OAB32WA5UzOziCGAHETz3fGRk3g2C0"
     },
     {
-      "id": "6f3111b1-1bc0-4284-9191-bf79ea1d2ce9",
+      "id": "9adac371-831d-4cd2-a1ff-58ee0a38eccc",
       "key": "base_fcl",
       "value": "",
       "type": "string"
     },
     {
-      "id": "69df6578-47c7-4911-a83a-1d2f85183d0a",
+      "id": "18dee32c-3cb9-4465-ba25-b647cd816744",
       "key": "base_hub",
       "value": "",
       "type": "string"
