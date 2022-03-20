@@ -84,7 +84,76 @@
         },
         {
           "name": "Invoice legends",
-          "item": [],
+          "item": [
+            {
+              "name": "get",
+              "event": [
+                {
+                  "listen": "test",
+                  "script": {
+                    "id": "68bf9f95-e473-4e7b-94f0-877d248c19e3",
+                    "exec": [
+                      ""
+                    ],
+                    "type": "text/javascript"
+                  }
+                }
+              ],
+              "id": "a1860e95-18ae-4354-9969-5a344a3d73ac",
+              "protocolProfileBehavior": {
+                "disableBodyPruning": true
+              },
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Accept",
+                    "type": "text",
+                    "value": "{{Accept}}"
+                  },
+                  {
+                    "key": "Timezone",
+                    "type": "text",
+                    "value": "{{Timezone}}"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "name": "Content-Type",
+                    "type": "text",
+                    "value": "{{Content-Type}}"
+                  }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "{{base_fcl}}/billing/integration_setting/:tenant_id",
+                  "host": [
+                    "{{base_fcl}}"
+                  ],
+                  "path": [
+                    "billing",
+                    "integration_setting",
+                    ":tenant_id"
+                  ],
+                  "variable": [
+                    {
+                      "id": "7af40b05-1768-4160-a956-a726f20e5f17",
+                      "key": "tenant_id",
+                      "value": "1339"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            }
+          ],
           "id": "61effdca-1851-457b-b2b5-db9d95e29ed2"
         },
         {
@@ -6949,43 +7018,43 @@
   ],
   "variable": [
     {
-      "id": "f051a89c-c265-452d-aa9f-4a776750a24c",
+      "id": "3198f464-4854-4b74-bc49-bfe3e4355d0e",
       "key": "Cookie",
       "value": "_ga=GA1.2.995623964.1629400496; _gid=GA1.2.1579657039.1629400496; _fbp=fb.1.1629400714958.1618680225; ajs_user_id=\"1339\"; ajs_anonymous_id=\"8310621c-456f-44b7-a285-f979bb8c5e76\"; _gat_UA-179458013-2=1; tuGerenteToken=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2Mjk4NTE2NDYsImlhdCI6MTYyOTQ5MTY0NiwiaWQiOjQ4NjQsInVzZXIiOiJ7XCJpZFwiOjQ4NjQsXCJub21icmVcIjpcIlFBIE5vbWJyZSBjYW1iaWFkb1wiLFwiYXBlbGxpZG9cIjpudWxsLFwiZmVjaGFfbmFjaW1pZW50b1wiOm51bGwsXCJnZW5lcm9cIjpudWxsLFwicGFpc1wiOlwiQk9cIixcImNpdWRhZFwiOm51bGwsXCJlbWFpbFwiOlwiYmVsYXlhZzEzMEBhbXBzd2lwZS5jb21cIixcInRlbGVmb25vXCI6XCI3NjM3NTY0N1wiLFwiYWN0aXZvXCI6MCxcImNvZFwiOlwidHVHLTQ4NjRcIixcImNyZWF0ZWRfYXRcIjpcIjIwMjEtMDgtMTlUMTk6NTI6NTkuMDAwWlwiLFwidXBkYXRlZF9hdFwiOlwiMjAyMS0wOC0xOVQyMDoxMDo0NC4wMDBaXCIsXCJkZWxldGVkX2F0XCI6bnVsbCxcInNlc3Npb25faWRcIjpudWxsLFwiaGF2ZV9jb21wYW55XCI6XCJzaVwiLFwidmFsaWRhdGlvbl9yZXF1ZXN0XCI6bnVsbH0ifQ.XnZwnSNps4xDOnkKudj-7x-PJlC2GdzfT2xIoSwqiQ6S0zBd7jp4r4ZI4G7YTgnXOB2CSFHTEp891pMJtYWeCQ; LobbyCookie=\"eyIxIjogW3sib3duZXJfdXNlcl9pZCI6IDQ4NjQsICJ0ZW5hbnRfaWQiOiAxODQyLCAic3Vic2NyaXB0aW9uX3N0YXRlIjogImFjdGl2ZSIsICJhY3RpdmUiOiB0cnVlLCAiYnVzaW5lc3NfbmFtZSI6ICJRYSIsICJzdGFydF9kYXRlIjogIjIwMjEtMDgtMTkiLCAiZmluaXNoX2RhdGUiOiAiMjAyMS0xMC0wMiIsICJpc19kZW1vIjogZmFsc2UsICJlbWFpbCI6IG51bGwsICJwYWNrIjogMywgImNvdW50cnkiOiAiQk8iLCAiY2l0eSI6IG51bGwsICJuaXQiOiBudWxsLCAidXNlcnNfcXR5IjogMTAsICJydWJyb19pZCI6IDEsICJ0ZXJtc19hY2NlcHRlZCI6IHRydWUsICJpc19pbmZvX3ZpZXdlZCI6IGZhbHNlLCAidmFsaWRhdGVkIjogZmFsc2UsICJyZXF1ZXN0X2RhdGUiOiAiMjAyMS0wOC0xOVQyMDoxMDo0NC45Mzg2NDArMDA6MDAifV0sICIyIjogW10sICIzIjogW10sICJ2ZXJzaW9uc19zdXBwb3J0ZWQiOiBbIjEuMCJdfXx2Tk5HamxQU1lMVkVWLVRsVk5jSTg5a1pVN0k=\""
     },
     {
-      "id": "2be516f7-0ef8-43a6-a456-ceb9618eeb4e",
+      "id": "66c02af9-77bc-48fa-8945-f4dffed24bbe",
       "key": "base_url_back",
       "value": "http://back.tugerente.me:8001"
     },
     {
-      "id": "77cff238-22c3-42bc-a904-0bc12b3b1e32",
+      "id": "c7d74b3e-72a0-433f-844f-18e7c6f79f65",
       "key": "Accept",
       "value": "application/json, text/plain, */*"
     },
     {
-      "id": "5b962782-ac7f-41c0-8b95-6c1187a99469",
+      "id": "08706ff0-9a61-4e0f-8710-a0d390f67f67",
       "key": "Timezone",
       "value": "America/La_Paz"
     },
     {
-      "id": "6b18ac20-7495-46e5-9635-2b30f766655a",
+      "id": "3f812325-d65c-4100-966f-c4429ed65d01",
       "key": "Content-Type",
       "value": "application/json"
     },
     {
-      "id": "b2147771-45b7-47b6-97e3-118b833a2655",
+      "id": "a2537318-0ea8-41ee-a54b-3ac6ad025927",
       "key": "ApiKey",
       "value": "NSqs04Y7M6OAB32WA5UzOziCGAHETz3fGRk3g2C0"
     },
     {
-      "id": "7e109c9f-56ee-4e70-b165-75935ef3332c",
+      "id": "be3c2538-f07f-4250-bcf1-7e2059c82eeb",
       "key": "base_fcl",
       "value": "",
       "type": "string"
     },
     {
-      "id": "159edab0-d174-4277-b393-657183461381",
+      "id": "fc5da64c-b277-4a07-8a0f-3f332ff6ed08",
       "key": "base_hub",
       "value": "",
       "type": "string"
