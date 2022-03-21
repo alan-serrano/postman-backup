@@ -352,6 +352,30 @@
                 }
               },
               "response": []
+            },
+            {
+              "name": "invoices Copy",
+              "id": "8ad5ec69-3ec4-49fb-92c6-bc600c23101c",
+              "protocolProfileBehavior": {
+                "disableBodyPruning": true
+              },
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Content-Type",
+                    "name": "Content-Type",
+                    "value": "application/json",
+                    "type": "text"
+                  }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": ""
+                },
+                "url": "{{base_fcl}}/billing/invoices/download_pdf"
+              },
+              "response": []
             }
           ],
           "id": "f2d5bbb3-af03-4881-898d-9a6a10e8d9bd"
@@ -7076,43 +7100,43 @@
   ],
   "variable": [
     {
-      "id": "2b8b00cf-d1d9-4ff8-be6b-27ac2c78f76a",
+      "id": "864d88b1-07e6-43ef-aaf1-c2627db05aa3",
       "key": "Cookie",
       "value": "_ga=GA1.2.995623964.1629400496; _gid=GA1.2.1579657039.1629400496; _fbp=fb.1.1629400714958.1618680225; ajs_user_id=\"1339\"; ajs_anonymous_id=\"8310621c-456f-44b7-a285-f979bb8c5e76\"; _gat_UA-179458013-2=1; tuGerenteToken=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2Mjk4NTE2NDYsImlhdCI6MTYyOTQ5MTY0NiwiaWQiOjQ4NjQsInVzZXIiOiJ7XCJpZFwiOjQ4NjQsXCJub21icmVcIjpcIlFBIE5vbWJyZSBjYW1iaWFkb1wiLFwiYXBlbGxpZG9cIjpudWxsLFwiZmVjaGFfbmFjaW1pZW50b1wiOm51bGwsXCJnZW5lcm9cIjpudWxsLFwicGFpc1wiOlwiQk9cIixcImNpdWRhZFwiOm51bGwsXCJlbWFpbFwiOlwiYmVsYXlhZzEzMEBhbXBzd2lwZS5jb21cIixcInRlbGVmb25vXCI6XCI3NjM3NTY0N1wiLFwiYWN0aXZvXCI6MCxcImNvZFwiOlwidHVHLTQ4NjRcIixcImNyZWF0ZWRfYXRcIjpcIjIwMjEtMDgtMTlUMTk6NTI6NTkuMDAwWlwiLFwidXBkYXRlZF9hdFwiOlwiMjAyMS0wOC0xOVQyMDoxMDo0NC4wMDBaXCIsXCJkZWxldGVkX2F0XCI6bnVsbCxcInNlc3Npb25faWRcIjpudWxsLFwiaGF2ZV9jb21wYW55XCI6XCJzaVwiLFwidmFsaWRhdGlvbl9yZXF1ZXN0XCI6bnVsbH0ifQ.XnZwnSNps4xDOnkKudj-7x-PJlC2GdzfT2xIoSwqiQ6S0zBd7jp4r4ZI4G7YTgnXOB2CSFHTEp891pMJtYWeCQ; LobbyCookie=\"eyIxIjogW3sib3duZXJfdXNlcl9pZCI6IDQ4NjQsICJ0ZW5hbnRfaWQiOiAxODQyLCAic3Vic2NyaXB0aW9uX3N0YXRlIjogImFjdGl2ZSIsICJhY3RpdmUiOiB0cnVlLCAiYnVzaW5lc3NfbmFtZSI6ICJRYSIsICJzdGFydF9kYXRlIjogIjIwMjEtMDgtMTkiLCAiZmluaXNoX2RhdGUiOiAiMjAyMS0xMC0wMiIsICJpc19kZW1vIjogZmFsc2UsICJlbWFpbCI6IG51bGwsICJwYWNrIjogMywgImNvdW50cnkiOiAiQk8iLCAiY2l0eSI6IG51bGwsICJuaXQiOiBudWxsLCAidXNlcnNfcXR5IjogMTAsICJydWJyb19pZCI6IDEsICJ0ZXJtc19hY2NlcHRlZCI6IHRydWUsICJpc19pbmZvX3ZpZXdlZCI6IGZhbHNlLCAidmFsaWRhdGVkIjogZmFsc2UsICJyZXF1ZXN0X2RhdGUiOiAiMjAyMS0wOC0xOVQyMDoxMDo0NC45Mzg2NDArMDA6MDAifV0sICIyIjogW10sICIzIjogW10sICJ2ZXJzaW9uc19zdXBwb3J0ZWQiOiBbIjEuMCJdfXx2Tk5HamxQU1lMVkVWLVRsVk5jSTg5a1pVN0k=\""
     },
     {
-      "id": "c8ab4731-8ae2-4049-9503-70cbe7b3e405",
+      "id": "3dc04717-97c1-4cf9-8821-33bb362e8df3",
       "key": "base_url_back",
       "value": "http://back.tugerente.me:8001"
     },
     {
-      "id": "1fd19739-edec-442e-abcb-3aedc0cb351d",
+      "id": "6731f550-e2b5-44c6-b647-457690d68e79",
       "key": "Accept",
       "value": "application/json, text/plain, */*"
     },
     {
-      "id": "298d944d-fcbb-44f4-aef8-dbc285c6d759",
+      "id": "46ee481e-f9f1-40ca-8069-e17756704e54",
       "key": "Timezone",
       "value": "America/La_Paz"
     },
     {
-      "id": "7b9e5285-4d11-4f3d-bc56-0c35162c8f42",
+      "id": "5a794070-b75c-4880-9684-69301b4ca0ee",
       "key": "Content-Type",
       "value": "application/json"
     },
     {
-      "id": "af3b67c9-ebad-47f9-b7cb-4e8941bea1f5",
+      "id": "c0c001b2-10d2-417d-8f00-60eace390074",
       "key": "ApiKey",
       "value": "NSqs04Y7M6OAB32WA5UzOziCGAHETz3fGRk3g2C0"
     },
     {
-      "id": "45578f0b-2904-458f-bf0e-66058ae36cac",
+      "id": "21fa7c3c-5008-4a0b-8e6b-c42ddc21e3ea",
       "key": "base_fcl",
       "value": "",
       "type": "string"
     },
     {
-      "id": "d68d1153-a65e-4dea-9906-92025fd2c4e0",
+      "id": "854b6851-b561-48e7-b35d-115baf5db8aa",
       "key": "base_hub",
       "value": "",
       "type": "string"
