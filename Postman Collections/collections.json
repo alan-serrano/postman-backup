@@ -297,7 +297,7 @@
                 "disableBodyPruning": true
               },
               "request": {
-                "method": "POST",
+                "method": "GET",
                 "header": [
                   {
                     "key": "Content-Type",
@@ -310,7 +310,24 @@
                   "mode": "raw",
                   "raw": ""
                 },
-                "url": "{{base_fcl}}/billing/invoices/"
+                "url": {
+                  "raw": "{{base_fcl}}/billing/invoices/?tenant_id=1339",
+                  "host": [
+                    "{{base_fcl}}"
+                  ],
+                  "path": [
+                    "billing",
+                    "invoices",
+                    ""
+                  ],
+                  "query": [
+                    {
+                      "key": "tenant_id",
+                      "value": "1339",
+                      "type": "text"
+                    }
+                  ]
+                }
               },
               "response": []
             }
@@ -7037,43 +7054,43 @@
   ],
   "variable": [
     {
-      "id": "44964706-e5e1-41f4-8b0f-2c379da975aa",
+      "id": "5ebab98d-8cd2-4bdd-bc6f-c58e2834c3af",
       "key": "Cookie",
       "value": "_ga=GA1.2.995623964.1629400496; _gid=GA1.2.1579657039.1629400496; _fbp=fb.1.1629400714958.1618680225; ajs_user_id=\"1339\"; ajs_anonymous_id=\"8310621c-456f-44b7-a285-f979bb8c5e76\"; _gat_UA-179458013-2=1; tuGerenteToken=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2Mjk4NTE2NDYsImlhdCI6MTYyOTQ5MTY0NiwiaWQiOjQ4NjQsInVzZXIiOiJ7XCJpZFwiOjQ4NjQsXCJub21icmVcIjpcIlFBIE5vbWJyZSBjYW1iaWFkb1wiLFwiYXBlbGxpZG9cIjpudWxsLFwiZmVjaGFfbmFjaW1pZW50b1wiOm51bGwsXCJnZW5lcm9cIjpudWxsLFwicGFpc1wiOlwiQk9cIixcImNpdWRhZFwiOm51bGwsXCJlbWFpbFwiOlwiYmVsYXlhZzEzMEBhbXBzd2lwZS5jb21cIixcInRlbGVmb25vXCI6XCI3NjM3NTY0N1wiLFwiYWN0aXZvXCI6MCxcImNvZFwiOlwidHVHLTQ4NjRcIixcImNyZWF0ZWRfYXRcIjpcIjIwMjEtMDgtMTlUMTk6NTI6NTkuMDAwWlwiLFwidXBkYXRlZF9hdFwiOlwiMjAyMS0wOC0xOVQyMDoxMDo0NC4wMDBaXCIsXCJkZWxldGVkX2F0XCI6bnVsbCxcInNlc3Npb25faWRcIjpudWxsLFwiaGF2ZV9jb21wYW55XCI6XCJzaVwiLFwidmFsaWRhdGlvbl9yZXF1ZXN0XCI6bnVsbH0ifQ.XnZwnSNps4xDOnkKudj-7x-PJlC2GdzfT2xIoSwqiQ6S0zBd7jp4r4ZI4G7YTgnXOB2CSFHTEp891pMJtYWeCQ; LobbyCookie=\"eyIxIjogW3sib3duZXJfdXNlcl9pZCI6IDQ4NjQsICJ0ZW5hbnRfaWQiOiAxODQyLCAic3Vic2NyaXB0aW9uX3N0YXRlIjogImFjdGl2ZSIsICJhY3RpdmUiOiB0cnVlLCAiYnVzaW5lc3NfbmFtZSI6ICJRYSIsICJzdGFydF9kYXRlIjogIjIwMjEtMDgtMTkiLCAiZmluaXNoX2RhdGUiOiAiMjAyMS0xMC0wMiIsICJpc19kZW1vIjogZmFsc2UsICJlbWFpbCI6IG51bGwsICJwYWNrIjogMywgImNvdW50cnkiOiAiQk8iLCAiY2l0eSI6IG51bGwsICJuaXQiOiBudWxsLCAidXNlcnNfcXR5IjogMTAsICJydWJyb19pZCI6IDEsICJ0ZXJtc19hY2NlcHRlZCI6IHRydWUsICJpc19pbmZvX3ZpZXdlZCI6IGZhbHNlLCAidmFsaWRhdGVkIjogZmFsc2UsICJyZXF1ZXN0X2RhdGUiOiAiMjAyMS0wOC0xOVQyMDoxMDo0NC45Mzg2NDArMDA6MDAifV0sICIyIjogW10sICIzIjogW10sICJ2ZXJzaW9uc19zdXBwb3J0ZWQiOiBbIjEuMCJdfXx2Tk5HamxQU1lMVkVWLVRsVk5jSTg5a1pVN0k=\""
     },
     {
-      "id": "e3965dcc-870a-473d-9e39-278783f73e96",
+      "id": "b362da10-5226-496e-a77d-3fffc357a35f",
       "key": "base_url_back",
       "value": "http://back.tugerente.me:8001"
     },
     {
-      "id": "0df2cea6-5a19-44cf-8352-f7d218e95f60",
+      "id": "085163f8-7613-49b7-b3e8-36da58b0031a",
       "key": "Accept",
       "value": "application/json, text/plain, */*"
     },
     {
-      "id": "8dfc3d99-034b-429c-b75a-e380a7020b37",
+      "id": "936d0b55-4c83-4078-914d-710b726eb6ee",
       "key": "Timezone",
       "value": "America/La_Paz"
     },
     {
-      "id": "1aad1b8e-af45-4a8b-9d6b-339c71f1ca0c",
+      "id": "e9c7bbf1-0496-4164-810b-822c4edc0e27",
       "key": "Content-Type",
       "value": "application/json"
     },
     {
-      "id": "19f27fb3-8ebf-4d36-8bd3-7dac3168c9ae",
+      "id": "df2263b1-b17f-4147-af3c-7930f65969b6",
       "key": "ApiKey",
       "value": "NSqs04Y7M6OAB32WA5UzOziCGAHETz3fGRk3g2C0"
     },
     {
-      "id": "b2840972-8890-4f98-8fa4-a0ece04f61a7",
+      "id": "7bb7a933-e908-48c1-9566-9431427b5f77",
       "key": "base_fcl",
       "value": "",
       "type": "string"
     },
     {
-      "id": "4d69949d-e4c4-4791-8c76-b576491fd829",
+      "id": "c09627fc-6912-44e3-9dd9-7a59a80b20da",
       "key": "base_hub",
       "value": "",
       "type": "string"
